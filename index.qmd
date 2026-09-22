@@ -23,7 +23,7 @@ Portfolio ini merekam perkembangan kompetensi pada mata kuliah **{{< var course.
 2. Isi halaman evidence pada [Portfolio](portfolio/index.qmd) setelah latihan atau performance.
 3. Gunakan [Rubrik](assessment/rubric.qmd) untuk self-assessment sebelum meminta penilaian.
 4. Perbarui status dan skor pada metadata halaman portfolio agar ringkasan otomatis ikut berubah.
-5. Manfaatkan [buku](buku/Komunikasi-Interpersonal-dan-Publik.pdf) untuk referensi teori dan praktik komunikasi interpersonal dan publik, [artikel](buku/DayaTarik.pdf) dan [suplemen](buku/Buku_Suplemen_Reading_KIPP_City_of_Eden.pdf) untuk latihan tambahan.
+5. Manfaatkan  [buku 1](buku/Komunikasi-Interpersonal-dan-Publik.pdf) dan [buku 2](buku/Prinsip-Prinsip-Komunikasi.pdf) untuk referensi teori dan praktik komunikasi interpersonal dan publik, [artikel](buku/DayaTarik.pdf) dan [suplemen](buku/Buku_Suplemen_Reading_KIPP_City_of_Eden.pdf) untuk latihan tambahan.
 
 ## Pencapaian semester
 
