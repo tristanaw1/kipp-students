@@ -134,10 +134,6 @@ Konteks Ketua Divisi Olahraga UKT ITB dan rencana pertunjukan liong digunakan ka
 AI digunakan untuk membantu:
 
 - mengubah instruksi tugas menjadi struktur portfolio;
-- memeriksa kelengkapan terhadap evidence wajib;
-- merapikan bahasa dan organisasi jawaban;
-- membantu membedakan person, personality, dan character; dan
-- memeriksa apakah sasaran pertumbuhan sudah spesifik dan terukur.
 
 Informasi yang digunakan terbatas pada identitas akademik, peran saya sebagai Ketua Divisi Olahraga UKT ITB, serta konteks kegiatan yang memang saya jalankan.
 
