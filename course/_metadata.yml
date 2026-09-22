@@ -1,5 +1,0 @@
-format:
-  html:
-    include-after-body: ../assets/quiz-script.html
-
-sidebar: course
