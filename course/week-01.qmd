@@ -135,10 +135,6 @@ AI digunakan untuk membantu:
 
 - mengubah instruksi tugas menjadi struktur portfolio;
 
-Informasi yang digunakan terbatas pada identitas akademik, peran saya sebagai Ketua Divisi Olahraga UKT ITB, serta konteks kegiatan yang memang saya jalankan.
-
-Saya memeriksa kembali kesesuaian setiap character, objective, responsibility, risiko, contoh language, dan sasaran pertumbuhan. AI tidak digunakan untuk menciptakan feedback orang lain, nilai dosen, atau hasil tindakan yang belum terjadi. Tanggung jawab atas kebenaran refleksi dan keputusan akhir tetap berada pada saya.
-
 ## Feedback dan tindak lanjut
 
 **Feedback yang sudah diterima:** Belum ada feedback observer formal ketika character map ini disusun.
