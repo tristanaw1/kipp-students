@@ -1,10 +1,10 @@
 ---
 title: "Relationship Conversation"
 week: 3
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "16/20"
 assessor_score: "—"
-description: "Evidence listening, boundary, request, atau repair."
+description: "Evidence listening kepada sahabat dekat yang sedang menghadapi masalah pertemanan."
 categories: [Fondasi, Relationship]
 ---
 
@@ -12,14 +12,102 @@ categories: [Fondasi, Relationship]
 
 Melakukan personal conversation dengan listening, clarity, boundary, dan relationship awareness.
 
-## Evidence wajib
+## Konteks performance
 
-- Transcript atau catatan percakapan.
-- Evidence listening dan response.
-- Analisis relationship state sebelum dan sesudah.
+**Tanggal dan setting:** 1 September 2026, dalam percakapan pribadi selama sekitar 5–10 menit.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 3](../examples/week-03.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+**Persons dan relationship:** Percakapan dilakukan bersama seorang sahabat dekat. Identitas dan rincian pribadi disamarkan untuk menjaga privasi.
+
+**Objective dan initial state:** Sahabat saya sedang kesal karena mengalami masalah dalam pertemanannya. Ia merasa tidak dianggap dan ingin ceritanya dipahami. Tujuan saya bukan langsung memberikan solusi atau menentukan siapa yang benar, tetapi mendengarkan pengalaman, perasaan, dan kebutuhannya sampai ia dapat menentukan langkah berikutnya dengan lebih tenang.
+
+**Relationship state sebelum percakapan:** Hubungan saya dengan sahabat tersebut tetap dekat, tetapi pada awal percakapan ia berbicara dengan emosi dan beberapa kali mengulangi masalah yang sama. Ia lebih membutuhkan ruang untuk bercerita daripada nasihat.
+
+## Evidence
+
+::: {.evidence-block}
+Evidence berupa catatan rekonstruksi percakapan yang dibuat setelah latihan. Percakapan tidak direkam untuk menjaga privasi sahabat. Potongan berikut merupakan ringkasan isi percakapan, bukan transkripsi kata per kata.
+
+> **Sahabat:** “Gue kesel karena mereka membuat rencana tanpa melibatkan gue. Rasanya seperti gue tidak dianggap sebagai teman.”
+>
+> **Saya:** “Jadi yang membuat lu kesal bukan cuma karena tidak diajak, tetapi karena lu merasa posisi lu dalam pertemanan itu tidak dianggap?”
+>
+> **Sahabat:** “Iya. Gue sebenarnya mau tanya, tetapi takut dibilang berlebihan.”
+>
+> **Saya:** “Berarti lu ingin mendapatkan kejelasan, tetapi juga khawatir pertanyaan lu justru membuat masalahnya semakin besar?”
+>
+> **Sahabat:** “Iya, makanya gue bingung harus diam atau ngomong.”
+>
+> **Saya:** “Gue bisa memahami kenapa lu merasa kesal. Memahami perasaan lu bukan berarti kita langsung menyimpulkan bahwa mereka sengaja mengabaikan lu. Menurut lu, informasi apa yang masih belum lu ketahui?”
+>
+> **Sahabat:** “Gue belum tahu sebenarnya mereka sengaja tidak ngajak atau cuma mengira gue tidak bisa ikut.”
+>
+> **Saya:** “Kalau begitu, langkah apa yang menurut lu paling aman untuk mencari kejelasan tanpa langsung menuduh?”
+>
+> **Sahabat:** “Mungkin gue akan menghubungi salah satu dari mereka secara pribadi dan bertanya baik-baik.”
+>
+> **Saya:** “Lu bisa mulai dari kejadian yang lu lihat, lalu menjelaskan perasaan dan kebutuhan lu. Misalnya, ‘Kemarin gue melihat ada rencana yang dibuat tanpa gue. Gue merasa bingung dan tersisih. Gue ingin tahu apakah ada kesalahpahaman. Boleh jelaskan apa yang terjadi?’”
+>
+> **Sahabat:** “Iya, itu lebih baik daripada gue langsung menjauh atau marah di grup.”
+
+Kontribusi saya adalah memberikan ruang mendengar, melakukan paraphrase, mengajukan pertanyaan klarifikasi, membedakan fakta dari asumsi, serta membantu sahabat menyusun langkah komunikasi yang tidak menyerang.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| Person & character | Saya memahami sahabat sebagai seseorang yang sedang merasa tidak dianggap, bukan sebagai orang yang terlalu sensitif. Saya juga mempertimbangkan bahwa ia sedang menjalankan character sebagai teman yang ingin tetap diterima dalam kelompoknya. |
+| Objective & state | Initial state-nya adalah kesal, bingung, dan ingin dimengerti. Objective percakapan adalah membantunya merasa didengarkan serta menemukan cara memperoleh kejelasan tanpa merusak pertemanannya. |
+| Repertoire & language | Saya menggunakan listening, paraphrase, pertanyaan terbuka, validation, dan pola Observation–Feeling–Need–Request. Saya menghindari label seperti “mereka teman buruk” karena belum ada evidence mengenai niat mereka. |
+| Response & adaptation | Pada awalnya saya hampir langsung menyarankan agar ia meninggalkan kelompok tersebut. Setelah menyadari bahwa ia masih ingin mempertahankan hubungan, saya menahan solusi dan beralih ke paraphrase serta pertanyaan tentang kebutuhan dan informasi yang belum diketahui. |
+| Agreement/action | Sahabat memutuskan untuk menghubungi salah satu temannya secara pribadi. Ia akan menyampaikan kejadian yang diamati, perasaannya, kebutuhan akan kejelasan, dan permintaan penjelasan tanpa menuduh. |
+| Relationship outcome | Setelah didengarkan, ia tidak lagi hanya mengulang kekesalannya dan sudah dapat menyebutkan langkah berikutnya. Percakapan juga menjaga hubungan kami karena ia mendapatkan ruang untuk bercerita tanpa dipaksa menerima solusi saya. |
+
+## Understanding, validation, dan boundary
+
+Saya membedakan **understanding** dari **agreement**. Saya memahami bahwa sahabat merasa tersisih, tetapi saya tidak langsung menyetujui kesimpulan bahwa teman-temannya sengaja mengabaikannya.
+
+Saya juga membedakan **validation** dari **approval**. Saya mengakui bahwa perasaan kesal dan kecewanya masuk akal berdasarkan pengalamannya, tetapi tidak mendorong tindakan seperti marah di grup atau langsung memutus pertemanan.
+
+Boundary saya dalam percakapan ini adalah tidak menjadi hakim atas konflik yang tidak saya saksikan sendiri. Saya membantu sahabat memeriksa fakta dan menyusun komunikasi, sedangkan keputusan akhir tetap menjadi tanggung jawabnya.
+
+## Perubahan relationship state
+
+**Sebelum percakapan:** Sahabat terlihat kesal, mengulangi masalah, dan belum mengetahui apakah harus diam, menjauh, atau mengonfrontasi teman-temannya.
+
+**Sesudah percakapan:** Sahabat dapat memisahkan kejadian yang diketahui dari asumsi mengenai niat orang lain. Ia menjadi lebih terarah dan memilih langkah konkret berupa percakapan pribadi untuk meminta kejelasan.
+
+Perubahan ini tidak membuktikan bahwa masalah pertemanannya telah selesai. Evidence yang dapat diamati adalah perubahan dari belum memiliki rencana menjadi mampu merumuskan satu tindakan berikutnya.
+
+## Penggunaan AI
+
+Saya menggunakan AI untuk membantu menyusun struktur portfolio, merapikan bahasa refleksi, dan menghubungkan catatan percakapan dengan konsep listening, validation
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** Sahabat menunjukkan bahwa paraphrase saya sesuai dengan maksudnya dan menyatakan bahwa menghubungi salah satu teman secara pribadi merupakan pilihan yang lebih baik daripada langsung menjauh atau marah di grup.
+
+**Adaptation/replay:** Pada awal percakapan saya hampir memberikan solusi terlalu cepat. Saya kemudian mengubah response dengan melakukan paraphrase dan menanyakan informasi yang belum diketahui. Setelah perubahan tersebut, sahabat dapat menjelaskan kebutuhan utamanya, yaitu kejelasan dan tetap dihargai dalam pertemanan.
+
+**Next practice:** Dalam percakapan berikutnya, saya akan menunggu setidaknya dua kali paraphrase dan satu pertanyaan klarifikasi sebelum menawarkan solusi atau saran.
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| Person & Character | 3 | Memahami pengalaman dan kebutuhan sahabat tanpa memberi label |
+| Objective & State | 3 | Initial state, objective, dan perubahan state dijelaskan |
+| Repertoire, Language & AI | 3 | Menggunakan paraphrase, validation, pertanyaan terbuka, dan O-F-N-R |
+| Response & Adaptation | 4 | Mengubah response dari memberi solusi menjadi listening berdasarkan kebutuhan partner |
+| Agreement, Action & Relationship | 3 | Terdapat langkah berikutnya yang konkret dan hubungan tetap dijaga |
+
+**Total: 16/20 — Kompeten.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::
