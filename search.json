@@ -1619,7 +1619,7 @@
     "href": "portfolio/week-04.html",
     "title": "Five-Language Translation Portfolio",
     "section": "",
-    "text": "Mengadaptasi repertoire dan language tanpa mengubah core meaning.",
+    "text": "Mengadaptasi repertoire dan language berdasarkan person, character, relationship, dan objective tanpa mengubah core meaning.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1630,18 +1630,7 @@
     "href": "portfolio/week-04.html#kompetensi-target",
     "title": "Five-Language Translation Portfolio",
     "section": "",
-    "text": "Mengadaptasi repertoire dan language tanpa mengubah core meaning.",
-    "crumbs": [
-      "Beranda",
-      "Five-Language Translation Portfolio"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-04.html#evidence-wajib",
-    "href": "portfolio/week-04.html#evidence-wajib",
-    "title": "Five-Language Translation Portfolio",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nLima versi untuk friend, technical peer, manager, customer, dan public.\nAlasan perubahan language dan repertoire.\nFeedback understanding dari sedikitnya satu target.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 4 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "text": "Mengadaptasi repertoire dan language berdasarkan person, character, relationship, dan objective tanpa mengubah core meaning.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1652,18 +1641,51 @@
     "href": "portfolio/week-04.html#konteks-performance",
     "title": "Five-Language Translation Portfolio",
     "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "text": "Konteks performance\nTanggal dan setting: 26 September 2026, latihan penyusunan pesan mengenai keamanan akun digital.\nPersons dan relationship: Pesan ditujukan kepada lima target dengan character dan kebutuhan berbeda, yaitu sahabat, rekan teknis, pengelola atau manager, customer atau pengguna layanan, dan masyarakat umum.\nObjective dan initial state: Objective saya adalah menjelaskan pentingnya mengaktifkan autentikasi dua faktor atau two-factor authentication (2FA). Sebelum latihan, saya cenderung menggunakan satu penjelasan yang sama dan terlalu teknis kepada semua target. Dalam latihan ini, saya mempertahankan core meaning tetapi mengubah language, detail, tone, dan call to action sesuai kebutuhan masing-masing target.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#evidence",
-    "href": "portfolio/week-04.html#evidence",
+    "objectID": "portfolio/week-04.html#core-meaning",
+    "href": "portfolio/week-04.html#core-meaning",
     "title": "Five-Language Translation Portfolio",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "Core meaning",
+    "text": "Core meaning\nPesan utama yang tidak boleh berubah adalah:\n\nPengguna sebaiknya mengaktifkan autentikasi dua faktor pada akun penting. Password dapat diketahui atau dicuri oleh pihak lain. Faktor verifikasi tambahan membantu mengurangi risiko pengambilalihan akun. Pengguna juga perlu menyimpan recovery code di tempat yang aman agar tetap dapat mengakses akun ketika perangkat utama tidak tersedia.\n\n\nFakta yang harus tetap konsisten\n\nPassword saja dapat diketahui atau dicuri.\nAutentikasi dua faktor menambahkan tahap verifikasi.\nVerifikasi tambahan membantu mengurangi risiko pengambilalihan akun.\nPengguna harus menyimpan recovery code di tempat aman.\nAutentikasi dua faktor mengurangi risiko, tetapi tidak menjamin akun sepenuhnya aman.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#evidence-lima-versi-language",
+    "href": "portfolio/week-04.html#evidence-lima-versi-language",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Evidence: lima versi language",
+    "text": "Evidence: lima versi language\n\n\n\n\n\n\n\n\nTarget/character\nVersi language\nAlasan adaptasi\n\n\n\n\nFriend\n“Kalau akun penting lu belum pakai verifikasi dua langkah, mending aktifin. Jadi kalau password lu bocor, orang lain masih butuh verifikasi tambahan buat masuk. Jangan lupa simpan recovery code di tempat aman supaya lu tetap bisa masuk kalau HP lu hilang.”\nSaya menggunakan bahasa informal, langsung, dan dekat dengan pengalaman sehari-hari. Istilah teknis dikurangi karena objective-nya adalah mendorong tindakan sederhana.\n\n\nTechnical peer\n“Aktifkan 2FA menggunakan authenticator, passkey, atau metode lain yang tersedia pada akun utama. Password merupakan single point of failure ketika terjadi phishing atau credential reuse. Second factor mengurangi risiko account takeover, tetapi recovery code tetap harus disimpan secara offline dan aman.”\nTarget teknis memahami istilah seperti phishing, credential reuse, dan single point of failure. Penjelasan menekankan mechanism dan keterbatasan 2FA.\n\n\nManager\n“Penggunaan password tanpa autentikasi tambahan meningkatkan risiko pengambilalihan akun dan gangguan operasional. Saya mengusulkan aktivasi 2FA pada seluruh akun penting, disertai panduan penyimpanan recovery code dan dukungan bagi pengguna yang mengalami kendala. Keberhasilan dapat diukur dari persentase akun yang telah mengaktifkan 2FA.”\nManager memerlukan informasi mengenai risiko, dampak, proposal tindakan, kebutuhan dukungan, dan indikator keberhasilan. Detail teknis hanya diberikan jika relevan untuk keputusan.\n\n\nCustomer/student user\n“Lindungi akun Anda dengan mengaktifkan autentikasi dua faktor pada menu Security atau Keamanan. Setelah memasukkan password, Anda akan diminta melakukan satu verifikasi tambahan. Simpan recovery code di tempat yang aman agar Anda tetap dapat mengakses akun ketika perangkat utama tidak tersedia.”\nBahasa dibuat jelas, sopan, dan berorientasi tindakan. Saya menunjukkan lokasi pengaturan serta menjelaskan manfaat dan fungsi recovery code tanpa jargon berlebihan.\n\n\nPublic\n“Password saja belum cukup untuk melindungi akun digital. Aktifkan autentikasi dua faktor agar terdapat tahap verifikasi tambahan ketika seseorang mencoba masuk. Simpan recovery code dengan aman dan jangan membagikan kode verifikasi kepada siapa pun.”\nAudiens umum membutuhkan pesan singkat, mudah dipahami, dan dapat diterapkan tanpa mengetahui detail sistem internal.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#konsistensi-meaning",
+    "href": "portfolio/week-04.html#konsistensi-meaning",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Konsistensi meaning",
+    "text": "Konsistensi meaning\nKelima versi tetap membawa meaning yang sama, yaitu bahwa pengguna perlu mengaktifkan autentikasi dua faktor karena password dapat dicuri atau diketahui pihak lain. Semua versi juga menjelaskan bahwa terdapat verifikasi tambahan dan recovery code perlu disimpan dengan aman.\nPerbedaannya hanya terdapat pada:\n\ntingkat formalitas;\njumlah detail teknis;\ncontoh risiko;\nbentuk call to action;\nkebutuhan dan authority target;\nrelationship antara communicator dan penerima pesan.\n\nSaya tidak menyatakan bahwa 2FA membuat akun sepenuhnya aman karena klaim tersebut merupakan distortion. Pesan yang dipertahankan adalah bahwa 2FA membantu mengurangi risiko, bukan menghilangkan seluruh risiko.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#evidence-understanding-dan-response-target",
+    "href": "portfolio/week-04.html#evidence-understanding-dan-response-target",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Evidence understanding dan response target",
+    "text": "Evidence understanding dan response target\nSaya menguji versi friend kepada seorang sahabat dekat. Setelah membaca pesan pertama, ia memahami bahwa 2FA memberikan perlindungan tambahan, tetapi bertanya:\n\n“Kalau HP yang dipakai buat verifikasi hilang, berarti akun kita nggak bisa dibuka lagi?”\n\nPertanyaan tersebut menunjukkan bahwa pesan awal belum menjelaskan fungsi recovery code dengan cukup jelas. Saya kemudian menambahkan kalimat:\n\n“Simpan recovery code di tempat aman supaya lu tetap bisa masuk kalau HP lu hilang atau tidak bisa digunakan.”\n\nSetelah penjelasan tersebut, sahabat saya dapat mengulang kembali inti pesan:\n\n“Berarti password tetap dipakai, tetapi ada verifikasi tambahan dan recovery code buat keadaan darurat.”\n\nResponse tersebut menjadi evidence bahwa target memahami core meaning, bukan hanya membaca pesan.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1674,7 +1696,18 @@
     "href": "portfolio/week-04.html#analisis-komunikasi",
     "title": "Five-Language Translation Portfolio",
     "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nLima target dibedakan berdasarkan knowledge, relationship, kebutuhan, dan kemampuan mengambil tindakan. Saya tidak hanya mengganti sapaan, tetapi menyesuaikan jenis informasi yang dibutuhkan setiap character.\n\n\nObjective & state\nCore meaning ditetapkan sebelum membuat versi language. Objective setiap pesan tetap mendorong penggunaan 2FA, sedangkan state target berbeda dalam pengetahuan teknis dan authority.\n\n\nRepertoire & language\nSaya menggunakan percakapan informal, penjelasan teknis, decision brief, service instruction, dan public announcement. Jargon hanya digunakan ketika target memiliki pemahaman yang sesuai.\n\n\nResponse & adaptation\nPertanyaan sahabat mengenai kehilangan perangkat menunjukkan bagian yang belum jelas. Saya mengadaptasi pesan dengan menjelaskan fungsi recovery code.\n\n\nAgreement/action\nSetiap versi memiliki tindakan yang relevan, yaitu mengaktifkan 2FA dan menyimpan recovery code. Versi manager juga memiliki proposal implementasi dan indikator keberhasilan.\n\n\nRelationship outcome\nAdaptasi bahasa membuat pesan terasa relevan tanpa memalsukan fakta atau merendahkan pengetahuan target. Sahabat dapat memahami pesan setelah dilakukan penjelasan tambahan.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#batas-translation-dan-adaptation",
+    "href": "portfolio/week-04.html#batas-translation-dan-adaptation",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Batas translation dan adaptation",
+    "text": "Batas translation dan adaptation\nAdaptasi yang saya lakukan merupakan translation, bukan manipulation. Saya tidak mengubah fakta untuk menakut-nakuti target dan tidak menjanjikan bahwa 2FA menjamin keamanan sepenuhnya.\nPada versi technical peer, saya menambahkan mechanism karena target memiliki pengetahuan yang relevan. Pada versi manager, saya menambahkan dampak dan indikator keberhasilan karena target memiliki authority untuk membuat kebijakan. Pada versi customer dan public, jargon dikurangi agar action mudah dipahami.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1685,7 +1718,7 @@
     "href": "portfolio/week-04.html#penggunaan-ai",
     "title": "Five-Language Translation Portfolio",
     "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
+    "text": "Penggunaan AI\nSaya menggunakan AI untuk menerjemahkan beberapa istilah berbahasa Inggris, membantu menyusun struktur portfolio, dan merapikan redaksi berdasarkan core meaning yang saya tentukan.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1696,7 +1729,7 @@
     "href": "portfolio/week-04.html#feedback-dan-tindak-lanjut",
     "title": "Five-Language Translation Portfolio",
     "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Sahabat memahami fungsi verifikasi tambahan, tetapi awalnya belum mengetahui cara mengakses akun jika perangkat utama hilang.\nAdaptation/replay: Saya menambahkan penjelasan mengenai recovery code, kemudian meminta sahabat mengulang kembali inti pesan dengan bahasanya sendiri. Setelah adaptation, ia dapat menjelaskan fungsi 2FA dan recovery code dengan tepat.\nNext practice: Pada latihan berikutnya, saya akan menguji sedikitnya dua versi kepada target yang berbeda untuk mengetahui apakah setiap versi mempertahankan core meaning dan menghasilkan pemahaman yang sama.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1707,7 +1740,7 @@
     "href": "portfolio/week-04.html#self-assessment",
     "title": "Five-Language Translation Portfolio",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nLima target dibedakan berdasarkan knowledge, relationship, kebutuhan, dan authority\n\n\nObjective & State\n3\nCore meaning dan objective tetap konsisten pada seluruh versi\n\n\nRepertoire, Language & AI\n4\nMenggunakan lima repertoire berbeda dengan alasan adaptasi dan batas penggunaan AI\n\n\nResponse & Adaptation\n3\nFeedback sahabat menghasilkan penjelasan tambahan mengenai recovery code\n\n\nAgreement, Action & Relationship\n3\nTerdapat call to action yang jelas dan sesuai dengan masing-masing target\n\n\n\nTotal: 16/20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1938,7 +1971,7 @@
     "href": "portfolio/index.html",
     "title": "Indeks Portfolio",
     "section": "",
-    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n15/20\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
+    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n15/20\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSiap dinilai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
     "crumbs": [
       "Beranda",
       "Indeks Portfolio"
