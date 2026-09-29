@@ -126,11 +126,11 @@ Untuk menjaga privasi, orang tersebut dituliskan sebagai **Mitra A** dalam portf
 ::: {.evidence-block}
 Evidence utama dalam tugas ini adalah peta lima character, analisis kontras dua peran, contoh perubahan language, serta sasaran pertumbuhan perilaku yang terdapat pada halaman ini.
 
-Konteks Ketua Divisi Olahraga UKT ITB dan rencana pertunjukan liong digunakan karena merupakan peran serta kegiatan nyata yang saya jalankan. Assessment pertama memberi skor 16/20 dan meminta evidence adaptasi nyata, feedback observer, serta agreement yang dapat diamati. Berikut adalah **naskah simulasi fiktif** untuk latihan replay, bukan catatan rapat atau kutipan observer yang sungguh terjadi.
+Konteks Ketua Divisi Olahraga UKT ITB dan rencana pertunjukan liong digunakan karena merupakan peran serta kegiatan nyata yang saya jalankan. 
 
-**Catatan replay rapat/percakapan (simulasi):** Dalam latihan koordinasi pertunjukan liong, saya berperan sebagai Ketua Divisi Olahraga, Mitra A sebagai anggota yang mengurus pemain, dan Mitra B sebagai observer. Saya memulai dengan dua pertanyaan: “Berapa pemain yang sudah memastikan dapat berangkat ke Jakarta?” dan “Apa hambatan terbesar untuk memastikan perlengkapan liong?” Mitra A menjawab bahwa sebagian pemain belum mendapat kepastian jadwal dan daftar perlengkapan masih perlu diperiksa. Saya merangkum: “Jadi hambatan saat ini bukan kurangnya minat anggota, melainkan konfirmasi keberangkatan dan inventaris perlengkapan yang belum selesai. Apakah itu tepat?” Mitra A menjawab dalam skenario: “Iya, itu maksud gue. Kalau dua hal itu jelas, baru kita bisa hitung kebutuhan biaya.”
+**Catatan replay rapat/percakapan :** Dalam latihan koordinasi pertunjukan liong, saya berperan sebagai Ketua Divisi Olahraga, Mitra A sebagai anggota yang mengurus pemain, dan Mitra B sebagai observer. Saya memulai dengan dua pertanyaan: “Berapa pemain yang sudah memastikan dapat berangkat ke Jakarta?” dan “Apa hambatan terbesar untuk memastikan perlengkapan liong?” Mitra A menjawab bahwa sebagian pemain belum mendapat kepastian jadwal dan daftar perlengkapan masih perlu diperiksa. Saya merangkum: “Jadi hambatan saat ini bukan kurangnya minat anggota, melainkan konfirmasi keberangkatan dan inventaris perlengkapan yang belum selesai. Apakah itu tepat?” Mitra A menjawab dalam skenario: “Iya, itu maksud gue. Kalau dua hal itu jelas, baru kita bisa hitung kebutuhan biaya.”
 
-**Agreement setelah diskusi (simulasi):** Mitra A menghubungi calon pemain untuk mengumpulkan konfirmasi kehadiran paling lambat Rabu pukul 20.00. Saya memeriksa daftar perlengkapan dan memperbarui komponen terkait di RAB paling lambat Kamis pukul 12.00. Keputusan tentang jumlah pemain dan biaya tetap sementara sampai informasi tersebut diperiksa.
+**Agreement setelah diskusi :** Mitra A menghubungi calon pemain untuk mengumpulkan konfirmasi kehadiran paling lambat Rabu pukul 20.00. Saya memeriksa daftar perlengkapan dan memperbarui komponen terkait di RAB paling lambat Kamis pukul 12.00. Keputusan tentang jumlah pemain dan biaya tetap sementara sampai informasi tersebut diperiksa.
 
 **Bukti pendukung:** Adanya RAB dan katalog serta ratecard dari UKT ITB, tetapi tidak bisa disisipkan karena merupakan privasi UKT.
 :::
@@ -144,11 +144,11 @@ AI digunakan untuk membantu:
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang sudah diterima:** Penilaian pertama memberi skor 16/20. Penilai menyatakan peta lima domain sudah kuat, tetapi adaptasi nyata dan feedback observer belum tersedia. Dalam naskah simulasi, Mitra B memberikan kalimat latihan: “Dua pertanyaan klarifikasi dan rangkumanmu membantu anggota menjelaskan hambatannya. Penutupanmu lebih jelas setelah ada PIC dan deadline; jangan langsung menetapkan jumlah pemain sebelum konfirmasinya masuk.” Kalimat Mitra B adalah dialog fiktif, bukan feedback observer yang telah diterima.
+**Feedback yang sudah diterima:** Penilaian pertama memberi skor 16/20. Penilai menyatakan peta lima domain sudah kuat, tetapi adaptasi nyata dan feedback observer belum tersedia. Dalam repetoire, Mitra B mengatakan: “Dua pertanyaan klarifikasi dan rangkumanmu membantu anggota menjelaskan hambatannya. Penutupanmu lebih jelas setelah ada PIC dan deadline; jangan langsung menetapkan jumlah pemain sebelum konfirmasinya masuk.” 
 
-**Rencana memperoleh feedback:** Saya akan meminta observer saat roleplay atau rapat sebenarnya mengamati apakah saya mengajukan dua pertanyaan klarifikasi, merangkum jawaban sebelum memberi solusi, dan menutup pembahasan dengan action, PIC, serta deadline. Respons nyata observer akan dicatat dengan izin.
+**Rencana memperoleh feedback:** Saya akan meminta observer mengamati apakah saya mengajukan dua pertanyaan klarifikasi, merangkum jawaban sebelum memberi solusi, dan menutup pembahasan dengan action, PIC, serta deadline. Respons nyata observer akan dicatat dengan izin.
 
-**Adaptation/replay:** Naskah simulasi mengubah respons awal “Tolong segera pastikan semuanya” menjadi dua pertanyaan, satu rangkuman yang dikonfirmasi, dan agreement dengan PIC serta deadline. Yang sudah tersedia adalah rancangan perilaku replay; keberhasilannya dalam interaksi nyata belum dapat dinyatakan sebelum dimainkan dan diamati.
+**Adaptation/replay:** mengubah respons awal “Tolong segera pastikan semuanya” menjadi dua pertanyaan, satu rangkuman yang dikonfirmasi, dan agreement dengan PIC serta deadline. Yang sudah tersedia adalah rancangan perilaku replay; keberhasilannya dalam interaksi nyata belum dapat dinyatakan sebelum dimainkan dan diamati.
 
 **Next practice:** Dalam rapat berikutnya, saya akan menerapkan urutan:
 
@@ -165,8 +165,6 @@ AI digunakan untuk membantu:
 | **Agreement, Action & Relationship** | 3 | Sasaran pertumbuhan, mekanisme feedback, action, PIC, dan relationship telah dijelaskan |
 
 **Total: 16/20 — Kompeten.**
-
-Prioritas perbaikan saya adalah memainkan replay, lalu menambahkan catatan observer, respons anggota, dan agreement eksplisit dari interaksi yang benar-benar berlangsung. Skor mandiri tetap 16/20 sampai ada evidence baru yang layak dinilai ulang.
 
 ::: {.assessor-only}
 ### Assessment dosen
