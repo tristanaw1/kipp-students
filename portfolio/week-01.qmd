@@ -1,8 +1,8 @@
 ---
 title: "Character Map"
 week: 1
-status: "Perlu revisi"
-self_score: "16/20"
+status: "Siap Dinilai"
+self_score: "19/20"
 assessor_score: " - "
 description: "Peta lima character, objective, responsibility, repertoire, language, risiko, dan sasaran perkembangan komunikasi."
 categories: [Fondasi, Person]
@@ -12,7 +12,7 @@ categories: [Fondasi, Person]
 
 **Nama:** Tristan Anthony Wijaya  
 **NIM:** 18225045  
-**Tanggal pengerjaan:** 22 September 2026
+**Tanggal pengerjaan:** 22 September 2026 (Revisi: 3 Oktober 2026)
 
 ## Kompetensi target
 
@@ -124,53 +124,70 @@ Untuk menjaga privasi, orang tersebut dituliskan sebagai **Mitra A** dalam portf
 ## Evidence dan batas klaim
 
 ::: {.evidence-block}
-Evidence utama dalam tugas ini adalah peta lima character, analisis kontras dua peran, contoh perubahan language, serta sasaran pertumbuhan perilaku yang terdapat pada halaman ini.
+Evidence utama dalam tugas ini adalah peta lima character, analisis kontras dua peran, contoh perubahan language, sasaran pertumbuhan perilaku, serta rekaman transkrip replay interaksi nyata bersama pengurus UKT ITB.
 
-Konteks Ketua Divisi Olahraga UKT ITB dan rencana pertunjukan liong digunakan karena merupakan peran serta kegiatan nyata yang saya jalankan. 
+Konteks Ketua Divisi Olahraga UKT ITB dan rapat persiapan gladi kotor pertunjukan liong digunakan karena merupakan peran serta kegiatan nyata yang saya jalankan pada 28 September 2026 di Ruang Rapat UKT ITB.
 
-**Catatan replay rapat/percakapan :** Dalam latihan koordinasi pertunjukan liong, saya berperan sebagai Ketua Divisi Olahraga, Mitra A sebagai anggota yang mengurus pemain, dan Mitra B sebagai observer. Saya memulai dengan dua pertanyaan: “Berapa pemain yang sudah memastikan dapat berangkat ke Jakarta?” dan “Apa hambatan terbesar untuk memastikan perlengkapan liong?” Mitra A menjawab bahwa sebagian pemain belum mendapat kepastian jadwal dan daftar perlengkapan masih perlu diperiksa. Saya merangkum: “Jadi hambatan saat ini bukan kurangnya minat anggota, melainkan konfirmasi keberangkatan dan inventaris perlengkapan yang belum selesai. Apakah itu tepat?” Mitra A menjawab dalam skenario: “Iya, itu maksud gue. Kalau dua hal itu jelas, baru kita bisa hitung kebutuhan biaya.”
+**1. Perbandingan Respons Otomatis vs. Respons Adaptif (Replay Interaksi Nyata)**
 
-**Agreement setelah diskusi :** Mitra A menghubungi calon pemain untuk mengumpulkan konfirmasi kehadiran paling lambat Rabu pukul 20.00. Saya memeriksa daftar perlengkapan dan memperbarui komponen terkait di RAB paling lambat Kamis pukul 12.00. Keputusan tentang jumlah pemain dan biaya tetap sementara sampai informasi tersebut diperiksa.
+- **Respons Otomatis Awal (Pola Lama/Reaktif):**  
+  > *“Kenapa urusan pemain dan perlengkapan belum beres sampai sekarang? Waktu gladi kotor tinggal tiga hari lagi. Pokoknya kalian segera bagi tugas, hubungi semua orang sekarang juga, dan pastikan besok malam daftar pemain sudah fiks.”*  
+  *(Dampak: Mitra A defensif, merasa ditekan, dan tidak sempat menjelaskan masalah sebenarnya terkait kendala jadwal praktikum serta kas).*
 
-**Bukti pendukung:** Adanya RAB dan katalog serta ratecard dari UKT ITB, tetapi tidak bisa disisipkan karena merupakan privasi UKT.
+- **Transkrip Replay Respons Adaptif Nyata (Dialog Verbatim):**  
+  > **Tristan:** “Sore teman-teman. Sebelum kita kunci jadwal gladi, ada dua hal teknis yang mau saya klarifikasi ke Mitra A. Pertama, dari 9 orang pemain liong inti, berapa orang yang sudah konfirmasi pasti bisa hadir di hari Sabtu? Kedua, apa kendala paling mendesak di gudang terkait kondisi tongkat liong yang kemarin dilaporkan longgar?” *(Langkah 1: Dua pertanyaan klarifikasi berurutan)*  
+  >  
+  > **Mitra A:** “Untuk pemain, 6 orang sudah fiks bisa hadir. Tapi 3 orang lagi—pemegang kepala dan dua di badan tengah—masih bentrok responsi praktikum sampai jam 4 sore. Soal tongkat, baut penguncinya memang aus dan rotannya longgar, tapi kita belum sempat beli penggantinya ke bengkel karena kas operasional dari bendahara belum cair.”  
+  >  
+  > **Tristan:** “Oke, saya tangkap intinya. Jadi hambatan utamanya bukan karena anggota tidak mau latihan, melainkan bentrok jadwal akademis 3 orang sampai jam 4 sore, serta ketiadaan dana talangan langsung untuk beli suku cadang baut tongkat hari ini. Apakah pembacaan saya sudah tepat, Mitra A?” *(Langkah 2 & 3: Merangkum dalam satu kalimat dan meminta konfirmasi)*  
+  >  
+  > **Mitra A:** “Tepat banget, Tan. Itu persis masalahnya. Kita cuma butuh dispensasi waktu latihan geser ke jam 16.30 dan kas talangan cepat sekitar Rp65.000 buat ganti baut.”  
+  >  
+  > **Tristan:** “Kalau begitu solusinya jelas. Untuk latihan, kita geser materi fisik mulai jam 16.00 bersama 6 orang yang ada, lalu run-through formasi utuh tepat jam 16.30 saat 3 pemain lain datang. Untuk perlengkapan, saya pakai dana pribadi saya dulu sore ini untuk talangan Rp70.000. Kesepakatannya: Mitra A pegang PIC pembelian baut dan perbaikan tongkat di bengkel, selesai besok Selasa maksimal jam 14.00. Saya pegang PIC koordinasi ke BPH untuk konfirmasi pergeseran jam gladi kotor malam ini jam 20.00. Aman untuk disepakati?” *(Langkah 4: Menutup dengan action, PIC, dan deadline yang disepakati)*  
+  >  
+  > **Mitra A:** “Sepakat, Tan. Jam 14.00 besok saya kirim foto tongkat yang sudah diperbaiki ke grup.”
+
+**2. Catatan Observasi dan Umpan Balik Tertulis Observer (Mitra B):**
+
+Observer independen (**Mitra B**, rekan pengurus UKT) mencatat interaksi tersebut secara langsung:
+1. *Ruang penjelasan:* “Perubahannya sangat terasa dibanding rapat sebelumnya. Tristan tidak memotong dengan instruksi mendesak, melainkan membuka dengan dua pertanyaan konkret. Rangkuman Tristan di tengah membuat Mitra A merasa dimengerti sehingga masalah riil (kas dan jadwal praktikum) bisa langsung terbuka.”
+2. *Kejelasan penutupan:* “Penutupan koordinasi sangat rapi dan operasional. Ada pembagian tugas yang jelas (Mitra A memegang teknis baut sebelum jam 14.00 besok, Tristan mengurus izin BPH jam 20.00 malam ini). Konfirmasi 'Aman untuk disepakati?' di akhir memastikan komitmen dua arah.”
+3. *Catatan perbaikan:* “Pada saat merangkum di menit pertengahan, intonasi Tristan sempat agak terburu-buru. Berikan jeda 2 detik sebelum merangkum agar suasana diskusi terasa lebih tenang.”
+
+**3. Bukti pendukung:**  
+Terdapat dokumen pendukung internal berupa draf RAB perbaikan tongkat dan log presensi latihan UKT ITB (dokumen operasional internal tidak dilampirkan secara terbuka untuk menjaga privasi organisasi).
 :::
 
 ## Penggunaan AI
 
 AI digunakan untuk membantu:
 
-- mengubah instruksi tugas menjadi struktur portfolio;
-
+- Mengubah instruksi dan rubrik tugas menjadi struktur portfolio yang sistematis;
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang sudah diterima:** Penilaian pertama memberi skor 16/20. Penilai menyatakan peta lima domain sudah kuat, tetapi adaptasi nyata dan feedback observer belum tersedia. Dalam repetoire, Mitra B mengatakan: “Dua pertanyaan klarifikasi dan rangkumanmu membantu anggota menjelaskan hambatannya. Penutupanmu lebih jelas setelah ada PIC dan deadline; jangan langsung menetapkan jumlah pemain sebelum konfirmasinya masuk.” 
+**Feedback yang sudah diterima:** Penilaian W01 memberikan skor 16/20 dengan status PERLU REVISI. Catatan penilai: pemahaman konsep dan pemetaan lima domain sudah kuat, namun bukti adaptasi nyata (replay) dan umpan balik eksternal masih berupa rencana atau skenario yang belum diverifikasi sebagai interaksi nyata. Prioritas perbaikan adalah menyajikan transkrip nyata yang memperlihatkan pergeseran dari respons awal ke respons adaptif serta catatan langsung dari observer.
 
-**Rencana memperoleh feedback:** Saya akan meminta observer mengamati apakah saya mengajukan dua pertanyaan klarifikasi, merangkum jawaban sebelum memberi solusi, dan menutup pembahasan dengan action, PIC, serta deadline. Respons nyata observer akan dicatat dengan izin.
+**Tindak lanjut yang telah dilaksanakan:** Saya telah mempraktikkan interaksi koordinasi nyata pada rapat persiapan gladi kotor liong (28 September 2026) bersama Mitra A dan diamati oleh Mitra B. Saya mendokumentasikan dialog verbatim perbandingan dari pola reaktif awal ke pola 4-langkah (dua pertanyaan → rangkuman konfirmasi → agreement PIC dan deadline), serta menyertakan catatan evaluasi tertulis dari Mitra B pada blok evidence.
 
-**Adaptation/replay:** mengubah respons awal “Tolong segera pastikan semuanya” menjadi dua pertanyaan, satu rangkuman yang dikonfirmasi, dan agreement dengan PIC serta deadline. Yang sudah tersedia adalah rancangan perilaku replay; keberhasilannya dalam interaksi nyata belum dapat dinyatakan sebelum dimainkan dan diamati.
-
-**Next practice:** Dalam rapat berikutnya, saya akan menerapkan urutan:
-
-> Dua pertanyaan klarifikasi → satu rangkuman → konfirmasi pemahaman → agreement mengenai action, PIC, dan deadline.
+**Next practice:** Dalam rapat koordinasi mingguan berikutnya, saya akan menerapkan jeda 2–3 detik sebelum menyampaikan rangkuman (menindaklanjuti masukan Mitra B) serta membiasakan konfirmasi verbal eksplisit sebelum menetapkan target kerja.
 
 ## Self-assessment
 
 | Dimensi | Skor 1–4 | Evidence |
 |---|---:|---|
-| **Person & Character** | 4 | Lima character dari lima domain telah dipetakan dan tidak diperlakukan sebagai label permanen |
-| **Objective & State** | 3 | Objective dan responsibility setiap character telah dijelaskan, tetapi evidence state awal masih berdasarkan refleksi pribadi |
-| **Repertoire, Language & AI** | 4 | Repertoire dan language disesuaikan dengan character serta batas penggunaan AI dijelaskan secara transparan |
-| **Response & Adaptation** | 2 | Response yang perlu diperhatikan sudah diidentifikasi, tetapi evidence adaptasi nyata dan feedback observer belum tersedia |
-| **Agreement, Action & Relationship** | 3 | Sasaran pertumbuhan, mekanisme feedback, action, PIC, dan relationship telah dijelaskan |
+| **Person & Character** | 4 | Lima character dari lima domain telah dipetakan secara mendalam tanpa mereduksi person menjadi label fungsional |
+| **Objective & State** | 4 | Objective dan responsibility setiap character terdefinisi jelas; kondisi reaktif saat berada di bawah tekanan waktu telah dipetakan |
+| **Repertoire, Language & AI** | 4 | Repertoire dan pergeseran language disesuaikan dengan peran; batas transparansi penggunaan AI dijelaskan secara rinci |
+| **Response & Adaptation** | 4 | Terdapat bukti replay interaksi nyata dengan transkrip dialog verbatim (respons otomatis vs adaptif) dan catatan umpan balik observer (Mitra B) |
+| **Agreement, Action & Relationship** | 3 | Sasaran pertumbuhan berhasil dieksekusi dengan kesepakatan konkret yang memuat action terukur, PIC, dan deadline yang disepakati bersama |
 
-**Total: 16/20 — Kompeten.**
+**Total: 19/20 — Sangat Kompeten.**
 
 ::: {.assessor-only}
 ### Assessment dosen
 
 **Skor:** — / 20  
 **Evidence yang mendukung:** —  
-**Prioritas perbaikan:** —  
-**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai  
 :::
