@@ -1520,7 +1520,18 @@
     "href": "portfolio/week-06.html",
     "title": "Target–Attention Challenge",
     "section": "",
-    "text": "Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal pengerjaan: 3 Oktober 2026",
+    "crumbs": [
+      "Beranda",
+      "Target–Attention Challenge"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-06.html#identitas",
+    "href": "portfolio/week-06.html#identitas",
+    "title": "Target–Attention Challenge",
+    "section": "",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal pengerjaan: 3 Oktober 2026",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
@@ -1530,74 +1541,52 @@
     "objectID": "portfolio/week-06.html#kompetensi-target",
     "href": "portfolio/week-06.html#kompetensi-target",
     "title": "Target–Attention Challenge",
-    "section": "",
-    "text": "Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.",
+    "section": "Kompetensi target",
+    "text": "Kompetensi target\nMemilih target person yang tepat berdasarkan relevansi dan otoritas, serta membuat suatu isu diakui relevan (captured attention) melalui penyajian evidence empiris tanpa melakukan overgeneralisasi, dilengkapi kemampuan membaca pergeseran state dan beradaptasi terhadap resistensi target.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#evidence-wajib",
-    "href": "portfolio/week-06.html#evidence-wajib",
+    "objectID": "portfolio/week-06.html#target-map",
+    "href": "portfolio/week-06.html#target-map",
     "title": "Target–Attention Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nTarget map dan alasan memilih satu target.\nProblem/opportunity pitch serta evidence.\nResponse, state sesudah pitch, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 6 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Target map",
+    "text": "Target map\nIsu yang diangkat adalah tingginya frekuensi kerusakan perlengkapan liong (tongkat aus dan kain robek) serta keterlambatan waktu mulai latihan menjelang persiapan penampilan di Jakarta. Sebelum melompat ke usulan pengadaan fasilitas atau anggaran, saya memetakan pihak-pihak yang relevan dalam ekosistem UKT ITB:\n\n\n\n\n\n\n\n\n\nPerson\nRelevance\nAuthority\nCurrent state\n\n\n\n\nKetua Unit UKT ITB (Mitra A)\nBertanggung jawab atas arah kebijakan umum, keutuhan aset unit, alokasi prioritas program kerja, dan perizinan resmi kampus.\nBerwenang menetapkan prioritas rapat pengurus, menyetujui revisi alokasi dana darurat, dan mengajukan perizinan fasilitas ke Ditmawa ITB.\nSkeptical / Attribution Bias (Mengakui ada kerusakan, tetapi menganggapnya murni akibat kelalaian pemain saat berlatih, bukan masalah sistem penyimpanan).\n\n\nKepala Divisi Logistik & Aset UKT (Mitra C)\nMencatat inventaris barang, mengelola gudang bersama, dan mencatat pengeluaran suku cadang.\nBerwenang mengatur tata letak gudang sekretariat dan mengeluarkan barang inventaris.\nProblem aware, tapi pasif (Kewalahan mencatat kerusakan, namun merasa perbaikan di luar kendalinya).\n\n\nBendahara Umum UKT ITB\nMenjaga stabilitas arus kas kas unit dan kepatuhan anggaran terhadap LPJ.\nBerwenang menolak atau meloloskan pencairan pos anggaran darurat operasional.\nUnaware / Cost-defensive (Melihat isu hanya dari kacamata pengeluaran kas yang harus ditekan).\n\n\nSeksi Sarana & Prasarana Ditmawa ITB\nMengelola izin penggunaan ruang tertutup dan fasilitas gedung kemahasiswaan (Sunken Court / CC).\nBerwenang menerbitkan izin pemakaian ruang latihan malam secara legal.\nUnaware / Netral (Birokrasi luar; hanya merespons surat resmi pimpinan unit).\n\n\n\n\nAlasan memilih satu target\nSaya memilih Ketua Unit UKT ITB (Mitra A) sebagai target utama percakapan attention.\nMeskipun Divisi Logistik memiliki kontak harian paling dekat dengan barang, Mitra A adalah pemegang otoritas kunci yang menentukan apakah masalah ini dianggap sebagai “isu teknis remeh divisi” atau “isu struktural organisasi”. Sebelum melangkah ke tahap Interest atau meminta persetujuan anggaran lemari penyimpanan/loker tertutup, saya harus mengubah state Mitra A dari skeptical (menyalahkan pemain) menjadi attention (menyadari adanya risiko operasional nyata pada aset unit) menggunakan data konkret, bukan asumsi.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#konteks-performance",
-    "href": "portfolio/week-06.html#konteks-performance",
+    "objectID": "portfolio/week-06.html#attention-pitch",
+    "href": "portfolio/week-06.html#attention-pitch",
     "title": "Target–Attention Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Attention pitch",
+    "text": "Attention pitch\nPitch disampaikan secara langsung dalam pertemuan tatap muka 1-on-1 berdurasi 35 detik di Selasar Sekretariat UKT ITB:\n\n“Mitra A, dalam rekap log latihan Divisi Olahraga selama empat minggu terakhir (total 12 sesi latihan), tercatat 3 kali kerusakan tongkat pengunci dan 2 kali robekan kain liong dengan total biaya talangan servis Rp265.000. Selain itu, ada rata-rata kehilangan waktu 20 sampai 30 menit di setiap sesi latihan hanya untuk membongkar tumpukan barang di selasar terbuka dan mengeringkan rotan yang lembap.\nSaya belum menyimpulkan bahwa pemain kita ceroboh atau kita butuh beli lemari penyimpanan baru sekarang. Namun, melihat angka keterlambatan dan biaya servis ini, bolehkah kita periksa bersama apakah akar masalahnya ada pada kelembapan selasar penyimpanan terbuka dan bentroknya izin ruang latihan?”\n\n\nEvidence yang dipakai dan batas klaim\n\nUkuran Sampel: 12 sesi latihan terjadwal dalam rentang 4 minggu (September 2026).\nData Empiris:\n\nFrekuensi kerusakan: 3 kali kerusakan baut/rotan aus; 2 kali kain sobek akibat tersangkut barang lain di selasar.\nDampak finansial langsung: Rp265.000 (tercatat pada bon talangan perbaikan divisi).\nDampak waktu: Kehilangan waktu efektif latihan 20–30 menit per sesi (total kumulatif ~5 jam dalam sebulan).\n\nBatas Klaim (Nuance): Pitch tidak menggeneralisasi bahwa “semua alat pasti rusak” dan tidak langsung menuduh fasilitas kampus buruk. Klaim secara eksplisit membedakan antara fakta keterlambatan/biaya vs hipotesis awal mengenai tata letak penyimpanan.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#evidence",
-    "href": "portfolio/week-06.html#evidence",
+    "objectID": "portfolio/week-06.html#response-dan-state-assessment",
+    "href": "portfolio/week-06.html#response-dan-state-assessment",
     "title": "Target–Attention Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "Response dan state assessment",
+    "text": "Response dan state assessment\n\nRespon riil target (Mitra A)\nMitra A mendengarkan dengan seksama, mencermati catatan bon fisik yang saya tunjukkan, lalu merespons:\n\n“Data kerusakannya memang nyata dan biayanya lumayan kalau diakumulasi. Tapi Tristan, empat minggu terakhir ini kan intensitas latihan kalian naik dua kali lipat buat persiapan acara alumni di Jakarta. Wajar kalau alat lebih cepat aus. Di bulan-bulan biasa waktu cuma latihan seminggu sekali, laporan kerusakan tongkat kayaknya jarang masuk.”\n\n\n\nState assessment sesudah pitch\n\nAnalisis Respon: Mitra A tidak menolak data numerik yang diajukan (fakta biaya Rp265.000 dan delay 25 menit diterima). Namun, ia meragukan signifikansi sistemik dari masalah tersebut (magnitude reservation), dengan menganggapnya sebagai anomali musiman akibat padatnya jadwal latihan menjelang penampilan besar.\nPergeseran State: Berpindah dari Skeptical / Attribution Bias (mengira pemain ceroboh) menjadi Attention dengan Reservasi (mengakui isu biaya dan waktu, tetapi mempertanyakan apakah masalah ini bersifat permanen atau musiman). Target belum berada pada state Interest.\n\n\n\nAdaptasi (adaptation pitch)\nMerespons reservasi tersebut, saya tidak mendebat atau mempertahankan hipotesis awal, melainkan memvalidasi perspektif Mitra A dan mengubah objektif percakapan dari meminta solusi menjadi menyetujui validasi data pembanding:\n\n“Poin yang sangat masuk akal, intensitas latihan bulan ini memang naik dua kali lipat dibanding bulan lalu sehingga beban gesek alat bertambah.\nAgar kita tidak mengambil keputusan berdasarkan bias persiapan Jakarta, bagaimana kalau sebelum rapat pleno Kamis depan, saya bersama Divisi Logistik membandingkan data bon servis 2 bulan sebelumnya (Juli–Agustus saat latihan normal)? Kalau di periode latihan santai angkanya tetap muncul konsisten, berarti memang ada masalah di tempat penyimpanan. Kalau tidak, berarti ini murni beban musiman. Apakah pendekatan ini cukup adil?”\n\nMitra A menyetujui:\n\n“Nah, itu adil. Kamu cek log dua bulan lalu bareng Divisi Logistik. Kalau datanya sudah ada, bawa ke rapat pengurus hari Kamis, nanti kita jadwalkan 15 menit buat bahas opsi solusinya.”",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#analisis-komunikasi",
-    "href": "portfolio/week-06.html#analisis-komunikasi",
+    "objectID": "portfolio/week-06.html#evidence-dan-refleksi",
+    "href": "portfolio/week-06.html#evidence-dan-refleksi",
     "title": "Target–Attention Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Target–Attention Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-06.html#penggunaan-ai",
-    "href": "portfolio/week-06.html#penggunaan-ai",
-    "title": "Target–Attention Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Target–Attention Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-06.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-06.html#feedback-dan-tindak-lanjut",
-    "title": "Target–Attention Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Evidence dan refleksi",
+    "text": "Evidence dan refleksi\n\n\n1. Target Map: Sebelum vs. Sesudah Percakapan\n\nSebelum Percakapan:\nTarget: Mitra A (Ketua Unit)\nAssumed State: Skeptical / Mengabaikan isu fasilitas dan menganggap divisi kurang disiplin merawat inventaris.\nSesudah Percakapan:\nTarget: Mitra A (Ketua Unit)\nObserved State: Attention dengan Reservasi Komparasi Data. Isu diakui relevan, reservasi terdefinisi jelas (faktor musiman vs sistemik), dan akses agenda pembahasan pleno disetujui.\n\n\n\n\n2. Catatan Pengamat Independen (Mitra B — Rekan Pengurus UKT)\n\n“Penyampaian pitch Tristan sangat terukur karena membuka obrolan dengan angka ril (12 sesi, 3 kerusakan, Rp265 ribu), bukan keluhan emosional. Mitra A yang awalnya duduk santai langsung menegakkan badan dan melihat kertas catatan.\nAdaptasi terbaik terlihat saat Mitra A menantang dengan argumen ‘faktor musiman Jakarta’. Tristan tidak defensif membela diri, tapi langsung memvalidasi keberatan itu dan menawarkan komparasi data 2 bulan sebelumnya. Hal itu membuat Mitra A merasa dihargai dan dengan sukarela memberi slot waktu pembahasan di rapat hari Kamis.”\n\n\n\n\n3. Agreement konkret yang dicapai\n\nAksi Verifikasi: Tristan Anthony Wijaya (Ketua Divisi Olahraga) bersama Mitra C (Logistik) memeriksa buku kas dan log pemeliharaan periode Juli–Agustus 2026.\nOutput: 1 lembar tabel komparasi kerusakan periode normal vs periode intensif, diserahkan paling lambat Rabu, 7 Oktober 2026 pukul 20.00 WIB.\nKomitmen Target: Mitra A memberikan slot 15 menit pada agenda Rapat Pengurus Pleno Kamis malam untuk membahas tindak lanjut tata kelola ruang dan aset jika data menunjukkan tren konsisten.\nBatas Privasi: Pengecekan data hanya mencakup rekap agregat biaya servis divisi dan log tanggal latihan; tidak mencakup catatan evaluasi personal anggota.\n\n\n\n\nTransparansi penggunaan AI\nAI digunakan secara etis dan proporsional untuk: - Mengevaluasi struktur naskah attention pitch guna memastikan pemisahan yang ketat antara data fakta empiris (observations) dan interpretasi analitis\n\n\nNext practice\n\nMenyampaikan relevance pitch dalam batas waktu ketat (&lt; 45 detik) dengan mendahulukan dampak operasional sebelum menyampaikan hipotesis masalah.\nDalam menghadapi reservasi target, selalu gunakan prinsip agree and pivot: akui validitas sudut pandang target, lalu tawarkan mekanisme pengujian bersama (joint inquiry).",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
@@ -1608,7 +1597,7 @@
     "href": "portfolio/week-06.html#self-assessment",
     "title": "Target–Attention Challenge",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nJustifikasi dan Evidence\n\n\n\n\nPerson & Character\n4\nTarget dipilih secara metodologis melalui target map berdasarkan relevansi dan otoritas struktural, bukan sekadar memilih pihak yang paling mudah diajak bicara.\n\n\nObjective & State\n4\nState target awal (skeptical/bias atribusi) dipetakan akurat; respon target dianalisis secara objektif hingga terpetakan status attention with reservation.\n\n\nRepertoire, Language & AI\n4\nNaskah pitch ringkas, membedakan fakta dan kesimpulan, menyertakan batasan sampel tanpa klaim absolut; transparansi pemanfaatan AI dijabarkan jelas.\n\n\nResponse & Adaptation\n4\nMampu mengidentifikasi reservasi target (argumen beban musiman) dan secara adaptif mengubah objektif percakapan menjadi validasi komparasi data historis.\n\n\nAgreement, Action & Relationship\n3\nMenghasilkan kesepakatan verifikasi data konkret dengan PIC, tenggat waktu, batas privasi, serta komitmen slot waktu pada agenda rapat pengurus.\n\n\n\nTotal Skor: 19 / 20 — Sangat Kompeten.\n\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
@@ -1971,7 +1960,7 @@
     "href": "portfolio/index.html",
     "title": "Indeks Portfolio",
     "section": "",
-    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap Dinilai\n\n\n19/20\n\n\n - \n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap Dinilai\n\n\n19/20\n\n\n - \n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSiap dinilai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nSiap dinilai\n\n\n17/20\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
+    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap Dinilai\n\n\n19/20\n\n\n - \n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap Dinilai\n\n\n19/20\n\n\n - \n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSiap dinilai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nSiap dinilai\n\n\n17/20\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nSelesai\n\n\n19/20\n\n\n - \n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
     "crumbs": [
       "Beranda",
       "Indeks Portfolio"
