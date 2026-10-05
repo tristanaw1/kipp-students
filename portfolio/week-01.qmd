@@ -1,8 +1,8 @@
 ---
 title: "Character Map"
 week: 1
-status: "Siap Dinilai (Revisi Pasca-Tiket 604)"
-self_score: "20/20"
+status: "Siap Dinilai"
+self_score: "19/20"
 assessor_score: " - "
 description: "Peta lima character, objective, responsibility, repertoire, language, risiko, dan sasaran perkembangan komunikasi dengan pengisian lengkap lima domain kehidupan disertai evidence skenario dan observasi nyata."
 categories: [Fondasi, Person]
