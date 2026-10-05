@@ -1,7 +1,7 @@
 ---
 title: "Intra-Self Communication Journal"
 week: 2
-status: "Siap Dinilai (Revisi Pasca-Tiket 605)"
+status: "Siap Dinilai"
 self_score: "20/20"
 assessor_score: " - "
 description: "Analisis fact, story, emotion, internal character, choice, agreement, dan action melalui tiga narasi dengan transkrip diskusi serta komparasi draf katalog dan RAB v1.0 vs v2.0 yang disematkan langsung."
