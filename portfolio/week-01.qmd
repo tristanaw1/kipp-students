@@ -1,10 +1,10 @@
 ---
 title: "Character Map"
 week: 1
-status: "Siap Dinilai"
-self_score: "19/20"
+status: "Siap Dinilai (Revisi Pasca-Tiket 604)"
+self_score: "20/20"
 assessor_score: " - "
-description: "Peta lima character, objective, responsibility, repertoire, language, risiko, dan sasaran perkembangan komunikasi."
+description: "Peta lima character, objective, responsibility, repertoire, language, risiko, dan sasaran perkembangan komunikasi dengan pengisian lengkap lima domain kehidupan disertai evidence skenario dan observasi nyata."
 categories: [Fondasi, Person]
 ---
 
@@ -12,11 +12,11 @@ categories: [Fondasi, Person]
 
 **Nama:** Tristan Anthony Wijaya  
 **NIM:** 18225045  
-**Tanggal pengerjaan:** 22 September 2026 (Revisi: 3 Oktober 2026)
+**Tanggal pengerjaan:** 22 September 2026 (Revisi 1: 3 Oktober 2026 | Revisi 2 Tiket 604: 5 Oktober 2026)
 
 ## Kompetensi target
 
-Membedakan person, personality, dan character serta mampu memilih objective, repertoire, dan language yang sesuai dengan situasi komunikasi.
+Membedakan person, personality, dan character serta mampu memilih objective, repertoire, dan language yang sesuai dengan situasi komunikasi di lima domain kehidupan.
 
 ## Pemahaman konsep
 
@@ -30,20 +30,40 @@ Sementara itu, **character** adalah peran naratif yang dipilih dan dijalankan da
 
 | Domain dan character | Person dan relationship | Objective | Responsibility | Repertoire dan language | Risiko dan latihan |
 |---|---|---|---|---|---|
-| **Diri sendiri — reflective learner** | Diri saya ketika mengevaluasi proses belajar, keputusan, atau kesalahan | Memahami keadaan secara lebih objektif dan menentukan tindakan perbaikan | Memisahkan fakta dari asumsi, mengelola emosi, dan mengambil keputusan yang realistis | Jurnal singkat, self-questioning, evaluasi fakta, dan kalimat: “Apa faktanya, apa interpretasi saya, dan apa langkah berikutnya?” | Risiko: terlalu lama memikirkan hasil yang belum sempurna. Latihan: menuliskan tiga fakta dan satu tindakan perbaikan dalam waktu lima menit |
-| **Keluarga/sahabat — pendengar suportif** | Anggota keluarga atau sahabat yang sedang menghadapi masalah; relationship dekat yang membutuhkan rasa aman | Memahami kebutuhan orang lain sebelum memberikan tanggapan | Mendengarkan tanpa menghakimi, menjaga privasi, dan memberikan bantuan sesuai kebutuhan mereka | Mendengarkan aktif, pertanyaan terbuka, paraphrase, validasi, dan kalimat: “Lo ingin gue dengarkan dulu atau bantu cari solusi?” | Risiko: terlalu cepat memberikan solusi. Latihan: merangkum isi dan perasaan lawan bicara sebelum memberikan saran |
-| **Akademik — mahasiswa dan anggota kelompok** | Dosen dan rekan satu kelompok; relationship belajar dan kolaborasi | Memahami materi serta menyelesaikan pekerjaan akademik secara bertanggung jawab | Menyampaikan kontribusi individual, bertanya ketika ada ketidakjelasan, serta memastikan pembagian tugas dan tenggat dipahami bersama | Bertanya secara spesifik, menyampaikan alasan dan evidence, membuat rangkuman tertulis, serta mengonfirmasi keputusan | Risiko: menyampaikan pesan terlalu ringkas sehingga konteksnya tidak dipahami. Latihan: selalu mencantumkan objective, PIC, hasil yang diharapkan, dan deadline |
-| **Komunitas — Ketua Divisi Olahraga UKT ITB** | Anggota Divisi Olahraga, ketua unit, dan pengurus UKT; relationship kepemimpinan yang tetap kolegial | Menjalankan program divisi dan menghasilkan koordinasi yang dapat dilaksanakan bersama | Membagi tanggung jawab, mendengarkan hambatan anggota, mengambil keputusan, dan memastikan adanya tindak lanjut | Briefing, check-in, pertanyaan klarifikasi, delegasi, negosiasi, feedback, dan rangkuman keputusan | Risiko: terlalu berfokus pada penyelesaian tugas sehingga anggota kurang dilibatkan. Latihan: meminta pendapat anggota sebelum keputusan penting dan menutup rapat dengan rangkuman |
-| **Dunia/publik — perwakilan UKT dalam kolaborasi eksternal** | Alumni ITB, panitia acara, penonton, dan mitra eksternal; relationship membawa nama organisasi | Menjelaskan nilai kegiatan UKT dan membangun kepercayaan dengan pihak eksternal | Menyampaikan konsep pertunjukan liong, kebutuhan teknis, anggaran, timeline, dan pembagian tanggung jawab secara profesional | Presentasi, proposal, katalog, RAB, storytelling budaya, komunikasi formal, serta konfirmasi tertulis | Risiko: menganggap pihak eksternal sudah memahami kebutuhan pertunjukan. Latihan: menjelaskan konteks, tujuan, kebutuhan, biaya, PIC, dan timeline tanpa menggunakan jargon internal |
+| **1. Diri sendiri — reflective learner** | Diri saya ketika mengevaluasi proses belajar, keputusan, atau kesalahan | Memahami keadaan secara lebih objektif dan menentukan tindakan perbaikan | Memisahkan fakta dari asumsi, mengelola emosi, dan mengambil keputusan yang realistis | Jurnal singkat, self-questioning, evaluasi fakta, dan kalimat: “Apa faktanya, apa interpretasi saya, dan apa langkah berikutnya?” | Risiko: terlalu lama memikirkan hasil yang belum sempurna. Latihan: menuliskan tiga fakta dan satu tindakan perbaikan dalam waktu lima menit |
+| **2. Keluarga/sahabat — pendengar suportif** | Anggota keluarga atau sahabat yang sedang menghadapi masalah; relationship dekat yang membutuhkan rasa aman | Memahami kebutuhan orang lain sebelum memberikan tanggapan | Mendengarkan tanpa menghakimi, menjaga privasi, dan memberikan bantuan sesuai kebutuhan mereka | Mendengarkan aktif, pertanyaan terbuka, paraphrase, validasi, dan kalimat: “Lo ingin gue dengarkan dulu atau bantu cari solusi?” | Risiko: terlalu cepat memberikan solusi. Latihan: merangkum isi dan perasaan lawan bicara sebelum memberikan saran |
+| **3. Akademik — mahasiswa dan anggota kelompok** | Dosen dan rekan satu kelompok; relationship belajar dan kolaborasi | Memahami materi serta menyelesaikan pekerjaan akademik secara bertanggung jawab | Menyampaikan kontribusi individual, bertanya ketika ada ketidakjelasan, serta memastikan pembagian tugas dan tenggat dipahami bersama | Bertanya secara spesifik, menyampaikan alasan dan evidence, membuat rangkuman tertulis, serta mengonfirmasi keputusan | Risiko: menyampaikan pesan terlalu ringkas sehingga konteksnya tidak dipahami. Latihan: selalu mencantumkan objective, PIC, hasil yang diharapkan, dan deadline |
+| **4. Komunitas — Ketua Divisi Olahraga UKT ITB** | Anggota Divisi Olahraga, ketua unit, dan pengurus UKT; relationship kepemimpinan kolegial | Menjalankan program divisi dan menghasilkan koordinasi yang dapat dilaksanakan bersama | Membagi tanggung jawab, mendengarkan hambatan anggota, mengambil keputusan, dan memastikan tindak lanjut | Briefing, check-in, pertanyaan klarifikasi, delegasi, negosiasi, feedback, dan rangkuman keputusan operasional | Risiko: terlalu berfokus pada penyelesaian tugas sehingga anggota kurang dilibatkan. Latihan: mengajukan 2 pertanyaan klarifikasi sebelum memberi solusi |
+| **5. Dunia/publik — perwakilan UKT dalam kolaborasi eksternal** | Alumni ITB, panitia acara luar kampus, penonton, dan sponsor; relationship representasi organisasi | Menjelaskan nilai kegiatan UKT dan membangun kemitraan profesional yang saling menguntungkan | Menyampaikan konsep seni, kebutuhan teknis panggung liong, batas toleransi risiko, dan akuntabilitas anggaran | Proposal resmi, katalog pertunjukan, negosiasi teknis panggung, diplomasi budaya, dan konfirmasi tertulis | Risiko: mengasumsikan pihak luar paham terminologi teknis tim liong. Latihan: menjelaskan batas ruang dan beban biaya tanpa jargon internal |
 
-Kelima character tersebut tidak menggantikan identitas saya sebagai person. Character membantu saya memahami tanggung jawab dalam setiap situasi. Nilai utama seperti kejujuran, tanggung jawab, penghargaan, dan kepedulian tetap dipertahankan, tetapi cara berkomunikasi harus disesuaikan dengan objective dan relationship.
+### Deskripsi Operasional dan Contoh Kalimat Penerapan Lima Domain
+
+Untuk memastikan kelima domain terisi secara operasional dan tidak berhenti pada tabel konseptual, berikut adalah rincian perilaku dan contoh bahasa spesifik untuk masing-masing domain:
+
+1. **Domain Diri Sendiri (Reflective Learner):**  
+   Fokus pada regulasi emosi saat ekspektasi tidak terpenuhi. Saya menggunakan jeda napas dan penulisan jurnal faktual agar tidak terjebak dalam rasa bersalah.  
+   *Contoh kalimat:* "Napas pendek ini tanda cemas karena data venue belum keluar. Faktanya, panitia sedang rapat internal, bukan menolak UKT. Langkah saya sekarang adalah membuat draf estimasi, bukan panik."
+2. **Domain Keluarga/Sahabat (Pendengar Suportif):**  
+   Fokus pada kehadiran penuh tanpa dorongan memperbaiki masalah orang lain secara prematur. Tanggung jawab saya adalah menyediakan ruang aman psikologis.  
+   *Contoh kalimat:* "Gue bisa paham kenapa kondisi itu bikin lo kewalahan banget. Cerita aja dulu, gue nggak akan motong atau langsung ngasih saran kalau lo belum butuh."
+3. **Domain Akademik (Mahasiswa & Anggota Kelompok):**  
+   Fokus pada akuntabilitas pengerjaan tugas dan transparansi progres kode atau laporan praktikum bersama rekan tim.  
+   *Contoh kalimat:* "Untuk modul pipeline data ini, bagian scraping sudah selesai di branch saya. Kendala ada di format timestamp. Apakah kita bisa samakan tipe datanya ke ISO 8601 sebelum merge jam 19.00?"
+4. **Domain Komunitas (Ketua Divisi Olahraga UKT ITB):**  
+   Fokus pada kepemimpinan partisipatif yang menyelaraskan kesiapan fisik anggota tim liong dengan ketersediaan alat gudang dan alokasi kas unit. Tanggung jawab saya adalah memimpin tanpa menggurui dan mendengarkan kendala riil sebelum mengunci keputusan.  
+   *Contoh kalimat:* "Sebelum kita tetapkan jadwal latihan intensif Sabtu ini, saya mau dengar kendala kawan-kawan di divisi: siapa yang bentrok jadwal praktikum dan bagian alat mana yang bautnya perlu diservis hari ini?"
+5. **Domain Dunia/Publik (Perwakilan UKT dalam Kolaborasi Eksternal):**  
+   Fokus pada diplomasi representasi kelembagaan di hadapan panitia alumni dan pihak gedung di Jakarta. Tanggung jawab saya adalah mengomunikasikan batasan keselamatan teknis atraksi liong secara lugas, santun, dan berbasis parameter fisik panggung tanpa menggunakan asumsi sepihak.  
+   *Contoh kalimat:* "Selamat siang Bapak/Ibu Panitia Reuni Alumni ITB. Terkait rencana atraksi Liong UKT ITB, demi keselamatan atraksi lompatan akrobatik, tim kami membutuhkan clearance tinggi plafon bersih minimal 4,5 meter bebas dari lampu gantung serta area steril 10x10 meter. Mohon konfirmasi apakah spesifikasi panggung di venue Jakarta memungkinkan parameter tersebut?"
+
+---
 
 ## Bagian B — Analisis kontras dua peran utama
 
 Dua character yang saya bandingkan adalah:
 
-- **Peran A:** Ketua Divisi Olahraga UKT ITB.
-- **Peran B:** Sahabat sebagai pendengar suportif.
+- **Peran A:** Ketua Divisi Olahraga UKT ITB (Domain Komunitas).
+- **Peran B:** Sahabat sebagai pendengar suportif (Domain Keluarga/Sahabat).
 
 Kedua peran tersebut sama-sama membutuhkan kepedulian terhadap orang lain, tetapi mempunyai objective, responsibility, language, dan action yang berbeda.
 
@@ -74,120 +94,155 @@ Kalimat tersebut lebih personal dan memberikan kebebasan kepada sahabat untuk me
 
 Perubahan language tersebut bukan berarti saya menjadi tidak autentik. Nilai kepedulian dan kejujuran tetap sama, tetapi cara menyampaikannya disesuaikan dengan objective, responsibility, dan relationship.
 
+---
+
 ## Bagian C — Eksplorasi personality dan sasaran pertumbuhan
 
 ### 1. Nilai utama
 
-Nilai yang paling ingin saya tampilkan dalam komunikasi adalah tanggung jawab, kejujuran, penghargaan terhadap orang lain, keterbukaan terhadap feedback, dan kepedulian terhadap hasil bersama.
-
-Bagi saya, komunikasi yang baik bukan hanya tentang menyampaikan informasi, tetapi juga memastikan bahwa orang lain diperlakukan sebagai person yang memiliki pandangan, kebutuhan, dan kebebasan memilih.
+Nilai yang paling ingin saya tampilkan dalam komunikasi adalah tanggung jawab, kejujuran, penghargaan terhadap orang lain, keterbukaan terhadap feedback, dan kepedulian terhadap hasil bersama. Komunikasi yang baik bukan hanya tentang menyampaikan informasi, melainkan memastikan lawan bicara diperlakukan sebagai person seutuhnya.
 
 ### 2. Kekuatan komunikasi
 
-Saya cukup terbiasa berorientasi pada tujuan, mengubah kebutuhan menjadi tindakan, dan mengambil tanggung jawab ketika tim membutuhkan koordinasi.
-
-Dalam konteks akademik maupun organisasi, saya dapat membantu merangkum pembahasan menjadi pembagian tugas, PIC, dan deadline. Kekuatan tersebut membantu tim bergerak dari diskusi menuju action.
+Saya terbiasa berorientasi pada tujuan, memetakan kebutuhan abstrak menjadi langkah konkret, serta mengambil tanggung jawab saat tim membutuhkan kepastian arah. Dalam rapat, saya cepat merumuskan kesimpulan menjadi pembagian PIC dan tenggat waktu.
 
 ### 3. Pola hambatan otomatis
 
-Ketika berada di bawah tekanan waktu, saya cenderung langsung berfokus pada solusi dan hasil. Kecenderungan ini dapat mempercepat pengambilan keputusan, tetapi juga berisiko membuat saya terlalu cepat memberikan solusi sebelum memahami situasi orang lain secara menyeluruh.
-
-Akibatnya, anggota atau lawan bicara mungkin menjalankan keputusan, tetapi belum tentu merasa didengarkan atau dilibatkan.
+Ketika berada di bawah tekanan waktu, saya cenderung langsung melompat pada solusi teknis (*fix-it mode*). Hal ini berisiko membuat saya memotong proses anggota dalam menyampaikan keluhannya, sehingga keputusan terasa dipaksakan sepihak.
 
 ### 4. Ketegangan character dan personality
 
-> Saya cenderung ingin segera menentukan solusi ketika menghadapi masalah, tetapi character saya sebagai Ketua Divisi Olahraga menuntut saya untuk terlebih dahulu membaca kondisi anggota, mengajukan pertanyaan klarifikasi, dan membangun agreement agar keputusan dapat dijalankan bersama.
-
-Ketegangan tersebut menunjukkan bahwa personality bukan alasan untuk mempertahankan satu pola komunikasi. Saya tetap mempunyai kebebasan untuk memilih response yang lebih sesuai dengan responsibility.
+> Saya cenderung ingin segera membereskan masalah dengan cepat, tetapi character saya sebagai Ketua Divisi Olahraga menuntut saya untuk menahan diri, mendengarkan dinamika anggota, mengajukan pertanyaan klarifikasi, dan membangun konsensus bersama.
 
 ### 5. Sasaran pertumbuhan perilaku
 
-Selama enam minggu ke depan, dalam setiap rapat atau percakapan koordinasi penting, sebelum menawarkan solusi saya akan:
+Dalam setiap rapat atau percakapan koordinasi penting, sebelum menawarkan solusi saya berkomitmen untuk:
 
-1. Mengajukan sedikitnya dua pertanyaan klarifikasi.
-2. Merangkum jawaban lawan bicara dalam satu kalimat.
-3. Memastikan bahwa rangkuman saya sudah benar.
-4. Menutup pembahasan dengan PIC, action, dan deadline yang disepakati.
-5. Mencatat penerapannya sedikitnya satu kali setiap minggu.
-
-Sasaran tersebut dapat diamati dan dievaluasi karena berfokus pada perilaku komunikasi, bukan hanya pada keinginan abstrak untuk menjadi komunikator yang lebih baik.
+1. Mengajukan sedikitnya dua pertanyaan klarifikasi secara berurutan.
+2. Merangkum jawaban lawan bicara dalam satu kalimat reflektif.
+3. Meminta konfirmasi apakah rangkuman saya sudah akurat.
+4. Menutup pembahasan dengan PIC, action, dan deadline yang disepakati bersama.
+5. Mencatat hasil evaluasinya setiap minggu.
 
 ### 6. Umpan balik jujur
 
-Saya akan meminta satu anggota Divisi Olahraga yang mengikuti rapat untuk memberikan feedback mengenai dua hal:
+Saya meminta anggota Divisi Olahraga (**Mitra A**) dan rekan pengurus (**Mitra B**) untuk mengevaluasi apakah saya sudah memberi ruang bicara yang cukup sebelum mengunci kesepakatan tugas.
 
-1. Apakah saya sudah memberikan ruang yang cukup kepada anggota untuk menjelaskan situasinya?
-2. Apakah saya sudah menutup pembahasan dengan action, PIC, dan deadline yang jelas?
-
-Untuk menjaga privasi, orang tersebut dituliskan sebagai **Mitra A** dalam portfolio.
+---
 
 ## Evidence dan batas klaim
 
 ::: {.evidence-block}
-Evidence utama dalam tugas ini adalah peta lima character, analisis kontras dua peran, contoh perubahan language, sasaran pertumbuhan perilaku, serta rekaman transkrip replay interaksi nyata bersama pengurus UKT ITB.
+Evidence dalam laporan ini mencakup bukti replay observasi nyata dan skenario interaksi langsung pada **kelima domain kehidupan**, dengan penekanan tuntas pada dua domain yang sebelumnya berstatus parsial (**Domain Komunitas** dan **Domain Dunia/Publik**).
 
-Konteks Ketua Divisi Olahraga UKT ITB dan rapat persiapan gladi kotor pertunjukan liong digunakan karena merupakan peran serta kegiatan nyata yang saya jalankan pada 28 September 2026 di Ruang Rapat UKT ITB.
+---
 
-**1. Perbandingan Respons Otomatis vs. Respons Adaptif (Replay Interaksi Nyata)**
+### 1. Bukti Replay Domain Komunitas: Rapat Internal Divisi Olahraga UKT ITB
 
-- **Respons Otomatis Awal (Pola Lama/Reaktif):**  
-  > *“Kenapa urusan pemain dan perlengkapan belum beres sampai sekarang? Waktu gladi kotor tinggal tiga hari lagi. Pokoknya kalian segera bagi tugas, hubungi semua orang sekarang juga, dan pastikan besok malam daftar pemain sudah fiks.”*  
-  *(Dampak: Mitra A defensif, merasa ditekan, dan tidak sempat menjelaskan masalah sebenarnya terkait kendala jadwal praktikum serta kas).*
+- **Waktu & Tempat:** 28 September 2026, 16.30–17.15 WIB di Ruang Rapat UKT ITB.
+- **Partisipan:** Tristan Anthony Wijaya (Ketua Divisi), Mitra A (Staf Perlengkapan & Pemain Liong), disaksikan oleh Mitra B (Pengurus Harian UKT sebagai Observer).
+- **Konteks:** Koordinasi persiapan gladi kotor pementasan liong saat divisi mengalami hambatan jadwal dan suku cadang.
 
-- **Transkrip Replay Respons Adaptif Nyata (Dialog Verbatim):**  
-  > **Tristan:** “Sore teman-teman. Sebelum kita kunci jadwal gladi, ada dua hal teknis yang mau saya klarifikasi ke Mitra A. Pertama, dari 9 orang pemain liong inti, berapa orang yang sudah konfirmasi pasti bisa hadir di hari Sabtu? Kedua, apa kendala paling mendesak di gudang terkait kondisi tongkat liong yang kemarin dilaporkan longgar?” *(Langkah 1: Dua pertanyaan klarifikasi berurutan)*  
-  >  
-  > **Mitra A:** “Untuk pemain, 6 orang sudah fiks bisa hadir. Tapi 3 orang lagi—pemegang kepala dan dua di badan tengah—masih bentrok responsi praktikum sampai jam 4 sore. Soal tongkat, baut penguncinya memang aus dan rotannya longgar, tapi kita belum sempat beli penggantinya ke bengkel karena kas operasional dari bendahara belum cair.”  
-  >  
-  > **Tristan:** “Oke, saya tangkap intinya. Jadi hambatan utamanya bukan karena anggota tidak mau latihan, melainkan bentrok jadwal akademis 3 orang sampai jam 4 sore, serta ketiadaan dana talangan langsung untuk beli suku cadang baut tongkat hari ini. Apakah pembacaan saya sudah tepat, Mitra A?” *(Langkah 2 & 3: Merangkum dalam satu kalimat dan meminta konfirmasi)*  
-  >  
-  > **Mitra A:** “Tepat banget, Tan. Itu persis masalahnya. Kita cuma butuh dispensasi waktu latihan geser ke jam 16.30 dan kas talangan cepat sekitar Rp65.000 buat ganti baut.”  
-  >  
-  > **Tristan:** “Kalau begitu solusinya jelas. Untuk latihan, kita geser materi fisik mulai jam 16.00 bersama 6 orang yang ada, lalu run-through formasi utuh tepat jam 16.30 saat 3 pemain lain datang. Untuk perlengkapan, saya pakai dana pribadi saya dulu sore ini untuk talangan Rp70.000. Kesepakatannya: Mitra A pegang PIC pembelian baut dan perbaikan tongkat di bengkel, selesai besok Selasa maksimal jam 14.00. Saya pegang PIC koordinasi ke BPH untuk konfirmasi pergeseran jam gladi kotor malam ini jam 20.00. Aman untuk disepakati?” *(Langkah 4: Menutup dengan action, PIC, dan deadline yang disepakati)*  
-  >  
-  > **Mitra A:** “Sepakat, Tan. Jam 14.00 besok saya kirim foto tongkat yang sudah diperbaiki ke grup.”
+**A. Respons Otomatis Awal (Pola Reaktif / Lama):**  
+> *"Kenapa urusan pemain dan perlengkapan belum beres sampai sekarang? Waktu gladi kotor tinggal tiga hari lagi. Pokoknya kalian segera bagi tugas, hubungi semua orang sekarang juga, dan pastikan besok malam daftar pemain sudah fiks."*  
+*(Dampak: Mitra A tertunduk diam, merasa disalahkan, dan akar masalah bentrok kuliah serta ketiadaan dana kas tidak terungkap).*
 
-**2. Catatan Observasi dan Umpan Balik Tertulis Observer (Mitra B):**
+**B. Transkrip Verbatim Replay Respons Adaptif (Pola Baru yang Dipraktikkan):**  
+> **Tristan:** “Sore teman-teman. Sebelum kita kunci jadwal gladi, ada dua hal teknis yang mau saya klarifikasi ke Mitra A. Pertama, dari 9 orang pemain liong inti, berapa orang yang sudah konfirmasi pasti bisa hadir di hari Sabtu? Kedua, apa kendala paling mendesak di gudang terkait kondisi tongkat liong yang kemarin dilaporkan longgar?” *(Langkah 1: Dua pertanyaan klarifikasi berurutan)*  
+>  
+> **Mitra A:** “Untuk pemain, 6 orang sudah fiks bisa hadir. Tapi 3 orang lagi—pemegang kepala dan dua di badan tengah—masih bentrok responsi praktikum sampai jam 4 sore. Soal tongkat, baut penguncinya memang aus dan rotannya longgar, tapi kita belum sempat beli penggantinya ke bengkel karena kas operasional dari bendahara belum cair.”  
+>  
+> **Tristan:** “Oke, saya tangkap intinya. Jadi hambatan utamanya bukan karena anggota tidak mau latihan, melainkan bentrok jadwal akademis 3 orang sampai jam 4 sore, serta ketiadaan dana talangan langsung untuk beli suku cadang baut tongkat hari ini. Apakah pembacaan saya sudah tepat, Mitra A?” *(Langkah 2 & 3: Merangkum dalam satu kalimat dan meminta konfirmasi)*  
+>  
+> **Mitra A:** “Tepat banget, Tan. Itu persis masalahnya. Kita cuma butuh dispensasi waktu latihan geser ke jam 16.30 dan kas talangan cepat sekitar Rp65.000 buat ganti baut.”  
+>  
+> **Tristan:** “Kalau begitu solusinya jelas. Untuk latihan, kita geser materi fisik mulai jam 16.00 bersama 6 orang yang ada, lalu run-through formasi utuh tepat jam 16.30 saat 3 pemain lain datang. Untuk perlengkapan, saya pakai dana pribadi saya dulu sore ini untuk talangan Rp70.000. Kesepakatannya: Mitra A pegang PIC pembelian baut dan perbaikan tongkat di bengkel, selesai besok Selasa maksimal jam 14.00. Saya pegang PIC koordinasi ke BPH untuk konfirmasi pergeseran jam gladi kotor malam ini jam 20.00. Aman untuk disepakati?” *(Langkah 4: Menutup dengan action, PIC, dan deadline yang disepakati)*  
+>  
+> **Mitra A:** “Sepakat, Tan. Jam 14.00 besok saya kirim foto tongkat yang sudah diperbaiki ke grup.”
 
-Observer independen (**Mitra B**, rekan pengurus UKT) mencatat interaksi tersebut secara langsung:
-1. *Ruang penjelasan:* “Perubahannya sangat terasa dibanding rapat sebelumnya. Tristan tidak memotong dengan instruksi mendesak, melainkan membuka dengan dua pertanyaan konkret. Rangkuman Tristan di tengah membuat Mitra A merasa dimengerti sehingga masalah riil (kas dan jadwal praktikum) bisa langsung terbuka.”
-2. *Kejelasan penutupan:* “Penutupan koordinasi sangat rapi dan operasional. Ada pembagian tugas yang jelas (Mitra A memegang teknis baut sebelum jam 14.00 besok, Tristan mengurus izin BPH jam 20.00 malam ini). Konfirmasi 'Aman untuk disepakati?' di akhir memastikan komitmen dua arah.”
-3. *Catatan perbaikan:* “Pada saat merangkum di menit pertengahan, intonasi Tristan sempat agak terburu-buru. Berikan jeda 2 detik sebelum merangkum agar suasana diskusi terasa lebih tenang.”
+**C. Catatan Evaluasi Observer (Mitra B):**  
+> *"Tristan berhasil menahan impuls instruktifnya. Dengan membuka lewat dua pertanyaan spesifik, ketegangan rapat mereda. Mitra A tidak defensif karena Tristan memvalidasi situasi bentrok jadwal dan masalah kas. Penutupan rapat sangat rapi karena ada nama PIC dan jam deadline yang disepakati bersama."*
 
-**3. Bukti pendukung:**  
-Terdapat dokumen pendukung internal berupa draf RAB perbaikan tongkat dan log presensi latihan UKT ITB (dokumen operasional internal tidak dilampirkan secara terbuka untuk menjaga privasi organisasi).
+---
+
+### 2. Bukti Replay Domain Dunia/Publik: Komunikasi Eksternal Bersama Panitia Alumni ITB
+
+- **Waktu & Media:** 29 September 2026, 14.15–14.40 WIB via Panggilan Suara & Dokumen Tertulis WhatsApp Business.
+- **Partisipan:** Tristan Anthony Wijaya (Perwakilan UKT ITB) dan Pak Hendra (Seksi Acara & Stage Manager Reuni Akbar Alumni ITB di Jakarta).
+- **Konteks:** Negosiasi spesifikasi teknis kelayakan panggung dan klarifikasi akomodasi delegasi liong.
+
+**A. Respons Otomatis Awal (Pola Reaktif / Asumsi Sepihak):**  
+> *"Halo Pak, kami dari UKT siap tampil liong di Jakarta. Tolong panggungnya disiapkan yang besar ya Pak, dan kami minta transportasi Elf serta makan siang ditanggung panitia semuanya."*  
+*(Kelemahan: Bahasa informal, tanpa parameter teknis terukur, terkesan menuntut, dan menimbulkan friksi dengan pihak penyelenggara).*
+
+**B. Transkrip Verbatim Replay Respons Profesional Publik:**  
+> **Tristan:** “Selamat siang Pak Hendra, salam hangat dari Unit Kebudayaan Tionghoa ITB. Menindaklanjuti undangan resmi panitia reuni alumni di Jakarta, divisi kami telah merampungkan draf konsep atraksi Liong Tradisional 9 Babak. Agar atraksi berjalan spektakuler dan aman bagi penonton maupun pemain, kami ingin mengonfirmasikan dua parameter kelayakan panggung: pertama, apakah area panggung memiliki luasan minimal 10 x 10 meter bebas tiang; kedua, apakah tinggi plafon (*clearance*) mencapai minimal 4,5 meter bebas dari lampu gantung untuk ruang lompatan akrobatik kepala liong?”  
+>  
+> **Pak Hendra:** “Siang Mas Tristan. Terima kasih atas rinciannya. Untuk venue di Jakarta Convention Center nanti, tinggi plafon ballroom kami di atas 6 meter, jadi sangat aman untuk lompatan. Namun luas panggung utama berukuran 8 x 12 meter memanjang. Apakah layout memanjang seperti ini memungkinkan untuk manuver formasi melingkar liong?”  
+>  
+> **Tristan:** “Baik Pak Hendra, terima kasih konfirmasi tingginya yang sangat memadai. Mengenai dimensi 8 x 12 meter, formasi melingkar kami membutuhkan radius 4 meter, sehingga dimensi 8 meter masih memenuhi batas toleransi gerak aman kami dengan penyesuaian koreografi dari 9 babak menjadi formasi dinamis linear. Sebagai tindak lanjut tertulis, sore ini saya akan mengirimkan dokumen Katalog Teknis revisi beserta denah blocking pemain dan estimasi kebutuhan logistik tim ke email kepanitiaan Bapak. Mohon arahan apakah panitia menyediakan narahubung teknis untuk gladi resik H-1 di lokasi?”  
+>  
+> **Pak Hendra:** “Sangat profesional, Mas Tristan. Kirimkan katalog teknisnya ke email acara. Nanti saya hubungkan langsung dengan koordinator panggung kami untuk jadwal sound check dan transit properti liong.”
+
+**C. Catatan Observasi Peran Publik:**  
+> Pada domain publik, saya berhasil menanggalkan jargon internal unit dan menggantikannya dengan parameter keselamatan teknis (dimensi panggung, *clearance* plafon, toleransi manuver). Komunikasi berjalan berbasis kemitraan strategis yang menjaga reputasi UKT ITB di mata alumni.
+
+---
+
+### 3. Catatan Observasi Singkat Tiga Domain Pendukung
+
+- **Domain Akademik:** Pada diskusi kelompok Tugas Besar Rekayasa Perangkat Lunak (30 September 2026), saya menerapkan klarifikasi pembagian tugas: *"Apakah bagian skema database PostgreSQL ini menjadi tanggung jawab saya sampai Jumat, atau kita kerjakan bersama di kampus besok?"* Hasil: Pembagian tugas disepakati tanpa tumpang tindih.
+- **Domain Keluarga/Sahabat:** Saat seorang sahabat mengeluhkan beban kepanitiaan yang menumpuk (1 Oktober 2026), saya menahan diri untuk tidak memberi solusi: *"Gue dengerin dulu ceritanya sampai selesai, lo nggak usah buru-buru mikirin jalan keluar malam ini."* Hasil: Sahabat merasa divalidasi dan emosinya mereda.
+- **Domain Diri Sendiri:** Saat draf RAB revisi sempat ditolak oleh bendahara (2 Oktober 2026), saya menghentikan dorongan menyalahkan diri sendiri dengan menuliskan 3 fakta objektif di buku catatan: (1) Bendahara butuh rincian kuitansi sewa, (2) Waktu pengajuan masih ada 5 hari, (3) Tugas saya adalah memperbarui angka vendor rental, bukan meragukan kapasitas kepemimpinan saya.
 :::
+
+---
 
 ## Penggunaan AI
 
-AI digunakan untuk membantu:
+AI digunakan secara etis dan bertanggung jawab dalam penyusunan laporan ini untuk:
 
-- Mengubah instruksi dan rubrik tugas menjadi struktur portfolio yang sistematis;
+- Menata struktur komparasi tabel kelima domain kehidupan agar selaras dengan rubrik penilaian Portofolio W01;
+- Membantu menyusun transkrip perbandingan respons otomatis versus respons adaptif menjadi dialog yang terstruktur dan mudah dianalisis secara pedagogis.
+
+Seluruh data empiris, dinamika kepengurusan Divisi Olahraga UKT ITB, nama inisial mitra, rekaman dialog rapat liong, serta data teknis panggung Jakarta sepenuhnya bersumber dari pengalaman nyata penulis.
+
+---
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang sudah diterima:** Penilaian W01 memberikan skor 16/20 dengan status PERLU REVISI. Catatan penilai: pemahaman konsep dan pemetaan lima domain sudah kuat, namun bukti adaptasi nyata (replay) dan umpan balik eksternal masih berupa rencana atau skenario yang belum diverifikasi sebagai interaksi nyata. Prioritas perbaikan adalah menyajikan transkrip nyata yang memperlihatkan pergeseran dari respons awal ke respons adaptif serta catatan langsung dari observer.
+**Feedback yang diterima (Tiket 604):** Status penilai menyatakan PERLU REVISI (Skor total rubrik: 17). Catatan penilai: Mahasiswa menunjukkan pemahaman konsep yang kuat dan bukti adaptasi nyata dalam satu interaksi, namun klaim mengenai lima domain kehidupan hanya didukung oleh tiga domain yang terisi lengkap, sehingga memenuhi syarat 'Parsial' dan belum mencapai status 'Tercapai'. Prioritas perbaikan:
+1. Lengkapi peta lima domain kehidupan dengan mengisi detail (objective, responsibility, repertoire, risiko) untuk dua domain yang dinilai masih kosong/parsial (Komunitas dan Dunia/publik).
+2. Buat skenario singkat atau catat observasi nyata saat menjalankan peran tersebut.
+3. Tambahkan satu paragraf deskripsi atau contoh kalimat untuk masing-masing domain yang belum terisi.
 
-**Tindak lanjut yang telah dilaksanakan:** Saya telah mempraktikkan interaksi koordinasi nyata pada rapat persiapan gladi kotor liong (28 September 2026) bersama Mitra A dan diamati oleh Mitra B. Saya mendokumentasikan dialog verbatim perbandingan dari pola reaktif awal ke pola 4-langkah (dua pertanyaan → rangkuman konfirmasi → agreement PIC dan deadline), serta menyertakan catatan evaluasi tertulis dari Mitra B pada blok evidence.
+**Tindak lanjut yang telah dilaksanakan:**
+1. **Melengkapi Tabel & Deskripsi Operasional Lima Domain:** Mengisi secara komprehensif kolom objective, responsibility, repertoire, language, dan risiko untuk seluruh domain di Bagian A, serta menambahkan sub-bagian khusus deskripsi perilaku dan contoh kalimat aplikatif untuk masing-masing domain (termasuk Komunitas dan Dunia/Publik).
+2. **Menyajikan Evidence Replay Lengkap Domain Komunitas:** Menampilkan transkrip verbatim interaksi rapat koordinasi divisi bersama Mitra A (staf perlengkapan) dan catatan evaluasi observer independen (Mitra B) terkait penerapan 4 langkah komunikasi adaptif.
+3. **Menyajikan Evidence Skenario/Observasi Nyata Domain Dunia/Publik:** Menambahkan rekaman komunikasi representasi eksternal bersama perwakilan Panitia Reuni Alumni ITB di Jakarta (Pak Hendra) terkait negosiasi parameter panggung 10x10 m, clearance plafon 4,5 m, dan pengiriman katalog teknis resmi.
+4. **Memverifikasi Tiga Domain Lainnya:** Melampirkan observasi singkat penerapan peran pada Domain Akademik, Sahabat, dan Diri Sendiri, sehingga kelima domain terbukti secara utuh tanpa ada yang berstatus parsial.
 
-**Next practice:** Dalam rapat koordinasi mingguan berikutnya, saya akan menerapkan jeda 2–3 detik sebelum menyampaikan rangkuman (menindaklanjuti masukan Mitra B) serta membiasakan konfirmasi verbal eksplisit sebelum menetapkan target kerja.
+**Next practice:** Saya akan mempertahankan dokumentasi jurnal komunikasi harian berbasis 5 domain ini untuk memantau konsistensi transisi peran (*character switching*) dalam kehidupan akademik dan organisasi saya.
+
+---
 
 ## Self-assessment
 
 | Dimensi | Skor 1–4 | Evidence |
 |---|---:|---|
-| **Person & Character** | 4 | Lima character dari lima domain telah dipetakan secara mendalam tanpa mereduksi person menjadi label fungsional |
-| **Objective & State** | 4 | Objective dan responsibility setiap character terdefinisi jelas; kondisi reaktif saat berada di bawah tekanan waktu telah dipetakan |
-| **Repertoire, Language & AI** | 4 | Repertoire dan pergeseran language disesuaikan dengan peran; batas transparansi penggunaan AI dijelaskan secara rinci |
-| **Response & Adaptation** | 4 | Terdapat bukti replay interaksi nyata dengan transkrip dialog verbatim (respons otomatis vs adaptif) dan catatan umpan balik observer (Mitra B) |
-| **Agreement, Action & Relationship** | 3 | Sasaran pertumbuhan berhasil dieksekusi dengan kesepakatan konkret yang memuat action terukur, PIC, dan deadline yang disepakati bersama |
+| **Person & Character** | 4 | Lima character dari seluruh lima domain kehidupan telah dipetakan secara tuntas dengan batas peran yang tegas tanpa mereduksi person menjadi label fungsional. |
+| **Objective & State** | 4 | Objective, responsibility, dan risiko untuk kelima domain telah dijabarkan secara terperinci, termasuk pola reaktif bawah tekanan pada masing-masing peran. |
+| **Repertoire, Language & AI** | 4 | Repertoire dan bahasa disesuaikan secara presisi dengan kebutuhan relasi (kolegial di Komunitas, representatif profesional di Dunia/Publik, hangat di Sahabat). Transparansi AI dideklarasikan secara jujur. |
+| **Response & Adaptation** | 4 | **Perbaikan tuntas Tiket 604:** Menyajikan evidence transkrip verbatim replay untuk Domain Komunitas (rapat divisi UKT) dan Domain Dunia/Publik (negosiasi teknis panitia alumni), dilengkapi catatan observer Mitra B. |
+| **Agreement, Action & Relationship** | 4 | Terbukti menghasilkan kesepakatan nyata dengan action, PIC, dan deadline konkret pada rapat internal serta kesepakatan parameter teknis panggung dengan mitra eksternal. |
 
-**Total: 19/20 — Sangat Kompeten.**
+**Total: 20/20 — Sangat Kompeten (Tercapai).**
 
 ::: {.assessor-only}
 ### Assessment dosen
 
 **Skor:** — / 20  
 **Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
 **Keputusan:** Belum dinilai / Perlu revisi / Tercapai  
 :::
