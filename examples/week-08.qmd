@@ -1,179 +1,221 @@
-﻿---
-title: "Contoh Minggu 8 — Jawaban UTS KIPP 2026"
+---
+title: "Minggu 8 — Jawaban UTS KIPP 2026"
+author: "Tristan Anthony Wijaya (18225045)"
 week: 8
-sidebar: examples
 categories: [Assessment, UTS]
-description: "Makalah pra-UTS dan lima laporan kasus dengan analisis stimulus–respons, relasi, uji ulang, dan refleksi."
+description: "Makalah pra-UTS dan lima laporan kasus: pemetaan penugasan, analisis stimulus–respons, relasi, PASK, evaluasi, dan refleksi."
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
 ---
 
-::: {.callout-note title="Cara menggunakan contoh"}
-Paket ini memperagakan struktur jawaban berdasarkan [instruksi UTS](../lk/lk-UTS/index.qmd). Bahan berasal dari folder `examples/UTS`, dengan identitas contoh Ali Baba, NIM `07381119`. Laporan 1, 2a, dan 3a memakai bahan percakapan yang tersedia; laporan 2b dan 3b merupakan **naskah ilustratif yang disusun untuk pembelajaran**, bukan transkrip ujian. Mahasiswa menjalankan paket sesuai NIM sendiri dan melaporkan seluruh percakapan aktual, termasuk kegagalan dan bagian yang belum teramati.
+| Identitas | Keterangan |
+|---|---|
+| Nama mahasiswa | Tristan Anthony Wijaya |
+| NIM | `18225045` |
+| Mata kuliah dan kelas | II2100 Interpersonal and Public Communication — II2100-01 |
+| Minggu | 08 — Ujian Tengah Semester |
+| Tanggal pada laporan sesi | 14–15 Oktober 2026 |
+| Versi penugasan | Bank 2.0; paket 2.0 untuk NIM `18225045` |
+| Modalitas | Teks; percakapan dengan chatbot sesuai konteks masing-masing kasus |
+
+::: {.callout-note title="Dasar penyusunan"}
+Halaman ini merangkum `paper.qmd` dan lima laporan sesi yang ditautkan di bawah, dengan mengikuti susunan contoh Minggu 8. Nomor giliran U/AI merujuk pada laporan masing-masing. Kesepakatan, rencana tindak lanjut, dan hasil pelaksanaan dibedakan sesuai bukti yang tercantum.
 :::
 
 ## Paket jawaban dan pemetaan penugasan
 
-Pra-UTS menghasilkan satu makalah; UTS menghasilkan lima laporan yang dijalankan berurutan **1, 2a, 2b, 3a, 3b**. Sesi kedua pada kasus 2 dan 3 dimulai baru dengan target berbeda, tanpa mewarisi kepercayaan target sebelumnya.
+Paket terdiri atas satu makalah pra-UTS dan lima laporan dengan urutan **1, 2a, 2b, 3a, 3b**. Sesi 2a dan 2b memakai sasaran berbeda, demikian pula sesi 3a dan 3b. Persetujuan atau kepercayaan pada satu sesi tidak menjadi bukti untuk sesi lainnya.
 
-| Tahap | Contoh jawaban | Sasaran | Status bukti |
+| Tahap | Berkas jawaban | Sasaran | Status bukti |
 |---|---|---|---|
-| Pra-UTS | [Makalah MBTI dan PASK](UTS/paper.qmd) | Empat pertanyaan kajian | Kajian konseptual dan referensi |
-| 1 | [Memimpin diri dan terus belajar](UTS/hasil_1.qmd) | Diri; Dimas sebagai pembanding | Seluruh pesan yang tersedia disertakan; kedalaman beberapa aspek terbatas |
-| 2a | [Persahabatan dan profesionalitas: Dimas](UTS/hasil_2a.qmd) | Dimas, K2-04 | Bahan parsial; terutama respons target dan fragmen uji ulang |
-| 2b | [Persahabatan dan profesionalitas: Elsa](UTS/hasil_2b.qmd) | Elsa, K2-05 | Ilustrasi baru sesuai profil paket 2b |
-| 3a | [Menawarkan solusi TI/AI: Ali](UTS/hasil_3a.qmd) | Ali, K3-01 | Simulasi, evaluasi, uji ulang, refleksi; tahap identifikasi/konfirmasi tidak lengkap |
-| 3b | [Menawarkan solusi TI/AI: Budi](UTS/hasil_3b.qmd) | Budi, K3-02 | Ilustrasi baru sesuai profil paket 3b |
+| Pra-UTS | [Makalah MBTI dan PASK](UTS/paper.qmd) | Empat pertanyaan kajian | Pembahasan konseptual, tabel penerapan, dan referensi; keterangan bantuan AI tercantum pada makalah |
+| 1 | [Memimpin diri dan terus belajar](UTS/hasil_1.qmd) | Diri mahasiswa; Fajar, K1-06, sebagai pembanding | 5 pasangan U/AI; strategi belajar dirumuskan, penerapan harian belum ditampilkan |
+| 2a | [Persahabatan dan profesionalitas: Elsa](UTS/hasil_2a.qmd) | Elsa, K2-05 | 4 pasangan U/AI; hambatan terungkap dan sinkronisasi pukul 20.00 disepakati |
+| 2b | [Persahabatan dan profesionalitas: Ali](UTS/hasil_2b.qmd) | Ali, K2-01 | 4 pasangan U/AI; pendampingan draf skema pukul 16.00 disepakati |
+| 3a | [Menawarkan solusi TI/AI: Fajar](UTS/hasil_3a.qmd) | Fajar, K3-06 | 4 pasangan U/AI; uji terbatas dan demo keesokan hari pukul 10.00 disepakati |
+| 3b | [Menawarkan solusi TI/AI: Elsa](UTS/hasil_3b.qmd) | Elsa, K3-05 | 4 pasangan U/AI; penjelasan jalur manusia diterima dan pelatihan Jumat sore disepakati |
 
-**Nama berkas pengumpulan.** Instruksi pra-UTS meminta `portfolio/UTS/paper.qmd`. Untuk lima laporan, ikuti nama yang tercantum dalam `PENUGASAN.md` pada ZIP masing-masing. Paket contoh NIM `07381119` menetapkan `hasil_1_07381119.qmd`, `hasil_2a_07381119.qmd`, `hasil_2b_07381119.qmd`, `hasil_3a_07381119.qmd`, dan `hasil_3b_07381119.qmd`. Nama singkat pada situs contoh memudahkan navigasi; mahasiswa menyimpan laporan aktual di `portfolio/UTS` sesuai penugasan. Pengunggahan melalui portal dilakukan mahasiswa.
+**Lokasi berkas.** Halaman ini disimpan sebagai `portfolio/week-08.qmd`. Enam berkas jawaban berada di `portfolio/UTS/`. Tautan menggunakan nama singkat yang diminta dalam pengumuman mata kuliah, yaitu `paper.qmd`, `hasil_1.qmd`, `hasil_2a.qmd`, `hasil_2b.qmd`, `hasil_3a.qmd`, dan `hasil_3b.qmd`.
 
-
-::: {.callout-note title="Versi penugasan"}
-Paket ZIP contoh yang tersedia saat penyusunan memakai bank/paket **2.0**, tanpa password. Petunjuk umum di folder `lk` mengikuti paket aktif versi 2.0 tanpa password. Paket menyatakan prioritas `PENUGASAN.md`, kemudian prompt umum, profil, dan template. Baca paket aktif; jangan mengubah target atau versi laporan lama secara diam-diam. Bila ZIP tidak terbaca, ekstrak empat berkasnya ke folder terpisah per sesi.
-:::
-
-::: {.callout-note title="Strategi UTS"}
-Baca dokumen [konsep UTS](UTS/konsep-dan-strategi-uts-kipp-v2.qmd) sebelum mengerjakan UTS agar berhasil.
-:::
+Paket individual juga mencantumkan nama laporan dengan akhiran NIM. Penamaan pada pengumpulan khusus paket mengikuti `PENUGASAN.md`; pemetaan sesi, identitas, dan sasaran tetap sama.
 
 ## Pra-UTS: makalah akademik
 
-[Makalah contoh](UTS/paper.qmd) menjawab keempat pertanyaan melalui definisi, pembahasan kritis, tabel penerapan, dan daftar pustaka.
+[Makalah MBTI, Adaptasi Komunikasi, dan Pengembangan PASK](UTS/paper.qmd) membahas empat pertanyaan pra-UTS berikut.
 
-| Pertanyaan | Jawaban pokok | Bagian makalah |
-|---|---|---|
-| Kategori MBTI dan pengaruh komunikasi | Empat pasangan preferensi membentuk 16 tipe; preferensi membantu menanyakan kebutuhan, bukan menentukan kemampuan | Kategori MBTI dan Komunikasi Efektif |
-| Cara berkomunikasi dengan profil tertentu | Konfirmasi kebutuhan, sesuaikan media/tempo/urutan, periksa pemahaman, tetapkan tindakan | Strategi Komunikasi untuk Profil Tertentu |
-| Deteksi lewat percakapan | Amati pola lintas konteks, pertimbangkan penjelasan lain, dan klarifikasi; percakapan tidak memastikan tipe | Mengenali Preferensi melalui Percakapan |
-| Stimulus, SWOT-like, dan pendidikan PASK | Pisahkan penafsiran situasi dari kapasitas; latih persepsi, sikap, keterampilan, pengetahuan dan nilai bukti perilaku | Stimulus, SWOT-like, dan PASK; Pendidikan untuk Menumbuhkan PASK |
+| Pertanyaan | Pokok pembahasan dalam makalah |
+|---|---|
+| Kategori MBTI dan pengaruhnya terhadap komunikasi | Empat pasangan preferensi membentuk 16 kombinasi tipe. Preferensi menjadi petunjuk untuk menanyakan kebutuhan komunikasi; kemampuan tetap perlu diperiksa melalui bukti. |
+| Cara berkomunikasi dengan profil tertentu | Mengonfirmasi kebutuhan, menyesuaikan media, tempo, dan urutan penjelasan, lalu memeriksa pemahaman serta tindakan yang disepakati. |
+| Membaca preferensi melalui percakapan | Mengamati pola, menyusun hipotesis, mempertimbangkan pengaruh konteks, dan mengklarifikasi. Percakapan singkat tidak memastikan tipe seseorang. |
+| Stimulus, SWOT-like, dan pendidikan PASK | Membedakan persepsi situasi, sikap, keterampilan, dan pengetahuan; memilih dukungan berdasarkan hambatan; memeriksa perubahan melalui respons dan tindakan. |
 
-Bahan [percakapan awal MBTI](UTS/mbti.qmd) menyediakan gagasan awal. Makalah memperbaiki klaim yang terlalu pasti dan membedakan temuan ilmiah dari rancangan pedagogis. PASK pada makalah mencakup persepsi; ASK pada laporan sesi mengacu pada sikap, pengetahuan, dan keterampilan, dengan persepsi diperiksa melalui tafsir serta pemetaan SWOT.
+PASK mencakup **perception, attitude, skill, dan knowledge**. ASK dalam laporan sesi membahas sikap, pengetahuan, dan keterampilan; persepsi diperiksa melalui penafsiran situasi serta SWOT-like. Makalah juga menghubungkan pembahasan tersebut dengan TAIDA dan kelima konteks penugasan.
+
+Keterangan penyusunan dan sumber mengikuti isi makalah. Naskah yang tersedia menyatakan bantuan AI; ketentuan makalah ditulis sendiri pada pengumuman tidak dinyatakan telah terpenuhi hanya karena berkas sudah tersedia.
 
 ## Struktur laporan UTS
 
-Setiap laporan memiliki **empat bagian utama A–D**, mengikuti template dalam ZIP.
+Kelima laporan mengikuti empat bagian utama **A–D**.
 
-| Bagian | Isi yang dapat diperiksa |
+| Bagian | Isi |
 |---|---|
-| A) Identitas | Nama/NIM sebagai teks, kelas, tanggal, sesi, nama/ID target, versi, modalitas, nyata/fiktif, kelengkapan transkrip |
-| B) Kasus dan Tujuan | Tujuan dan indikator; profil komunikator; dugaan target sebelum pengungkapan; rencana TAIDA dan repertoar |
-| C) Skrip Percakapan | Seluruh pesan aktual dari identifikasi sampai konfirmasi; ID giliran dan label tahap; penutur jelas |
-| D) Hasil, Evaluasi, dan Refleksi | Hasil tujuan; SWOT/ASK; stimulus–respons–adaptasi; pesan personal/relasi; uji ulang; enam dimensi; refleksi; tindak lanjut dan batas bukti |
+| A) Identitas | Nama, NIM, kelas, tanggal, sesi, sasaran/ID, versi paket, modalitas, konteks kasus, dan kelengkapan skrip |
+| B) Kasus dan Tujuan | Tujuan tindakan, profil komunikator, profil sasaran, dugaan awal, serta rencana TAIDA dan repertoar |
+| C) Skrip Percakapan | Pesan yang tersedia pada naskah sumber, dengan penutur, ID giliran, dan label tahap |
+| D) Hasil, Evaluasi, dan Refleksi | Hasil tujuan, SWOT/ASK, stimulus–respons–adaptasi, pengaruh relasional, status uji ulang, enam dimensi, refleksi, dan tindak lanjut |
 
-Proses yang dilaporkan meliputi identifikasi, penetapan tujuan, simulasi awal, evaluasi sementara, uji ulang, refleksi, dan konfirmasi. Template 2.0 menyarankan sekitar 8–12 jawaban pada simulasi awal dan 3–5 pada uji ulang. Banyaknya giliran tidak menggantikan kedalaman analisis atau keutuhan transkrip. Bagian yang hilang dinyatakan parsial, bukan dibuat ulang.
+TAIDA digunakan sebagai **Target, Attention, Interest, Desire, Action**. Persetujuan untuk bertemu merupakan langkah menuju tindakan; penyelesaian pekerjaan atau penerapan sistem memerlukan bukti tersendiri.
+
+Seluruh pesan yang tersedia pada masing-masing naskah sumber dicantumkan dalam laporan. Kedalaman evaluasi dan uji ulang tetap dibatasi oleh skrip tersebut. Rencana latihan berikutnya tidak dihitung sebagai percakapan atau kegiatan yang sudah terjadi.
 
 ## Kasus 1: memimpin diri dan terus belajar
 
 ### Tujuan dan keadaan awal
 
-Dalam [laporan sesi 1](UTS/hasil_1.qmd), Ali Baba ingin membuat demo AI yang menghubungkan kebutuhan dengan talenta dan memperlihatkan pertukaran nilai bagi pihak-pihak terkait. Tujuan yang dikonfirmasi adalah demo dan uji kepada sedikitnya lima orang sampai **16 Oktober 2026**; repository serta kerangka awal direncanakan sampai **4 Oktober 2026**. Keduanya merupakan komitmen dalam laporan, belum bukti pekerjaan selesai.
+Dalam [laporan sesi 1](UTS/hasil_1.qmd), tujuan pada **U002** adalah meningkatkan konsistensi dokumentasi kode dan pengelolaan waktu belajar di STEI-K agar tugas tidak menumpuk menjelang tenggat. Sasaran utama adalah diri sendiri; Fajar K1-06 menjadi pembanding untuk menguji penyesuaian pesan.
 
-Hambatan utama adalah banyaknya pekerjaan yang mengganggu fokus. Target utama tetap diri peserta; Dimas hanya menjadi cermin pembanding. Preferensi MBTI peserta belum dilaporkan dan tidak ditetapkan dari percakapan.
+Pada **U003**, pesan diri menekankan ketenangan, penentuan prioritas, dan pengerjaan bagian penting secara bertahap. Pesan tersebut sudah memberi arah, tetapi respons diri sesudahnya dan dampak pada keteraturan belajar belum tercatat.
 
 ### Momen adaptasi
 
-Pada **U026**, peserta menyatakan perlu membatasi komitmen. Dalam uji ulang **U028**, ia memilih memeriksa relevansi pekerjaan dan mengalihkan yang tidak terkait kepada rekan yang mampu. Pada **U029**, masukan yang relevan dijadwalkan mengikuti proyek. **AI030** kemudian mempertanyakan bukti janji bahwa jawaban yang ditunda akan lebih berguna.
+**AI003** menghadirkan Fajar yang meminta manfaat langsung dan tidak memiliki banyak waktu. Pada **U004**, respons disesuaikan menjadi tawaran checklist tiga langkah. **AI004** menilai kecocokan pendekatan sebagai fasilitator; giliran tersebut belum memuat respons langsung Fajar terhadap tawaran.
 
-Ini menunjukkan pergeseran dari anjuran umum “harus fokus” menuju penyaringan, delegasi, dan penjadwalan. Indikator hasil masih perlu dirinci; penundaan sendiri belum membuktikan manfaat. Refleksi **U032** menekankan pengurutan distraksi menurut kemampuan menangani dan penyerahan kepada pihak ahli.
+Pada **U005**, mahasiswa merencanakan checklist pembagian modul kode dan verifikasi output harian untuk tenggat berikutnya. Kata *akan* menunjukkan rencana transfer. Isi checklist, dokumentasi satu modul, dan hasil penerapannya belum ditampilkan.
 
-| PASK | Bukti pada laporan | Batas |
+| PASK | Bukti yang tersedia | Batas hasil |
 |---|---|---|
-| Persepsi | Mengenali banyaknya komitmen dan memeriksa relevansi pekerjaan | Belum ada catatan distraksi di luar sesi |
-| Sikap | Menyatakan tanggung jawab terhadap tujuan dan manfaat bersama | Motivasi merupakan laporan diri |
-| Keterampilan | Respons penyaringan, delegasi, dan penjadwalan dalam uji ulang | Demonstrasi verbal, bukan pelaksanaan nyata |
-| Pengetahuan | Menjelaskan kebutuhan–talenta–nilai dan alat pengembangan | Kemampuan teknis aplikasi belum diuji |
+| Persepsi | Penumpukan tugas dikenali sebagai hambatan; prioritas menjadi arah penanganan | Belum ada catatan kondisi belajar sebelum dan sesudah penerapan |
+| Sikap | Pesan diri pada U003 menekankan langkah bertahap | Perubahan emosi dan konsistensi belum diperiksa |
+| Keterampilan | Tawaran checklist pada U004 dan rencana modular pada U005 | Belum ada demonstrasi isi checklist atau dokumentasi kode |
+| Pengetahuan | Kebutuhan dokumentasi dan pengelolaan waktu dinyatakan pada U002 | Penguasaan teknis dan perubahan pengetahuan belum diuji |
+
+Pelajaran utama: pesan reflektif perlu diikuti tindakan yang dapat diperiksa, misalnya dokumentasi tujuan modul, cara menjalankan program, hasil uji, dan langkah perbaikan. Langkah ini merupakan tindak lanjut yang dirancang dalam laporan.
 
 ## Kasus 2: persahabatan dan profesionalitas
 
-### Sesi 2a — Dimas: alasan, otonomi, dan dependensi
+### Sesi 2a — Elsa: beban kerja dan kejelasan format
 
-Dalam [bahan sesi 2a](UTS/hasil_2a.qmd), Dimas mempertanyakan keadilan pembagian dan memerlukan ruang kerja mandiri serta akses file. Pada **U003** menurut label bahan awal, ia menolak anggapan bahwa tugas paling berat merupakan hadiah bagi yang paling mampu. Pada **U004**, ia menerima pembagian tetapi mensyaratkan akses lampiran. **U005–U007** menunjukkan dependensi belum tuntas, termasuk kepastian kartu akses.
+Pada [sesi 2a](UTS/hasil_2a.qmd), tenggat tugas kelompok tinggal 48 jam. Pertanyaan terbuka **U002** membantu Elsa menjelaskan pada **AI002** bahwa analisis data terlalu banyak, format laporan belum dipahami, dan pengalihan tugas dikhawatirkan merepotkan anggota lain.
 
-Pelajaran komunikasi: pengakuan terhadap kemampuan tidak cukup jika beban, dokumen, dan dukungan belum jelas. Kesepakatan harus memeriksa siapa menyediakan file, apakah akses aktif, kapan pekerjaan selesai, dan bagaimana kabar kendala diberikan. Respons mahasiswa tidak tersedia lengkap sehingga kualitas eksekusinya tidak dapat diberi skor penuh. Label U pada tabel bahan lama berisi ujaran Dimas, bukan giliran mahasiswa; label dipertahankan agar rujukan dapat ditelusuri.
+**U003** mengakui kontribusi Elsa dan menawarkan pengerjaan bersama atau pengurangan beban. **AI003** menunjukkan kesediaan melanjutkan dengan bantuan. **U004–AI004** menghasilkan persetujuan sinkronisasi melalui Discord pukul 20.00.
 
-### Sesi 2b — Elsa: beban bantuan dan dukungan nyata
+Hasil yang dapat dinyatakan adalah keterbukaan tentang hambatan dan kesepakatan pendampingan. Bagian yang dialihkan, pemilik setiap tugas, format akhir, serta waktu pengiriman draf belum dirinci. Penyelesaian analisis dan pengumpulan tepat waktu belum ditampilkan.
 
-[Contoh ilustratif sesi 2b](UTS/hasil_2b.qmd) memperagakan percakapan baru dengan Elsa. Hambatan bukan sekadar tenggat, melainkan pekerjaan membantu teman yang tidak tercatat. **U003–AI004** membuka kebutuhan; **U005–AI008** memperjelas batas tugas; **U009–AI010** menetapkan jadwal relatif dan cara memberi kabar. Pada **U012–AI014**, referensi tambahan muncul sehingga dukungan perlu dijaga, bukan dikembalikan seluruhnya kepada Elsa.
+### Sesi 2b — Ali: keraguan dan latihan awal skema
 
-Kepedulian tampak melalui redistribusi kerja, penghormatan batas, dan konsistensi bantuan. Jadwal jam ke-24, ke-32, ke-36, dan ke-40 merupakan asumsi ilustrasi dalam tenggat 48 jam, bukan jadwal peristiwa nyata.
+Pada [sesi 2b](UTS/hasil_2b.qmd), **U002** membuka ruang bagi Ali untuk menjelaskan keraguan tanpa penghakiman. **AI002** mengungkap kebingungan pada perancangan skema basis data dan kekhawatiran bahwa salah format akan menyebabkan pengerjaan ulang.
+
+**U003** menawarkan draf awal tabel utama melalui pendampingan daring 15 menit. **AI003** menyatakan kesediaan mencoba dengan pendampingan; **U004–AI004** menyepakati pukul 16.00.
+
+Hasil ini mendukung kesimpulan bahwa langkah awal terasa lebih memungkinkan bagi Ali. Penjelasan format, draf tabel, penjelasan kembali oleh Ali, dan hasil pengerjaan mandiri belum tercantum.
 
 ### Perbandingan adaptasi
 
-| Aspek | Dimas — bahan tersedia | Elsa — ilustrasi |
+| Aspek | Elsa — sesi 2a | Ali — sesi 2b |
 |---|---|---|
-| Hambatan | Keadilan beban, otonomi, file dan akses | Bantuan tidak terlihat, batas tugas, redistribusi |
-| Repertoar relevan | Alasan dan bukti; pemeriksaan dependensi | Mendengarkan beban; pembagian tertulis; dukungan konkret |
-| Respons yang bermakna | Meminta kepastian file dan kartu | Menyatakan kebutuhan serta batas tugas |
-| Bukti Action | Persetujuan masih bersyarat; akses belum terbukti | Kesepakatan tugas dan jadwal dalam naskah |
-| Uji ulang | Fragmen tawaran kartu tamu; respons target belum lengkap | Perubahan beban ditangani dengan bantuan dan pemeriksaan |
+| Hambatan yang diungkap | Beban analisis, ketidakjelasan format, takut merepotkan anggota lain | Kebingungan skema, takut salah format dan menambah pekerjaan ulang |
+| Repertoar | Pertanyaan terbuka, pengakuan kontribusi, tawaran kerja bersama | Validasi keraguan, pemecahan tugas menjadi draf awal, pendampingan singkat |
+| Kesepakatan | Sinkronisasi Discord pukul 20.00 | Pendampingan draf tabel pukul 16.00 selama 15 menit |
+| Bukti lanjutan yang dibutuhkan | Pembagian tugas dan hasil analisis yang disepakati | Draf tabel dan langkah yang dapat dijelaskan atau dicoba Ali |
+| Status uji ulang | Belum ada rangkaian uji ulang dalam skrip | Belum ada rangkaian uji ulang dalam skrip |
 
-Parameter INTJ pada Dimas dan ISFJ pada Elsa adalah **preferensi tokoh fiktif dalam paket**, bukan hasil diagnosis peserta. Kebutuhan spesifik dan respons lebih penting daripada label.
+Preferensi ISFJ pada Elsa dan INFP pada Ali merupakan parameter tokoh paket. Penyesuaian dalam evaluasi tetap bertumpu pada kebutuhan yang benar-benar diungkap dalam dialog.
 
 ## Kasus 3: menawarkan solusi TI dan AI
 
-### Sesi 3a — Ali: rasa aman dan langkah kecil
+### Sesi 3a — Fajar: manfaat cepat dan pengendalian risiko
 
-Dalam [bahan sesi 3a](UTS/hasil_3a.qmd), customer Ali khawatir staf tidak mampu menggunakan teknologi. Klaim peningkatan kapasitas tiga kali lipat pada **U002** ditanggapi sebagai terlalu muluk oleh **AI002**. Penjelasan tahapan dan demo membantu membentuk gambaran, tetapi belum menjadi bukti kapasitas atau keamanan sistem.
+Dalam [sesi 3a](UTS/hasil_3a.qmd), **U002** menawarkan bot untuk pesan berulang yang terhubung dengan spreadsheet pesanan. **AI002** menunjukkan minat sekaligus keberatan: operasional harus tetap sederhana dan pesanan jangan terlewat saat bot gagal.
 
-Momen adaptasi pada **U008–AI008** memakai analogi mengubah pekerjaan menjawab esai menjadi pemeriksaan pilihan. Target mengulang analogi dan memperkuat komitmen melihat demo. Ini merupakan sinyal pemahaman dalam simulasi, bukan bukti keterampilan staf meningkat atau AI telah diadopsi.
+**U003** menanggapi keberatan dengan cadangan admin manual, checklist harian, dan uji terbatas pada sepuluh pelanggan pertama. **AI003** menerima tawaran dengan syarat tersebut. **U004–AI004** menyepakati demo 15 menit keesokan hari pukul 10.00. Penyebutan pukul 10.00 dipakai sebagai acuan waktu; ungkapan “siang” pada skrip tidak dijadikan jadwal berbeda.
 
-Kesepakatan “Jumat pukul 14.00 selama 45 menit” dipertahankan sebagai isi percakapan. Ungkapan relatif “dua hari lagi” tidak selaras dengan tanggal laporan, sehingga tanggal absolut perlu dikonfirmasi. Keberadaan video dan izin tayang juga belum dibuktikan; sumber kantor pemerintah tidak dengan sendirinya membuktikan izin.
+Penerimaan uji terbatas merupakan hasil percakapan. Estimasi setup lima menit pada U002 belum diuji. Demo, kesiapan admin, biaya, ketepatan pencatatan, dan hasil operasional juga belum ditampilkan. Prosedur cadangan perlu diuji sebelum dinyatakan mampu mencegah kehilangan pesanan.
 
-### Sesi 3b — Budi: prosedur, biaya, dan pilihan menunda
+### Sesi 3b — Elsa: layanan personal dan jalur manusia
 
-[Ilustrasi sesi 3b](UTS/hasil_3b.qmd) memperagakan percakapan baru dengan Budi. Komunikator menggali prosedur lama, menawarkan pembandingan cara manual dengan AI, dan mengakui belum ada data peningkatan produktivitas. **U005–AI008** menjelaskan asumsi biaya, prosedur cadangan, serta ukuran ketepatan, waktu, dan koreksi. Demo 30 menit dan sepuluh pertanyaan adalah asumsi latihan.
+Dalam [sesi 3b](UTS/hasil_3b.qmd), **U002** mengakui nilai layanan personal dan menawarkan AI untuk pertanyaan berulang. **AI002** meminta kepastian bahwa pelanggan dengan masalah khusus tetap dapat terhubung kepada staf.
 
-Pada **U012–AI014**, staf pengganti belum memahami prosedur cadangan. Kesepakatan diperbarui menjadi pemeriksaan kesiapan dahulu; demo AI dapat ditunda. Target tidak dipaksa setuju. Hasil komunikasi tetap bermakna karena syarat dan batas menjadi jelas, meskipun keputusan belum mencapai adopsi.
+**U003** menjelaskan tombol atau kata kunci eskalasi ke staf manusia dan pelatihan sebelum aktivasi. **AI003** menyatakan lebih tenang serta bersedia menjadwalkan pelatihan. **U004–AI004** menyepakati Jumat sore selama 30 menit; jam pasti belum tercantum.
 
-| Aspek | Ali — bahan tersedia | Budi — ilustrasi |
+Kesediaan pelatihan menunjukkan penerimaan terhadap penjelasan. Klaim eskalasi instan “kapan saja” belum dibuktikan melalui sistem atau kapasitas staf. Jalur eskalasi, jam layanan, penanggung jawab, dan penanganan saat staf tidak tersedia masih memerlukan pemeriksaan operasional.
+
+| Aspek | Fajar — sesi 3a | Elsa — sesi 3b |
 |---|---|---|
-| Hambatan | Kecemasan staf, pengetahuan batas AI, latihan awal | Biaya, perubahan prosedur, cadangan saat gagal |
-| Repertoar | Validasi kekhawatiran, contoh, analogi, demo | Perbandingan opsi, asumsi eksplisit, panduan, ukuran hasil |
-| Relasi | Kekhawatiran dianggap valid; kendali staf ditekankan | Tanggung jawab dihormati; pilihan manual/menunda diterima |
-| Keputusan | Komitmen melihat demo dalam simulasi | Pemeriksaan kesiapan sebelum demo lanjutan |
-| Batas | Tidak membuktikan kapasitas 3x atau risiko nol | Tidak membuktikan implementasi siap atau lebih unggul dari manual |
+| Kebutuhan utama | Manfaat cepat, operasional sederhana, pesanan tetap tercatat | Layanan personal dan akses pelanggan kepada manusia |
+| Adaptasi pesan | Uji kecil, cadangan manual, checklist | Pengakuan nilai layanan, penjelasan eskalasi, pelatihan staf |
+| Keputusan dalam dialog | Bersedia mencoba dengan syarat; demo keesokan hari pukul 10.00 | Bersedia mengikuti pelatihan Jumat sore selama 30 menit |
+| Klaim yang belum diuji | Setup lima menit dan keandalan penanganan pesanan | Eskalasi instan setiap saat dan kesiapan staf |
+| Ukuran tindak lanjut | Catatan pesanan, kesalahan, waktu kerja, keberhasilan cadangan | Keberhasilan eskalasi, waktu respons staf, hasil latihan kasus khusus |
 
-Parameter INFP pada Ali dan ISTJ pada Budi adalah konfigurasi tokoh. Keberhasilan tidak diukur dari penjualan atau persetujuan otomatis, melainkan pemahaman, dukungan realistis, dan keputusan yang bertanggung jawab.
+Perbedaan pendekatan mengikuti keberatan yang muncul. Keputusan mengikuti demo atau pelatihan belum membuktikan implementasi, peningkatan keterampilan, atau manfaat usaha.
 
 ## Evaluasi stimulus, relasi, dan PASK
 
-Untuk setiap episode penting, hubungkan **status awal → stimulus → respons → interpretasi → adaptasi → bukti berikutnya**. Perubahan rasa aman dibedakan dari pemahaman, keterampilan, dan keputusan.
+Analisis menggunakan alur **status awal → stimulus → respons → interpretasi → adaptasi → bukti berikutnya**. Respons yang menunjukkan penerimaan diperiksa terpisah dari perubahan pengetahuan atau keterampilan.
 
-| Pertanyaan analisis | Contoh yang dapat diperiksa |
-|---|---|
-| Apakah tafsir awal dikoreksi? | Klaim 3x pada sesi 3a dipertanyakan target |
-| Apakah kepedulian konkret? | Pengambilalihan tugas tambahan dalam ilustrasi Elsa |
-| Apakah pengetahuan meningkat? | Target menjelaskan kembali analogi atau prosedur |
-| Apakah skill sudah ditunjukkan? | Pisahkan jawaban simulasi dari demonstrasi pekerjaan nyata |
-| Apakah rencana berubah karena respons? | Pemeriksaan kesiapan mendahului demo pada ilustrasi Budi |
-| Apakah hubungan dijaga saat keputusan tertunda? | Hak meminta syarat atau menolak tetap diterima |
+| Episode | Stimulus dan respons | Interpretasi yang didukung | Pemeriksaan berikutnya |
+|---|---|---|---|
+| Sesi 1, U004–AI004 | Tawaran checklist mendapat penilaian positif fasilitator | Pendekatan ringkas relevan dengan kebutuhan pembanding | Isi checklist dan respons langsung Fajar |
+| Sesi 2a, U002–AI003 | Pertanyaan dan validasi diikuti pengungkapan hambatan serta kesediaan menerima bantuan | Ruang pembicaraan membantu memperjelas kebutuhan Elsa | Pembagian kerja dan hasil dukungan |
+| Sesi 2b, U003–AI003 | Draf awal ditawarkan; Ali bersedia mencoba dengan pendampingan | Langkah kecil diterima sebagai bentuk bantuan | Draf dan kemampuan menjelaskan langkah |
+| Sesi 3a, AI002–AI003 | Keberatan risiko ditanggapi dengan uji terbatas serta cadangan | Persetujuan bergantung pada pengendalian risiko | Pengujian alur gagal dan pencatatan pesanan |
+| Sesi 3b, AI002–AI003 | Pertanyaan jalur manusia ditanggapi dengan eskalasi dan pelatihan | Penjelasan sesuai dengan kekhawatiran layanan personal | Latihan eskalasi dan kapasitas staf |
 
-SWOT-like membantu membaca peluang/ancaman dan mampu/belum mampu dari sudut pandang target. Perubahan tafsir tidak boleh menghapus ancaman nyata. Refleks, reaktif, responsif, dan apresiatif menjadi bahan pembahasan tindakan, bukan peringkat kepribadian. Uji ulang memperlihatkan pilihan respons dalam situasi terkait; pertumbuhan berkelanjutan memerlukan bukti lanjutan.
+SWOT-like membantu membedakan peluang, ancaman, rasa mampu, dan kebutuhan dukungan. Perubahan tafsir tidak menghapus risiko nyata. Pengakuan kontribusi dan pemberian pilihan dapat mendukung relasi, sedangkan kualitas bantuan perlu diperiksa melalui tindak lanjut.
+
+Refleksi lintas sesi: saya perlu menggali hambatan sebelum menawarkan solusi, membatasi janji pada kemampuan yang dapat diuji, serta menetapkan keluaran dan penanggung jawab. Kata *setuju* memberi informasi tentang keputusan dalam percakapan; bukti pemahaman dan keterampilan memerlukan penjelasan kembali atau demonstrasi. Pembelajaran ini menjadi dasar tindak lanjut, tanpa menyatakan kegiatan yang belum ditampilkan sudah terlaksana.
 
 ## Penilaian enam dimensi
 
-| Dimensi UTS | Bukti yang dicari |
-|---|---|
-| Tujuan dan konteks | Tujuan, batas, sasaran, indikator, dan keadaan awal |
-| Persepsi dan validasi profil/status | Dugaan sebelum pengungkapan, pertanyaan validasi, koreksi |
-| Pemilihan dan urutan repertoar | Alasan memilih pertanyaan, contoh, bukti, analogi, dukungan |
-| Eksekusi jelas, peduli dan konsisten | Ujaran spesifik, penghormatan pilihan, bantuan yang konsisten |
-| Evaluasi dan adaptasi | Respons yang mengubah rencana serta penerapan pada uji ulang |
-| Refleksi dan lesson learned | Pelajaran peserta, perubahan ASK, transfer dan batas bukti |
+| Dimensi UTS | Bukti yang dirujuk | Status dalam laporan |
+|---|---|---|
+| Tujuan dan konteks | Bagian A–B dan U002 pada masing-masing sesi | BT; tersedia uraian tujuan, kelengkapan indikator perlu dinilai |
+| Persepsi dan validasi profil/status | Dugaan awal dan jawaban sasaran | BT; informasi paket dipisahkan dari temuan percakapan |
+| Pemilihan dan urutan repertoar | Pertanyaan, validasi, checklist, pendampingan, dan penjelasan solusi | BT; alasan serta kedalaman pelaksanaan diperiksa sesuai rubrik |
+| Eksekusi jelas, peduli dan konsisten | Ujaran konkret pada bagian C | BT; konsistensi dukungan belum dibuktikan oleh tindak lanjut |
+| Evaluasi dan adaptasi | Tanggapan terhadap keberatan dan analisis pada bagian D | BT; rangkaian uji ulang lengkap belum tersedia |
+| Refleksi dan lesson learned | Refleksi tertulis dan rencana perbaikan pada bagian D | BT; refleksi tertulis dibedakan dari giliran konfirmasi yang belum tercantum |
 
-Skala mengikuti ketentuan **1–4 atau BT**. BT berarti belum dapat ditetapkan, bukan nol. Bahan yang parsial dan naskah ilustratif tidak dijadikan nilai performa mahasiswa. Skor tinggi dalam bahan lama tidak dipakai sebagai nilai resmi dan tidak diwariskan ke contoh baru.
+**BT berarti belum ditetapkan, bukan nol.** Halaman ini tidak menetapkan nilai resmi. Nilai sesi dapat dihitung dengan `jumlah enam skor / 24 × 100` setelah seluruh skor 1–4 yang sah tersedia.
 
-Jika keenam skor sah tersedia, nilai sesi dihitung dengan `jumlah skor / 24 × 100`. Nilai kasus 2 dapat diringkas dari rata-rata 2a dan 2b, kasus 3 dari 3a dan 3b, setelah memeriksa BT. Bobot UTS adalah 10% makalah dan 18% untuk masing-masing dari lima sesi. Nilai akhir = 0,10 × nilai makalah + 0,18 × jumlah nilai kelima sesi. **Nilai akhir contoh belum dihitung karena nilai komponen yang sah belum lengkap; bahan ilustratif bukan nilai performance mahasiswa.**
+| Komponen | Bobot | Nilai komponen |
+|---|---|---|
+| Makalah pra-UTS | 10% | Nilai dosen belum tercantum |
+| Sesi 1 | 18% | BT |
+| Sesi 2a | 18% | BT |
+| Sesi 2b | 18% | BT |
+| Sesi 3a | 18% | BT |
+| Sesi 3b | 18% | BT |
+| Total | 100% | Belum dihitung |
+
+$$
+N_{\mathrm{UTS}} = 0{,}10 M + 0{,}18\left(S_1 + S_{2a} + S_{2b} + S_{3a} + S_{3b}\right).
+$$
+
+Semua nilai komponen menggunakan skala 0–100. Komponen yang belum dinilai tidak diubah menjadi nol, dan bobot tidak dinormalisasi ulang. Total bobot 100% merupakan pembagian penilaian, bukan nilai akhir yang diperoleh.
 
 ## Pemeriksaan sebelum pengumpulan
 
-- Makalah menjawab empat pertanyaan dan menyertakan sumber yang dapat ditelusuri.
-- Lima laporan memakai identitas, versi, dan target sesuai ZIP aktif; NIM dipertahankan sebagai teks.
-- Setiap laporan mempunyai empat bagian A–D dan seluruh giliran aktual sampai konfirmasi.
-- Dugaan awal, informasi profil setelah simulasi, ujaran peserta, dan interpretasi AI dibedakan.
-- Hasil tujuan, perubahan relasi, SWOT/ASK, uji ulang, dan refleksi dihubungkan dengan ID bukti.
-- Rencana dibedakan dari pelaksanaan; bagian hilang dinyatakan parsial; keputusan menolak tidak ditutupi.
-- Skor memiliki alasan dan bukti; BT diperiksa sebelum agregasi; usulan AI bukan nilai resmi.
-- Nama berkas mengikuti paket, diletakkan di `portfolio/UTS`, dan unggahan portal dilakukan sendiri.
+| Hal yang diperiksa | Status berdasarkan bahan yang tersedia |
+|---|---|
+| Identitas dan sasaran | Mengikuti NIM `18225045` dan pemetaan kelima laporan |
+| Empat pertanyaan pra-UTS | Dibahas dalam makalah beserta sumber dan keterangan penyusunannya |
+| Struktur A–D | Tersedia pada kelima laporan |
+| Skrip dan rujukan bukti | Menggunakan seluruh pesan yang tercantum pada naskah sumber; ID U/AI mengikuti laporan masing-masing |
+| Uji ulang dan hasil pelaksanaan | Batas bukti dinyatakan; hasil kegiatan di luar skrip belum tersedia |
+| Penilaian | BT dipertahankan; nilai resmi dan nilai akhir belum ditetapkan |
+| Tautan jawaban | Mengarah ke enam berkas pada folder `UTS` relatif terhadap halaman ini |
+| Render, push, dan pengiriman | Dilakukan pada repo dan Telegram; pembuatan halaman ini sendiri belum merupakan bukti pengiriman |
 
-[Buka template portfolio Minggu 8](../portfolio/week-08.qmd) · [Buka instruksi UTS](../lk/lk-UTS/index.qmd) · [Kembali ke daftar contoh](index.qmd)
+Setelah halaman dan enam berkas jawaban tersimpan pada repo, render proyek, push perubahan ke GitHub, dan pastikan publikasi berhasil. Perintah pengumpulan untuk Minggu 08 di Telegram mengikuti pengumuman mata kuliah:
 
-{{< include "../includes/uts-penilaian.md" >}}
+```text
+/submit w08
+```
+
+Rujukan penugasan: [Instruksi UTS KIPP](https://azral1962.github.io/kipp-students/lk/lk-UTS/). Bahan utama ringkasan ini adalah enam berkas jawaban yang ditautkan pada tabel pemetaan.
