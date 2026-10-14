@@ -13,7 +13,7 @@ execute:
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | Tristan Anthony Wijaya[cite: 3] |
+| Nama mahasiswa | Tristan Anthony Wijaya[cite: 3]  |
 | NIM | 18225045[cite: 3] |
 | Kelas dan tanggal | II2100-01, 14 Oktober 2026[cite: 1, 3] |
 | Nomor/judul kasus | Sesi 2b; Kasus 2 (Persahabatan dan Profesionalitas)[cite: 1, 3] |
