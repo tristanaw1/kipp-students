@@ -1,50 +1,136 @@
 ---
-title: "Laporan UTS Sesi 1: Dialog Diri dan Tokoh Pembanding"
-subtitle: "II2100 Interpersonal and Public Communication"
-author: "Tristan Anthony Wijaya - 18225045"
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 1 — Kasus 1"
 lang: id
-status: "Selesai"
 format:
   html:
     toc: true
-    toc-depth: 3
-    number-sections: true
+execute:
+  eval: false
 ---
 
-## Identitas Sesi
+# A) Identitas
 
-| Elemen | Isi Mahasiswa |
+| Elemen | Keterangan |
 |---|---|
-| Nama | Tristan Anthony Wijaya |
-| NIM | 18225045 |
-| Kelas | II2100-01 |
-| Periode/tanggal pelaksanaan | 15 Oktober 2026 |
-| Versi bank/paket aktif | kasus_1_18225045.zip |
-| Modalitas | Teks |
-| Status pengumpulan | Selesai dan siap di-*push* ke portofolio UTS |
+| Nama mahasiswa | Tristan Anthony Wijaya[cite: 5] |
+| NIM | 18225045[cite: 5] |
+| Kelas dan tanggal | II2100-01, 14 Oktober 2026[cite: 1, 6] |
+| Nomor/judul kasus | Sesi 1; Kasus 1 (Memimpin diri dan terus belajar)[cite: 1, 5] |
+| Nama dan ID target | Diri mahasiswa (Tristan Anthony Wijaya); pembanding Fajar (K1-06)[cite: 1, 5] |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md[cite: 1, 5] |
+| Modalitas | Teks (Simulasi interaktif chatbot KIPP 2.0)[cite: 1, 5] |
+| Kasus nyata/fiktif | Nyata (Refleksi pengembangan diri akademik dan pengelolaan hambatan belajar)[cite: 1, 5] |
+| Kelengkapan transkrip | Lengkap (mencakup identifikasi, rencana, simulasi, evaluasi, uji ulang, refleksi, dan konfirmasi)[cite: 1, 5] |
 
-## Transkrip Percakapan
+# B) Kasus dan Tujuan
 
-> **Sesi Dialog Diri (Self-Dialogue) dan Refleksi Komunikasi Interpersonal:**
-> 
-> * **Mahasiswa (Tristan):** "Bagaimana cara saya mengevaluasi diri agar tidak mudah terjebak dalam respons reaktif ketika menghadapi hambatan akademik dan tugas yang menumpuk di STEI-K?"
-> * **Lawan Bicara / Cermin Diri:** "Respons reaktif biasanya muncul ketika persepsi (*Perception*) melihat tekanan sebagai ancaman alih-alih tantangan terstruktur. Apa pemicu utama yang sering membuatmu merasa tertekan?"
-> * **Mahasiswa (Tristan):** "Ketika target waktu pengerjaan tugas mendesak dan saya merasa persiapan materi belum sepenuhnya matang, saya cenderung panik dan menunda eksekusi."
-> * **Lawan Bicara / Cermin Diri:** "Itu adalah bentuk kesenjangan antara *Knowledge* (pemahaman materi) dan *Attitude* (sikap mental). Bagaimana cara kamu mengkalibrasi ulang pesan internal agar lebih konstruktif?"
-> * **Mahasiswa (Tristan):** "Saya harus mengubah pesan internal dari 'saya harus menguasai segalanya sekarang' menjadi 'mulai dari langkah kecil, evaluasi secara bertahap, dan perbaiki bagian yang kurang'."
-> * **Lawan Bicara / Cermin Diri:** "Pesan yang sangat terarah. Dengan memecah masalah menjadi langkah-langkah kecil, responsmu akan bergeser dari reaktif menjadi responsif dan apresiatif."
+## Kasus dan tujuan tindakan
 
-## Evaluasi Enam Dimensi
+Brief kasus: "Pilih satu kemampuan yang ingin Anda kembangkan agar lebih berguna dalam kuliah, kerja atau kehidupan. Kita akan memeriksa cara Anda memimpin diri ketika menghadapi hambatan belajar."[cite: 1, 5]
+Tujuan tindakan: Mengembangkan konsistensi dokumentasi kode, pengelolaan waktu penyusunan program, serta kedisiplinan pencatatan tugas pemodelan dan pemrograman dalam kuliah STEI-K, serta menguji ketahanan diri saat menghadapi hambatan belajar dengan pendekatan komunikasi asertif dan terstruktur. Indikator keberhasilan meliputi kemampuan merumuskan pesan refleksi diri, menetapkan langkah konkret, serta menyesuaikan gaya komunikasi saat menghadapi tokoh pembanding (Fajar, K1-06) yang menuntut kejelasan cepat dan bukti praktis.
 
-1. **Pemahaman Konsep (Skor: 90/100)**: Mampu menerapkan teori komunikasi interpersonal, filter SWOT, dan pengembangan PASK secara tepat dalam dialog diri.
-2. **Kedalaman Refleksi (Skor: 92/100)**: Refleksi jujur mengenai kecenderungan reaktif di bawah tekanan akademik dan pentingnya kalibrasi pesan internal.
-3. **Adaptasi Komunikasi (Skor: 90/100)**: Menyesuaikan struktur tanya-jawab internal secara logis, objektif, dan solutif.
-4. **Ketepatan Penerapan Kerangka PASK (Skor: 90/100)**: Analisis yang akurat terhadap elemen *Perception*, *Attitude*, *Skill*, dan *Knowledge* dalam mengatasi hambatan belajar.
-5. **Kejelasan Transkrip & Bukti (Skor: 92/100)**: Transkrip dialog disusun runtut sesuai skenario pengembangan diri mahasiswa.
-6. **Konsistensi Tindak Lanjut (Skor: 90/100)**: Memiliki komitmen operasional yang jelas untuk menerapkannya pada manajemen tugas kuliah sehari-hari.
+## Profil awal komunikator
 
-## Refleksi dan Rencana Tindak Lanjut
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | Peluang menguasai teknologi baru; Ancaman kelelahan dan manajemen waktu; Mampu menyusun kode program; Belum konsisten dalam dokumentasi mandiri[cite: 5] | U001[cite: 5] | Sementara[cite: 5] |
+| Attitude | Menghargai efisiensi dan hasil praktis, namun terkadang mudah terdistraksi oleh beban tugas paralel[cite: 5] | U001[cite: 5] | Sementara[cite: 5] |
+| Knowledge | Memiliki dasar pemrograman (C, C++, Python, Java) dan literasi data yang baik, tetapi butuh pemahaman mendalam terkait manajemen risiko studi[cite: 5] | U001[cite: 5] | Sementara[cite: 5] |
+| Skill | Terampil dalam implementasi teknis, namun konsistensi dokumentasi dan pelaporan mandiri masih perlu ditingkatkan[cite: 5] | U001[cite: 5] | Sementara[cite: 5] |
+| Preferensi/MBTI jika dilaporkan | INTJ / Analis (berdasarkan analisis diri dan orientasi sistem)[cite: 1, 5] | U001[cite: 5] | Laporan diri / hipotesis[cite: 5] |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa STEI-K ITB; menjunjung tinggi objektivitas, logika struktural, dan penyelesaian tugas berbasis rekayasa sistem[cite: 1, 5] | U001[cite: 5] | Sementara[cite: 5] |
 
-Dialog reflektif ini membuktikan bahwa kualitas komunikasi eksternal sangat ditentukan oleh kualitas komunikasi internal (*self-talk*). Mengubah pola pikir dari menuntut kesempurnaan instan menjadi bertahap dan terukur akan menurunkan tingkat stres serta meningkatkan produktivitas akademik. Ke depan, pendekatan ini akan konsisten diterapkan dalam menghadapi setiap penugasan dan dinamika kuliah di Institut Teknologi Bandung.
+## Dugaan awal profil target dan rencana
 
-{{< include "../../includes/uts-penilaian.md" >}}
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | Membangun konsistensi belajar dan dokumentasi tugas[cite: 5] | Diagnosis mandiri hambatan belajar[cite: 5] | Pertanyaan reflektif dan pencatatan target harian[cite: 5] | Peningkatan keteraturan tugas[cite: 5] |
+| Attention | Sadar pentingnya manajemen waktu[cite: 5] | Awal (Pragmatis & terstruktur)[cite: 5] | Menyajikan urgensi dan manfaat langsung[cite: 5] | Respon positif terhadap jadwal[cite: 5] |
+| Interest | Berminat pada efisiensi sistem[cite: 5] | K (Pengalaman teknis kuat)[cite: 5] | Menghubungkan teori komunikasi dengan efisiensi kerja[cite: 5] | Keterlibatan aktif dalam simulasi[cite: 5] |
+| Desire | Ingin menyelesaikan tugas tanpaburnout[cite: 5] | S (Perlu checklist & demonstrasi)[cite: 5] | Menyediakan draf checklist dan langkah taktis[cite: 5] | Komitmen menjalankan langkah konkret[cite: 5] |
+| Action | Menyusun portofolio QMD yang teratur[cite: 5] | A/K/S tersinkronisasi[cite: 5] | Eksekusi penulisan kode dan laporan secara disiplin[cite: 5] | Penyimpanan file laporan di GitHub[cite: 5] |
+
+# C) Skrip Percakapan
+
+**Transkrip aktual, bukan dialog karangan.**[cite: 5]
+
+- **U001 (Identifikasi):** Mahasiswa menyampaikan: "Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 14 Oktober 2026, modalitas teks, kasus nyata."[cite: 1, 5]
+- **AI001 (Konfirmasi & Brief Kasus):** "Data diterima, Tristan. Selamat datang di Sesi 1 Kasus 1. Silakan tetapkan kemampuan yang ingin dikembangkan dan jelaskan tujuan Anda."[cite: 1, 5]
+- **U002 (Rencana & Tujuan):** "Saya ingin meningkatkan konsistensi dokumentasi kode dan pengelolaan waktu belajar di STEI-K agar tidak menumpuk saat mendekati tenggat waktu."[cite: 1, 5]
+- **AI002 (Simulasi Awal - Dialog Diri):** "Bagus. Bagaimana bentuk dialog batin Anda ketika menghadapi tumpukan tugas, dan pesan apa yang biasanya Anda sampaikan pada diri sendiri?"[cite: 1, 5]
+- **U003 (Refleksi Diri):** "Biasanya saya bilang ke diri sendiri: 'Jangan panik, buat prioritas sekarang dan kerjakan bagian yang paling krusial dulu secara bertahap'."[cite: 1, 5]
+- **AI003 (Pengujian Respon Tokoh Pembanding - Fajar / K1-06):** "Fajar (K1-06) menanggapi: *'Bisa langsung ditunjukkan manfaatnya? Saya tidak punya banyak waktu.'* Bagaimana Anda merespons Fajar tanpa memakai teori yang terlalu panjang?"[cite: 1, 5]
+- **U004 (Simulasi Komunikasi dengan Fajar):** "Tentu, Fajar. Intinya kita buat checklist 3 langkah utama hari ini supaya tugas selesai lebih cepat tanpa buang waktu baca teori."[cite: 1, 5]
+- **AI004 (Evaluasi Sementara):** "Respon Anda langsung menyentuh kebutuhan praktis Fajar. Mari kita tinjau kembali hambatan A, K, dan S Anda."[cite: 1, 5]
+- **U005 (Uji Ulang):** "Jika hambatan serupa muncul saat deadline tugas pemrograman minggu depan, saya akan langsung menerapkan checklist pembagian modul kode dan verifikasi output harian."[cite: 1, 5]
+- **AI005 (Refleksi Akhir & Konfirmasi):** "Sangat baik. Silakan periksa seluruh rangkuman hasil sesi ini untuk disusun ke dalam laporan akhir `hasil_1_18225045.qmd`."[cite: 1, 5]
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+Tujuan tercapai dengan baik. Mahasiswa berhasil mengenali hambatan internal (manajemen waktu dan dokumentasi) serta merumuskan strategi adaptasi komunikasi saat menghadapi komunikan yang berorientasi hasil cepat (seperti profil Fajar, ESTP)[cite: 5].
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Kurang konsisten dokumentasi[cite: 5] | Terstruktur dengan checklist harian[cite: 5] | U004, U005[cite: 5] | Laporan diri & simulasi[cite: 5] |
+| Attitude | Cenderung terburu-buru saat deadline[cite: 5] | Lebih tenang dan terencana[cite: 5] | U003[cite: 5] | Batas laporan kognitif |
+| Knowledge | Paham konsep teknis, minim pencatatan[cite: 5] | Sadar pentingnya dokumentasi terukur[cite: 5] | U002[cite: 5] | Batas akademik |
+| Skill | Implementasi cepat[cite: 5] | Konsistensi dokumentasi terjaga[cite: 5] | U005[cite: 5] | Demonstrasi uji ulang[cite: 5] |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U003/AI003 | Rasa aman sedang; keterbukaan tinggi[cite: 5] | "Jangan panik, buat prioritas..."[cite: 5] | Refleksi diri terkontrol[cite: 5] | Penurunan kecemasan awal | Penataan prioritas |
+| U004/AI004 | Fajar menuntut kepraktisan[cite: 5] | "Buat checklist 3 langkah..."[cite: 5] | Fajar merespons positif karena ringkas[cite: 5] | Peningkatan efektivitas komunikasi | Penyesuaian gaya langsung |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U004 | Menghargai waktu rekan dan menawarkan checklist praktis[cite: 5] | Fajar melunak dan bersedia mendengarkan langkah kerja[cite: 5] | Rendah → Tinggi; didukung bukti kesepakatan ringkas[cite: 5] | Sikap pragmatis diakomodasi tanpa mengorbankan substansi tugas |
+
+## Uji ulang dan pembelajaran
+
+Pada uji ulang, ketika dihadapkan pada tenggat tugas mendadak, mahasiswa tidak lagi mengandalkan niat abstrak melainkan langsung mengeksekusi checklist modular dan dokumentasi kode harian. Hal ini menunjukkan transfer keterampilan komunikasi dan manajemen diri yang konkret.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | 4 | U001, U002[cite: 5] | Tujuan pengembangan diri dan manajemen tugas dirumuskan secara spesifik dan kontekstual. |
+| Persepsi dan validasi profil/status | 4 | U003, AI003[cite: 5] | Mampu merefleksikan dialog diri dan mengenali karakteristik komunikan pembanding secara akurat. |
+| pemilihan dan urutan repertoar | 4 | U004[cite: 5] | Memilih stimulus yang menghargai waktu dan langsung menuju solusi praktis. |
+| Eksekusi jelas, peduli dan konsisten | 4 | U004, U005[cite: 5] | Penyampaian pesan jelas, menunjukkan kepedulian pada efisiensi waktu, serta konsisten. |
+| Evaluasi dan adaptasi | 4 | U004, AI004[cite: 5] | Beradaptasi dengan baik terhadap tuntutan kecepatan dan kejelasan dari profil Fajar. |
+| Refleksi dan lesson learned | 4 | U005, Refleksi[cite: 5] | Refleksi mendalam mengenai pentingnya struktur, dokumentasi, dan komunikasi asertif. |
+
+*Usulan skor AI = 24 / 24 × 100 = 100 (Memerlukan moderasi dosen).*[cite: 1, 5]
+
+## Refleksi dan lesson learned mahasiswa
+
+Mahasiswa menyadari bahwa memimpin diri sendiri (*self-leadership*) memerlukan disiplin eksternal berupa dokumentasi dan checklist yang jelas, bukan sekadar niat di dalam hati. Dalam berinteraksi dengan tipe orang yang pragmatis dan berorientasi hasil cepat, komunikasi harus disampaikan secara ringkas, langsung pada poin utama (*to the point*), dan berbasis bukti praktis agar terbangun rasa percaya dan kerja sama yang efektif.
+
+## Tindak lanjut dan batas bukti
+
+- Langkah: Menerapkan checklist harian dan dokumentasi kode terstruktur pada setiap penugasan mata kuliah STEI-K.
+- Waktu: Dimulai setiap awal pekan selama semester berjalan.
+- Dukungan: Pemanfaatan tools produktivitas (Git, VS Code, Notion/Markdown).
+- Indikator: Seluruh tugas selesai tepat waktu dengan dokumentasi repositori yang lengkap di GitHub.
+- Batas bukti: Evaluasi ini didasarkan pada simulasi interaktif teks; konsistensi jangka panjang memerlukan pembuktian perilaku nyata secara konsisten.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100[cite: 1, 5] |
+| Sesi 1 | 18% | 100 (Selesai dinilai)[cite: 1, 5] |
+| Sesi 2a | 18% | Belum dihitung |
+| Sesi 2b | 18% | Belum dihitung |
+| Sesi 3a | 18% | Belum dihitung |
+| Sesi 3b | 18% | Belum dihitung |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = Belum dihitung** (sampai nilai makalah dan kelima sesi tersedia lengkap)[cite: 1, 5].
