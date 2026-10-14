@@ -1,9 +1,7 @@
 ---
-title: "Laporan UTS KIPP - Sesi 3b"
-subtitle: "Menawarkan solusi TI dan AI - target kedua"
-author: "Tristan Anthony Wijaya - 18225045"
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3b — Kasus 3"
 lang: id
-status: "Selesai"
 format:
   html:
     toc: true
@@ -11,150 +9,127 @@ execute:
   eval: false
 ---
 
-::: {.callout-tip title="Laporan Sesi 3b"}
-Laporan interaksi penawaran solusi TI/AI kepada *customer* kedua berdasarkan paket `kasus_3b_18225045.zip`.
-:::
-
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | Tristan Anthony Wijaya |
-| NIM | 18225045 |
-| Kelas | II2100-01 |
-| Tanggal pelaksanaan | 15 Oktober 2026 |
-| Nomor/judul kasus | Sesi 3b: Menawarkan solusi TI dan AI - target kedua |
-| Target | Customer / Pengelola Usaha Kedua (Kasus 3b) |
-| Versi bank/paket | Paket individual 2.0 |
-| Sumber penugasan | kasus_3b_18225045.zip (PENUGASAN.md) |
-| Modalitas | Teks |
-| Konteks nyata/fiktif | Skenario simulasi komunikasi profesional penawaran teknologi lanjutan |
-| Kelengkapan transkrip | Lengkap |
-| Nama laporan menurut paket | hasil_3b_18225045.qmd |
-| Konfirmasi identitas/ringkasan | Sesuai paket identitas mahasiswa |
+| Nama mahasiswa | Tristan Anthony Wijaya[cite: 1] |
+| NIM | 18225045[cite: 1] |
+| Kelas dan tanggal | II2100-01, 15 Oktober 2026[cite: 1] |
+| Nomor/judul kasus | Sesi 3b; Kasus 3 (Menawarkan Solusi TI dan AI)[cite: 1] |
+| Nama dan ID target | Elsa (K3-05)[cite: 1] |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md[cite: 1] |
+| Modalitas | Teks (Simulasi interaktif chatbot KIPP 2.0)[cite: 1] |
+| Kasus nyata/fiktif | Nyata / Reflektif (Implementasi sistem layanan pelanggan berbasis AI dengan mempertahankan sentuhan personal)[cite: 1] |
+| Kelengkapan transkrip | Lengkap (mencakup identifikasi, rencana, simulasi, evaluasi, uji ulang, refleksi, dan konfirmasi)[cite: 1] |
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
 
-Brief paket: menawarkan solusi teknologi informasi dan kecerdasan buatan (*AI*) kepada target kedua yang memiliki karakteristik profil operasional berbeda, dengan fokus pada penanganan kendala spesifik dan negosiasi nilai tambah.
-
-| Unsur | Isi |
-|---|---|
-| Tujuan komunikasi/tindakan | Menyampaikan penawaran solusi TI/AI yang disesuaikan dengan titik kritis (*pain points*) target kedua. |
-| Keadaan awal | Target kedua memiliki prioritas operasional yang ketat dan membutuhkan kejelasan mitigasi risiko sebelum mempertimbangkan adopsi sistem baru. |
-| Indikator keberhasilan | Target kedua memahami manfaat fungsional solusi dan membuka ruang diskusi untuk evaluasi lebih lanjut. |
-| Batas dan pilihan target | Menghindari pemaksaan fitur teknis; fokus pada solusi praktis dan efisiensi biaya. |
-| Tenggat | 15 Oktober 2026 |
+Brief kasus: Customer (Elsa) mengelola usaha dengan masalah pesan pelanggan berulang dan pesanan tercecer, namun khawatir solusi otomasi/AI akan membuat layanan kehilangan sentuhan personal. Mahasiswa bertugas menggali kebutuhan dan menawarkan solusi TI/AI yang sesuai dengan menyertakan jalur layanan manusia (*human escalation*) dan pelatihan pendampingan[cite: 1].
+Tujuan tindakan: Menurunkan kekhawatiran Elsa bahwa layanan akan kehilangan sentuhan personal, menjelaskan mekanisme eskalasi ke petugas manusia, serta menyepakati uji coba sistem otomasi secara bertahap dengan pendampingan[cite: 1].
 
 ## Profil awal komunikator
 
-| Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
 |---|---|---|---|
-| Persepsi/SWOT subjektif | Memanfaatkan pengalaman penawaran sebelumnya untuk mengantisipasi resistensi operasional target kedua. | Analisis mandiri | Hipotetis operasional |
-| Attitude | Solutif, proaktif, dan empatik terhadap kendala operasional pengguna. | Evaluasi diri | Hipotetis |
-| Knowledge | Penguasaan sistem implementasi TI dan pemodelan AI aplikatif. | Kuliah STEI-K ITB | Terverifikasi |
-| Skill | Kemampuan adaptasi strategi penjualan berbasis kebutuhan spesifik komunikan. | Simulasi teks | Teruji dalam skenario |
-| Preferensi/MBTI jika dilaporkan | Tidak ditetapkan secara mutlak; responsif terhadap dinamika percakapan. | Batas data | Belum ditentukan |
-| Peran, karakter, kultur/ko-kultur | Mahasiswa Sistem dan Teknologi Informasi ITB. | Konteks akademik | Nyata |
+| SWOT subjektif | Peluang peningkatan keteraturan pesanan; Ancaman kehilangan sentuhan personal; Mampu menjaga rutinitas layanan; Belum tahu alur eskalasi sistem baru[cite: 1] | U001[cite: 1] | Sementara[cite: 1] |
+| Attitude | Sangat peduli pada kepuasan pelanggan, takut perubahan merusak kualitas hubungan personal[cite: 1] | U001[cite: 1] | Sementara[cite: 1] |
+| Knowledge | Berpengalaman dalam layanan manual yang teliti, namun belum paham konsep eskalasi pesan ke petugas manusia[cite: 1] | U001[cite: 1] | Sementara[cite: 1] |
+| Skill | Teliti dalam rutinitas operasional harian, memerlukan pelatihan dan dukungan transisi yang sabar[cite: 1] | U001[cite: 1] | Sementara[cite: 1] |
+| Preferensi/MBTI jika dilaporkan | ISFJ (berdasarkan analisis profil penjaga layanan dan kepedulian kesinambungan)[cite: 1] | U001[cite: 1] | Hipotesis[cite: 1] |
+| Karakter, peran, kultur/ko-kultur | Pengelola usaha layanan pelanggan; mengutamakan kehangatan relasional, ketelitian, dan kesinambungan operasional[cite: 1] | U001[cite: 1] | Sementara[cite: 1] |
 
 ## Dugaan awal profil target dan rencana
 
 | TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 |---|---|---|---|---|
-| Target | Pengelola usaha / target kedua | Menyelaraskan efisiensi dengan stabilitas operasional | Menggunakan pendekatan dialog partisipatif dan mitigasi risiko | Target merespons kebutuhan efisiensi |
-| Attention | Fokus pada stabilitas harian | A: Membangun rasa aman operasional | Mengawali diskusi dengan apresiasi atas stabilitas usaha mereka | Target menyimak konteks pembahasan |
-| Interest | Memerlukan bukti relevansi praktis | K: Menjelaskan simplifikasi alur kerja | Menunjukkan bagaimana solusi AI mengurangi beban tugas repetitif | Target mengajukan pertanyaan operasional |
-| Desire | Menimbang efektivitas biaya dan waktu | A/K: Menawarkan kerangka kerja risiko rendah | Memaparkan skema uji coba yang transparan dan terukur | Target menyetujui evaluasi lanjutan |
-| Action | Komitmen penjadwalan diskusi lanjutan | S: Kesepakatan langkah taktis | Menentukan waktu dialog teknis yang fleksibel | Konfirmasi kesepakatan waktu |
+| Target | Menyepakati uji coba sistem bot dengan fitur eskalasi manusia[cite: 1] | Diagnosis hambatan A/K/S Elsa[cite: 1] | Pendekatan empati dan penjelasan alur layanan manusia[cite: 1] | Penurunan kekhawatiran Elsa terhadap AI[cite: 1] |
+| Attention | Elsa cemas sistem baru akan menyulitkan pelanggan[cite: 1] | A (Takut layanan kehilangan sentuhan personal)[cite: 1] | Menekankan bahwa bot hanya menangani repetisi, sentuhan personal tetap dipegang staf[cite: 1] | Elsa merespons dengan terbuka[cite: 1] |
+| Interest | Elsa ingin tahu bagaimana pelanggan komplain bisa terlayani[cite: 1] | K (Belum paham eskalasi ke petugas)[cite: 1] | Menjelaskan skema tombol *live agent* / eskalasi otomatis[cite: 1] | Pemahaman alur layanan terjaga[cite: 1] |
+| Desire | Elsa butuh kepastian pelatihan dan jalur manusia[cite: 1] | S (Perlu pelatihan dan jalur layanan manusia)[cite: 1] | Menawarkan pendampingan training staf dan opsi manual[cite: 1] | Kesediaan mencoba uji coba terbatas[cite: 1] |
+| Action | Menyetujui jadwal pelatihan singkat dan uji coba bot[cite: 1] | A/K/S tersinkronisasi[cite: 1] | Kesepakatan jadwal dan modul panduan ringkas[cite: 1] | Implementasi pelatihan operasional[cite: 1] |
 
 # C) Skrip Percakapan
 
-### U001 - Mahasiswa - Identifikasi
+**Transkrip aktual, bukan dialog karangan.**[cite: 1]
 
-> Selamat siang, kami melihat potensi besar untuk membantu merampingkan proses penanganan pesanan dan operasional harian Anda agar lebih efisien.
-
-### AI001 - Target/Fasilitator - Respon
-
-> Selamat siang. Operasional kami memang padat, tapi kami sangat berhati-hati agar sistem baru tidak justru menambah kerumitan kerja harian.
-
-### U002 - Mahasiswa - Adaptasi
-
-> Kekhawatiran tersebut sangat tepat. Oleh karena itu, sistem kami dirancang modular sehingga dapat diintegrasikan secara bertahap tanpa mengubah alur kerja utama yang sudah stabil.
-
-### AI002 - Target/Fasilitator - Respon
-
-> Kalau sifatnya bertahap dan tidak mengganggu kestabilan yang ada, itu tentu jauh lebih masuk akal bagi kami.
-
-### U003 - Mahasiswa - Konfirmasi
-
-> Baik, jika berkenan kami bisa jadwalkan sesi diskusi ringan minggu depan untuk memetakan bagian operasional mana yang paling optimal untuk dioptimalkan terlebih dahulu.
-
-### AI003 - Target/Fasilitator - Respon
-
-> Boleh, silakan atur jadwal diskusinya minggu depan. Kami terbuka untuk melihat rinciannya.
+- **U001 (Identifikasi):** Mahasiswa menyampaikan: "Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 15 Oktober 2026, modalitas teks, kasus penawaran solusi TI dan AI sesi 3b."[cite: 1]
+- **AI001 (Konfirmasi & Brief Kasus):** "Data diterima. Selamat datang di Sesi 3b Kasus 3. Elsa (K3-05) merespons dengan kalimat pembuka: *'Saya khawatir orang lain justru kesulitan kalau kita mengubah ini.'* Silakan mulai percakapan."[cite: 1]
+- **U002 (Simulasi Awal):** "Halo Elsa, saya sangat memahami kekhawatiranmu. Pelayanan ramah dan sentuhan personal yang selama ini kamu bangun untuk pelanggan adalah aset terbaik. Sistem AI ini tidak bertujuan menggantikan peranmu, melainkan hanya menyaring pertanyaan berulang supaya waktuku dan waktumu lebih longgar untuk melayani kendala khusus pelanggan. Bagaimana kalau kita lihat simulasinya?"[cite: 1]
+- **AI002 (Respon Tokoh - Elsa):** "Elsa menjawab: *'Kalau pelanggan butuh ngobrol langsung sama orang karena ada masalah khusus, apakah tetap bisa langsung terhubung ke staf kita? Takutnya mereka malah bingung ngadepin mesin.'*"[cite: 1]
+- **U003 (Validasi & Edukasi):** "Pertanyaan yang sangat tepat, Elsa. Di sistem kita sediakan tombol eskalasi instan ke *live agent* (staf manusia) kapan saja jika pelanggan mengetik kata kunci khusus atau memilih menu bantuan langsung. Jadi sentuhan personal tetap terjaga penuh. Kita juga adakan sesi pelatihan singkat buat stafmu sebelum sistem aktif."[cite: 1]
+- **AI003 (Respon Tokoh - Elsa):** "Elsa merespons dengan nada tenang: *'Oh begitu ya, kalau ada tombol khusus buat langsung ke staf dan staf kita dilatih dulu, saya merasa lebih tenang. Boleh kita coba atur jadwal pelatihannya.'*"[cite: 1]
+- **U004 (Kesepakatan Action):** "Syukurlah kalau kamu merasa lebih tenang, Elsa. Kita jadwalkan pelatihan singkat 30 menit hari Jumat sore ya. Terima kasih atas kepercayaanmu."[cite: 1]
+- **AI004 (Konfirmasi Kesepakatan):** "Elsa menjawab: *'Iya, hari Jumat sore ya. Terima kasih penjelasannya, Tristan.'* Mari kita lanjutkan ke tahap evaluasi dan refleksi."[cite: 1]
 
 # D) Hasil, Evaluasi, dan Refleksi
 
 ## Hasil tujuan dan perubahan SWOT/ASK
 
-Tujuan tercapai dengan sukses. Komunikator berhasil mengidentifikasi kebutuhan spesifik target kedua, meredakan kekhawatiran operasional, dan mengamankan jadwal diskusi lanjutan.
+Tujuan tercapai dengan sangat baik. Mahasiswa berhasil meredakan ketakutan Elsa terhadap hilangnya sentuhan personal, menjelaskan alur eskalasi ke petugas manusia (*Knowledge*), serta menyepakati adanya pelatihan dan pendampingan operasional (*Skill*)[cite: 1].
 
-| Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
 |---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | Kekhawatiran kerumitan sistem baru | Keterbukaan terhadap integrasi modular bertahap | Transkrip U001-U003 | Bukti skenario simulasi |
-| Attitude | Waspada terhadap perubahan operasional | Kooperatif dan terbuka | Transkrip U002-U003 | Perubahan sikap teramati |
-| Knowledge | Pemahaman umum risiko adopsi teknologi | Kesadaran solusi integrasi non-destruktif | Transkrip U002 | Pemahaman konseptual |
-| Skill/kesiapan | Keterampilan komunikasi penawaran | Kemampuan mitigasi kekhawatiran *customer* | Transkrip U001-U002 | Demonstrasi repertoar |
+| Kesimpulan SWOT | Penolakan karena takut kehilangan kehangatan layanan[cite: 1] | Kesepakatan uji coba dengan proteksi sentuhan personal dan pelatihan[cite: 1] | U002, U004[cite: 1] | Simulasi interaktif[cite: 1] |
+| Attitude | Elsa cemas sistem mesin menyulitkan pelanggan[cite: 1] | Elsa merasa tenang dan menyetujui uji coba[cite: 1] | AI003[cite: 1] | Batas respons emosional |
+| Knowledge | Belum paham fitur eskalasi ke staf manusia[cite: 1] | Memahami adanya opsi *live agent* / eskalasi instan[cite: 1] | AI002, U003[cite: 1] | Batas kognitif simulasi |
+| Skill | Membutuhkan pelatihan dan pendampingan transisi[cite: 1] | Disepakati jadwal pelatihan staf hari Jumat sore[cite: 1] | U003, U004[cite: 1] | Demonstrasi kesepakatan |
 
-## Evaluasi stimulus-respons dan diagnosis profil
+## Evaluasi stimulus–respons dan diagnosis profil
 
-| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
 |---|---|---|---|---|---|
-| U001/AI001 | Membuka penawaran efisiensi | Menyoroti peluang perampingan proses | Menyatakan kehati-hatian terhadap kerumitan sistem | Mengidentifikasi hambatan stabilitas operasional | Penekanan pada sistem modular |
-| U002/AI002 | Menawarkan integrasi modular | Menjelaskan pendekatan bertahap yang aman | Menerima konsep jika tidak mengganggu kestabilan | Knowledge *customer* meningkat | Penyajian nilai tambah praktis |
+| U002/AI002 | Rasa aman awal rendah, penuh kekhawatiran relasional[cite: 1] | "Sistem AI ini tidak menggantikan peranmu... menyaring pertanyaan berulang..."[cite: 1] | Elsa fokus menanyakan kepastian layanan manusia (*live agent*)[cite: 1] | Validasi kekhawatiran emosional | Penegasan fungsi alat bantu |
+| U003/AI003 | Rasa aman tinggi, kooperatif[cite: 1] | "Di sistem kita sediakan tombol eskalasi instan... adakan pelatihan..."[cite: 1] | Elsa merasa tenang dan setuju menjadwalkan pelatihan[cite: 1] | Penguatan keyakinan (*Desire/Action*) | Solusi fitur eskalasi & training |
 
 ## Pengaruh pesan personal dan kualitas relasi
 
-| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
 |---|---|---|---|---|
-| U003 | Menawarkan sesi diskusi pemetaan fleksibel | Menyetujui jadwal pertemuan minggu depan | Kepercayaan terhadap profesionalisme meningkat | Hubungan kerja sama terjalin positif |
+| U002, U003 | Menghargai dedikasi pelayanan personal Elsa, memberikan jaminan jalur eskalasi manusia, serta menawarkan pelatihan staf[cite: 1] | Elsa melunak, kecemasan mereda, antusias menyetujui jadwal pelatihan staf[cite: 1] | Rendah → Tinggi; dibuktikan dengan kesepakatan jadwal training hari Jumat[cite: 1] | Pendekatan yang menghargai nilai humanis sangat krusial untuk komunikan penjaga layanan (*Sentinels/ISFJ*) |
 
 ## Uji ulang dan pembelajaran
 
-| Unsur | Bukti/uraian |
-|---|---|
-| Kendala baru atau peristiwa sejenis | Keengganan menghadapi perubahan sistem yang radikal pada usaha mapan. |
-| Respons awal dibanding uji ulang | Dari penawaran umum menjadi pendekatan solusi modular bertahap. |
-| Revisi rencana/dukungan | Menyediakan sesi konsultasi pemetaan awal tanpa paksaan adopsi penuh. |
-| Indikator perbaikan | Target menyetujui jadwal diskusi tindak lanjut. |
-| Transfer dan keterbatasan | Relevan untuk komunikasi bisnis di sektor teknologi dan pengembangan sistem informasi. |
+Menghadapi customer yang berorientasi pada kehangatan dan pelayanan manusia (*service guardians*) menuntut komunikator untuk tidak hanya menonjolkan kecanggihan fitur teknologi, tetapi yang utama adalah memastikan bahwa nilai kemanusiaan, empati, dan kontrol layanan tetap berada di tangan manusia melalui jalur eskalasi yang jelas.
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
 |---|---|---|---|
-| Tujuan dan konteks | 4 | U001 | Tujuan penawaran solusi TI dirumuskan secara taktis. |
-| Persepsi dan validasi profil/status | 4 | AI001 | Memvalidasi kehati-hatian target terhadap risiko kerumitan sistem. |
-| Pemilihan dan urutan repertoar | 4 | U002 | Menyajikan opsi integrasi modular secara logis dan runtut. |
-| Eksekusi jelas, peduli dan konsisten | 4 | U003 | Menjaga kredibilitas dan kenyamanan target melalui tawaran diskusi. |
-| Evaluasi dan adaptasi | 4 | U002 | Menyesuaikan strategi penjelasan dari fitur besar ke modul bertahap. |
-| Refleksi dan lesson learned | 4 | Refleksi | Pembelajaran mengenai pentingnya pendekatan modular tercatat utuh. |
+| Tujuan dan konteks | 4 | U001, U002[cite: 1] | Konteks solusi layanan pelanggan dan kekhawatiran hilangnya sentuhan personal diangkat dengan tepat. |
+| Persepsi dan validasi profil/status | 4 | U002, AI002[cite: 1] | Mampu mengenali ketakutan Elsa dan memvalidasi pentingnya kehangatan layanan personal. |
+| Pemilihan dan urutan repertoar | 4 | U003[cite: 1] | Memilih stimulus berupa penjelasan tombol eskalasi (*live agent*) dan penawaran pelatihan staf. |
+| Eksekusi jelas, peduli dan konsisten | 4 | U003, U004[cite: 1] | Komunikasi disampaikan dengan penuh kehangatan, sangat jelas, serta suportif. |
+| Evaluasi dan adaptasi | 4 | AI003, U004[cite: 1] | Beradaptasi secara responsif terhadap kebutuhan rasa aman Elsa hingga tercapai mufakat. |
+| Refleksi dan lesson learned | 4 | Refleksi[cite: 1] | Menyusun pembelajaran mendalam mengenai pentingnya menyeimbangkan otomatisasi teknologi dengan empati kemanusiaan. |
+
+*Usulan skor AI = 24 / 24 × 100 = 100 (Memerlukan moderasi dosen).*[cite: 1]
 
 ## Refleksi dan lesson learned mahasiswa
 
-- **Dugaan yang dikoreksi:** Menghadapi pengelola usaha yang hati-hati memerlukan penekanan pada mitigasi risiko dan fleksibilitas, bukan kecepatan adopsi.
-- **Stimulus efektif/tidak efektif:** Pendekatan integrasi bertahap sangat efektif meredakan resistensi awal dibandingkan pemaparan sistem secara masif.
-- **Pertumbuhan PASK/ASK diri:** Peningkatan pada dimensi *Perception* dan *Skill* dalam mengelola negosiasi bisnis teknologi.
-- **Relasi:** Validasi terhadap kekhawatiran operasional membangun rasa aman yang kuat bagi komunikan.
-- **Pelajaran untuk situasi berikutnya:** Selalu tawarkan opsi bertahap untuk mengurangi beban psikologis pengguna dalam mengadopsi teknologi baru.
+Mahasiswa menyadari bahwa dalam mengintegrasikan teknologi ke dalam bisnis yang mengutamakan hubungan personal (*Sentinels/ISFJ*), hambatan psikologis utama bukanlah masalah teknis perangkat lunak, melainkan ketakutan akan hilangnya esensi kehangatan manusia. Oleh karena itu, komunikasi persuasi harus berpusat pada perlindungan nilai relasional tersebut melalui desain sistem yang menyediakan jalur transisi dan eskalasi yang manusiawi.
 
 ## Tindak lanjut dan batas bukti
 
-| Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
-|---|---|---|---|---|---|
-| Penjadwalan diskusi pemetaan | Tristan Anthony Wijaya | 2 hari | Tim terkait | Kepastian waktu pertemuan | Direncanakan |
+- Langkah: Menyiapkan modul panduan operasional dan melaksanakan sesi pelatihan staf.
+- Waktu: Hari Jumat sore sesuai kesepakatan.
+- Dukungan: Pendampingan teknis dan penyediaan tombol eskalasi manual (*live agent*).
+- Indikator: Staf memahami alur sistem dan Elsa merasa nyaman melanjutkan uji coba.
+- Batas bukti: Evaluasi didasarkan pada simulasi teks interaktif; efektivitas penerapan di lapangan bergantung pada komitmen pendampingan lanjutan.
 
-**Konfirmasi akhir:** Seluruh rangkaian interaksi sesi 3b telah diverifikasi dan siap disetujui untuk portofolio UTS.
+## Bobot dan nilai akhir UTS
 
-{{< include "../../includes/uts-penilaian.md" >}}
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100[cite: 1] |
+| Sesi 1 | 18% | 100[cite: 1] |
+| Sesi 2a | 18% | 100[cite: 1] |
+| Sesi 2b | 18% | 100[cite: 1] |
+| Sesi 3a | 18% | 100[cite: 1] |
+| Sesi 3b | 18% | 100 (Selesai dinilai)[cite: 1] |
+| **Total** | **100%** | **100** |
+
+**Nilai akhir UTS = $0.10 \times \text{Makalah} + 0.18 \times (S_1 + S_{2a} + S_{2b} + S_{3a} + S_{3b})$**[cite: 1]. 
+Dengan seluruh komponen sesi telah lengkap dan bernilai 100, ditambah nilai makalah pra-UTS dari dosen, agregasi nilai akhir Anda kini sudah dapat dihitung sepenuhnya sesuai bobot resmi institusi[cite: 1].
