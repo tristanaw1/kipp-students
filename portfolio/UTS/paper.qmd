@@ -1,0 +1,125 @@
+---
+title: "[Judul makalah MBTI, komunikasi efektif, dan PASK]"
+subtitle: "[Subjudul jika diperlukan]"
+author: "[Nama mahasiswa - NIM]"
+lang: id
+status: "Belum dimulai"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+::: {.callout-tip title="Template makalah pra-UTS"}
+Isi dengan kajian dan argumentasi Anda. [Lihat makalah contoh](../../examples/UTS/paper.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Pertahankan nama `paper.qmd` sesuai instruksi pra-UTS. Hapus panduan pengisian setelah naskah selesai.
+:::
+
+## Abstrak {.unnumbered}
+
+[Tulis tujuan, metode, pokok pembahasan/hasil kajian, dan kesimpulan setelah isi makalah selesai. Jangan mengklaim penelitian lapangan jika tidak dilakukan.]
+
+**Kata kunci:** [Isi].
+
+## Pendahuluan
+
+[Latar belakang komunikasi interpersonal, relevansi MBTI dan PASK, masalah, tujuan, dan ruang lingkup.]
+
+Makalah ini menjawab empat pertanyaan:
+
+1. Apa itu kategori personalitas MBTI dan apa pengaruhnya terhadap pola komunikasi efektif?
+2. Bagaimana cara efektif berkomunikasi dengan orang yang memiliki profil MBTI tertentu?
+3. Bagaimana mengenali kemungkinan preferensi MBTI melalui pola percakapan, beserta batas ketepatannya?
+4. Bagaimana stimulus/peristiwa ditafsirkan melalui SWOT-like dan PASK, serta bagaimana pendidikan membantu pertumbuhan PASK dan pilihan respons refleks, reaktif, responsif, atau apresiatif?
+
+## Metode dan Kedudukan Kerangka
+
+[Jelaskan jenis kajian, cara memilih sumber, dan langkah analisis. Pisahkan literatur, bahan percakapan AI, dan usulan sendiri. Jelaskan definisi operasional serta status bukti MBTI, SWOT-like, dan PASK.]
+
+## Kategori MBTI dan Komunikasi Efektif
+
+### Empat pasangan preferensi
+
+[Jelaskan E/I, S/N, T/F, J/P dan 16 kombinasi; sertakan sumber.]
+
+| Pasangan | Pengertian preferensi | Implikasi yang mungkin bagi komunikasi | Batas/generalisasi yang dihindari |
+|---|---|---|---|
+| E/I | [Isi] | [Isi] | [Isi] |
+| S/N | [Isi] | [Isi] | [Isi] |
+| T/F | [Isi] | [Isi] | [Isi] |
+| J/P | [Isi] | [Isi] | [Isi] |
+
+### Implikasi dan batas ilmiah
+
+[Definisikan komunikasi efektif; nilai kekuatan dan keterbatasan bukti. Bedakan preferensi, perilaku, kemampuan, serta kematangan.]
+
+## Strategi Komunikasi untuk Profil Tertentu
+
+[Uraikan cara mengonfirmasi kebutuhan dan menyesuaikan tempo, media, struktur pesan, bukti, dampak manusia, serta kesepakatan. Berikan contoh kombinasi profil tanpa stereotip.]
+
+| Profil/preferensi | Kebutuhan yang perlu dikonfirmasi | Strategi dan contoh ungkapan | Cara memeriksa efektivitas |
+|---|---|---|---|
+| [Isi] | [Isi] | [Isi] | [Isi] |
+
+### Umpan balik dan konflik
+
+[Analisis cara memberi kritik, mendengarkan, menetapkan batas, dan memperbaiki hubungan.]
+
+## Mengenali Preferensi melalui Percakapan
+
+| Pola percakapan | Hipotesis sementara | Penjelasan alternatif | Pertanyaan validasi |
+|---|---|---|---|
+| [Isi] | [Isi] | [Isi] | [Isi] |
+
+[Susun prosedur observasi lintas konteks, klarifikasi kepada individu, serta batas inferensi. Jangan menetapkan tipe seseorang hanya dari satu ujaran.]
+
+## Stimulus, SWOT-like, dan PASK
+
+### Definisi dan hubungan konsep
+
+[Jelaskan persepsi, attitude, skill, knowledge serta kekuatan/keterbatasan internal dan peluang/ancaman eksternal. Bedakan tafsir subjektif dari keadaan nyata; jelaskan faktor konteks.]
+
+| Unsur SWOT-like | Tafsir terhadap stimulus | Hubungan dengan PASK | Bukti/pertanyaan pemeriksaan |
+|---|---|---|---|
+| Strengths | [Isi] | [Isi] | [Isi] |
+| Weaknesses | [Isi] | [Isi] | [Isi] |
+| Opportunities | [Isi] | [Isi] | [Isi] |
+| Threats | [Isi] | [Isi] | [Isi] |
+
+### Bentuk respons
+
+| Bentuk | Definisi operasional | Contoh | Kapan tepat/tidak tepat |
+|---|---|---|---|
+| Refleks | [Isi] | [Isi] | [Isi] |
+| Reaktif | [Isi] | [Isi] | [Isi] |
+| Responsif | [Isi] | [Isi] | [Isi] |
+| Apresiatif | [Isi] | [Isi] | [Isi] |
+
+## Pendidikan untuk Menumbuhkan PASK
+
+| Dimensi | Kebutuhan awal | Intervensi/kegiatan | Penyesuaian preferensi | Bukti pertumbuhan |
+|---|---|---|---|---|
+| Persepsi | [Isi] | [Isi] | [Isi] | [Isi] |
+| Sikap | [Isi] | [Isi] | [Isi] | [Isi] |
+| Keterampilan | [Isi] | [Isi] | [Isi] | [Isi] |
+| Pengetahuan | [Isi] | [Isi] | [Isi] | [Isi] |
+
+[Rancang stimulus edukatif, pendampingan, simulasi, refleksi, uji ulang, dan evaluasi transfer. Nyatakan apakah program merupakan usulan atau sudah diuji.]
+
+## Contoh Integratif
+
+[Analisis satu kasus: peristiwa, dugaan awal, validasi, SWOT/PASK, respons, penyesuaian komunikasi, dan rencana belajar. Tandai ilustrasi sebagai ilustrasi; jangan menganggapnya data penelitian.]
+
+## Pembahasan dan Keterbatasan
+
+[Sintesis empat pertanyaan; hubungan antar-konsep; alternatif penjelasan, keterbatasan sumber/metode, dan kebutuhan penelitian lanjutan.]
+
+## Kesimpulan
+
+[Jawab keempat pertanyaan secara ringkas berdasarkan argumentasi dan sumber yang sudah dibahas.]
+
+## Daftar Pustaka {.unnumbered}
+
+[Cantumkan hanya sumber yang benar-benar dibaca/digunakan. Gunakan format konsisten dan tautan/DOI yang tepat; pastikan setiap sitasi memiliki entri.]
+
+{{< include "../../includes/uts-penilaian.md" >}}

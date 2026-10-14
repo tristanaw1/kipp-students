@@ -1,0 +1,137 @@
+---
+title: "Laporan UTS KIPP 2026"
+subtitle: "Sesi 2a — Kasus 2"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+::: {.callout-note title="Catatan penggunaan contoh"}
+[Buka paket contoh Minggu 8](../week-08.qmd). Ujaran bahan awal dipertahankan; analisis di halaman Minggu 8 menjelaskan batas bukti. Transkrip bahan ini parsial: tabel terutama memuat ujaran Dimas; stimulus mahasiswa dan konfirmasi akhir belum tersedia lengkap. Bagian profil awal komunikator mencampurkan informasi target. Tanggal belum diberikan. Skor penuh pada bahan lama tidak dijadikan nilai contoh atau nilai resmi. Versi 1.0/1.1 yang tertulis adalah versi laporan awal, bukan versi ZIP 2.0 saat ini. Mahasiswa harus melaporkan percakapannya sendiri.
+:::
+
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Ali Baba |
+| NIM | 07381119 |
+| Kelas dan tanggal | Kelas 01; tanggal belum tersedia pada bahan |
+| Nomor/judul kasus | Sesi 2a; Kasus 2 |
+| Nama dan ID target | Dimas (K2-04) |
+| Versi bank/aturan penugasan | Bank 1.0; paket 1.1; penugasan dalam PENUGASAN.md |
+| Modalitas | Teks (Chat) |
+| Kasus nyata/fiktif | Fiktif (Simulasi) |
+| Kelengkapan transkrip | Parsial: ujaran target U001-U007 dan fragmen uji ulang; sebagian besar ujaran mahasiswa serta konfirmasi akhir tidak tersedia |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+Tugas kelompok memiliki tenggat waktu 48 jam. Rekan dekat (Dimas) belum mengirim bagiannya dan merasa pembagian tidak adil. Mahasiswa (Ali) perlu mengajak percakapan untuk menjaga hubungan persahabatan sekaligus menyepakati tanggung jawab agar tugas selesai tepat waktu.
+
+## Profil awal komunikator
+
+Profil diri Ali Baba belum tersedia lengkap dalam bahan sesi ini. Preferensi MBTI komunikator tidak ditetapkan. Tabel berikut pada bahan awal ternyata menggambarkan **target Dimas**, sehingga dipindahkan kedudukannya sebagai ringkasan informasi target, bukan profil diri mahasiswa. Isi tidak digunakan untuk merekonstruksi dugaan sebelum percakapan.
+
+### Ringkasan target dari bahan awal
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | Ancaman: Meragukan pembagian berdasar kompetensi; Kekuatan: Analisis kuat | U001, U002 | Sementara |
+| Attitude | Skeptis terhadap klaim, menghargai kompetensi | U001 | Sementara |
+| Knowledge | Informasi konteks belum lengkap (file, timeline) | U005, U006 | Sementara |
+| Skill | Mampu analisis, implementasi terbatas waktu | U002 | Sementara |
+| Preferensi/MBTI jika dilaporkan | Dugaan INTJ (logika ringkas, otonomi) | Observasi | Laporan diri/hipotesis |
+| Karakter, peran, kultur/ko-kultur | Penilai teknis; ko-kultur yang menghargai alasan kritis | Profil K2-04 | Sementara |
+
+## Dugaan awal profil target dan rencana
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | Kesepakatan pembagian tugas dan tanggung jawab | A (Reward/Fairness) | Tawarkan pembagian berdasarkan kompetensi | U003, U004 |
+| Attention | Skeptis terhadap pembagian | A (Validasi perasaan) | Empati terhadap beban kerja | U002 |
+| Interest | Informasi teknis belum lengkap | K (Klarifikasi file/timeline) | Berikan detail akses & file | U005, U006 |
+| Desire | Kebutuhan ruang kerja mandiri | S (Dukungan teknis) | Berikan lokasi & akses kartu | U007 |
+| Action | Kendala akses testbed | A/K/S (Adaptasi) | Solusi alternatif (kartu tamu, dummy) | Uji Ulang |
+
+# C) Skrip Percakapan
+
+**Petikan percakapan yang tersedia, bukan transkrip lengkap.** Label U001-U007 dari bahan awal dipertahankan meskipun baris itu berisi ujaran Dimas. ID tersebut tidak diubah menjadi ID mahasiswa. Fragmen uji ulang memuat respons Ali; penutur pada baris itu belum dipisahkan oleh bahan awal.
+
+| ID | Tahap | Peserta | Kutipan |
+|---|---|---|---|
+| U001 | Identifikasi | Dimas | "Hai. Sebenarnya saya sudah mulai mengerjakan, tapi waktu pengerjaan analisis data memang sangat terbatas. Kalau kamu bilang ada sesuatu yang salah, justru saya rasa yang perlu dicek adalah pembagian beban kerja yang adil. Apakah kamu memiliki data spesifik mengenai pembagian waktu yang tidak seimbang?" |
+| U002 | Respons Awal | Dimas | "Hmm, kalau kita tinjau ulang itu fair. Tapi saya juga butuh waktu sendiri untuk analisis data. Kalau kamu mau bantu, saya bisa kasih tahu mana yang butuh waktu banyak. Tapi jangan langsung asumsikan saya tidak berusaha ya. Saya hanya butuh ruang kerja mandiri yang jelas." |
+| U003 | Clarifikasi | Dimas | "Tapi 'yang paling jago lawan musuh paling kuat' itu terdengar seperti beban, bukan reward. Saya bukan yang mau selalu mengerjakan yang paling berat demi reward. Saya mau adil dalam pembagian, bukan adil dalam beban." |
+| U004 | Proposal | Dimas | "Oke, saya terima pembagian ini. Tapi saya perlu klarifikasi satu hal: 'interface sesuai lampiran gambar 4' itu saya harus bisa akses file gambar 4-nya dulu. Tanpa akses ke file itu saya tidak bisa implementasi standar PCI-e." |
+| U005 | Detail Teknis | Dimas | "Oke, terima kasih atas akses kartu dan lokasi testbed. Tapi saya perlu konfirmasi: apakah lampiran gambar 4 sudah saya terima sebagai file terpisah? Tanpa akses ke file itu saya tidak bisa implementasi standar PCI-e." |
+| U006 | Akses & Timeline | Dimas | "Oke, terima kasih atas akses kartu dan lokasi testbed. Tapi saya perlu konfirmasi: apakah lampiran gambar 4 sudah saya terima sebagai file terpisah? Tanpa akses ke file itu saya tidak bisa implementasi standar PCI-e." |
+| U007 | Konfirmasi Lokasi | Dimas | "Oke, saya mau lihat lokasi dulu. Tapi sebelum kita pergi, saya perlu pastikan: apakah kartu akses sudah aktif sekarang? Saya tidak mau buang waktu kalau akses belum jalan." |
+| Uji Ulang | Kendala Akses | Dimas | [Respons Ali di Uji Ulang: "Ini terjadi karena kita kekurangan waktu. Tapi akan saya tuntaskan dalam waktu satu jam... Atas saran mereka Untuk sementara kita bisa menggunakan katu tamu ini..."] |
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Ancaman: Meragukan pembagian | Membaik: Terima pembagian | U004 | Laporan diri/interpretasi |
+| Attitude | Skeptis | Lebih terbuka | U003, U004 | Batas: Masih butuh bukti konkret |
+| Knowledge | Informasi konteks belum lengkap | Memulai klarifikasi | U005, U006 | Batas: Masih perlu sinkronisasi |
+| Skill/kesiapan | Memerlukan ruang kerja dan akses | Masih meminta kepastian kartu aktif | U007 | Belum ada demonstrasi implementasi atau bukti akses berhasil |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U001-U003 | Attention -> Interest | Empati, Validasi perasaan | Skeptis berkurang, mulai terbuka | A membaik | Empati |
+| U004-U006 | Interest -> Desire | Solusi teknis, File & Akses | Meminta konfirmasi detail | K & S membaik | Klarifikasi |
+| Uji Ulang | Kendala akses | Fragmen tawaran kartu tamu | Respons target tidak tersedia lengkap | Perubahan belum dapat dipastikan | Solusi alternatif diusulkan |
+
+## Uji ulang dan pembelajaran
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| Uji Ulang | Kendala akses | Fragmen tawaran kartu tamu | Respons target tidak tersedia lengkap | Perubahan belum dapat dipastikan | Solusi alternatif diusulkan |
+
+## Penilaian enam dimensi
+
+Penilaian numerik bahan awal ditangguhkan untuk contoh ini. Kesepakatan bukan alasan memberi seluruh dimensi skor penuh. Skor 1-4 memerlukan indikator tingkat dan bukti memadai; BT berarti belum dapat ditetapkan, bukan nol. Nilai resmi tetap memerlukan moderasi dosen.
+
+| Dimensi | Skor 1-4/BT | Bukti yang dapat diperiksa | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | BT | U004 | Ada bukti sebagian; transkrip peserta tidak lengkap dan indikator tingkat numerik tidak tersedia |
+| Persepsi dan validasi profil/status | BT | U002 | Ada bukti sebagian; transkrip peserta tidak lengkap dan indikator tingkat numerik tidak tersedia |
+| Pemilihan dan urutan repertoar | BT | U003-U007 | Ada bukti sebagian; transkrip peserta tidak lengkap dan indikator tingkat numerik tidak tersedia |
+| Eksekusi jelas, peduli dan konsisten | BT | U007 | Ada bukti sebagian; transkrip peserta tidak lengkap dan indikator tingkat numerik tidak tersedia |
+| Evaluasi dan adaptasi | BT | Fragmen uji ulang | Ada bukti sebagian; transkrip peserta tidak lengkap dan indikator tingkat numerik tidak tersedia |
+| Refleksi dan lesson learned | BT | Refleksi bahan awal | Ada bukti sebagian; transkrip peserta tidak lengkap dan indikator tingkat numerik tidak tersedia |
+
+Nilai sesi dan agregasi belum dihitung.
+
+## Refleksi dan lesson learned mahasiswa
+
+> "Saya belum sepenuhnya menyesuaikan komunikasi berdasarkan preferensi INTJ Dimas. Saya perlu lebih fokus pada solusi logis dan menghargai otonominya. Saya juga perlu lebih waspada terhadap hambatan S (ruang kerja mandiri) dan K (konteks teknis)."
+
+## Tindak lanjut dan batas bukti
+
+| Langkah | Waktu | Dukungan | Indikator |
+|---|---|---|---|
+| Implementasi desain arsitektur | 3 hari | Testbed (Kartu tamu) | File selesai, test unit berjalan |
+| Sinkronisasi tim | 1 jam (sebelum demo) | Sonny & Ali | Demo selesai, semua siap |
+
+---
+
+**Catatan Fasilitator:**
+- **Laporan:** `hasil_2a_07381119.qmd`
+- **Status:** Bahan sesi 2a parsial; kelengkapan laporan perlu diperiksa.
+- **Profil:** Dimas (K2-04) - INTJ (Fiktif).
+- **Hambatan Utama:** Ruang kerja mandiri (S), Konteks teknis (K), Kepercayaan kompetensi (A).
+
+Konfirmasi akhir dan kelanjutan sesi tidak tersedia sebagai bukti dalam bahan ini.
+
+{{< include "../../includes/uts-penilaian.md" >}}

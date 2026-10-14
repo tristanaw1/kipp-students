@@ -14,6 +14,7 @@ Gunakan daftar berikut untuk membuka lembar kerja setiap bab.
 | 05 | [Wawancara Penemuan Kebutuhan](lk-05.qmd) |
 | 06 | [Tiga Pitch untuk Tiga Pihak](lk-06.qmd) |
 | 07 | [Panduan Detoks Fitur](lk-07.qmd) |
+| 08 | [Ujian Tengah Semester](lk-UTS/index.qmd) |
 | 09 | [Demonstrasi Pembangun Keinginan](lk-09.qmd) |
 | 10 | [Dokumen Kesepakatan dan Lingkar Komitmen](lk-10.qmd) |
 | 11 | [Peta Pemangku Kepentingan dan Deliberasi Banyak Pihak](lk-11.qmd) |

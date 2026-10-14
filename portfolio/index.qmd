@@ -21,3 +21,7 @@ Perbarui metadata di bagian atas setiap file `week-XX.qmd`. Nilai `status` yang 
 ::: {.callout-tip title="Butuh contoh?"}
 Lihat [contoh portfolio lengkap untuk Minggu 1–15](../examples/index.qmd). Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.
 :::
+
+## Template UTS
+
+[Buka portfolio Minggu 8](week-08.qmd) untuk mengisi makalah pra-UTS dan lima laporan sesi 1, 2a, 2b, 3a, 3b. Template di `portfolio/UTS` belum berisi jawaban; nama laporan akhir mengikuti PENUGASAN.md dalam ZIP masing-masing.

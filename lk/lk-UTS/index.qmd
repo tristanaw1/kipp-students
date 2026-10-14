@@ -1,0 +1,47 @@
+# Ujian Tengah Semester (UTS) II-2100 Komunikasi Interpersonal dan Publik
+
+## Pra  UTS
+
+### MBTI
+MBTI (Myers-Briggs Type Indicator) adalah [tes psikologi](https://id.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator) yang digunakan untuk mengidentifikasi preferensi dasar manusia dalam melihat dunia dan mengambil keputusan. Tes ini membagi kepribadian ke dalam 16 tipe unik yang disimbolkan dengan kombinasi empat huruf. [1, 2] 
+### Empat Dimensi Utama MBTI
+Hasil empat huruf pada MBTI berasal dari kombinasi empat kategori sifat dasar berikut: [2] 
+
+* E (Extraversion) vs I (Introversion) — Cara Anda mendapatkan energi. Ekstrovert mendapat energi dari interaksi sosial, sedangkan introvert mendapat energi dari waktu sendiri. [1] 
+* S (Sensing) vs N (Intuition) — Cara Anda mengumpulkan informasi. Tipe sensing fokus pada fakta dan hal nyata, sedangkan intuition lebih suka pola dan kemungkinan abstrak. [1] 
+* T (Thinking) vs F (Feeling) — Cara Anda mengambil keputusan. Tipe thinking mengandalkan logika objektif, sedangkan feeling mempertimbangkan nilai dan perasaan orang lain. [1, 3] 
+* J (Judging) vs P (Perceiving) — Cara Anda merespons lingkungan luar. Tipe judging menyukai struktur dan rencana, sedangkan perceiving lebih fleksibel dan spontan. [1] 
+
+### 16 Tipe Kepribadian
+Kombinasi dari empat skala di atas dikelompokkan ke dalam empat kelompok besar: [4] 
+
+* Analis: INTJ, INTP, ENTJ, ENTP
+* Diplomat: INFJ, INFP, ENFJ, ENFP
+* Pengawal / Sentinels: ISTJ, ISFJ, ESTJ, ESFJ
+* Penjelajah / Explorers: ISTP, ISFP, ESTP, ESFP [4] 
+
+
+
+Buat Makalah yang menjawab pertanyaan berikut ini.
+
+1. Apa itu kategori personalitas MBTI dan apa pengaruh terhadap pola komunikasi yang efektif?
+2. Bagaimana cara efektif berkomunikasi dengan orang yang profil MBTI tertentu?
+3. Bagaimana cara mendeteksi profil MBTI lewat pola percakapan?
+4. Bagaimana Mendapat stimulasi atau event orang bertindak sesuai filter "SWOT Like" baik reflek, reaktif, responsif, atau apresiatif. SWOT ini ditentukan level persepsi, attitude, skill dan knowledge PASK. Bagaimana cara kita mengedukasi agar seseorang dengan profil tertentu bisa bertumbuh PASK
+
+ Makalah dikumpulkan dalam bentuk file QMD di folder portfolio/UTS, dengan nama file: `paper.qmd`. 
+
+
+## UTS
+:::{.callout-note title="Konsep dan Strategi UTS"}
+
+Untuk bisa mengerjakan UTS ini dengan hasil yang memuaskan, baca dokumen [konsep UTS](./konsep-dan-strategi-uts-kipp-v2.qmd) sebelum mengerjakan UTS. Dokumen ini menjelaskan strategi dan konsep yang digunakan dalam UTS, termasuk bagaimana menilai evidence, adaptasi, dan feedback.
+
+:::
+
+
+{{< include "petunjuk-uts.md" >}}
+
+{{< include "soal-uts.qmd" >}}
+
+{{< include "../../includes/uts-penilaian.md" >}}

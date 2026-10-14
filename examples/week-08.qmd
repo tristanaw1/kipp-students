@@ -1,63 +1,179 @@
----
-title: "Contoh Minggu 8 — UTS Performance"
+﻿---
+title: "Contoh Minggu 8 — Jawaban UTS KIPP 2026"
 week: 8
 sidebar: examples
+categories: [Assessment, UTS]
+description: "Makalah pra-UTS dan lima laporan kasus dengan analisis stimulus–respons, relasi, uji ulang, dan refleksi."
 ---
 
-::: {.callout-note title="Status contoh"}
-Ini contoh ringkas evidence package UTS yang fiktif. [Buka template kosong Minggu 8](../portfolio/week-08.qmd).
+::: {.callout-note title="Cara menggunakan contoh"}
+Paket ini memperagakan struktur jawaban berdasarkan [instruksi UTS](../lk/lk-UTS/index.qmd). Bahan berasal dari folder `examples/UTS`, dengan identitas contoh Ali Baba, NIM `07381119`. Laporan 1, 2a, dan 3a memakai bahan percakapan yang tersedia; laporan 2b dan 3b merupakan **naskah ilustratif yang disusun untuk pembelajaran**, bukan transkrip ujian. Mahasiswa menjalankan paket sesuai NIM sendiri dan melaporkan seluruh percakapan aktual, termasuk kegagalan dan bagian yang belum teramati.
 :::
 
-## Performance card
+## Paket jawaban dan pemetaan penugasan
 
-- **Person/target:** koordinator layanan fasilitas.
-- **Initial state:** mengetahui adanya pertanyaan reservasi, belum yakin pilot diperlukan.
-- **Objective:** bergerak menuju Interest pada pilot terbatas, bukan memaksa keputusan final.
-- **Evidence:** 11 pertanyaan status, 5 no-show, tiga interview, prototype revision.
-- **Boundary:** tidak mengakses data personal dan tidak mengklaim hasil sebelum pilot.
+Pra-UTS menghasilkan satu makalah; UTS menghasilkan lima laporan yang dijalankan berurutan **1, 2a, 2b, 3a, 3b**. Sesi kedua pada kasus 2 dan 3 dimulai baru dengan target berbeda, tanpa mewarisi kepercayaan target sebelumnya.
 
-## Decisive moment
+| Tahap | Contoh jawaban | Sasaran | Status bukti |
+|---|---|---|---|
+| Pra-UTS | [Makalah MBTI dan PASK](UTS/paper.qmd) | Empat pertanyaan kajian | Kajian konseptual dan referensi |
+| 1 | [Memimpin diri dan terus belajar](UTS/hasil_1.qmd) | Diri; Dimas sebagai pembanding | Seluruh pesan yang tersedia disertakan; kedalaman beberapa aspek terbatas |
+| 2a | [Persahabatan dan profesionalitas: Dimas](UTS/hasil_2a.qmd) | Dimas, K2-04 | Bahan parsial; terutama respons target dan fragmen uji ulang |
+| 2b | [Persahabatan dan profesionalitas: Elsa](UTS/hasil_2b.qmd) | Elsa, K2-05 | Ilustrasi baru sesuai profil paket 2b |
+| 3a | [Menawarkan solusi TI/AI: Ali](UTS/hasil_3a.qmd) | Ali, K3-01 | Simulasi, evaluasi, uji ulang, refleksi; tahap identifikasi/konfirmasi tidak lengkap |
+| 3b | [Menawarkan solusi TI/AI: Budi](UTS/hasil_3b.qmd) | Budi, K3-02 | Ilustrasi baru sesuai profil paket 3b |
 
-> **Nadia:** “Prototype ini bisa mengurangi pertanyaan reservasi.”  
-> **Target:** “Bisa, tetapi angka Anda belum menunjukkan berapa banyak waktu petugas yang benar-benar hilang.”  
-> **Nadia:** “Anda benar; saya menyamakan jumlah pertanyaan dengan beban waktu. Evidence itu belum ada. Apakah outcome pilot sebaiknya mencatat durasi penanganan, bukan hanya jumlah pertanyaan?”  
-> **Target:** “Ya. Jumlah pertanyaan mungkin tetap, tetapi waktunya bisa lebih singkat.”
+**Nama berkas pengumpulan.** Instruksi pra-UTS meminta `portfolio/UTS/paper.qmd`. Untuk lima laporan, ikuti nama yang tercantum dalam `PENUGASAN.md` pada ZIP masing-masing. Paket contoh NIM `07381119` menetapkan `hasil_1_07381119.qmd`, `hasil_2a_07381119.qmd`, `hasil_2b_07381119.qmd`, `hasil_3a_07381119.qmd`, dan `hasil_3b_07381119.qmd`. Nama singkat pada situs contoh memudahkan navigasi; mahasiswa menyimpan laporan aktual di `portfolio/UTS` sesuai penugasan. Pengunggahan melalui portal dilakukan mahasiswa.
 
-Response target membatalkan salah satu premise Nadia. Alih-alih melanjutkan script, Nadia memperbarui metric menjadi jumlah **dan durasi** interaksi.
 
-## Observer feedback dan replay
+::: {.callout-note title="Versi penugasan"}
+Paket ZIP contoh yang tersedia saat penyusunan memakai bank/paket **2.0**, tanpa password. Petunjuk umum di folder `lk` mengikuti paket aktif versi 2.0 tanpa password. Paket menyatakan prioritas `PENUGASAN.md`, kemudian prompt umum, profil, dan template. Baca paket aktif; jangan mengubah target atau versi laporan lama secara diam-diam. Bila ZIP tidak terbaca, ekstrak empat berkasnya ke folder terpisah per sesi.
+:::
 
-Observer mencatat tiga hal:
+::: {.callout-note title="Strategi UTS"}
+Baca dokumen [konsep UTS](UTS/konsep-dan-strategi-uts-kipp-v2.qmd) sebelum mengerjakan UTS agar berhasil.
+:::
 
-1. Nadia mengenali correction dan tidak defensif.
-2. Ia terlalu cepat beralih ke metric baru tanpa memastikan workload pencatatan.
-3. Agreement akhir belum memiliki owner pencatat data.
+## Pra-UTS: makalah akademik
 
-Pada replay Nadia berkata:
+[Makalah contoh](UTS/paper.qmd) menjawab keempat pertanyaan melalui definisi, pembahasan kritis, tabel penerapan, dan daftar pustaka.
 
-> “Jika durasi adalah metric yang lebih bermakna, siapa yang realistis mencatatnya dan berapa lama? Bila pencatatan menambah beban, kita perlu proxy lain.”
+| Pertanyaan | Jawaban pokok | Bagian makalah |
+|---|---|---|
+| Kategori MBTI dan pengaruh komunikasi | Empat pasangan preferensi membentuk 16 tipe; preferensi membantu menanyakan kebutuhan, bukan menentukan kemampuan | Kategori MBTI dan Komunikasi Efektif |
+| Cara berkomunikasi dengan profil tertentu | Konfirmasi kebutuhan, sesuaikan media/tempo/urutan, periksa pemahaman, tetapkan tindakan | Strategi Komunikasi untuk Profil Tertentu |
+| Deteksi lewat percakapan | Amati pola lintas konteks, pertimbangkan penjelasan lain, dan klarifikasi; percakapan tidak memastikan tipe | Mengenali Preferensi melalui Percakapan |
+| Stimulus, SWOT-like, dan pendidikan PASK | Pisahkan penafsiran situasi dari kapasitas; latih persepsi, sikap, keterampilan, pengetahuan dan nilai bukti perilaku | Stimulus, SWOT-like, dan PASK; Pendidikan untuk Menumbuhkan PASK |
 
-Target memilih tally tiga kategori durasi (`<2`, `2–5`, `>5 menit`) yang diisi petugas, sedangkan Nadia mengolah data. Ini memperbaiki feasibility dan authority.
+Bahan [percakapan awal MBTI](UTS/mbti.qmd) menyediakan gagasan awal. Makalah memperbaiki klaim yang terlalu pasti dan membedakan temuan ilmiah dari rancangan pedagogis. PASK pada makalah mencakup persepsi; ASK pada laporan sesi mengacu pada sikap, pengetahuan, dan keterampilan, dengan persepsi diperiksa melalui tafsir serta pemetaan SWOT.
 
-## Evidence package
+## Struktur laporan UTS
 
-- Video fiktif 6:20 dan transcript bertanda waktu.
-- Performance card sebelum percakapan.
-- Observer sheet asli dan video replay 2:10.
-- Dua versi metric plan yang memperlihatkan adaptation.
-- Reflection: keberhasilan bukan menyelesaikan pitch, melainkan membiarkan response mengubah rencana.
+Setiap laporan memiliki **empat bagian utama A–D**, mengikuti template dalam ZIP.
 
-AI digunakan setelah performance untuk menemukan klaim tanpa evidence. Satu temuan AI diverifikasi secara manual terhadap transcript. Tidak ada rekaman atau identitas target yang diunggah.
+| Bagian | Isi yang dapat diperiksa |
+|---|---|
+| A) Identitas | Nama/NIM sebagai teks, kelas, tanggal, sesi, nama/ID target, versi, modalitas, nyata/fiktif, kelengkapan transkrip |
+| B) Kasus dan Tujuan | Tujuan dan indikator; profil komunikator; dugaan target sebelum pengungkapan; rencana TAIDA dan repertoar |
+| C) Skrip Percakapan | Seluruh pesan aktual dari identifikasi sampai konfirmasi; ID giliran dan label tahap; penutur jelas |
+| D) Hasil, Evaluasi, dan Refleksi | Hasil tujuan; SWOT/ASK; stimulus–respons–adaptasi; pesan personal/relasi; uji ulang; enam dimensi; refleksi; tindak lanjut dan batas bukti |
 
-## Self-assessment
+Proses yang dilaporkan meliputi identifikasi, penetapan tujuan, simulasi awal, evaluasi sementara, uji ulang, refleksi, dan konfirmasi. Template 2.0 menyarankan sekitar 8–12 jawaban pada simulasi awal dan 3–5 pada uji ulang. Banyaknya giliran tidak menggantikan kedalaman analisis atau keutuhan transkrip. Bagian yang hilang dinyatakan parsial, bukan dibuat ulang.
 
-| Dimensi | Skor | Evidence singkat |
-|---|---:|---|
-| Person & Character | 3 | Value, workload, dan authority target dibaca |
-| Objective & State | 3 | State awal dan signal Interest dibedakan |
-| Repertoire, Language & AI | 3 | Evidence, demo, question, dan AI review proporsional |
-| Response & Adaptation | 4 | Premise dan metric diperbarui saat performance |
-| Agreement, Action & Relationship | 3 | Owner dan cara pencatatan jelas setelah replay |
+## Kasus 1: memimpin diri dan terus belajar
 
-**Total: 16/20 — Kompeten.**
+### Tujuan dan keadaan awal
 
+Dalam [laporan sesi 1](UTS/hasil_1.qmd), Ali Baba ingin membuat demo AI yang menghubungkan kebutuhan dengan talenta dan memperlihatkan pertukaran nilai bagi pihak-pihak terkait. Tujuan yang dikonfirmasi adalah demo dan uji kepada sedikitnya lima orang sampai **16 Oktober 2026**; repository serta kerangka awal direncanakan sampai **4 Oktober 2026**. Keduanya merupakan komitmen dalam laporan, belum bukti pekerjaan selesai.
+
+Hambatan utama adalah banyaknya pekerjaan yang mengganggu fokus. Target utama tetap diri peserta; Dimas hanya menjadi cermin pembanding. Preferensi MBTI peserta belum dilaporkan dan tidak ditetapkan dari percakapan.
+
+### Momen adaptasi
+
+Pada **U026**, peserta menyatakan perlu membatasi komitmen. Dalam uji ulang **U028**, ia memilih memeriksa relevansi pekerjaan dan mengalihkan yang tidak terkait kepada rekan yang mampu. Pada **U029**, masukan yang relevan dijadwalkan mengikuti proyek. **AI030** kemudian mempertanyakan bukti janji bahwa jawaban yang ditunda akan lebih berguna.
+
+Ini menunjukkan pergeseran dari anjuran umum “harus fokus” menuju penyaringan, delegasi, dan penjadwalan. Indikator hasil masih perlu dirinci; penundaan sendiri belum membuktikan manfaat. Refleksi **U032** menekankan pengurutan distraksi menurut kemampuan menangani dan penyerahan kepada pihak ahli.
+
+| PASK | Bukti pada laporan | Batas |
+|---|---|---|
+| Persepsi | Mengenali banyaknya komitmen dan memeriksa relevansi pekerjaan | Belum ada catatan distraksi di luar sesi |
+| Sikap | Menyatakan tanggung jawab terhadap tujuan dan manfaat bersama | Motivasi merupakan laporan diri |
+| Keterampilan | Respons penyaringan, delegasi, dan penjadwalan dalam uji ulang | Demonstrasi verbal, bukan pelaksanaan nyata |
+| Pengetahuan | Menjelaskan kebutuhan–talenta–nilai dan alat pengembangan | Kemampuan teknis aplikasi belum diuji |
+
+## Kasus 2: persahabatan dan profesionalitas
+
+### Sesi 2a — Dimas: alasan, otonomi, dan dependensi
+
+Dalam [bahan sesi 2a](UTS/hasil_2a.qmd), Dimas mempertanyakan keadilan pembagian dan memerlukan ruang kerja mandiri serta akses file. Pada **U003** menurut label bahan awal, ia menolak anggapan bahwa tugas paling berat merupakan hadiah bagi yang paling mampu. Pada **U004**, ia menerima pembagian tetapi mensyaratkan akses lampiran. **U005–U007** menunjukkan dependensi belum tuntas, termasuk kepastian kartu akses.
+
+Pelajaran komunikasi: pengakuan terhadap kemampuan tidak cukup jika beban, dokumen, dan dukungan belum jelas. Kesepakatan harus memeriksa siapa menyediakan file, apakah akses aktif, kapan pekerjaan selesai, dan bagaimana kabar kendala diberikan. Respons mahasiswa tidak tersedia lengkap sehingga kualitas eksekusinya tidak dapat diberi skor penuh. Label U pada tabel bahan lama berisi ujaran Dimas, bukan giliran mahasiswa; label dipertahankan agar rujukan dapat ditelusuri.
+
+### Sesi 2b — Elsa: beban bantuan dan dukungan nyata
+
+[Contoh ilustratif sesi 2b](UTS/hasil_2b.qmd) memperagakan percakapan baru dengan Elsa. Hambatan bukan sekadar tenggat, melainkan pekerjaan membantu teman yang tidak tercatat. **U003–AI004** membuka kebutuhan; **U005–AI008** memperjelas batas tugas; **U009–AI010** menetapkan jadwal relatif dan cara memberi kabar. Pada **U012–AI014**, referensi tambahan muncul sehingga dukungan perlu dijaga, bukan dikembalikan seluruhnya kepada Elsa.
+
+Kepedulian tampak melalui redistribusi kerja, penghormatan batas, dan konsistensi bantuan. Jadwal jam ke-24, ke-32, ke-36, dan ke-40 merupakan asumsi ilustrasi dalam tenggat 48 jam, bukan jadwal peristiwa nyata.
+
+### Perbandingan adaptasi
+
+| Aspek | Dimas — bahan tersedia | Elsa — ilustrasi |
+|---|---|---|
+| Hambatan | Keadilan beban, otonomi, file dan akses | Bantuan tidak terlihat, batas tugas, redistribusi |
+| Repertoar relevan | Alasan dan bukti; pemeriksaan dependensi | Mendengarkan beban; pembagian tertulis; dukungan konkret |
+| Respons yang bermakna | Meminta kepastian file dan kartu | Menyatakan kebutuhan serta batas tugas |
+| Bukti Action | Persetujuan masih bersyarat; akses belum terbukti | Kesepakatan tugas dan jadwal dalam naskah |
+| Uji ulang | Fragmen tawaran kartu tamu; respons target belum lengkap | Perubahan beban ditangani dengan bantuan dan pemeriksaan |
+
+Parameter INTJ pada Dimas dan ISFJ pada Elsa adalah **preferensi tokoh fiktif dalam paket**, bukan hasil diagnosis peserta. Kebutuhan spesifik dan respons lebih penting daripada label.
+
+## Kasus 3: menawarkan solusi TI dan AI
+
+### Sesi 3a — Ali: rasa aman dan langkah kecil
+
+Dalam [bahan sesi 3a](UTS/hasil_3a.qmd), customer Ali khawatir staf tidak mampu menggunakan teknologi. Klaim peningkatan kapasitas tiga kali lipat pada **U002** ditanggapi sebagai terlalu muluk oleh **AI002**. Penjelasan tahapan dan demo membantu membentuk gambaran, tetapi belum menjadi bukti kapasitas atau keamanan sistem.
+
+Momen adaptasi pada **U008–AI008** memakai analogi mengubah pekerjaan menjawab esai menjadi pemeriksaan pilihan. Target mengulang analogi dan memperkuat komitmen melihat demo. Ini merupakan sinyal pemahaman dalam simulasi, bukan bukti keterampilan staf meningkat atau AI telah diadopsi.
+
+Kesepakatan “Jumat pukul 14.00 selama 45 menit” dipertahankan sebagai isi percakapan. Ungkapan relatif “dua hari lagi” tidak selaras dengan tanggal laporan, sehingga tanggal absolut perlu dikonfirmasi. Keberadaan video dan izin tayang juga belum dibuktikan; sumber kantor pemerintah tidak dengan sendirinya membuktikan izin.
+
+### Sesi 3b — Budi: prosedur, biaya, dan pilihan menunda
+
+[Ilustrasi sesi 3b](UTS/hasil_3b.qmd) memperagakan percakapan baru dengan Budi. Komunikator menggali prosedur lama, menawarkan pembandingan cara manual dengan AI, dan mengakui belum ada data peningkatan produktivitas. **U005–AI008** menjelaskan asumsi biaya, prosedur cadangan, serta ukuran ketepatan, waktu, dan koreksi. Demo 30 menit dan sepuluh pertanyaan adalah asumsi latihan.
+
+Pada **U012–AI014**, staf pengganti belum memahami prosedur cadangan. Kesepakatan diperbarui menjadi pemeriksaan kesiapan dahulu; demo AI dapat ditunda. Target tidak dipaksa setuju. Hasil komunikasi tetap bermakna karena syarat dan batas menjadi jelas, meskipun keputusan belum mencapai adopsi.
+
+| Aspek | Ali — bahan tersedia | Budi — ilustrasi |
+|---|---|---|
+| Hambatan | Kecemasan staf, pengetahuan batas AI, latihan awal | Biaya, perubahan prosedur, cadangan saat gagal |
+| Repertoar | Validasi kekhawatiran, contoh, analogi, demo | Perbandingan opsi, asumsi eksplisit, panduan, ukuran hasil |
+| Relasi | Kekhawatiran dianggap valid; kendali staf ditekankan | Tanggung jawab dihormati; pilihan manual/menunda diterima |
+| Keputusan | Komitmen melihat demo dalam simulasi | Pemeriksaan kesiapan sebelum demo lanjutan |
+| Batas | Tidak membuktikan kapasitas 3x atau risiko nol | Tidak membuktikan implementasi siap atau lebih unggul dari manual |
+
+Parameter INFP pada Ali dan ISTJ pada Budi adalah konfigurasi tokoh. Keberhasilan tidak diukur dari penjualan atau persetujuan otomatis, melainkan pemahaman, dukungan realistis, dan keputusan yang bertanggung jawab.
+
+## Evaluasi stimulus, relasi, dan PASK
+
+Untuk setiap episode penting, hubungkan **status awal → stimulus → respons → interpretasi → adaptasi → bukti berikutnya**. Perubahan rasa aman dibedakan dari pemahaman, keterampilan, dan keputusan.
+
+| Pertanyaan analisis | Contoh yang dapat diperiksa |
+|---|---|
+| Apakah tafsir awal dikoreksi? | Klaim 3x pada sesi 3a dipertanyakan target |
+| Apakah kepedulian konkret? | Pengambilalihan tugas tambahan dalam ilustrasi Elsa |
+| Apakah pengetahuan meningkat? | Target menjelaskan kembali analogi atau prosedur |
+| Apakah skill sudah ditunjukkan? | Pisahkan jawaban simulasi dari demonstrasi pekerjaan nyata |
+| Apakah rencana berubah karena respons? | Pemeriksaan kesiapan mendahului demo pada ilustrasi Budi |
+| Apakah hubungan dijaga saat keputusan tertunda? | Hak meminta syarat atau menolak tetap diterima |
+
+SWOT-like membantu membaca peluang/ancaman dan mampu/belum mampu dari sudut pandang target. Perubahan tafsir tidak boleh menghapus ancaman nyata. Refleks, reaktif, responsif, dan apresiatif menjadi bahan pembahasan tindakan, bukan peringkat kepribadian. Uji ulang memperlihatkan pilihan respons dalam situasi terkait; pertumbuhan berkelanjutan memerlukan bukti lanjutan.
+
+## Penilaian enam dimensi
+
+| Dimensi UTS | Bukti yang dicari |
+|---|---|
+| Tujuan dan konteks | Tujuan, batas, sasaran, indikator, dan keadaan awal |
+| Persepsi dan validasi profil/status | Dugaan sebelum pengungkapan, pertanyaan validasi, koreksi |
+| Pemilihan dan urutan repertoar | Alasan memilih pertanyaan, contoh, bukti, analogi, dukungan |
+| Eksekusi jelas, peduli dan konsisten | Ujaran spesifik, penghormatan pilihan, bantuan yang konsisten |
+| Evaluasi dan adaptasi | Respons yang mengubah rencana serta penerapan pada uji ulang |
+| Refleksi dan lesson learned | Pelajaran peserta, perubahan ASK, transfer dan batas bukti |
+
+Skala mengikuti ketentuan **1–4 atau BT**. BT berarti belum dapat ditetapkan, bukan nol. Bahan yang parsial dan naskah ilustratif tidak dijadikan nilai performa mahasiswa. Skor tinggi dalam bahan lama tidak dipakai sebagai nilai resmi dan tidak diwariskan ke contoh baru.
+
+Jika keenam skor sah tersedia, nilai sesi dihitung dengan `jumlah skor / 24 × 100`. Nilai kasus 2 dapat diringkas dari rata-rata 2a dan 2b, kasus 3 dari 3a dan 3b, setelah memeriksa BT. Bobot UTS adalah 10% makalah dan 18% untuk masing-masing dari lima sesi. Nilai akhir = 0,10 × nilai makalah + 0,18 × jumlah nilai kelima sesi. **Nilai akhir contoh belum dihitung karena nilai komponen yang sah belum lengkap; bahan ilustratif bukan nilai performance mahasiswa.**
+
+## Pemeriksaan sebelum pengumpulan
+
+- Makalah menjawab empat pertanyaan dan menyertakan sumber yang dapat ditelusuri.
+- Lima laporan memakai identitas, versi, dan target sesuai ZIP aktif; NIM dipertahankan sebagai teks.
+- Setiap laporan mempunyai empat bagian A–D dan seluruh giliran aktual sampai konfirmasi.
+- Dugaan awal, informasi profil setelah simulasi, ujaran peserta, dan interpretasi AI dibedakan.
+- Hasil tujuan, perubahan relasi, SWOT/ASK, uji ulang, dan refleksi dihubungkan dengan ID bukti.
+- Rencana dibedakan dari pelaksanaan; bagian hilang dinyatakan parsial; keputusan menolak tidak ditutupi.
+- Skor memiliki alasan dan bukti; BT diperiksa sebelum agregasi; usulan AI bukan nilai resmi.
+- Nama berkas mengikuti paket, diletakkan di `portfolio/UTS`, dan unggahan portal dilakukan sendiri.
+
+[Buka template portfolio Minggu 8](../portfolio/week-08.qmd) · [Buka instruksi UTS](../lk/lk-UTS/index.qmd) · [Kembali ke daftar contoh](index.qmd)
+
+{{< include "../includes/uts-penilaian.md" >}}

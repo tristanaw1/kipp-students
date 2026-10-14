@@ -4,7 +4,7 @@ sidebar: examples
 toc: false
 ---
 
-Halaman-halaman ini memperlihatkan **tingkat kekonkretan evidence dan analisis** yang diharapkan. Seluruh identitas, percakapan, tautan, dan artefak bersifat fiktif.
+Halaman-halaman ini memperlihatkan **tingkat kekonkretan evidence dan analisis** yang diharapkan. Identitas dan skenario disajikan untuk pembelajaran. Contoh Minggu 8 membedakan bahan percakapan yang tersedia, bahan parsial, dan dialog ilustratif baru; setiap halaman menyatakan batas buktinya.
 
 ::: {.callout-warning title="Bukan jawaban siap salin"}
 Mahasiswa harus menggunakan pengalaman, kontribusi, response, feedback, dan evidence miliknya sendiri. Mengganti nama pada contoh tidak menghasilkan evidence autentik.
@@ -19,7 +19,7 @@ Mahasiswa harus menggunakan pengalaman, kontribusi, response, feedback, dan evid
 | 5 | [Discovery Interview](week-05.qmd) | Shared problem statement |
 | 6 | [Target–Attention Challenge](week-06.qmd) | Target map dan attention evidence |
 | 7 | [Interest Pitch](week-07.qmd) | Problem–solution fit dan adaptation |
-| 8 | [UTS Performance](week-08.qmd) | Closed-loop performance dan replay |
+| 8 | [Jawaban UTS KIPP 2026](week-08.qmd) | Makalah MBTI/PASK, lima sesi, stimulus-respons, relasi, uji ulang, dan refleksi |
 | 9 | [Desire-State Communication](week-09.qmd) | Desired state, value, risk, evidence |
 | 10 | [Action & Agreement](week-10.qmd) | Barrier, authority, owner, deadline |
 | 11 | [Multi-Person Negotiation](week-11.qmd) | Interests, trade-off, dan dissent |
