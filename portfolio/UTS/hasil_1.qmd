@@ -13,7 +13,7 @@ execute:
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | Tristan Anthony Wijaya[cite: 5] |
+| Nama mahasiswa | Tristan Anthony Wijaya[cite: 5]  |
 | NIM | 18225045[cite: 5] |
 | Kelas dan tanggal | II2100-01, 14 Oktober 2026[cite: 1, 6] |
 | Nomor/judul kasus | Sesi 1; Kasus 1 (Memimpin diri dan terus belajar)[cite: 1, 5] |
