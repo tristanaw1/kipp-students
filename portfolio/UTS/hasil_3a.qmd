@@ -13,7 +13,7 @@ execute:
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | Tristan Anthony Wijaya[cite: 2]  |
+| Nama mahasiswa | Tristan Anthony Wijaya[cite: 2] |
 | NIM | 18225045[cite: 2] |
 | Kelas dan tanggal | II2100-01, 15 Oktober 2026[cite: 1, 2] |
 | Nomor/judul kasus | Sesi 3a; Kasus 3 (Menawarkan Solusi TI dan AI)[cite: 1, 2] |
