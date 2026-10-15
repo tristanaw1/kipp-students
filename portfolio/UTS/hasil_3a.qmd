@@ -137,7 +137,7 @@ Batas bukti: hasil yang tersedia berupa respons dan rencana dalam simulasi teks.
 
 | Komponen | Bobot | Nilai komponen |
 |---|---|---|
-| Makalah pra-UTS | 10% | Nilai dosen belum tersedia |
+| Makalah pra-UTS | 10% | Nilai dosen belum tersedia  |
 | Sesi 1 | 18% | BT |
 | Sesi 2a | 18% | BT |
 | Sesi 2b | 18% | BT |
