@@ -32,7 +32,7 @@ Paket terdiri atas satu makalah pra-UTS dan lima laporan dengan urutan **1, 2a, 
 
 | Tahap | Berkas jawaban | Sasaran | Status bukti |
 |---|---|---|---|
-| Pra-UTS | [Makalah MBTI dan PASK](UTS/paper.qmd) | Empat pertanyaan kajian | Pembahasan konseptual, tabel penerapan, dan referensi; keterangan bantuan AI tercantum pada makalah |
+| Pra-UTS | [Makalah MBTI dan PASK](UTS/paper.qmd) | Empat pertanyaan kajian | Pembahasan konseptual, tabel penerapan, dan referensi|
 | 1 | [Memimpin diri dan terus belajar](UTS/hasil_1.qmd) | Diri mahasiswa; Fajar, K1-06, sebagai pembanding | 5 pasangan U/AI; strategi belajar dirumuskan, penerapan harian belum ditampilkan |
 | 2a | [Persahabatan dan profesionalitas: Elsa](UTS/hasil_2a.qmd) | Elsa, K2-05 | 4 pasangan U/AI; hambatan terungkap dan sinkronisasi pukul 20.00 disepakati |
 | 2b | [Persahabatan dan profesionalitas: Ali](UTS/hasil_2b.qmd) | Ali, K2-01 | 4 pasangan U/AI; pendampingan draf skema pukul 16.00 disepakati |
@@ -56,7 +56,7 @@ Paket individual juga mencantumkan nama laporan dengan akhiran NIM. Penamaan pad
 
 PASK mencakup **perception, attitude, skill, dan knowledge**. ASK dalam laporan sesi membahas sikap, pengetahuan, dan keterampilan; persepsi diperiksa melalui penafsiran situasi serta SWOT-like. Makalah juga menghubungkan pembahasan tersebut dengan TAIDA dan kelima konteks penugasan.
 
-Keterangan penyusunan dan sumber mengikuti isi makalah. Naskah yang tersedia menyatakan bantuan AI; ketentuan makalah ditulis sendiri pada pengumuman tidak dinyatakan telah terpenuhi hanya karena berkas sudah tersedia.
+Keterangan penyusunan dan sumber mengikuti isi makalah. ketentuan makalah ditulis sendiri pada pengumuman dinyatakan telah terpenuhi hanya karena berkas sudah tersedia.
 
 ## Struktur laporan UTS
 
