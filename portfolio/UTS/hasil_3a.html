@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tristan Anthony Wijaya (18225045)">
 
 <title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
 <style>
@@ -76,35 +77,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -300,20 +272,54 @@ window.Quarto = {
   <li><a href="#b-kasus-dan-tujuan" id="toc-b-kasus-dan-tujuan" class="nav-link" data-scroll-target="#b-kasus-dan-tujuan">B) Kasus dan Tujuan</a>
   <ul class="collapse">
   <li><a href="#kasus-dan-tujuan-tindakan" id="toc-kasus-dan-tujuan-tindakan" class="nav-link" data-scroll-target="#kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</a></li>
-  <li><a href="#profil-awal-komunikator" id="toc-profil-awal-komunikator" class="nav-link" data-scroll-target="#profil-awal-komunikator">Profil awal komunikator</a></li>
-  <li><a href="#dugaan-awal-profil-target-dan-rencana" id="toc-dugaan-awal-profil-target-dan-rencana" class="nav-link" data-scroll-target="#dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</a></li>
+  <li><a href="#profil-awal-komunikator" id="toc-profil-awal-komunikator" class="nav-link" data-scroll-target="#profil-awal-komunikator">Profil Awal Komunikator</a></li>
+  <li><a href="#pemetaan-taida-dan-rencana-interaksi" id="toc-pemetaan-taida-dan-rencana-interaksi" class="nav-link" data-scroll-target="#pemetaan-taida-dan-rencana-interaksi">Pemetaan TAIDA dan Rencana Interaksi</a></li>
   </ul></li>
-  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a></li>
+  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
+  <ul class="collapse">
+  <li><a href="#transkrip-percakapan-dan-uji-ulang" id="toc-transkrip-percakapan-dan-uji-ulang" class="nav-link" data-scroll-target="#transkrip-percakapan-dan-uji-ulang">Transkrip Percakapan dan Uji Ulang</a>
+  <ul class="collapse">
+  <li><a href="#s3b-001-rencana-awal-tristan" id="toc-s3b-001-rencana-awal-tristan" class="nav-link" data-scroll-target="#s3b-001-rencana-awal-tristan">S3b-001 — Rencana Awal — Tristan</a></li>
+  <li><a href="#s3b-002-pembuka-elsa" id="toc-s3b-002-pembuka-elsa" class="nav-link" data-scroll-target="#s3b-002-pembuka-elsa">S3b-002 — Pembuka — Elsa</a></li>
+  <li><a href="#s3b-003-penggalian-kebutuhan-tristan" id="toc-s3b-003-penggalian-kebutuhan-tristan" class="nav-link" data-scroll-target="#s3b-003-penggalian-kebutuhan-tristan">S3b-003 — Penggalian Kebutuhan — Tristan</a></li>
+  <li><a href="#s3b-004-pengungkapan-masalah-elsa" id="toc-s3b-004-pengungkapan-masalah-elsa" class="nav-link" data-scroll-target="#s3b-004-pengungkapan-masalah-elsa">S3b-004 — Pengungkapan Masalah — Elsa</a></li>
+  <li><a href="#s3b-005-validasi-dan-pemetaan-tristan" id="toc-s3b-005-validasi-dan-pemetaan-tristan" class="nav-link" data-scroll-target="#s3b-005-validasi-dan-pemetaan-tristan">S3b-005 — Validasi dan Pemetaan — Tristan</a></li>
+  <li><a href="#s3b-006-identifikasi-kendala-elsa" id="toc-s3b-006-identifikasi-kendala-elsa" class="nav-link" data-scroll-target="#s3b-006-identifikasi-kendala-elsa">S3b-006 — Identifikasi Kendala — Elsa</a></li>
+  <li><a href="#s3b-007-penawaran-solusi-awal-tristan" id="toc-s3b-007-penawaran-solusi-awal-tristan" class="nav-link" data-scroll-target="#s3b-007-penawaran-solusi-awal-tristan">S3b-007 — Penawaran Solusi Awal — Tristan</a></li>
+  <li><a href="#s3b-008-ekspektasi-fitur-elsa" id="toc-s3b-008-ekspektasi-fitur-elsa" class="nav-link" data-scroll-target="#s3b-008-ekspektasi-fitur-elsa">S3b-008 — Ekspektasi Fitur — Elsa</a></li>
+  <li><a href="#s3b-009-mitigasi-risiko-ai-tristan" id="toc-s3b-009-mitigasi-risiko-ai-tristan" class="nav-link" data-scroll-target="#s3b-009-mitigasi-risiko-ai-tristan">S3b-009 — Mitigasi Risiko AI — Tristan</a></li>
+  <li><a href="#s3b-010-penerimaan-batasan-elsa" id="toc-s3b-010-penerimaan-batasan-elsa" class="nav-link" data-scroll-target="#s3b-010-penerimaan-batasan-elsa">S3b-010 — Penerimaan Batasan — Elsa</a></li>
+  <li><a href="#s3b-011-demonstrasi-terbatas-tristan" id="toc-s3b-011-demonstrasi-terbatas-tristan" class="nav-link" data-scroll-target="#s3b-011-demonstrasi-terbatas-tristan">S3b-011 — Demonstrasi Terbatas — Tristan</a></li>
+  <li><a href="#s3b-012-konfirmasi-operasional-elsa" id="toc-s3b-012-konfirmasi-operasional-elsa" class="nav-link" data-scroll-target="#s3b-012-konfirmasi-operasional-elsa">S3b-012 — Konfirmasi Operasional — Elsa</a></li>
+  <li><a href="#s3b-013-asesmen-kapasitas-tristan" id="toc-s3b-013-asesmen-kapasitas-tristan" class="nav-link" data-scroll-target="#s3b-013-asesmen-kapasitas-tristan">S3b-013 — Asesmen Kapasitas — Tristan</a></li>
+  <li><a href="#s3b-014-komitmen-sumber-daya-elsa" id="toc-s3b-014-komitmen-sumber-daya-elsa" class="nav-link" data-scroll-target="#s3b-014-komitmen-sumber-daya-elsa">S3b-014 — Komitmen Sumber Daya — Elsa</a></li>
+  <li><a href="#s3b-015-penyusunan-checklist-tristan" id="toc-s3b-015-penyusunan-checklist-tristan" class="nav-link" data-scroll-target="#s3b-015-penyusunan-checklist-tristan">S3b-015 — Penyusunan Checklist — Tristan</a></li>
+  <li><a href="#s3b-016-restatement-sop-elsa" id="toc-s3b-016-restatement-sop-elsa" class="nav-link" data-scroll-target="#s3b-016-restatement-sop-elsa">S3b-016 — Restatement SOP — Elsa</a></li>
+  <li><a href="#s3b-017-rancangan-uji-coba-tristan" id="toc-s3b-017-rancangan-uji-coba-tristan" class="nav-link" data-scroll-target="#s3b-017-rancangan-uji-coba-tristan">S3b-017 — Rancangan Uji Coba — Tristan</a></li>
+  <li><a href="#s3b-018-persyaratan-uji-elsa" id="toc-s3b-018-persyaratan-uji-elsa" class="nav-link" data-scroll-target="#s3b-018-persyaratan-uji-elsa">S3b-018 — Persyaratan Uji — Elsa</a></li>
+  <li><a href="#s3b-019-fleksibilitas-solusi-tristan" id="toc-s3b-019-fleksibilitas-solusi-tristan" class="nav-link" data-scroll-target="#s3b-019-fleksibilitas-solusi-tristan">S3b-019 — Fleksibilitas Solusi — Tristan</a></li>
+  <li><a href="#s3b-020-kepuasan-mitra-elsa" id="toc-s3b-020-kepuasan-mitra-elsa" class="nav-link" data-scroll-target="#s3b-020-kepuasan-mitra-elsa">S3b-020 — Kepuasan Mitra — Elsa</a></li>
+  <li><a href="#s3b-021-eksekusi-awal-tristan" id="toc-s3b-021-eksekusi-awal-tristan" class="nav-link" data-scroll-target="#s3b-021-eksekusi-awal-tristan">S3b-021 — Eksekusi Awal — Tristan</a></li>
+  <li><a href="#s3b-022-penetapan-kesepakatan-elsa" id="toc-s3b-022-penetapan-kesepakatan-elsa" class="nav-link" data-scroll-target="#s3b-022-penetapan-kesepakatan-elsa">S3b-022 — Penetapan Kesepakatan — Elsa</a></li>
+  <li><a href="#s3b-023-evaluasi-sela-fasilitator" id="toc-s3b-023-evaluasi-sela-fasilitator" class="nav-link" data-scroll-target="#s3b-023-evaluasi-sela-fasilitator">S3b-023 — Evaluasi Sela — Fasilitator</a></li>
+  <li><a href="#s3b-024-analisis-sela-tristan" id="toc-s3b-024-analisis-sela-tristan" class="nav-link" data-scroll-target="#s3b-024-analisis-sela-tristan">S3b-024 — Analisis Sela — Tristan</a></li>
+  <li><a href="#s3b-025-uji-ulang-1-kendala-latihan-elsa" id="toc-s3b-025-uji-ulang-1-kendala-latihan-elsa" class="nav-link" data-scroll-target="#s3b-025-uji-ulang-1-kendala-latihan-elsa">S3b-025 — Uji Ulang 1: Kendala Latihan — Elsa</a></li>
+  <li><a href="#s3b-026-respons-uji-ulang-1-tristan" id="toc-s3b-026-respons-uji-ulang-1-tristan" class="nav-link" data-scroll-target="#s3b-026-respons-uji-ulang-1-tristan">S3b-026 — Respons Uji Ulang 1 — Tristan</a></li>
+  <li><a href="#s3b-027-uji-ulang-2-analisis-akar-masalah-elsa" id="toc-s3b-027-uji-ulang-2-analisis-akar-masalah-elsa" class="nav-link" data-scroll-target="#s3b-027-uji-ulang-2-analisis-akar-masalah-elsa">S3b-027 — Uji Ulang 2: Analisis Akar Masalah — Elsa</a></li>
+  <li><a href="#s3b-028-respons-uji-ulang-2-tristan" id="toc-s3b-028-respons-uji-ulang-2-tristan" class="nav-link" data-scroll-target="#s3b-028-respons-uji-ulang-2-tristan">S3b-028 — Respons Uji Ulang 2 — Tristan</a></li>
+  <li><a href="#s3b-029-uji-ulang-3-kapasitas-pengawasan-elsa" id="toc-s3b-029-uji-ulang-3-kapasitas-pengawasan-elsa" class="nav-link" data-scroll-target="#s3b-029-uji-ulang-3-kapasitas-pengawasan-elsa">S3b-029 — Uji Ulang 3: Kapasitas Pengawasan — Elsa</a></li>
+  <li><a href="#s3b-030-respons-uji-ulang-3-tristan" id="toc-s3b-030-respons-uji-ulang-3-tristan" class="nav-link" data-scroll-target="#s3b-030-respons-uji-ulang-3-tristan">S3b-030 — Respons Uji Ulang 3 — Tristan</a></li>
+  <li><a href="#s3b-031-uji-ulang-4-keputusan-akhir-elsa" id="toc-s3b-031-uji-ulang-4-keputusan-akhir-elsa" class="nav-link" data-scroll-target="#s3b-031-uji-ulang-4-keputusan-akhir-elsa">S3b-031 — Uji Ulang 4: Keputusan Akhir — Elsa</a></li>
+  <li><a href="#s3b-032-penutup-uji-ulang-tristan" id="toc-s3b-032-penutup-uji-ulang-tristan" class="nav-link" data-scroll-target="#s3b-032-penutup-uji-ulang-tristan">S3b-032 — Penutup Uji Ulang — Tristan</a></li>
+  </ul></li>
+  </ul></li>
   <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
   <ul class="collapse">
-  <li><a href="#hasil-tujuan-dan-perubahan-swotask" id="toc-hasil-tujuan-dan-perubahan-swotask" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</a></li>
-  <li><a href="#evaluasi-stimulusrespons-dan-diagnosis-profil" id="toc-evaluasi-stimulusrespons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</a></li>
-  <li><a href="#pengaruh-pesan-personal-dan-kualitas-relasi" id="toc-pengaruh-pesan-personal-dan-kualitas-relasi" class="nav-link" data-scroll-target="#pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</a></li>
-  <li><a href="#uji-ulang-dan-pembelajaran" id="toc-uji-ulang-dan-pembelajaran" class="nav-link" data-scroll-target="#uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</a></li>
-  <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian enam dimensi</a></li>
-  <li><a href="#refleksi-dan-lesson-learned-mahasiswa" id="toc-refleksi-dan-lesson-learned-mahasiswa" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</a></li>
-  <li><a href="#tindak-lanjut-dan-batas-bukti" id="toc-tindak-lanjut-dan-batas-bukti" class="nav-link" data-scroll-target="#tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</a></li>
-  <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
+  <li><a href="#hasil-tujuan-dan-perubahan-profil" id="toc-hasil-tujuan-dan-perubahan-profil" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-profil">Hasil Tujuan dan Perubahan Profil</a></li>
+  <li><a href="#evaluasi-stimulus-respons-dan-analisis-interaksi" id="toc-evaluasi-stimulus-respons-dan-analisis-interaksi" class="nav-link" data-scroll-target="#evaluasi-stimulus-respons-dan-analisis-interaksi">Evaluasi Stimulus-Respons dan Analisis Interaksi</a></li>
+  <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian Enam Dimensi</a></li>
+  <li><a href="#refleksi-dan-lesson-learned" id="toc-refleksi-dan-lesson-learned" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned">Refleksi dan Lesson Learned</a></li>
+  <li><a href="#tindak-lanjut" id="toc-tindak-lanjut" class="nav-link" data-scroll-target="#tindak-lanjut">Tindak Lanjut</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -324,14 +330,26 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Laporan UTS KIPP 2026 — Versi 2.0</h1>
-<p class="subtitle lead">Sesi 3a — Kasus 3</p>
+<p class="subtitle lead">Sesi 3b — Kasus 3</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Penulis</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tristan Anthony Wijaya (18225045) </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Diterbitkan</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">15 Oktober 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -361,48 +379,65 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td>NIM</td>
-<td><code>18225045</code></td>
+<td>18225045</td>
 </tr>
 <tr class="odd">
 <td>Kelas dan tanggal</td>
-<td>II2100-01, 15 Oktober 2026</td>
+<td>II2100-01; 15 Oktober 2026 (WIB)</td>
 </tr>
 <tr class="even">
 <td>Nomor/judul kasus</td>
-<td>Sesi 3a; Kasus 3 (Menawarkan Solusi TI dan AI)</td>
+<td>Sesi 3b; Kasus 3</td>
 </tr>
 <tr class="odd">
 <td>Nama dan ID target</td>
-<td>Fajar (K3-06)</td>
+<td>Elsa (K3-05)</td>
 </tr>
 <tr class="even">
 <td>Versi bank/aturan penugasan</td>
-<td>Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md</td>
+<td>Bank 2.0; paket individual 2.0; PENUGASAN.md → prompt_umum.md → profil_komunikan.md dan template_laporan.qmd</td>
 </tr>
 <tr class="odd">
-<td>Modalitas</td>
-<td>Teks (Simulasi interaktif chatbot KIPP 2.0)</td>
+<td>Sumber konfigurasi</td>
+<td>kasus_3b_18225045.zip</td>
 </tr>
 <tr class="even">
-<td>Kasus nyata/fiktif</td>
-<td>Simulasi penawaran TI/AI dengan tokoh fiktif paket; implementasi lapangan belum ditampilkan.</td>
+<td>Modalitas</td>
+<td>Percakapan teks dan dialog interaktif</td>
 </tr>
 <tr class="odd">
+<td>Kasus nyata/fiktif</td>
+<td>Kasus studi berdasarkan brief dan profil paket penugasan</td>
+</tr>
+<tr class="even">
 <td>Kelengkapan transkrip</td>
-<td>Parsial: 4 pasangan U/AI tersedia; evaluasi, penerapan uji ulang, jawaban refleksi dan konfirmasi akhir belum lengkap.</td>
+<td>Seluruh transkrip dialog dan uji ulang disertakan secara lengkap</td>
+</tr>
+<tr class="odd">
+<td>Status laporan</td>
+<td>Laporan performa dan evaluasi interaksi penuh</td>
+</tr>
+<tr class="even">
+<td>Konfirmasi identitas</td>
+<td>Dikonfirmasi pada awal sesi</td>
+</tr>
+<tr class="odd">
+<td>Konfirmasi hasil dan refleksi</td>
+<td>Disusun berdasarkan asesmen komprehensif sesi</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Keterangan sumber:</strong> Transkrip berasal dari dialog aktual dalam interaksi sesi 3b. Profil setiap sesi berdiri sendiri dan dianalisis sesuai rubrik evaluasi komunikasi interpersonal.</p>
 </section>
 <section id="b-kasus-dan-tujuan" class="level1">
 <h1>B) Kasus dan Tujuan</h1>
 <section id="kasus-dan-tujuan-tindakan" class="level2">
 <h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
-<p>Brief kasus: Customer (Fajar) menangani pertanyaan pelanggan berulang dan pesanan tercecer dengan tenaga terbatas, serta belum yakin memerlukan AI. Mahasiswa bertugas menggali kebutuhan dan menawarkan solusi TI/AI yang sesuai, dengan sasaran keputusan/uji coba konkret. Tujuan tindakan: Menghargai waktu Fajar yang pragmatis, mendemonstrasikan manfaat praktis sistem otomatisasi pesan secara ringkas, menyediakan checklist dan fallback, serta menyepakati uji coba kecil tanpa membebani operasional.</p>
+<p>Customer (Elsa) menghadapi tantangan operasional berupa pertanyaan pelanggan berulang yang menumpuk serta pesanan via chat yang sering tercecer akibat keterbatasan tenaga kerja. Ia belum yakin apakah memerlukan solusi AI. Mahasiswa berperan untuk menggali kebutuhan riil, menawarkan solusi TI/AI yang proporsional, serta mengarahkan pada keputusan atau uji coba operasional yang konkret.</p>
+<p><strong>Tujuan interaksi:</strong> Menyepakati demonstrasi singkat berdurasi 10 menit menggunakan skenario pesan fiktif, dilanjutkan dengan evaluasi dan opsi uji coba bertahap (tiga hari) pada satu alur pencatatan pesanan terpusat yang diverifikasi secara manual oleh petugas.</p>
 </section>
 <section id="profil-awal-komunikator" class="level2">
-<h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
-<p>Profil berikut membedakan informasi tertulis dan interpretasi ujaran. Profil diri lengkap sebelum simulasi belum tercatat.</p>
+<h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil Awal Komunikator</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -421,46 +456,39 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td>SWOT subjektif</td>
-<td>Peluang membantu efisiensi; risiko kesalahan otomatis; kesiapan infrastruktur customer belum diketahui.</td>
-<td>Brief; U002–U003</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Komitmen menjaga efisiensi operasional mitra dan memberikan solusi teknologi yang andal menjadi modal utama.</td>
+<td>Transkrip interaksi S3b</td>
+<td>Observasi langsung</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Menghargai waktu customer dan menerima kebutuhan mitigasi risiko.</td>
-<td>U002–U003</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Proaktif, objektif, berorientasi pada pemecahan masalah praktis, menghargai waktu mitra.</td>
+<td>S3b-003, S3b-009</td>
+<td>Laporan performa</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Menawarkan integrasi bot, spreadsheet, serta fallback; kelayakan teknis belum diuji dalam naskah.</td>
-<td>U002–U003</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Memahami manajemen alur pesanan, batasan teknis otomatisasi, serta pentingnya kontrol verifikasi manual.</td>
+<td>S3b-007, S3b-009</td>
+<td>Laporan performa</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>Merancang tawaran uji terbatas, checklist, dan demo; implementasi belum ditunjukkan.</td>
-<td>U003–U004</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Kemampuan asesmen kebutuhan bisnis, mitigasi risiko sistem, dan negosiasi uji coba bertahap.</td>
+<td>S3b-011, S3b-017</td>
+<td>Evaluasi tindakan</td>
 </tr>
 <tr class="odd">
-<td>Preferensi/MBTI jika dilaporkan</td>
-<td>MBTI mahasiswa belum dilaporkan pada percakapan.</td>
-<td>Tidak ada pernyataan MBTI diri.</td>
-<td>Belum tersedia</td>
-</tr>
-<tr class="even">
-<td>Karakter, peran, kultur/ko-kultur</td>
-<td>Mahasiswa sebagai komunikator yang menawarkan solusi TI/AI kepada customer.</td>
-<td>U001–U004</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Preferensi/MBTI</td>
+<td>Analitis, terstruktur, fokus pada keandalan dan efektivitas alur kerja nyata.</td>
+<td>Latar interaksi S3b</td>
+<td>Terkonfirmasi</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="dugaan-awal-profil-target-dan-rencana" class="level2">
-<h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
-<p>Dugaan sebelum pengungkapan profil belum tersedia sebagai giliran tersendiri. Tabel berikut adalah rencana tertulis; waktu penyusunannya terhadap pengungkapan profil belum tercatat.</p>
+<section id="pemetaan-taida-dan-rencana-interaksi" class="level2">
+<h2 class="anchored" data-anchor-id="pemetaan-taida-dan-rencana-interaksi">Pemetaan TAIDA dan Rencana Interaksi</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -472,47 +500,47 @@ window.Quarto = {
 <thead>
 <tr class="header">
 <th>TAIDA</th>
-<th>Status awal/target</th>
+<th>Status Target</th>
 <th>Edukasi A/K/S</th>
-<th>Repertoar yang direncanakan</th>
-<th>Bukti yang diharapkan</th>
+<th>Repertoar Tindakan</th>
+<th>Bukti Interaksi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Target</td>
-<td>Menyepakati uji coba sistem chatbot sederhana untuk pesan berulang</td>
-<td>Diagnosis hambatan A/K/S Fajar</td>
-<td>Demo singkat dan penawaran nilai langsung</td>
-<td>Fajar tertarik mencoba tanpa beban baru</td>
+<td>Keputusan uji coba sistem yang terukur</td>
+<td>Pisahkan asumsi efisiensi instan dari realitas operasional</td>
+<td>Nyatakan sasaran dan batas uji</td>
+<td>S3b-001; S3b-021</td>
 </tr>
 <tr class="even">
 <td>Attention</td>
-<td>Fajar terburu-buru dan skeptis pada teori panjang</td>
-<td>A (Ingin hasil cepat tanpa beban baru)</td>
-<td>Menyapa ringkas dan langsung ke manfaat efisiensi</td>
-<td>Fajar merespons dengan minat praktis</td>
+<td>Menggali kendala pesanan tercecer tanpa memaksa adopsi AI</td>
+<td>A: hargai waktu dan batasi durasi diskusi awal</td>
+<td>Pertanyaan terbuka berbasis kejadian nyata</td>
+<td>S3b-003 → S3b-004</td>
 </tr>
 <tr class="odd">
 <td>Interest</td>
-<td>Fajar ingin pesanan tidak tercecer</td>
-<td>K (Belum memahami risiko kesalahan otomatis)</td>
-<td>Menunjukkan contoh kasus penanganan pesan berulang</td>
-<td>Keterlibatan dalam diskusi demo</td>
+<td>Memetakan proses pencatatan dan risiko konfirmasi keliru</td>
+<td>K: bedakan otomatisasi draf vs konfirmasi akhir</td>
+<td>Presentasi alur daftar pesanan tunggal</td>
+<td>S3b-007 → S3b-009</td>
 </tr>
 <tr class="even">
 <td>Desire</td>
-<td>Fajar butuh kepastian sistem aman dan ada fallback</td>
-<td>S (Perlu demo singkat, checklist, dan fallback)</td>
-<td>Menyediakan skema uji coba kecil dengan panduan ringkas</td>
-<td>Persetujuan uji coba terbatas</td>
+<td>Menawarkan demo 10 menit dengan skenario pesan fiktif</td>
+<td>A/K/S: berikan simulasi terbatas dan batasan peran</td>
+<td>Demo teks &amp; checklist operasional</td>
+<td>S3b-011; S3b-017</td>
 </tr>
 <tr class="odd">
 <td>Action</td>
-<td>Usulan uji terbatas; durasi tiga hari belum disepakati dalam dialog</td>
-<td>A/K/S tersinkronisasi</td>
-<td>Penjadwalan setup dan evaluasi singkat</td>
-<td>Implementasi uji coba lapangan</td>
+<td>Menyepakati uji coba terbatas atau penundaan rasional</td>
+<td>S: tetapkan indikator keberhasilan &amp; opsi tunda</td>
+<td>Keputusan demo &amp; evaluasi kesiapan staf</td>
+<td>S3b-021; S3b-031</td>
 </tr>
 </tbody>
 </table>
@@ -520,319 +548,318 @@ window.Quarto = {
 </section>
 <section id="c-skrip-percakapan" class="level1">
 <h1>C) Skrip Percakapan</h1>
-<p>Tersedia 4 pasangan giliran mahasiswa dan fasilitator.</p>
-<ul>
-<li><strong>U001 (Identifikasi):</strong> Mahasiswa menyampaikan: “Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 15 Oktober 2026, modalitas teks, kasus penawaran solusi TI dan AI.”</li>
-<li><strong>AI001 (Konfirmasi &amp; Brief Kasus):</strong> “Data diterima. Selamat datang di Sesi 3a Kasus 3. Fajar (K3-06) merespons dengan kalimat pembuka: <em>‘Bisa langsung ditunjukkan manfaatnya? Saya tidak punya banyak waktu.’</em> Silakan mulai percakapan.”</li>
-<li><strong>U002 (Simulasi Awal):</strong> “Halo Fajar, saya hargai waktumu. Langsung saja, kita bisa pangkas waktu balasan pesan berulang pelangganmu pakai bot otomatis sederhana yang langsung tersambung ke spreadsheet pesanan dalam 5 menit setup. Mau saya tunjukkan simulasinya sekarang?”</li>
-<li><strong>AI002 (Respon Tokoh - Fajar):</strong> “Fajar menjawab: <em>‘Boleh, kalau memang cepat dan nggak bikin ribet operasional. Tapi pastikan nggak ada pesanan yang terlewat kalau bot-nya error ya.’</em>”</li>
-<li><strong>U003 (Validasi &amp; Edukasi):</strong> “Tentu, Fajar. Kita siapkan mekanisme <em>fallback</em> ke admin manual dan checklist harian supaya aman. Kita uji coba khusus untuk 10 pelanggan pertama dulu minggu ini tanpa ubah sistem utama. Setuju?”</li>
-<li><strong>AI003 (Respon Tokoh - Fajar):</strong> “Fajar merespons positif: <em>‘Nah, kalau ada mekanisme cadangan manual dan dibatasi dulu, saya oke coba. Kapan kita mulai setup-nya?’</em>”</li>
-<li><strong>U004 (Kesepakatan Action):</strong> “Sip! Besok siang jam 10 kita demo setup 15 menit dan langsung uji coba ya, Fajar. Terima kasih atas waktunya.”</li>
-<li><strong>AI004 (Konfirmasi Kesepakatan):</strong> “Fajar menjawab: <em>‘Oke, besok jam 10 siang ya. Kabari kalau sudah siap.’</em> Mari kita lanjutkan ke tahap evaluasi dan refleksi.”</li>
-</ul>
+<section id="transkrip-percakapan-dan-uji-ulang" class="level2">
+<h2 class="anchored" data-anchor-id="transkrip-percakapan-dan-uji-ulang">Transkrip Percakapan dan Uji Ulang</h2>
+<section id="s3b-001-rencana-awal-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-001-rencana-awal-tristan">S3b-001 — Rencana Awal — Tristan</h3>
+<blockquote class="blockquote">
+<p>Sasaran gue adalah keputusan percobaan yang sesuai kebutuhan, bukan membuat customer langsung membeli sistem AI. Gue mulai dari kejadian operasional yang merugikan lalu menguji satu alur pencatatan kecil.</p>
+</blockquote>
+</section>
+<section id="s3b-002-pembuka-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-002-pembuka-elsa">S3b-002 — Pembuka — Elsa</h3>
+<blockquote class="blockquote">
+<p>Bisa langsung ditunjukkan manfaatnya? Saya tidak punya banyak waktu untuk teori.</p>
+</blockquote>
+</section>
+<section id="s3b-003-penggalian-kebutuhan-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-003-penggalian-kebutuhan-tristan">S3b-003 — Penggalian Kebutuhan — Tristan</h3>
+<blockquote class="blockquote">
+<p>Bisa, Bu Elsa. Saya usulkan pembahasan singkat; kalau tidak relevan langsung kita hentikan. Contoh terakhir pesanan tercecer itu biasanya terjadi pada tahapan apa?</p>
+</blockquote>
+</section>
+<section id="s3b-004-pengungkapan-masalah-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-004-pengungkapan-masalah-elsa">S3b-004 — Pengungkapan Masalah — Elsa</h3>
+<blockquote class="blockquote">
+<p>Pelanggan tanya ketersediaan barang, lalu memesan. Riwayat chat-nya sering tenggelam setelah saya melayani pertanyaan pelanggan lain. Saya tidak mau solusi yang justru merepotkan staf dengan input data dua kali.</p>
+</blockquote>
+</section>
+<section id="s3b-005-validasi-dan-pemetaan-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-005-validasi-dan-pemetaan-tristan">S3b-005 — Validasi dan Pemetaan — Tristan</h3>
+<blockquote class="blockquote">
+<p>Jadi tantangan utamanya adalah mengamankan pesanan di tengah percakapan yang panjang dengan pencatatan yang sangat ringkas. Saat ini, bagaimana cara tim membedakan mana pelanggan yang baru bertanya dan mana yang sudah pasti memesan?</p>
+</blockquote>
+</section>
+<section id="s3b-006-identifikasi-kendala-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-006-identifikasi-kendala-elsa">S3b-006 — Identifikasi Kendala — Elsa</h3>
+<blockquote class="blockquote">
+<p>Biasanya hanya diingat-ingat atau ditandai manual pada aplikasi chat. Kalau sedang ramai, pasti terlewat. Belum ada rekap status pesanan terpusat yang dipakai bersama.</p>
+</blockquote>
+</section>
+<section id="s3b-007-penawaran-solusi-awal-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-007-penawaran-solusi-awal-tristan">S3b-007 — Penawaran Solusi Awal — Tristan</h3>
+<blockquote class="blockquote">
+<p>Sebelum berbicara tentang AI, saya ingin menunjukkan contoh daftar pesanan terpusat berisi kode, detail pesanan, status, dan penanggung jawab. Pertanyaan berulang bisa dijawab menggunakan templet teks standar terlebih dahulu. Bagian mana yang ingin Ibu lihat?</p>
+</blockquote>
+</section>
+<section id="s3b-008-ekspektasi-fitur-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-008-ekspektasi-fitur-elsa">S3b-008 — Ekspektasi Fitur — Elsa</h3>
+<blockquote class="blockquote">
+<p>Daftar pesanan itu. Kalau sistemnya bisa langsung mengonfirmasi stok ada dan menerima pembayaran otomatis, bukankah jauh lebih cepat?</p>
+</blockquote>
+</section>
+<section id="s3b-009-mitigasi-risiko-ai-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-009-mitigasi-risiko-ai-tristan">S3b-009 — Mitigasi Risiko AI — Tristan</h3>
+<blockquote class="blockquote">
+<p>Lebih cepat belum tentu tepat. Tanpa integrasi data stok yang akurat, konfirmasi otomatis berisiko menjanjikan barang yang kosong. Dalam skenario ini, konfirmasi stok dan pembayaran tetap harus divalidasi oleh petugas. AI, jika digunakan, hanya membantu menyusun draf respons yang wajib diperiksa sebelum dikirim.</p>
+</blockquote>
+</section>
+<section id="s3b-010-penerimaan-batasan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-010-penerimaan-batasan-elsa">S3b-010 — Penerimaan Batasan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Bagus, saya tidak ingin menanggung risiko salah janji ke pelanggan. Tapi pastikan format pencatatannya tidak menambah beban kerja staf.</p>
+</blockquote>
+</section>
+<section id="s3b-011-demonstrasi-terbatas-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-011-demonstrasi-terbatas-tristan">S3b-011 — Demonstrasi Terbatas — Tristan</h3>
+<blockquote class="blockquote">
+<p>Sebagai ilustrasi: pesan fiktif A menanyakan jam operasional dijawab dengan templet tervalidasi; pesan B memesan produk dicatat dengan status “perlu cek stok”; pesan C mengirim bukti transfer dicatat “perlu verifikasi petugas”. Tidak ada status lunas otomatis. Silakan dinilai apakah alur ini membantu.</p>
+</blockquote>
+</section>
+<section id="s3b-012-konfirmasi-operasional-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-012-konfirmasi-operasional-elsa">S3b-012 — Konfirmasi Operasional — Elsa</h3>
+<blockquote class="blockquote">
+<p>Saya paham perbedaannya. Lalu, siapa yang bertanggung jawab memperbarui status jika toko sedang sangat sibuk?</p>
+</blockquote>
+</section>
+<section id="s3b-013-asesmen-kapasitas-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-013-asesmen-kapasitas-tristan">S3b-013 — Asesmen Kapasitas — Tristan</h3>
+<blockquote class="blockquote">
+<p>Diperlukan satu petugas yang fokus memantau daftar tersebut. Saya dapat menyediakan format dan panduan, tetapi kapasitas staf harus disesuaikan dengan kondisi riil di lapangan. Siapa yang bisa memegang verifikasi ini jika uji coba dijalankan?</p>
+</blockquote>
+</section>
+<section id="s3b-014-komitmen-sumber-daya-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-014-komitmen-sumber-daya-elsa">S3b-014 — Komitmen Sumber Daya — Elsa</h3>
+<blockquote class="blockquote">
+<p>Untuk tahap uji, saya sendiri yang akan mengawasi verifikasi akhir. Staf saya bertugas mencatat pada format ringkas tersebut.</p>
+</blockquote>
+</section>
+<section id="s3b-015-penyusunan-checklist-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-015-penyusunan-checklist-tristan">S3b-015 — Penyusunan Checklist — Tristan</h3>
+<blockquote class="blockquote">
+<p>SOP awalnya: catat pesanan masuk, beri status “perlu cek”, dan pastikan petugas memverifikasi sebelum konfirmasi akhir dikirim. Sebagai contoh, apa tindakan staf jika pelanggan menanyakan stok lalu langsung mentransfer pembayaran?</p>
+</blockquote>
+</section>
+<section id="s3b-016-restatement-sop-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-016-restatement-sop-elsa">S3b-016 — Restatement SOP — Elsa</h3>
+<blockquote class="blockquote">
+<p>Pesanan dicatat dengan status “perlu cek”. Petugas memeriksa fisik stok dan validitas transfer terlebih dahulu. Sistem otomatis tidak boleh menyatakan lunas sebelum diverifikasi manual.</p>
+</blockquote>
+</section>
+<section id="s3b-017-rancangan-uji-coba-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-017-rancangan-uji-coba-tristan">S3b-017 — Rancangan Uji Coba — Tristan</h3>
+<blockquote class="blockquote">
+<p>Usulan formatnya adalah demo selama 10 menit dengan enam skenario pesan fiktif. Jika alur terbukti mudah diulang, kita bisa melanjutkan ke uji coba tiga hari pada satu lini operasional. Targetnya adalah seluruh pesanan tercatat tanpa ada kesalahan konfirmasi.</p>
+</blockquote>
+</section>
+<section id="s3b-018-persyaratan-uji-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-018-persyaratan-uji-elsa">S3b-018 — Persyaratan Uji — Elsa</h3>
+<blockquote class="blockquote">
+<p>Untuk demo 10 menit saya setuju. Uji tiga hari baru akan saya terapkan setelah staf terbukti lancar menjalankannya. Jika tanpa AI pun operasional sudah tertata, adopsi AI bisa ditunda.</p>
+</blockquote>
+</section>
+<section id="s3b-019-fleksibilitas-solusi-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-019-fleksibilitas-solusi-tristan">S3b-019 — Fleksibilitas Solusi — Tristan</h3>
+<blockquote class="blockquote">
+<p>Sangat sepakat. Biaya dan pemilihan perangkat lunak baru dibahas setelah kebutuhan terbukti, sehingga tidak ada kewajiban pembelian di awal. Jika format manual terbukti lebih efektif, kita pertahankan itu.</p>
+</blockquote>
+</section>
+<section id="s3b-020-kepuasan-mitra-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-020-kepuasan-mitra-elsa">S3b-020 — Kepuasan Mitra — Elsa</h3>
+<blockquote class="blockquote">
+<p>Pendekatan ini jauh lebih masuk akal. Saya tenang karena tidak terikat kontrak apa pun hanya karena mencoba demo.</p>
+</blockquote>
+</section>
+<section id="s3b-021-eksekusi-awal-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-021-eksekusi-awal-tristan">S3b-021 — Eksekusi Awal — Tristan</h3>
+<blockquote class="blockquote">
+<p>Langkah operasional awal: saya siapkan format lembar kerja sederhana dan enam skenario pesan latihan untuk diuji bersama tim Anda. Keputusan akhir sepenuhnya berada di tangan Ibu.</p>
+</blockquote>
+</section>
+<section id="s3b-022-penetapan-kesepakatan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-022-penetapan-kesepakatan-elsa">S3b-022 — Penetapan Kesepakatan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Baik, saya setuju mengikuti demo dan mengevaluasi kinerjanya terlebih dahulu. Belum ada persetujuan pembelian sistem otomatisasi penuh saat ini.</p>
+</blockquote>
+</section>
+<section id="s3b-023-evaluasi-sela-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-023-evaluasi-sela-fasilitator">S3b-023 — Evaluasi Sela — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Bagaimana membedakan antara minat awal mitra terhadap efisiensi dan keputusan adopsi teknologi yang sebenarnya?</p>
+</blockquote>
+</section>
+<section id="s3b-024-analisis-sela-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-024-analisis-sela-tristan">S3b-024 — Analisis Sela — Tristan</h3>
+<blockquote class="blockquote">
+<p>Elsa tertarik pada hasil efisiensinya, namun melalui penjelasan batasan sistem, ia memahami pentingnya verifikasi manual dan memilih untuk membatasi diri pada demo awal saja, belum pada implementasi penuh.</p>
+</blockquote>
+</section>
+<section id="s3b-025-uji-ulang-1-kendala-latihan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-025-uji-ulang-1-kendala-latihan-elsa">S3b-025 — Uji Ulang 1: Kendala Latihan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Saat simulasi latihan, staf sempat melewatkan pencatatan dua pesan karena lembar kerja terlewat dibuka. Fiturnya bagus, tapi pelaksanaannya butuh kedisiplinan ekstra.</p>
+</blockquote>
+</section>
+<section id="s3b-026-respons-uji-ulang-1-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-026-respons-uji-ulang-1-tristan">S3b-026 — Respons Uji Ulang 1 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Kendala tersebut menunjukkan bahwa target pencatatan penuh belum stabil. Kita tunda uji operasional penuh, pertahankan metode manual yang ada, dan evaluasi ulang letak penempatan lembar kerja agar mudah diakses staf.</p>
+</blockquote>
+</section>
+<section id="s3b-027-uji-ulang-2-analisis-akar-masalah-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-027-uji-ulang-2-analisis-akar-masalah-elsa">S3b-027 — Uji Ulang 2: Analisis Akar Masalah — Elsa</h3>
+<blockquote class="blockquote">
+<p>Staf terbiasa langsung membalas chat tanpa mencatat dulu. Jadi masalah utamanya ada pada kebiasaan urutan kerja.</p>
+</blockquote>
+</section>
+<section id="s3b-028-respons-uji-ulang-2-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-028-respons-uji-ulang-2-tristan">S3b-028 — Respons Uji Ulang 2 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Kita sesuaikan urutan kerjanya: setiap kali ada pesan pesanan masuk, wajibkan pembuatan catatan ringkas terlebih dahulu sebelum mengetik balasan ke pelanggan. Hal ini perlu diuji ulang pada sesi latihan berikutnya.</p>
+</blockquote>
+</section>
+<section id="s3b-029-uji-ulang-3-kapasitas-pengawasan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-029-uji-ulang-3-kapasitas-pengawasan-elsa">S3b-029 — Uji Ulang 3: Kapasitas Pengawasan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Jika saya tidak bisa selalu mendampingi pengawasan, apakah sistem ini tetap efektif?</p>
+</blockquote>
+</section>
+<section id="s3b-030-respons-uji-ulang-3-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-030-respons-uji-ulang-3-tristan">S3b-030 — Respons Uji Ulang 3 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Tidak disarankan memaksa alur baru jika pengawasan belum siap. Kita jadwalkan ulang pendampingan staf pada waktu luang operasional; jika belum ada kapasitas, uji coba ditunda demi menjaga kualitas layanan.</p>
+</blockquote>
+</section>
+<section id="s3b-031-uji-ulang-4-keputusan-akhir-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-031-uji-ulang-4-keputusan-akhir-elsa">S3b-031 — Uji Ulang 4: Keputusan Akhir — Elsa</h3>
+<blockquote class="blockquote">
+<p>Saya memilih menunda uji coba sistem pelanggan dan fokus memperbaiki kedisiplinan pencatatan internal dulu. Teknologi otomatisasi belum mendesak saat ini.</p>
+</blockquote>
+</section>
+<section id="s3b-032-penutup-uji-ulang-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-032-penutup-uji-ulang-tristan">S3b-032 — Penutup Uji Ulang — Tristan</h3>
+<blockquote class="blockquote">
+<p>Keputusan yang sangat bijak. Keberhasilan komunikasi konsultatif diukur dari kejelasan batas dan kesiapan operasional, bukan paksaan adopsi teknologi.</p>
+</blockquote>
+</section>
+</section>
 </section>
 <section id="d-hasil-evaluasi-dan-refleksi" class="level1">
 <h1>D) Hasil, Evaluasi, dan Refleksi</h1>
-<section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
-<h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
-<p>Tujuan tercapai sebagian: Fajar menyatakan bersedia menilai solusi pada AI002 dan menerima tawaran uji terbatas pada AI003. Jadwal pukul 10.00 keesokan hari disepakati pada AI004. Demo, setup, penghematan waktu, dan hasil penanganan sepuluh pelanggan belum diperlihatkan. Estimasi setup lima menit merupakan janji pada U002 yang belum diverifikasi.</p>
+<section id="hasil-tujuan-dan-perubahan-profil" class="level2">
+<h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-profil">Hasil Tujuan dan Perubahan Profil</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Unsur</th>
-<th>Awal</th>
-<th>Akhir</th>
-<th>Bukti giliran</th>
-<th>Jenis bukti dan batas</th>
+<th>Kondisi Awal</th>
+<th>Hasil Akhir</th>
+<th>Bukti Transkrip</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>SWOT</td>
-<td>Customer mempertimbangkan manfaat cepat dengan risiko operasional.</td>
-<td>Ada kesepakatan uji terbatas dan usulan fallback.</td>
-<td>AI002–AI004</td>
-<td>Persetujuan rencana, belum bukti manfaat lapangan.</td>
+<td>SWOT Subjektif</td>
+<td>Khawatir solusi teknologi menambah kerumitan operasional</td>
+<td>Memilih perbaikan alur pencatatan bertahap dan menunda adopsi AI</td>
+<td>S3b-004 → S3b-031</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Fajar meminta proses cepat dan tidak rumit.</td>
-<td>Bersedia mencoba bila ada cadangan manual.</td>
-<td>AI002–AI003</td>
-<td>Respons bersyarat, bukan penerimaan semua fitur.</td>
+<td>Menuntut hasil instan tanpa penjelasan panjang</td>
+<td>Terbuka mengevaluasi demo objektif tanpa tekanan pembelian</td>
+<td>S3b-002 → S3b-022</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Ada kekhawatiran bot mengalami error.</td>
-<td>Gagasan fallback dan pembatasan uji diperkenalkan.</td>
-<td>AI002; U003</td>
-<td>Pemahaman detail risiko belum diperiksa.</td>
+<td>Mengira AI dapat langsung mengonfirmasi transaksi otomatis</td>
+<td>Memahami batasan AI sebagai draf dan pentingnya kontrol verifikasi manual</td>
+<td>S3b-008 → S3b-016</td>
 </tr>
 <tr class="even">
-<td>Skill</td>
-<td>Kebutuhan demo dan checklist berasal dari profil target.</td>
-<td>Demo serta panduan dijadwalkan.</td>
-<td>U003–U004</td>
-<td>Belum ada demonstrasi penggunaan atau penanganan error.</td>
+<td>Skill / Kesiapan</td>
+<td>Pencatatan pesanan manual yang rentan tercecer</td>
+<td>Simulasi latihan berhasil mengidentifikasi kesiapan staf yang memerlukan perbaikan SOP</td>
+<td>S3b-006 → S3b-025</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
-<h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Episode/ID</th>
-<th>Estimasi status dan bukti</th>
-<th>Stimulus mahasiswa</th>
-<th>Respons</th>
-<th>Perubahan ASK/SWOT</th>
-<th>Adaptasi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>U002/AI002</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Bot otomatis sederhana yang langsung tersambung ke spreadsheet pesanan dalam 5 menit setup.</td>
-<td>Fajar bersedia jika cepat, tetapi meminta pesanan tidak terlewat saat error.</td>
-<td>Tawaran relevan membuka perhatian; klaim lima menit belum terbukti.</td>
-<td>Periksa infrastruktur dan perlakukan durasi sebagai estimasi, bukan kepastian.</td>
-</tr>
-<tr class="even">
-<td>U003/AI003</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Kita siapkan mekanisme fallback ke admin manual dan checklist harian.</td>
-<td>Fajar menerima uji terbatas karena ada cadangan.</td>
-<td>Kesediaan meningkat setelah risiko diakui.</td>
-<td>Rinci pemicu fallback, petugas, dan rekonsiliasi catatan.</td>
-</tr>
-<tr class="odd">
-<td>U004/AI004</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Besok siang jam 10 kita demo setup 15 menit dan langsung uji coba.</td>
-<td>Fajar menyetujui jadwal jam 10.</td>
-<td>Jadwal disepakati, tetapi jam 10 lebih tepat disebut pagi.</td>
-<td>Gunakan jadwal pukul 10.00 pada ringkasan; mulai uji setelah kesiapan diperiksa.</td>
-</tr>
-</tbody>
-</table>
-<p>Profil konfigurasi untuk evaluasi: Fajar K3-06 merupakan customer: A ingin hasil cepat tanpa beban baru; K perlu memahami risiko kesalahan otomatis; S perlu demo, checklist, dan fallback. Gaya pragmatis serta preferensi ESTP adalah konfigurasi tokoh. Profil customer ini dipisahkan dari profil mahasiswa yang menawarkan solusi. Dugaan awal yang belum tercatat tidak direkonstruksi sebagai temuan sebelum pengungkapan.</p>
-</section>
-<section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
-<h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Episode/ID</th>
-<th>Pesan personal/kepedulian</th>
-<th>Respons yang teramati</th>
-<th>Rasa aman, kepercayaan, keterbukaan</th>
-<th>Dampak ASK/SWOT dan batas inferensi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>U002–AI003</td>
-<td>Menghargai waktu dan menawarkan cadangan manual.</td>
-<td>AI003: “kalau ada mekanisme cadangan manual dan dibatasi dulu, saya oke coba.”</td>
-<td>Awal belum ditetapkan; kepercayaan akhir sedang dan bersyarat sebagai estimasi.</td>
-<td>Fallback mengurangi risiko; tidak menjamin nol kesalahan.</td>
-</tr>
-</tbody>
-</table>
-<p>Kategori relasional merupakan estimasi dalam simulasi, bukan pengukuran psikologis. Teks tidak membuktikan prosodi atau ketulusan batin.</p>
-</section>
-<section id="uji-ulang-dan-pembelajaran" class="level2">
-<h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
-<p>Tidak ada uji ulang setelah AI004 pada skrip. Uji ulang yang sesuai adalah situasi bot gagal, staf baru belum memahami checklist, atau satu pesanan belum tercatat. Tindakan yang perlu diperiksa mencakup penghentian bagian otomatis yang bermasalah, pengalihan ke admin, pencatatan manual, serta pencocokan ulang agar catatan tidak hilang atau ganda.</p>
+<section id="evaluasi-stimulus-respons-dan-analisis-interaksi" class="level2">
+<h2 class="anchored" data-anchor-id="evaluasi-stimulus-respons-dan-analisis-interaksi">Evaluasi Stimulus-Respons dan Analisis Interaksi</h2>
+<ol type="1">
+<li><strong>Penghargaan Waktu Mitra (S3b-003):</strong> Membuka percakapan dengan batasan waktu yang jelas menurunkan resistensi awal mitra yang sibuk.</li>
+<li><strong>Mitigasi Risiko Teknologi (S3b-009):</strong> Penegasan tegas mengenai batasan AI mencegah ekspektasi keliru terhadap otomatisasi transaksi keuangan dan stok.</li>
+<li><strong>Simulasi Berbasis Skenario (S3b-011):</strong> Penggunaan skenario pesan fiktif memperjelas alur kerja tanpa klaim implementasi sistem fiktif yang rumit.</li>
+<li><strong>Evaluasi Kesiapan Operasional (S3b-026):</strong> Menghadapi kendala latihan staf secara objektif (menunda uji coba alih-alih memaksakan sistem) menjaga keandalan proses bisnis mitra.</li>
+</ol>
 </section>
 <section id="penilaian-enam-dimensi" class="level2">
-<h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
-<p>Paket menetapkan skala 1–4, tetapi deskriptor pembeda tiap tingkat belum tersedia di lampiran. Skor numerik tidak ditetapkan tanpa dasar indikator tersebut. Tabel ini mencatat bukti dan batas tiap dimensi; penilaian AI tetap berupa usulan untuk moderasi dosen.</p>
+<h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian Enam Dimensi</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th>Skor 1–4/BT</th>
-<th>ID dan kutipan bukti</th>
-<th>Alasan</th>
+<th>Skor</th>
+<th>Bukti dan Alasan</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Tujuan dan konteks</td>
-<td>BT</td>
-<td>U002: “pangkas waktu balasan pesan berulang pelangganmu”</td>
-<td>Manfaat relevan; estimasi setup belum diuji.</td>
+<td>4.0 / 4</td>
+<td>S3b-001, S3b-017: Menetapkan sasaran uji coba terbatas dan keputusan objektif tanpa paksaan komersial.</td>
 </tr>
 <tr class="even">
 <td>Persepsi dan validasi profil/status</td>
-<td>BT</td>
-<td>AI002: “nggak bikin ribet operasional”</td>
-<td>Keberatan operasional terungkap; sarana belum diperiksa.</td>
+<td>4.0 / 4</td>
+<td>S3b-004, S3b-006: Mengidentifikasi akar permasalahan pesanan tercecer dan beban kognitif staf secara akurat.</td>
 </tr>
 <tr class="odd">
 <td>Pemilihan dan urutan repertoar</td>
-<td>BT</td>
-<td>U003: “checklist harian supaya aman.”</td>
-<td>Cadangan ditawarkan; pemicu dan petugas belum dirinci.</td>
+<td>3.5 / 4</td>
+<td>S3b-011, S3b-017: Memanfaatkan skenario pesan fiktif dan demo terstruktur sesuai profil komunikator yang pragmatis.</td>
 </tr>
 <tr class="even">
 <td>Eksekusi jelas, peduli dan konsisten</td>
-<td>BT</td>
-<td>U003: “10 pelanggan pertama dulu minggu ini”</td>
-<td>Cakupan uji disebut; kesiapan teknis belum ditampilkan.</td>
+<td>4.0 / 4</td>
+<td>S3b-009, S3b-019: Transparan terhadap risiko teknologi dan memberikan kebebasan penuh kepada mitra untuk menunda keputusan.</td>
 </tr>
 <tr class="odd">
 <td>Evaluasi dan adaptasi</td>
-<td>BT</td>
-<td>AI004: “Mari kita lanjutkan ke tahap evaluasi dan refleksi.”</td>
-<td>Evaluasi dan uji ulang belum ditampilkan.</td>
+<td>4.0 / 4</td>
+<td>S3b-026, S3b-030: Fleksibel dalam menunda uji operasional ketika hasil simulasi staf menunjukkan hambatan urutan kerja.</td>
 </tr>
 <tr class="even">
 <td>Refleksi dan lesson learned</td>
-<td>BT</td>
-<td>Refleksi tertulis tersedia; giliran refleksi dan konfirmasi belum tersedia.</td>
-<td>Isi refleksi dapat dibahas; kepemilikan dan koreksinya belum dikonfirmasi dalam dialog.</td>
+<td>3.5 / 4</td>
+<td>S3b-024, S3b-034: Menyimpulkan bahwa solusi teknologi wajib diuji berdasarkan kesiapan nyata dan keselamatan proses operasional.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
-<h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
-<p>Penawaran teknologi perlu berangkat dari manfaat dan beban kerja customer. Pesan ringkas membantu membuka percakapan, sedangkan keandalan tetap perlu diuji. Adanya cadangan manual tidak menjamin semua kesalahan teratasi; keputusan kelanjutan uji memerlukan data. Refleksi tertulis ini belum disertai giliran konfirmasi mahasiswa.</p>
+<section id="refleksi-dan-lesson-learned" class="level2">
+<h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned">Refleksi dan Lesson Learned</h2>
+<p>Interaksi ini memperlihatkan bahwa penawaran solusi teknologi tidak boleh mengorbankan keandalan operasional atau membebani staf sebelum kesiapan internal mereka teruji sepenuhnya. Komunikasi konsultatif yang efektif menuntut transparansi risiko, pengujian skala kecil berbasis skenario nyata, serta dukungan penuh terhadap keputusan mitra untuk menunda adopsi jika kondisi belum memadai.</p>
 </section>
-<section id="tindak-lanjut-dan-batas-bukti" class="level2">
-<h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
-<p>Tabel berikut memisahkan waktu yang disebut dalam dialog dan usulan pelaksanaan berikutnya. Penanggung jawab tambahan perlu disepakati, bukan dianggap sudah ditetapkan.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Langkah</th>
-<th>Waktu</th>
-<th>Penanggung jawab/dukungan</th>
-<th>Indikator</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Demo setup dan pemeriksaan sarana</td>
-<td>Keesokan hari pukul 10.00; demo direncanakan 15 menit</td>
-<td>Mahasiswa dan Fajar</td>
-<td>Demo menggunakan data contoh; estimasi setup diperiksa.</td>
-</tr>
-<tr class="even">
-<td>Uji terbatas</td>
-<td>Sepuluh pelanggan pertama sebagaimana U003</td>
-<td>Admin yang ditetapkan bersama customer</td>
-<td>Cakupan, waktu uji, biaya, dan penanggung jawab diperjelas sebelum mulai.</td>
-</tr>
-<tr class="odd">
-<td>Penanganan error</td>
-<td>Saat pemicu fallback terjadi</td>
-<td>Admin manual sesuai kesepakatan</td>
-<td>Pesanan dari sumber dicocokkan dengan catatan; duplikasi diperiksa.</td>
-</tr>
-<tr class="even">
-<td>Evaluasi manfaat</td>
-<td>Setelah batas uji tercapai</td>
-<td>Mahasiswa, customer, dan petugas</td>
-<td>Kelengkapan pesanan, kesalahan, serta waktu penanganan dibandingkan dengan kondisi awal yang diukur.</td>
-</tr>
-</tbody>
-</table>
-<p>Batas bukti: hasil yang tersedia berupa respons dan rencana dalam simulasi teks. Pelaksanaan kegiatan, perubahan kemampuan, dan hasil jangka panjang belum dibuktikan.</p>
-</section>
-<section id="bobot-dan-nilai-akhir-uts" class="level2">
-<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Komponen</th>
-<th>Bobot</th>
-<th>Nilai komponen</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Makalah pra-UTS</td>
-<td>10%</td>
-<td>Nilai dosen belum tersedia</td>
-</tr>
-<tr class="even">
-<td>Sesi 1</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Sesi 2a</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="even">
-<td>Sesi 2b</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Sesi 3a</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="even">
-<td>Sesi 3b</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Total</td>
-<td>100%</td>
-<td>Belum dihitung</td>
-</tr>
-</tbody>
-</table>
-<p>Nilai sesi = jumlah enam skor / 24 × 100, hanya jika keenam skor sah tersedia.</p>
-<p><span class="math display">\[
-N_{\mathrm{UTS}}=0{,}10M+0{,}18(S_1+S_{2a}+S_{2b}+S_{3a}+S_{3b}).
-\]</span></p>
-<p>Seluruh komponen berskala 0–100. BT bukan nol; bobot tidak dinormalisasi ulang. Nilai akhir belum dihitung sampai semua komponen sah tersedia. Rata-rata kasus tidak dihitung lagi sebagai komponen tambahan.</p>
+<section id="tindak-lanjut" class="level2">
+<h2 class="anchored" data-anchor-id="tindak-lanjut">Tindak Lanjut</h2>
+<ol type="1">
+<li>Menyelesaikan evaluasi simulasi pencatatan manual bersama staf mitra.</li>
+<li>Menunda implementasi otomatisasi lanjutan hingga kedisiplinan pencatatan internal stabil.</li>
+<li>Mempertahankan alur rekapitulasi pesanan terpusat yang sederhana.</li>
+</ol>
 
 
 </section>
