@@ -1,8 +1,8 @@
 ---
-title: "Laporan UTS KIPP 2026 — Versi 2.0"
-subtitle: "Sesi 2b — Kasus 2"
-author: "Tristan Anthony Wijaya (18225045)"
-date: "2026-10-15"
+title: Laporan UTS KIPP 2026 — Versi 2.0
+subtitle: Sesi 2b — Kasus 2
+author: Tristan Anthony Wijaya (18225045)
+date: '2026-10-15'
 lang: id
 format:
   html:
@@ -13,187 +13,411 @@ execute:
 
 # A) Identitas
 
-| Elemen | Keterangan |[cite: 6] |
-| --- | --- | --- |
-| Nama mahasiswa | Tristan Anthony Wijaya |[cite: 6] |
-| NIM | 18225045 |[cite: 6] |
-| Kelas dan tanggal | II2100-01; 15 Oktober 2026 (WIB) |[cite: 6] |
-| Nomor/judul kasus | Sesi 2b; Kasus 2 |[cite: 6] |
-| Nama dan ID target | Ali (K2-01) |[cite: 6] |
-| Versi bank/aturan penugasan | Bank 2.0; paket individual 2.0; PENUGASAN.md → prompt_umum.md → profil_komunikan.md dan template_laporan.qmd |[cite: 6] |
-| Sumber konfigurasi | kasus_2b_18225045(3).zip; akhiran (3) merupakan penanda salinan, bukan versi bank |[cite: 6] |
-| Modalitas | Percakapan teks dan dialog interaktif |[cite: 6] |
-| Kasus nyata/fiktif | Kasus studi berdasarkan brief dan profil paket penugasan |[cite: 6] |
-| Kelengkapan transkrip | Seluruh transkrip dialog dan uji ulang disertakan secara lengkap |[cite: 6] |
-| Status laporan | Laporan performa dan evaluasi interaksi penuh |[cite: 6] |
-| Konfirmasi identitas | Dikonfirmasi pada awal sesi |[cite: 6] |
-| Konfirmasi hasil dan refleksi | Disusun berdasarkan asesmen komprehensif sesi |[cite: 6] |
+| Elemen | Keterangan |
+| --- | --- |
+| Nama mahasiswa | Tristan Anthony Wijaya |
+| NIM | 18225045 |
+| Kelas dan tanggal | II2100-01; 15 Oktober 2026 (WIB) |
+| Nomor/judul kasus | Sesi 2b; Kasus 2 |
+| Nama dan ID target | Ali (K2-01) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0. Prioritas: PENUGASAN.md → prompt_umum.md → profil_komunikan.md dan template_laporan.qmd |
+| Sumber konfigurasi | kasus_2b_18225045(3).zip; (3) hanya penanda salinan unggahan |
+| Modalitas | Suara; sumber yang diperiksa berupa salinan transkripsi SRT dalam percakapan, bukan rekaman audio asli |
+| Kasus nyata/fiktif | Kasus fiktif dari paket; tokoh diperankan AI. Jawaban mahasiswa berasal dari transkripsi interaksi yang benar-benar diberikan, bukan naskah dua peran yang dibuat sebelumnya. |
+| Kelengkapan transkrip | Giliran substantif, sela tanggapan yang tersedia, evaluasi, uji ulang dan refleksi disertakan. Jeda murni “sebentar/cek dulu”, notifikasi alat dan pengulangan konteks teknis tidak dihitung sebagai performa. Bukan transkripsi audio baru. |
+| Identifikasi | Data identitas dirujuk dari konfirmasi awal rangkaian sesi 1; tidak dilakukan verifikasi identitas independen. |
+| Konfirmasi hasil dan refleksi | Ringkasan hasil dan refleksi disetujui dengan jawaban “Ya, sesuai banget”. |
+| Nama laporan wajib | hasil_2b_18225045.qmd |
 
-**Keterangan sumber:** Transkrip berasal dari dialog aktual dalam interaksi sesi 2b[cite: 6]. Profil setiap sesi berdiri sendiri dan dianalisis sesuai rubrik evaluasi komunikasi interpersonal[cite: 6].
+
+Kutipan mempertahankan penggalan, pengulangan, kesalahan istilah, dan koreksi yang ada pada transkripsi. Pemenggalan baris dan spasi dirapikan. U adalah mahasiswa; AI adalah fasilitator atau pemeran tokoh sesuai penanda tahap. Perasaan tokoh merupakan respons pemeranan, bukan bukti perasaan manusia nyata. Analisis dan saran penilai berada di bagian B/D, terpisah dari kutipan di bagian C.
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
 
-Tenggat tugas kelompok 48 jam lagi[cite: 6]. Rekan kelompok (Ali) belum mengirim bagiannya dan merasa pembagian tugas tidak adil[cite: 6]. Tujuan percakapan adalah memeriksa fakta, menjaga hubungan baik, serta menyepakati tanggung jawab dan jadwal kerja secara objektif[cite: 6].
+Tenggat tugas kelompok 48 jam lagi. Rekan dekat belum mengirim bagiannya dan merasa pembagian tidak adil. Mahasiswa mengajak percakapan untuk menjaga hubungan dan menyepakati tanggung jawab.
 
-**Tujuan interaksi:** Menyepakati subtugas terstruktur bagi Ali berupa ringkasan dua sumber dalam bentuk tabel yang berisi pertanyaan, temuan utama, dan kaitan dengan topik kelompok[cite: 6]. Tristan memberikan satu contoh konkret dan pendampingan terbatas[cite: 6]. Jadwal yang disepakati: draf pertama T+12 jam, umpan balik T+18 jam, revisi T+30 jam, integrasi T+40 jam, dan pemeriksaan akhir T+44 jam sebelum tenggat T+48 jam[cite: 6].
+Tujuan yang dinyatakan mahasiswa: [U004](#u004): “deadline tugasnya ini berapa lama lagi”.
 
-## Profil Awal Komunikator
+Hasil yang dapat dinilai dari sesi ini: Sebagian: Ali menyatakan bersedia mencoba dan mulai memahami relevansi kolom; pekerjaan mandiri dan penyelesaian tugas belum ditunjukkan. Indikator pemeriksaan adalah kesesuaian respons, kejelasan tanggung jawab, bantuan, langkah berikut dan cara evaluasi. Pernyataan niat tidak disamakan dengan hasil kerja.
 
-| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |[cite: 6] |
+## Profil awal komunikator
+
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+| --- | --- | --- | --- |
+| SWOT subjektif | Mampu menawarkan bantuan dan menjelaskan materi; keterbatasan yang tampak adalah kecenderungan menyimpulkan kesiapan target sebelum melihat pelaksanaan. | [U011](#u011): “Dengan mengajar orang lain materi itu makin lengket di otak gue” | Interpretasi dari interaksi, bukan sifat tetap |
+| Attitude | Ingin membantu dan menjaga hubungan atau kepentingan target. | [U004](#u004): “deadline tugasnya ini berapa lama lagi”; [U011](#u011): “Dengan mengajar orang lain materi itu makin lengket di otak gue” | Tujuan dan ungkapan mahasiswa |
+| Knowledge | Menjelaskan pilihan tindakan; ketepatan dan kecocokan tiap penjelasan tetap dinilai secara terpisah. | [U025](#u025): “gue saranin lu buat ngeliat soalnya sih” | Terlihat dalam teks, bukan sertifikasi kompetensi |
+| Skill | Memberikan respons dan menyesuaikan penjelasan pada kendala baru. | [U026](#u026): “penggunaan kendaraan gitu” | Demonstrasi komunikasi melalui transkripsi; skill operasional di luar sesi belum diuji |
+| Preferensi/MBTI jika dilaporkan | Tipe MBTI mahasiswa tidak dilaporkan; tidak didiagnosis dari percakapan. | Tidak ada laporan tipe | Belum diketahui |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa; menggunakan bahasa pertemanan dan menawarkan pendampingan. Klaim IP atau keahlian, jika muncul, dicatat sebagai ucapan diri. | [U011](#u011): “Dengan mengajar orang lain materi itu makin lengket di otak gue” | Laporan diri dan konteks percakapan |
+
+
+## Dugaan awal profil target dan rencana
+
+Dugaan profil lengkap dan rencana TAIDA tertulis tidak diminta tuntas sebelum pemeranan; tidak diisi ulang seolah sudah dibuat mahasiswa sebelumnya. Tabel ini adalah pemetaan analitis atas respons aktual setelah sesi.
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 | --- | --- | --- | --- | --- |
-| SWOT subjektif | Komitmen menjaga kejelasan tugas dan memfasilitasi rekan menjadi modal; manajemen waktu menjadi fokus utama. | Transkrip interaksi S2b | Observasi langsung |[cite: 6] |
-| Attitude | Proaktif, sabar, empatik, tidak menghakimi hambatan rekan. | S2b-003, S2b-013 | Laporan performa |[cite: 6] |
-| Knowledge | Memahami struktur analisis sumber, pemetaan argumen, dan manajemen tenggat. | S2b-009, S2b-011 | Laporan performa |[cite: 6] |
-| Skill | Keterampilan pendampingan bertahap (scaffolding), komunikasi asertif, dan mediasi beban kerja. | S2b-013, S2b-026 | Evaluasi tindakan |[cite: 6] |
-| Preferensi/MBTI | Terstruktur, suportif, berorientasi pada pengembangan kapasitas rekan tim. | Latar interaksi S2b | Terkonfirmasi |[cite: 6] |
+| Target | Tujuan mahasiswa dan masalah dalam brief | Pisahkan sasaran dari hasil | Menyatakan sasaran | [U004](#u004): “deadline tugasnya ini berapa lama lagi” |
+| Attention | Keberatan awal dan hambatan yang diungkap target | A: rasa aman; K: klarifikasi konteks | Mendengarkan dan bertanya | [U003](#u003): “menurut lo yang nggak jelas itu bagian mana” |
+| Interest | Target mempertimbangkan bantuan | K: penjelasan yang terkait kebutuhan | Contoh dan penjelasan | [U025](#u025): “gue saranin lu buat ngeliat soalnya sih” |
+| Desire | Kesediaan mencoba masih dapat bersyarat | A/S: dukungan dan pilihan | Tawaran pendampingan | [U011](#u011): “Dengan mengajar orang lain materi itu makin lengket di otak gue” |
+| Action | Langkah dan dukungan perlu disepakati; pelaksanaan belum diverifikasi | S: penerapan dan cara mengecek | Respons uji ulang dan rencana lanjutan | [U026](#u026): “penggunaan kendaraan gitu” |
 
-## Pemetaan TAIDA dan Rencana Interaksi
-
-| TAIDA | Status Target | Edukasi A/K/S | Repertoar Tindakan | Bukti Interaksi |[cite: 6] |
-| --- | --- | --- | --- | --- | --- |
-| Target | Keputusan tugas spesifik dan terukur | Pisahkan tujuan komunikasi dari asumsi subjektif | Nyatakan sasaran dan batas dukungan | S2b-001; S2b-021 |[cite: 6] |
-| Attention | Menggali akar keraguan Ali tanpa menghakimi | A: ciptakan ruang aman untuk berbicara | Pertanyaan terbuka yang suportif | S2b-003 → S2b-004 |[cite: 6] |
-| Interest | Mengurai instruksi yang kabur menjadi subtugas | K: klarifikasi fakta vs persepsi kesulitan | Pemetaan bagian yang dipahami vs ragu | S2b-005 → S2b-006 |[cite: 6] |
-| Desire | Menawarkan contoh konkret dan pendampingan | A/K/S: berikan kerangka kerja dan batasan bantuan | Contoh satu baris tabel & scaffolding | S2b-011; S2b-013 |[cite: 6] |
-| Action | Menetapkan checkpoint dan komitmen berkala | S: susun jadwal draf hingga integrasi akhir | Penguncian jadwal & mekanisme kendala | S2b-015; S2b-021 |[cite: 6] |
 
 # C) Skrip Percakapan
 
-## Transkrip Percakapan dan Uji Ulang
+**Transkrip interaksi aktual yang tersedia.** Tokoh bersifat fiktif; ucapan mahasiswa adalah jawaban dalam sesi. Giliran tidak diganti dengan respons ideal. Jeda teknis tidak menjadi evidence nilai.
 
-### S2b-001 — Rencana Awal — Tristan
-> Gue ingin tahu kenapa bagiannya belum masuk sebelum menyimpulkan dia malas[cite: 6]. Hubungan tetap dijaga, tetapi tanggung jawab dan tenggat tidak hilang[cite: 6]. 
+### AI001 — Kasus dan aktivasi — AI — fasilitator/pemeran sesuai tahap {#ai001}
 
-### S2b-002 — Pembuka — Ali
-> Terima kasih, tetapi saya belum yakin bisa melakukannya[cite: 6].
+> Di sesi 2b, Ali belum mengirim bagiannya dan merasa pembagian tugas tidak adil, sementara tenggat tinggal 48 jam. Sebelum aku memerankan Ali, apa tujuanmu dalam percakapan ini dan bagaimana kamu ingin membuka pembicaraan dengannya?
 
-### S2b-003 — Penggalian Hambatan — Tristan
-> Li, kita bisa bahas berdua tanpa menjadikan ini bahan mempermalukanmu[cite: 6]. Bagian apa yang paling bikin kamu ragu sekarang?[cite: 6]
+### U001 — Kasus dan aktivasi — Mahasiswa {#u001}
 
-### S2b-004 — Pengungkapan Masalah — Ali
-> Gue takut hasil gue jelek dan malah dianggap tidak berguna[cite: 6]. Pembagiannya juga terasa tidak adil karena gue dapat bagian yang tidak gue pahami[cite: 6].
+> Oke lanjut. di 2B
 
-### S2b-005 — Validasi dan Klarifikasi — Tristan
-> Gue dengar kamu ingin berkontribusi, tetapi tuntutannya belum terasa bisa dijalankan[cite: 6]. Waktu menerima tugas itu, instruksi seperti apa yang kamu dapat?[cite: 6]
+### AI002 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai002}
 
-### S2b-006 — Pemetaan Hambatan — Ali
-> Cuma diminta cari dua sumber dan bikin analisis[cite: 6]. Gue tidak tahu analisis seperti apa, sepanjang apa, atau bagian mana yang harus dibandingkan[cite: 6].
+> Oke, lanjut. Gue sekarang berperan sebagai Ali. "Jujur ya, gue lagi males banget ngerjain ini."
 
-### S2b-007 — Penentuan Fokus — Tristan
-> Gue belum bisa menilai adil atau tidak hanya dari nama tugas[cite: 6]. Boleh kita bedakan bagian yang sudah kamu bisa dan bagian yang perlu bantuan?[cite: 6]
+### U002 — Simulasi awal — Ali — Mahasiswa {#u002}
 
-### S2b-008 — Identifikasi Kesiapan — Ali
-> Gue bisa membaca dan mengambil poin utama[cite: 6]. Menghubungkan dua sumber ke pertanyaan kelompok itu yang belum bisa[cite: 6].
+> Kenapa lo males, Ali
 
-### S2b-009 — Penawaran Solusi — Tristan
-> Kalau begitu gue usulkan isi akhirnya berupa tabel dua sumber: pertanyaan yang dibahas, temuan utama, dan kaitannya dengan topik kita[cite: 6]. Tidak perlu menulis kesimpulan gabungan sendirian; itu gue yang integrasikan[cite: 6]. Masih ada bagian yang terasa kabur?[cite: 6]
+### AI003 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai003}
 
-### S2b-010 — Konfirmasi Keraguan — Ali
-> Kolom kaitannya itu yang gue belum paham[cite: 6]. Gue takut cuma menyalin ringkasan[cite: 6].
+> "Gue juga nggak ngerti. Kayak tugasnya nggak jelas gitu. Mau mulai dari mana coba?"
 
-### S2b-011 — Pemberian Contoh Konkret — Tristan
-> Contoh latihannya begini: pertanyaan kelompok tentang hambatan belajar; satu bahan menyebut waktu terbatas; kaitannya adalah waktu menjadi salah satu hambatan yang perlu kita bahas[cite: 6]. Contoh ini ilustrasi, bukan hasil sumber nyata[cite: 6]. Dengan pola itu, apa bedanya ringkasan dan kaitan ke pertanyaan?[cite: 6]
+### U003 — Simulasi awal — Ali — Mahasiswa {#u003}
 
-### S2b-012 — Pemahaman Konsep — Ali
-> Ringkasan menjelaskan isi bahan[cite: 6]. Kaitan itu menjawab kenapa isi tersebut relevan dengan pertanyaan kelompok[cite: 6]. Berarti tidak perlu memaksakan semua isi masuk[cite: 6].
+> Nah, menurut lo yang nggak jelas itu bagian mana? Coba lo kasih tahu gue
 
-### S2b-013 — Pendampingan Terbatas — Tristan
-> Iya[cite: 6]. Mau mulai dari satu baris bersama selama 15 menit, lalu kamu coba baris kedua sendiri?[cite: 6] Gue mendampingi cara menghubungkannya, bukan mengambil semua bagianmu[cite: 6].
+### AI004 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai004}
 
-### S2b-014 — Kesediaan Bertindak — Ali
-> Gue mau[cite: 6]. Kalau mulai satu baris dulu, rasanya lebih bisa dikerjakan[cite: 6].
+> Ya, misalnya nih gue lihat bagian analisis datanya, harus pake tools yang gue belum pernah sentuh sama sekali. Trus gue tuh takut salah, trus jadinya ya gue ya diem aja.
 
-### S2b-015 — Penjadwalan Bertahap — Tristan
-> Kita jadwalkan pendampingan T+2 selama 15 menit, draf T+12, masukan gue T+18, revisi T+30, integrasi T+40, cek T+44[cite: 6]. Tenggat asli tetap T+48[cite: 6]. Mana yang perlu disesuaikan dengan waktumu?[cite: 6]
+### U004 — Simulasi awal — Ali — Mahasiswa {#u004}
 
-### S2b-016 — Penyesuaian Waktu — Ali
-> Pendampingan T+2 bisa[cite: 6]. Draf T+12 juga masuk akal kalau gue boleh menandai bagian yang masih ragu, tidak harus terlihat sempurna[cite: 6].
+> Nah emang deadline tugasnya ini berapa lama lagi
 
-### S2b-017 — Pengelolaan Kendala — Tristan
-> Boleh ditandai, justru itu membantu kita tahu letak masalah[cite: 6]. Kalau kamu tertahan, kirim baris yang sudah ada dan satu pertanyaan spesifik sebelum T+12[cite: 6]. Gue juga akan memberi kabar bila tidak bisa mendampingi sesuai jadwal[cite: 6].
+### AI005 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai005}
 
-### S2b-018 — Komitmen Terbuka — Ali
-> Oke, gue tidak perlu menunggu semuanya sempurna baru mengirim[cite: 6]. Gue akan menyebut bagian yang belum paham[cite: 6].
+> Kayaknya dua hari lagi. Ya sebenernya mepet. Tapi ya gue jadi makin panik gitu.
 
-### S2b-019 — Verifikasi Pemahaman — Tristan
-> Sebelum kita pegang rencananya, coba jelaskan bagianmu dan bagian yang jadi tanggung jawab gue[cite: 6].
+### U005 — Simulasi awal — Ali — Mahasiswa {#u005}
 
-### S2b-020 — Restatement Tugas — Ali
-> Gue mengisi dua baris tabel dan menjelaskan kaitan tiap sumber[cite: 6]. Kamu memberi contoh satu baris, masukan T+18, lalu menyatukan kesimpulan[cite: 6]. Gue tetap yang mengerjakan baris kedua[cite: 6].
+> Udah, udah gini-gini. Pertama, lu santai aja ya, oke
 
-### S2b-021 — Penguncian Komitmen — Tristan
-> Setuju[cite: 6]. Kalau setelah contoh beban itu masih terasa tidak seimbang, kita tinjau dengan daftar pekerjaan, bukan label siapa lebih mampu[cite: 6]. Langkah pertama sekarang kamu pilih bahan yang paling kamu pahami untuk dibawa ke sesi T+2[cite: 6].
+### AI006 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai006}
 
-### S2b-022 — Pernyataan Kesiapan — Ali
-> Gue bersedia mulai dari itu[cite: 6]. Gue sudah lebih berani mengerjakan, tetapi belum bisa bilang tugasnya selesai[cite: 6].
+> Iya.
 
-### S2b-023 — Evaluasi Sela — Fasilitator
-> Apa dugaan yang berubah dari percakapan ini dan apa bukti responsnya?[cite: 6]
+### U006 — Simulasi awal — Ali — Mahasiswa {#u006}
 
-### S2b-024 — Analisis Interaksi — Tristan
-> Keterlambatan ternyata berkaitan dengan rasa takut dinilai dan instruksi tugas yang kurang jelas[cite: 6]. Setelah diberikan contoh dan pendampingan, Ali mampu membedakan ringkasan dan kaitan sumber[cite: 6].
+> Ya kan, mumpung deadline-nya dua hari lagi nih ya
 
-### S2b-025 — Uji Ulang 1: Perubahan Jadwal (T+2) — Ali
-> Saat pendampingan mau dimulai, kamu ternyata ada benturan jadwal[cite: 6]. Gue berhenti karena takut salah mengisi baris kedua sendirian[cite: 6].
+### AI007 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai007}
 
-### S2b-026 — Respons Uji Ulang 1 — Tristan
-> Gue perlu bertanggung jawab atas jadwal bantuan yang berubah[cite: 6]. Dalam skenario ini gue baru bisa T+4, jadi gue tawarkan contoh tertulis sekarang dan pendampingan 15 menit di T+4[cite: 6]. Kamu boleh mulai dari menandai pertanyaan yang dibahas dan temuan utamanya; kolom kaitan tidak perlu dipaksakan sebelum dibahas[cite: 6].
+> Ya.
 
-### S2b-027 — Uji Ulang 2: Penanganan Temuan — Ali
-> Dua kolom awal bisa gue isi[cite: 6]. Gue belum paham apakah semua temuan harus mendukung pendapat kelompok[cite: 6].
+### U007 — Simulasi awal — Ali — Mahasiswa {#u007}
 
-### S2b-028 — Respons Uji Ulang 2 — Tristan
-> Tidak harus mendukung[cite: 6]. Kalau berbeda, tulis perbedaannya dan alasan relevansinya[cite: 6]. Kita tidak mengubah isi sumber supaya cocok dengan keinginan tim[cite: 6]. Pada T+4 kita pakai satu temuanmu untuk mencoba hubungan itu, lalu kamu jelaskan ulang dengan kalimatmu sendiri[cite: 6].
+> ... kita nggak punya banyak waktu bisa dibilang Nah... Jadi, kita manfaatkan aja yang kita punya. Nah. Kira-kira lu tahu apa aja nih tentang tools. Emm. Kira-kira tools-nya lo tau nggak? Apa aja tools-nya. Tools yang lu tahu deh apa
 
-### S2b-029 — Uji Ulang 3: Penyesuaian Draf — Ali
-> Kalau ada temuan yang bertentangan, gue tandai dan jelaskan hubungannya[cite: 6]. Dengan bantuan bergeser ke T+4, draf T+12 mungkin masih kasar[cite: 6].
+### AI008 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai008}
 
-### S2b-030 — Respons Uji Ulang 3 — Tristan
-> Draf T+12 boleh memuat bagian yang ditandai, lalu kita targetkan pelengkap T+16[cite: 6]. Masukan tetap T+18 dan revisi T+30[cite: 6]. Gue tidak minta kamu mengejar kesempurnaan untuk menutup keterlambatan bantuan gue[cite: 6]. 
+> Yang gue kurang banget tuh yang bagian analisis. Bahkan untuk buka tools-nya aja gue belum nyoba. Soalnya tuh keburu takut sama banyaknya step-step yang harus dilakukan.
 
-### S2b-031 — Pemantapan Target — Ali
-> Gue mau mencoba dengan batas itu[cite: 6]. Sekarang gue bisa menjelaskan bahwa beda temuan bukan berarti baris gue salah[cite: 6].
+### U008 — Simulasi awal — Ali — Mahasiswa {#u008}
 
-### S2b-032 — Penutup Uji Ulang — Tristan
-> Itu menunjukkan pemahaman dalam dialog, belum hasil kerja mandiri[cite: 6]. Yang akan kita cek adalah isi tabelmu, hubungan dengan pertanyaan, ketepatan terhadap sumber, dan apakah kamu bisa menjelaskan alasanmu[cite: 6].
+> Nah, gini. Dengerin gue ya. justru dengan adanya aplikasi kayak gini Dengan tools yang banyak. Itu justru kita harus mengeksplor gitu loh. Kayak, lu merasa nggak sih kayak menarik gitu loh kalau kita mencoba-coba tools-nya untuk data gini? Toh kan aplikasi juga ada yang namanya undo ya? Bisa kita control-z lah, bisa dibilang control-z Ya kan Nah itu
+
+### AI009 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai009}
+
+> He-eh.
+
+### U009 — Simulasi awal — Ali — Mahasiswa {#u009}
+
+> Ya, dengan adanya kayak gitu, ya kamu jangan takut ada kesalahan. Soalnya setiap kesalahan bisa kita ulang lagi gitu Sebelumnya
+
+### AI010 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai010}
+
+> Iya, tapi tetap aja rasanya kayak berat aja, kayak otak gue terus, kayak berat aja gitu. Kayak suruh gue lari maraton pas baru bangun tidur. Ngerti gak sih?
+
+### U010 — Simulasi awal — Ali — Mahasiswa {#u010}
+
+> Ngerti kok. Tapi ya gua paham sih. Kan emang memulai itu jauh lebih susah daripada mempertahankan. Namun percaya lah kalau misalkan lu motivasi diri lu buat Memulai nih untuk tetap konsisten itu untuk tetap mengerjakan, dengan mempertahankan itu ya gak sesusah dengan kamu memulai. Jadi menurutku ya. Lu harus memulai dulu kalau mau nyelesain tugas ini. Gak ada cara lain sih menurutku, Ali
+
+### AI011 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai011}
+
+> Emm. Kalau misalnya gue stuck lagi gimana? Gue takut ngerepotin gitu kalau terlalu banyak tanya.
+
+### U011 — Simulasi awal — Ali — Mahasiswa {#u011}
+
+> Nah. Tenang aja Nah. Mumpung tugas gue juga udah siap nih dan gue nih orangnya suka ngajak orang lah Ya, lu tanyain aja. Gue, justru gue senang kalau lu nanya sama gue. Justru Karena cara belajar gue itu dengan cara mengajar orang lain Dengan mengajar orang lain materi itu makin lengket di otak gue dan gue juga makin banyak tahu gitu
+
+### AI012 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai012}
+
+> Emm. Oke deh, kalau gitu mungkin oke deh, gue coba buka dulu deh.
+
+### U012 — Simulasi awal — Ali — Mahasiswa {#u012}
+
+> Oke coba dibuka dulu ya
+
+### AI013 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai013}
+
+> He-em.
+
+### U013 — Simulasi awal — Ali — Mahasiswa {#u013}
+
+> Gue yakin lu bisa kok. Percaya sama diri lu. Kadang tuh emang gak sus- gak sesusah itu. Cuma ya, emang menakutkan aja kadang. Cuma aslinya gak sesusah-susah itu kok
+
+### AI014 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai014}
+
+> Iya, bener juga sih. Oke deh. Nanti gue coba buka dulu tools-nya. Nanti kalau gue, butuh bantuan lagi, gue tanya sama lo ya.
+
+### U014 — Simulasi awal — Ali — Mahasiswa {#u014}
+
+> Ya, aman aja, jangan sungkan ya
+
+### AI015 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai015}
+
+> Oke, thank you banget.
+
+### U015 — Simulasi awal — Ali — Mahasiswa {#u015}
+
+> Aman
+
+### AI016 — Simulasi awal — Ali — AI — fasilitator/pemeran sesuai tahap {#ai016}
+
+> Oke.
+
+### U016 — Simulasi awal — Ali — Mahasiswa {#u016}
+
+> Lanjut Apakah masih ada lagi
+
+### AI017 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai017}
+
+> Sesi 2B-nya masih berlanjut. Percakapan awal dengan Ali sudah. Sekarang kita masuk ke evaluasi sementara. Menurutmu, apa yang sudah berubah pada Ali dan apa yang belum teratasi?
+
+### U017 — Evaluasi sementara — Mahasiswa {#u017}
+
+> Ya, menurutku ya Ali itu sudah... berani lah untuk mencoba-coba gitu. Soalnya dia akan langsung bilang, ini aku mulai deh gitu
+
+### AI018 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai018}
+
+> He-eh.
+
+### U018 — Evaluasi sementara — Mahasiswa {#u018}
+
+> Ya yang belum teratasi menurutku ya ketidaktahuan dia dengan tools-toolsnya sih. Cuma itu dapat dengan mudah teratasi dengan yang namanya proses. Ya
+
+### AI019 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai019}
+
+> He-em.
+
+### U019 — Evaluasi sementara — Mahasiswa {#u019}
+
+> Waktunya dua hari. Memang dua hari doang. Cuma menurutku sudah lebih dari cukup lah untuk lu explore satu aplikasi gitu untuk ngolah data. Toh juga gak sebanyak itu juga tools-nya. Dan ya manfaatkan waktu sebaik mungkin lah. Kalau misalkan dia juga butuh bantuan, gue juga di sini kok buat ngebantuin dia
+
+### AI020 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai020}
+
+> Oke, tadi kamu bilang dia berani mulai. Respons spesifik apa dari Ali yang bikin kamu menyimpulkan itu?
+
+### U020 — Evaluasi sementara — Mahasiswa {#u020}
+
+> Respons-nya di "iya benar juga sih. Oke deh kalau gitu gue coba mulai dulu. Gue buka dulu." Tadi dia ngomong-ngomong kalau gak salah
+
+### AI021 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai021}
+
+> He-eh. Oke, jelas. Itu tanda niat, ya. Sekarang, apa yang masih asumsi kamu tentang perasaan atau kemampuan Ali?
+
+### U021 — Evaluasi sementara — Mahasiswa {#u021}
+
+> Ya menurutku, Ali masih merasa sungkan gitu mau nanya minta bantuan sama aku, walaupun aku sudah menegaskan kalau aku suka ngajarin orang ya. Tapi ya, menurutku dia masih sungkan lah
+
+### AI022 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai022}
+
+> Oke, jadi kesediaan mulai sudah terlihat, tapi kemampuan mandiri dan perasaannya soal minta bantuan masih asumsi. Kalau kamu bayangkan percakapan dua jam lagi, apa satu situasi yang mungkin terjadi dan bagaimana kamu akan menyesuaikan responsmu?
+
+### U022 — Evaluasi sementara — Mahasiswa {#u022}
+
+> Ya. Gampangnya dia bakal, Kira-kira dia bakal nanya gua sih, kira-kira gimana cara gunain tools ini gitu Ya, responnya ya gue bakal ngejelasin dengan sangat rinci hingga dia paham
+
+### AI023 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai023}
+
+> Oke. Berarti rencanamu adalah menjelaskan sampai dia paham. Kalau kamu harus merangkum satu kalimat yang akan kamu sampaikan kembali ke Ali untuk menutup sesi ini, apa kalimatnya?
+
+### U023 — Evaluasi sementara — Mahasiswa {#u023}
+
+> "Semangat Ali, gue yakin lu bisa
+
+### AI024 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai024}
+
+> Baik, itu sudah cukup untuk menutup sesi 2B.
+
+### U024 — Evaluasi sementara — Mahasiswa {#u024}
+
+> Baik, lanjutkan
+
+### AI025 — Uji ulang — situasi hipotetis dua jam kemudian — AI — fasilitator/pemeran sesuai tahap {#ai025}
+
+> Tahan dulu ya. Tadi aku terlalu cepat nutup sesi 2B. Uji ulangnya belum kita lakukan; jawabanmu tadi baru rencana. Kita lakukan sekarang, ya? Bayangkan dua jam berlalu. Aku kembali sebagai Ali, ya? "Gue sudah buka aplikasinya dan masukin datanya, tapi sekarang gue bingung pilih kolom yang harus dianalisis. Gue takut hasilnya salah. Lo bisa bantu gue mulai dari langkah yang mana?"
+
+### U025 — Uji ulang — situasi hipotetis dua jam kemudian — Mahasiswa {#u025}
+
+> Ya pertama, gue saranin lu buat ngeliat soalnya sih. Kira-kira apa insight yang kira-kira harus kita cari gitu. Nah kemudian di kolomnya kita cari yang paling relevan gitu kira-kira Halo
+
+### AI026 — Uji ulang — situasi hipotetis dua jam kemudian — AI — fasilitator/pemeran sesuai tahap {#ai026}
+
+> "Iya, iya, iya." Iya, gue dengerin deh. "Berarti gue mulai dari baca pertanyaannya, terus cocokin sama kolom yang nyambung. Cuma gue masih bingung nentuin relevan atau enggak." "Boleh gak lo kasih satu contoh sederhana biar gue bisa nyoba milet sendiri abis itu?"
+
+### U026 — Uji ulang — situasi hipotetis dua jam kemudian — Mahasiswa {#u026}
+
+> Nah contohnya kita pengen... disuruh nyari insight nih kira-kira Apa penyebab dari pencemaran udara di Jakarta. Nah kolom yang bisa kita cari itu bisa jadi penggunaan kendaraan gitu, kendaraan pribadi atau bisa jadi total C Emisi CO2 per Bulan itu berapa. Kan kayak gitu. Itu kan relevan
+
+### AI027 — Uji ulang — situasi hipotetis dua jam kemudian — AI — fasilitator/pemeran sesuai tahap {#ai027}
+
+> He-eh. "Oke, gue mulai nangkep, jadi liat dulu apa yang ditanya, baru cari kolom yang bener-bener nyambung sama pertanyaannya. Oke, jadi gue coba dulu ya."
+
+### U027 — Uji ulang — situasi hipotetis dua jam kemudian — Mahasiswa {#u027}
+
+> Oke, semangat
+
+### AI028 — Uji ulang — situasi hipotetis dua jam kemudian — AI — fasilitator/pemeran sesuai tahap {#ai028}
+
+> Semangat.
+
+### U028 — Uji ulang — situasi hipotetis dua jam kemudian — Mahasiswa {#u028}
+
+> Lanjut. apa udah
+
+### AI029 — Refleksi akhir — AI — fasilitator/pemeran sesuai tahap {#ai029}
+
+> Untuk sesi ini sudah cukup. Ali mulai paham cara memilih kolom setelah dapat contoh, tapi belum terbukti bahwa dia sudah benar-benar bisa mengerjakan sendiri. Sekarang refleksi akhir sesi 2B ya. Dari percakapan awal sampai uji ulang, tindakan atau pesan mana dari kamu yang menurutmu membantu atau menghambat Ali merasa dipercaya dan dipedulikan, dan respons apa yang mendukung penilaianmu itu?
+
+### U029 — Refleksi akhir — Mahasiswa {#u029}
+
+> Menurutku ya yang membantu tuh ya waktu aku menawarin dia bantuanku gitu. Namun Yang bagian itu juga sekaligus menghambat Ali merasa dipercaya dan dipedulikan lah. Soalnya kayak kadang kalau ada orang yang kalau ditawarin bantuan itu malah merasa kayak gak enak, malah ngerasa aduh terhambat gitu. Nah justru jujur menurutku itu gak bisa dihindarin. Ya namanya kalau... aku nawarin bantuan- bantuan ya pasti ada aja yang merasa nggak enak gitu buat menerima. Apalagi ya takut ngebebanin. Namun ya yang bisa aku lakukan hanya meyakinin kalau aku tuh gak masalah gitu ngebantuin mereka. Justru aku suka gitu
+
+### AI030 — Refleksi akhir — AI — fasilitator/pemeran sesuai tahap {#ai030}
+
+> Oke, itu refleksi yang jujur. Kalau harus pilih satu hal yang ingin kamu perbaiki saat menawarkan bantuan, apa itu?
+
+### U030 — Refleksi akhir — Mahasiswa {#u030}
+
+> Jujur menurutku nggak ada. Soalnya ya emang begitu cara aku menawarkan bantuan ke orang lain. Ya, dengan meyakinkan mereka kalau aku tuh justru suka gitu. Justru kayak gitu cara aku belajar. Dengan membantu orang lain
+
+### AI031 — Refleksi akhir — AI — fasilitator/pemeran sesuai tahap {#ai031}
+
+> Sip, itu sudah dicatat sebagai refleksimu apa adanya.
+
+### U031 — Refleksi akhir — Mahasiswa {#u031}
+
+> Baik. Lanjutkan
+
+### AI032 — Konfirmasi ringkasan — AI — fasilitator/pemeran sesuai tahap {#ai032}
+
+> Sebelum masuk ke sesi 3A, kita pastikan ringkasan 2B-nya dulu. Kamu menawarkan pendampingan dan memberi contoh memilih kolom berdasarkan pertanyaan tugas. Ali menyatakan akan mencoba dan mulai memahami, tapi hasil akhirnya dan kemampuan mandiri belum terlihat. Refleksimu, tawaran bantuan bisa memicu sungkan, namun kamu memilih tetap menjelaskan bahwa membantu juga cara kamu belajar dan tidak melihat hal yang perlu diubah. Apakah itu sesuai?
+
+### U032 — Konfirmasi ringkasan — Mahasiswa {#u032}
+
+> Ya, sesuai banget
+
+### AI033 — Konfirmasi ringkasan — AI — fasilitator/pemeran sesuai tahap {#ai033}
+
+> Oke, itu sudah cukup untuk sesi 2B. Apakah kamu siap lanjut ke sesi 3A?
+
+### U033 — Konfirmasi ringkasan — Mahasiswa {#u033}
+
+> Lanjutkan aja, kita bantai le
 
 # D) Hasil, Evaluasi, dan Refleksi
 
-## Hasil Tujuan dan Perubahan Profil
+## Hasil tujuan dan perubahan SWOT/ASK
 
-| Unsur | Kondisi Awal | Hasil Akhir | Bukti Transkrip |[cite: 6] |
+**Hasil tujuan: Sebagian: Ali menyatakan bersedia mencoba dan mulai memahami relevansi kolom; pekerjaan mandiri dan penyelesaian tugas belum ditunjukkan.**
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
 | --- | --- | --- | --- | --- |
-| SWOT Subjektif | Merasa terbebani dan takut hasil kerja dinilai buruk | Memiliki kejelasan subtugas dan pendampingan terstruktur | S2b-004 → S2b-014 |[cite: 6] |
-| Attitude | Menarik diri, merasa tidak mampu dan tugas tidak adil | Berani mencoba dan mengirimkan draf bertahap secara terbuka | S2b-004 → S2b-018 |[cite: 6] |
-| Knowledge | Instruksi analisis abstrak dan membingungkan | Memahami perbedaan ringkasan, kaitan, dan analisis temuan | S2b-006 → S2b-031 |[cite: 6] |
-| Skill / Kesiapan | Belum tahu cara merelasikan sumber ke topik kelompok | Mampu memetakan sumber mandiri dengan bantuan scaffolding | S2b-008 → S2b-032 |[cite: 6] |
+| Kesimpulan SWOT | Merasa belum mampu; enggan memulai | Lebih bersedia mencoba setelah bantuan ditawarkan | [AI012](#ai012): “gue coba buka dulu deh.” | Kesediaan, bukan bukti analisis mandiri |
+| Attitude | Takut salah dan merepotkan | Mau membuka aplikasi dan bertanya | [U011](#u011): “Dengan mengajar orang lain materi itu makin lengket di otak gue”; [AI012](#ai012): “gue coba buka dulu deh.” | Respons tokoh; sisa rasa sungkan hanya dugaan mahasiswa |
+| Knowledge | Instruksi analisis belum jelas | Dapat mengulang prinsip mulai dari pertanyaan dan kolom relevan | [AI027](#ai027): “gue mulai nangkep” | Pemahaman verbal dalam pemeranan; ketepatan teknis belum diuji |
+| Skill | Belum mencoba aplikasi | Mahasiswa memberi contoh saat uji ulang; Ali belum mengerjakan contoh sendiri | [U026](#u026): “penggunaan kendaraan gitu” | Uji komunikasi, bukan bukti kemampuan teknis Ali |
 
-## Evaluasi Stimulus-Respons dan Analisis Interaksi
 
-1. **Membangun Ruang Aman (S2b-003):** Pendekatan yang tidak menghakimi membuka ruang bagi Ali untuk mengungkapkan ketakutan mendasarnya (takut dianggap tidak berguna)[cite: 6].
-2. **Scaffolding dan Contoh (S2b-011):** Penjelasan konsep "kaitan sumber" melalui analogi konkret membantu mengubah kebingungan teoretis menjadi tindakan praktis[cite: 6].
-3. **Redistribusi Dukungan (S2b-013):** Penawaran pengerjaan satu baris bersama menurunkan hambatan psikologis tanpa mengambil alih tanggung jawab penuh rekan[cite: 6].
-4. **Adaptasi Tanggung Jawab (S2b-026):** Konsistensi dan akuntabilitas pemimpin saat terjadi pergeseran jadwal pendampingan menjaga kepercayaan dan kelanjutan progres[cite: 6].
+## Evaluasi stimulus–respons dan diagnosis profil
 
-## Penilaian Enam Dimensi
 
-| Dimensi | Skor | Bukti dan Alasan |[cite: 6] |
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+| --- | --- | --- | --- | --- | --- |
+| Penggalian | Ali menyatakan enggan mulai | [U003](#u003): “menurut lo yang nggak jelas itu bagian mana” | [AI004](#ai004): “gue tuh takut salah” | Konteks takut salah dan instruksi terungkap | Menawarkan dukungan |
+| Dukungan | Takut terlalu banyak bertanya | [U011](#u011): “Dengan mengajar orang lain materi itu makin lengket di otak gue” | [AI012](#ai012): “gue coba buka dulu deh.” | A: mau mencoba; S belum diperiksa | Membuka ruang bertanya |
+| Uji ulang | Belum bisa memilih kolom | [U026](#u026): “penggunaan kendaraan gitu” | [AI027](#ai027): “gue mulai nangkep” | K: hubungan pertanyaan–kolom mulai dapat diucapkan | Belum ada tugas mandiri untuk menguji transfer |
+
+
+Profil K2-01 dari paket: Ali ingin berkembang tetapi takut dianggap tidak berguna, instruksi satu subtugas belum jelas, dan membutuhkan bantuan pada subtugas itu. Pertanyaan awal mahasiswa membantu membuka hambatan. Kata “males” pada pembuka pemeranan tidak boleh dianggap diagnosis atau fakta kemalasan.
+
+## Pengaruh pesan personal dan kualitas relasi
+
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| --- | --- | --- | --- | --- |
+| Awal | [U003](#u003): “menurut lo yang nggak jelas itu bagian mana” | [AI004](#ai004): “gue tuh takut salah” | Keterbukaan rendah → sedang; rasa aman sedang | Tokoh mau menyebut takut salah |
+| Pendampingan | [U011](#u011): “Dengan mengajar orang lain materi itu makin lengket di otak gue” | [AI012](#ai012): “gue coba buka dulu deh.” | Kepercayaan sedang → membaik menurut respons; tingkat final tidak diuji | Bantuan mempunyai makna personal untuk mahasiswa; perasaan bersalah belum terbukti hilang |
+
+
+Kategori relasional adalah estimasi kualitatif fasilitator berdasarkan ujaran, bukan skala psikometri. Ketulusan batin, prosodi, mimik, serta perubahan jangka panjang tidak disimpulkan. Dukungan dan persetujuan tidak membuktikan kemampuan mandiri.
+
+## Uji ulang dan pembelajaran
+
+Uji ulang yang semula terlewat kemudian benar-benar dijalankan dalam teks: Ali telah membuka aplikasi dalam situasi hipotetis, tetapi bingung memilih kolom. Mahasiswa meminta melihat soal dan memberi contoh kolom terkait pencemaran udara. [U026](#u026): “penggunaan kendaraan gitu” → [AI027](#ai027): “gue mulai nangkep”. Ini lebih konkret daripada janji “menjelaskan rinci”, tetapi belum membuktikan Ali dapat mengerjakan sendiri atau hubungan sebab akibat dari kolom-kolom tersebut.
+
+## Penilaian enam dimensi
+
+Evidence per dimensi kini tersedia dan dirujuk langsung. Paket memberikan enam dimensi dan skala 1–4, tetapi descriptor resmi per tingkat tidak disertakan. Karena itu kolom skor tetap **BT (belum dapat ditetapkan)** sampai descriptor atau moderasi dosen tersedia. BT di sini tidak berarti evidence tidak ada atau nilai nol. Angka penilaian diri 8/10, jika disebut, bukan skor resmi rubrik.
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
 | --- | --- | --- | --- |
-| Tujuan dan konteks | 4.0 / 4 | S2b-001, S2b-015: Menetapkan tujuan menjaga relasi dan menyelesaikan subtugas secara spesifik dengan jadwal T+12 hingga T+48 yang jelas[cite: 6]. |
-| Persepsi dan validasi profil/status | 4.0 / 4 | S2b-005, S2b-007: Menggali hambatan nyata di balik keterlambatan dan membedakan antara asumsi malas versus kurangnya kejelasan instruksi[cite: 6]. |
-| Pemilihan dan urutan repertoar | 3.5 / 4 | S2b-011, S2b-013: Menggunakan metode contoh konkret (scaffolding) dan sesi latihan mikro 15 menit yang sangat sesuai dengan kebutuhan komunikator[cite: 6]. |
-| Eksekusi jelas, peduli dan konsisten | 4.0 / 4 | S2b-013, S2b-026: Memberikan dukungan operasional nyata dan bertanggung jawab penuh ketika jadwal pendampingan perlu disesuaikan[cite: 6]. |
-| Evaluasi dan adaptasi | 4.0 / 4 | S2b-028, S2b-030: Fleksibel menyesuaikan tenggat sela (T+16) saat terjadi kendala waktu tanpa mengorbankan kualitas atau integritas sumber[cite: 6]. |
-| Refleksi dan lesson learned | 3.5 / 4 | S2b-024, S2b-034: Menyimpulkan bahwa penanganan keterlambatan rekan menuntut kejelasan instruksi dan bantuan terarah, bukan sekadar tuntutan tenggat[cite: 6]. |
+| Tujuan dan konteks | BT | [U004](#u004): “deadline tugasnya ini berapa lama lagi” | Tenggat diklarifikasi; tujuan dan rencana awal pribadi belum dirumuskan eksplisit sebelum pemeranan. Descriptor tingkat resmi belum tersedia. |
+| Persepsi dan validasi profil/status | BT | [U003](#u003): “menurut lo yang nggak jelas itu bagian mana” | Pertanyaan membuka hambatan instruksi dan takut salah. Descriptor tingkat resmi belum tersedia. |
+| Pemilihan dan urutan repertoar | BT | [U025](#u025): “gue saranin lu buat ngeliat soalnya sih” | Uji ulang bergerak ke penjelasan tugas dan kolom yang relevan. Descriptor tingkat resmi belum tersedia. |
+| Eksekusi jelas, peduli dan konsisten | BT | [U011](#u011): “Dengan mengajar orang lain materi itu makin lengket di otak gue” | Bantuan dikaitkan dengan makna personal; tidak membuktikan seluruh rasa sungkan hilang. Descriptor tingkat resmi belum tersedia. |
+| Evaluasi dan adaptasi | BT | [U026](#u026): “penggunaan kendaraan gitu” | Memberikan contoh saat penjelasan umum belum cukup; contoh tidak membuktikan kemampuan analisis kausal. Descriptor tingkat resmi belum tersedia. |
+| Refleksi dan lesson learned | BT | [U030](#u030): “Jujur menurutku nggak ada.” | Mahasiswa menyatakan belum ingin mengubah cara menawarkan bantuan; dipertahankan apa adanya, tidak ditulis ulang sebagai pengakuan perubahan. Descriptor tingkat resmi belum tersedia. |
 
-## Refleksi dan Lesson Learned
 
-Interaksi ini menunjukkan bahwa penundaan atau hambatan dari rekan satu tim sering kali berakar dari ketakutan akan kegagalan dan ketidakjelasan panduan kerja[cite: 6]. Kepemimpinan diri dan komunikasi interpersonal yang efektif menuntut pendekatan suportif berupa penyediaan contoh konkret, pendampingan bertahap (scaffolding), serta penjagaan akuntabilitas dua arah tanpa mempermalukan pihak lain[cite: 6].
+Nilai sesi = jumlah enam skor / 24 × 100 hanya jika semua skor sah tersedia. Nilai sesi: **Belum dihitung**. Laporan ini tidak mengesahkan nilai UTS atau persetujuan bot.
 
-## Tindak Lanjut
+## Refleksi dan lesson learned mahasiswa
 
-1. Menjalankan sesi pendampingan mikro sesuai jadwal revisi[cite: 6].
-2. Memantau progres draf tabel sumber pada checkpoint T+12[cite: 6].
-3. Memastikan proses integrasi akhir berjalan lancar sebelum tenggat T+48[cite: 6].
+Mahasiswa menyatakan tawaran bantuan bisa sekaligus membuat target sungkan, lalu mengatakan belum ada hal yang ingin ia ubah: [U030](#u030): “Jujur menurutku nggak ada.”. Ia tetap memilih menjelaskan bahwa mengajar juga caranya belajar. Refleksi tidak diganti menjadi pengakuan perbaikan yang tidak pernah diucapkan. Konfirmasi ringkasan: [U032](#u032): “Ya, sesuai banget”.
+
+## Tindak lanjut dan batas bukti
+
+Rencana: Ali mencoba aplikasi dan meminta bantuan jika perlu; mahasiswa menawarkan pendampingan. Waktu bantuan, hasil minimum, pembagian rinci dan tenggat internal belum ditentukan. Rekomendasi penilai yang belum disepakati: minta target menunjukkan satu langkah mandiri dan tetapkan pemeriksaan progres sebelum tenggat.
+
+Ringkasan hasil dan refleksi disetujui dengan jawaban “Ya, sesuai banget”.
+
+Catatan mutu fasilitasi dan ketepatan pelaporan: Pemeranan awal tidak memakai kalimat pembuka Ali yang persis dari profil. Fasilitator sempat menyatakan sesi selesai sebelum uji ulang, lalu mengoreksinya dan melaksanakan uji ulang; dua tahap ini tidak digabung atau disembunyikan. Contoh pencemaran bukan bukti bahwa CO2 saja merupakan ukuran memadai atau penyebab terbukti. Klaim semua kesalahan dapat dibatalkan dengan undo tidak dijadikan pedoman teknis. Tujuan/rencana awal tertulis mahasiswa tidak direkonstruksi.
+
+## Bobot dan nilai akhir UTS
+
+
+| Komponen | Bobot | Nilai komponen |
+| --- | --- | --- |
+| Makalah pra-UTS (paper.qmd) | 10% | Nilai dosen belum tersedia |
+| Sesi 1 | 18% | Belum dihitung |
+| Sesi 2a | 18% | Belum dihitung |
+| Sesi 2b | 18% | Belum dihitung |
+| Sesi 3a | 18% | Belum dihitung |
+| Sesi 3b | 18% | Belum dihitung |
+| Total | 100% | Belum dihitung |
+
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b).** Nilai belum tersedia tidak dianggap nol dan bobot tidak dinormalisasi ulang. Rata-rata 2a/2b serta 3a/3b adalah ringkasan kasus, bukan komponen tambahan.
+
