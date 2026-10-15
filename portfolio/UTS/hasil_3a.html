@@ -76,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -328,39 +357,39 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Nama mahasiswa</td>
-<td>Tristan Anthony Wijaya[cite: 2]</td>
+<td>Tristan Anthony Wijaya</td>
 </tr>
 <tr class="even">
 <td>NIM</td>
-<td>18225045[cite: 2]</td>
+<td><code>18225045</code></td>
 </tr>
 <tr class="odd">
 <td>Kelas dan tanggal</td>
-<td>II2100-01, 15 Oktober 2026[cite: 1, 2]</td>
+<td>II2100-01, 15 Oktober 2026</td>
 </tr>
 <tr class="even">
 <td>Nomor/judul kasus</td>
-<td>Sesi 3a; Kasus 3 (Menawarkan Solusi TI dan AI)[cite: 1, 2]</td>
+<td>Sesi 3a; Kasus 3 (Menawarkan Solusi TI dan AI)</td>
 </tr>
 <tr class="odd">
 <td>Nama dan ID target</td>
-<td>Fajar (K3-06)[cite: 2]</td>
+<td>Fajar (K3-06)</td>
 </tr>
 <tr class="even">
 <td>Versi bank/aturan penugasan</td>
-<td>Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md[cite: 2]</td>
+<td>Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md</td>
 </tr>
 <tr class="odd">
 <td>Modalitas</td>
-<td>Teks (Simulasi interaktif chatbot KIPP 2.0)[cite: 2]</td>
+<td>Teks (Simulasi interaktif chatbot KIPP 2.0)</td>
 </tr>
 <tr class="even">
 <td>Kasus nyata/fiktif</td>
-<td>Nyata / Reflektif (Implementasi solusi AI untuk efisiensi operasional)[cite: 2]</td>
+<td>Simulasi penawaran TI/AI dengan tokoh fiktif paket; implementasi lapangan belum ditampilkan.</td>
 </tr>
 <tr class="odd">
 <td>Kelengkapan transkrip</td>
-<td>Lengkap (mencakup identifikasi, rencana, simulasi, evaluasi, uji ulang, refleksi, dan konfirmasi)[cite: 2]</td>
+<td>Parsial: 4 pasangan U/AI tersedia; evaluasi, penerapan uji ulang, jawaban refleksi dan konfirmasi akhir belum lengkap.</td>
 </tr>
 </tbody>
 </table>
@@ -369,10 +398,11 @@ ul.task-list li input[type="checkbox"] {
 <h1>B) Kasus dan Tujuan</h1>
 <section id="kasus-dan-tujuan-tindakan" class="level2">
 <h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
-<p>Brief kasus: Customer (Fajar) menangani pertanyaan pelanggan berulang dan pesanan tercecer dengan tenaga terbatas, serta belum yakin memerlukan AI. Mahasiswa bertugas menggali kebutuhan dan menawarkan solusi TI/AI yang sesuai, dengan sasaran keputusan/uji coba konkret[cite: 2]. Tujuan tindakan: Menghargai waktu Fajar yang pragmatis, mendemonstrasikan manfaat praktis sistem otomatisasi pesan secara ringkas, menyediakan checklist dan fallback, serta menyepakati uji coba kecil tanpa membebani operasional[cite: 2].</p>
+<p>Brief kasus: Customer (Fajar) menangani pertanyaan pelanggan berulang dan pesanan tercecer dengan tenaga terbatas, serta belum yakin memerlukan AI. Mahasiswa bertugas menggali kebutuhan dan menawarkan solusi TI/AI yang sesuai, dengan sasaran keputusan/uji coba konkret. Tujuan tindakan: Menghargai waktu Fajar yang pragmatis, mendemonstrasikan manfaat praktis sistem otomatisasi pesan secara ringkas, menyediakan checklist dan fallback, serta menyepakati uji coba kecil tanpa membebani operasional.</p>
 </section>
 <section id="profil-awal-komunikator" class="level2">
 <h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
+<p>Profil berikut membedakan informasi tertulis dan interpretasi ujaran. Profil diri lengkap sebelum simulasi belum tercatat.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -391,45 +421,46 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>SWOT subjektif</td>
-<td>Peluang efisiensi operasional; Ancaman kesalahan sistem otomatis; Mampu memberikan solusi TI; Belum tahu kesiapan infrastruktur Fajar[cite: 2]</td>
-<td>U001[cite: 2]</td>
-<td>Sementara[cite: 2]</td>
+<td>Peluang membantu efisiensi; risiko kesalahan otomatis; kesiapan infrastruktur customer belum diketahui.</td>
+<td>Brief; U002–U003</td>
+<td>Interpretasi terbatas; belum divalidasi lengkap</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Berorientasi pada hasil cepat, pragmatis, tidak suka penjelasan bertele-tele[cite: 2]</td>
-<td>U001[cite: 2]</td>
-<td>Sementara[cite: 2]</td>
+<td>Menghargai waktu customer dan menerima kebutuhan mitigasi risiko.</td>
+<td>U002–U003</td>
+<td>Interpretasi terbatas; belum divalidasi lengkap</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Pengalaman lapangan kuat, pemahaman risiko kesalahan sistem otomatis masih terbatas[cite: 2]</td>
-<td>U001[cite: 2]</td>
-<td>Sementara[cite: 2]</td>
+<td>Menawarkan integrasi bot, spreadsheet, serta fallback; kelayakan teknis belum diuji dalam naskah.</td>
+<td>U002–U003</td>
+<td>Interpretasi terbatas; belum divalidasi lengkap</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>Cepat mencoba teknologi baru, namun dokumentasi dan manajemen fallback lemah[cite: 2]</td>
-<td>U001[cite: 2]</td>
-<td>Sementara[cite: 2]</td>
+<td>Merancang tawaran uji terbatas, checklist, dan demo; implementasi belum ditunjukkan.</td>
+<td>U003–U004</td>
+<td>Interpretasi terbatas; belum divalidasi lengkap</td>
 </tr>
 <tr class="odd">
 <td>Preferensi/MBTI jika dilaporkan</td>
-<td>ESTP (berdasarkan analisis profil komunikan dan orientasi aksi cepat)[cite: 1, 2]</td>
-<td>U001[cite: 2]</td>
-<td>Hipotesis[cite: 2]</td>
+<td>MBTI mahasiswa belum dilaporkan pada percakapan.</td>
+<td>Tidak ada pernyataan MBTI diri.</td>
+<td>Belum tersedia</td>
 </tr>
 <tr class="even">
 <td>Karakter, peran, kultur/ko-kultur</td>
-<td>Pengelola usaha/pelaku lapangan; menghargai efisiensi waktu, kegunaan praktis, dan kelincahan[cite: 1, 2]</td>
-<td>U001[cite: 2]</td>
-<td>Sementara[cite: 2]</td>
+<td>Mahasiswa sebagai komunikator yang menawarkan solusi TI/AI kepada customer.</td>
+<td>U001–U004</td>
+<td>Interpretasi terbatas; belum divalidasi lengkap</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="dugaan-awal-profil-target-dan-rencana" class="level2">
 <h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
+<p>Dugaan sebelum pengungkapan profil belum tersedia sebagai giliran tersendiri. Tabel berikut adalah rencana tertulis; waktu penyusunannya terhadap pengungkapan profil belum tercatat.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -450,38 +481,38 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Target</td>
-<td>Menyepakati uji coba sistem chatbot sederhana untuk pesan berulang[cite: 2]</td>
-<td>Diagnosis hambatan A/K/S Fajar[cite: 2]</td>
-<td>Demo singkat dan penawaran nilai langsung[cite: 2]</td>
-<td>Fajar tertarik mencoba tanpa beban baru[cite: 2]</td>
+<td>Menyepakati uji coba sistem chatbot sederhana untuk pesan berulang</td>
+<td>Diagnosis hambatan A/K/S Fajar</td>
+<td>Demo singkat dan penawaran nilai langsung</td>
+<td>Fajar tertarik mencoba tanpa beban baru</td>
 </tr>
 <tr class="even">
 <td>Attention</td>
-<td>Fajar terburu-buru dan skeptis pada teori panjang[cite: 2]</td>
-<td>A (Ingin hasil cepat tanpa beban baru)[cite: 2]</td>
-<td>Menyapa ringkas dan langsung ke manfaat efisiensi[cite: 2]</td>
-<td>Fajar merespons dengan minat praktis[cite: 2]</td>
+<td>Fajar terburu-buru dan skeptis pada teori panjang</td>
+<td>A (Ingin hasil cepat tanpa beban baru)</td>
+<td>Menyapa ringkas dan langsung ke manfaat efisiensi</td>
+<td>Fajar merespons dengan minat praktis</td>
 </tr>
 <tr class="odd">
 <td>Interest</td>
-<td>Fajar ingin pesanan tidak tercecer[cite: 2]</td>
-<td>K (Belum memahami risiko kesalahan otomatis)[cite: 2]</td>
-<td>Menunjukkan contoh kasus penanganan pesan berulang[cite: 2]</td>
-<td>Keterlibatan dalam diskusi demo[cite: 2]</td>
+<td>Fajar ingin pesanan tidak tercecer</td>
+<td>K (Belum memahami risiko kesalahan otomatis)</td>
+<td>Menunjukkan contoh kasus penanganan pesan berulang</td>
+<td>Keterlibatan dalam diskusi demo</td>
 </tr>
 <tr class="even">
 <td>Desire</td>
-<td>Fajar butuh kepastian sistem aman dan ada fallback[cite: 2]</td>
-<td>S (Perlu demo singkat, checklist, dan fallback)[cite: 2]</td>
-<td>Menyediakan skema uji coba kecil dengan panduan ringkas[cite: 2]</td>
-<td>Persetujuan uji coba terbatas[cite: 2]</td>
+<td>Fajar butuh kepastian sistem aman dan ada fallback</td>
+<td>S (Perlu demo singkat, checklist, dan fallback)</td>
+<td>Menyediakan skema uji coba kecil dengan panduan ringkas</td>
+<td>Persetujuan uji coba terbatas</td>
 </tr>
 <tr class="odd">
 <td>Action</td>
-<td>Memulai uji coba sistem bot selama 3 hari ke depan[cite: 2]</td>
-<td>A/K/S tersinkronisasi[cite: 2]</td>
-<td>Penjadwalan setup dan evaluasi singkat[cite: 2]</td>
-<td>Implementasi uji coba lapangan[cite: 2]</td>
+<td>Usulan uji terbatas; durasi tiga hari belum disepakati dalam dialog</td>
+<td>A/K/S tersinkronisasi</td>
+<td>Penjadwalan setup dan evaluasi singkat</td>
+<td>Implementasi uji coba lapangan</td>
 </tr>
 </tbody>
 </table>
@@ -489,23 +520,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="c-skrip-percakapan" class="level1">
 <h1>C) Skrip Percakapan</h1>
-<p><strong>Transkrip aktual, bukan dialog karangan.</strong>[cite: 2]</p>
+<p>Tersedia 4 pasangan giliran mahasiswa dan fasilitator.</p>
 <ul>
-<li><strong>U001 (Identifikasi):</strong> Mahasiswa menyampaikan: “Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 15 Oktober 2026, modalitas teks, kasus penawaran solusi TI dan AI.”[cite: 1, 2]</li>
-<li><strong>AI001 (Konfirmasi &amp; Brief Kasus):</strong> “Data diterima. Selamat datang di Sesi 3a Kasus 3. Fajar (K3-06) merespons dengan kalimat pembuka: <em>‘Bisa langsung ditunjukkan manfaatnya? Saya tidak punya banyak waktu.’</em> Silakan mulai percakapan.”[cite: 2]</li>
-<li><strong>U002 (Simulasi Awal):</strong> “Halo Fajar, saya hargai waktumu. Langsung saja, kita bisa pangkas waktu balasan pesan berulang pelangganmu pakai bot otomatis sederhana yang langsung tersambung ke spreadsheet pesanan dalam 5 menit setup. Mau saya tunjukkan simulasinya sekarang?”[cite: 2]</li>
-<li><strong>AI002 (Respon Tokoh - Fajar):</strong> “Fajar menjawab: <em>‘Boleh, kalau memang cepat dan nggak bikin ribet operasional. Tapi pastikan nggak ada pesanan yang terlewat kalau bot-nya error ya.’</em>”[cite: 2]</li>
-<li><strong>U003 (Validasi &amp; Edukasi):</strong> “Tentu, Fajar. Kita siapkan mekanisme <em>fallback</em> ke admin manual dan checklist harian supaya aman. Kita uji coba khusus untuk 10 pelanggan pertama dulu minggu ini tanpa ubah sistem utama. Setuju?”[cite: 2]</li>
-<li><strong>AI003 (Respon Tokoh - Fajar):</strong> “Fajar merespons positif: <em>‘Nah, kalau ada mekanisme cadangan manual dan dibatasi dulu, saya oke coba. Kapan kita mulai setup-nya?’</em>”[cite: 2]</li>
-<li><strong>U004 (Kesepakatan Action):</strong> “Sip! Besok siang jam 10 kita demo setup 15 menit dan langsung uji coba ya, Fajar. Terima kasih atas waktunya.”[cite: 2]</li>
-<li><strong>AI004 (Konfirmasi Kesepakatan):</strong> “Fajar menjawab: <em>‘Oke, besok jam 10 siang ya. Kabari kalau sudah siap.’</em> Mari kita lanjutkan ke tahap evaluasi dan refleksi.”[cite: 2]</li>
+<li><strong>U001 (Identifikasi):</strong> Mahasiswa menyampaikan: “Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 15 Oktober 2026, modalitas teks, kasus penawaran solusi TI dan AI.”</li>
+<li><strong>AI001 (Konfirmasi &amp; Brief Kasus):</strong> “Data diterima. Selamat datang di Sesi 3a Kasus 3. Fajar (K3-06) merespons dengan kalimat pembuka: <em>‘Bisa langsung ditunjukkan manfaatnya? Saya tidak punya banyak waktu.’</em> Silakan mulai percakapan.”</li>
+<li><strong>U002 (Simulasi Awal):</strong> “Halo Fajar, saya hargai waktumu. Langsung saja, kita bisa pangkas waktu balasan pesan berulang pelangganmu pakai bot otomatis sederhana yang langsung tersambung ke spreadsheet pesanan dalam 5 menit setup. Mau saya tunjukkan simulasinya sekarang?”</li>
+<li><strong>AI002 (Respon Tokoh - Fajar):</strong> “Fajar menjawab: <em>‘Boleh, kalau memang cepat dan nggak bikin ribet operasional. Tapi pastikan nggak ada pesanan yang terlewat kalau bot-nya error ya.’</em>”</li>
+<li><strong>U003 (Validasi &amp; Edukasi):</strong> “Tentu, Fajar. Kita siapkan mekanisme <em>fallback</em> ke admin manual dan checklist harian supaya aman. Kita uji coba khusus untuk 10 pelanggan pertama dulu minggu ini tanpa ubah sistem utama. Setuju?”</li>
+<li><strong>AI003 (Respon Tokoh - Fajar):</strong> “Fajar merespons positif: <em>‘Nah, kalau ada mekanisme cadangan manual dan dibatasi dulu, saya oke coba. Kapan kita mulai setup-nya?’</em>”</li>
+<li><strong>U004 (Kesepakatan Action):</strong> “Sip! Besok siang jam 10 kita demo setup 15 menit dan langsung uji coba ya, Fajar. Terima kasih atas waktunya.”</li>
+<li><strong>AI004 (Konfirmasi Kesepakatan):</strong> “Fajar menjawab: <em>‘Oke, besok jam 10 siang ya. Kabari kalau sudah siap.’</em> Mari kita lanjutkan ke tahap evaluasi dan refleksi.”</li>
 </ul>
 </section>
 <section id="d-hasil-evaluasi-dan-refleksi" class="level1">
 <h1>D) Hasil, Evaluasi, dan Refleksi</h1>
 <section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
 <h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
-<p>Tujuan tercapai dengan sangat baik. Mahasiswa berhasil menyesuaikan diri dengan gaya komunikasi Fajar yang pragmatis, memberikan demonstrasi bernilai cepat, serta menyertakan mekanisme cadangan (<em>fallback</em>) untuk mengatasi kekhawatiran operasionalnya[cite: 2].</p>
+<p>Tujuan tercapai sebagian: Fajar menyatakan bersedia menilai solusi pada AI002 dan menerima tawaran uji terbatas pada AI003. Jadwal pukul 10.00 keesokan hari disepakati pada AI004. Demo, setup, penghematan waktu, dan hasil penanganan sepuluh pelanggan belum diperlihatkan. Estimasi setup lima menit merupakan janji pada U002 yang belum diverifikasi.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -525,32 +556,32 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kesimpulan SWOT</td>
-<td>Potensi penolakan karena waktu terbatas[cite: 2]</td>
-<td>Kesepakatan uji coba sistem dengan fallback aman[cite: 2]</td>
-<td>U002, U004[cite: 2]</td>
-<td>Simulasi interaktif[cite: 2]</td>
+<td>SWOT</td>
+<td>Customer mempertimbangkan manfaat cepat dengan risiko operasional.</td>
+<td>Ada kesepakatan uji terbatas dan usulan fallback.</td>
+<td>AI002–AI004</td>
+<td>Persetujuan rencana, belum bukti manfaat lapangan.</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Fajar skeptis dan tidak sabar pada penjelasan panjang[cite: 2]</td>
-<td>Fajar antusias dan menyetujui uji coba terbatas[cite: 2]</td>
-<td>AI003[cite: 2]</td>
-<td>Batas respons emosional</td>
+<td>Fajar meminta proses cepat dan tidak rumit.</td>
+<td>Bersedia mencoba bila ada cadangan manual.</td>
+<td>AI002–AI003</td>
+<td>Respons bersyarat, bukan penerimaan semua fitur.</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Fajar belum paham risiko error otomatis[cite: 2]</td>
-<td>Paham pentingnya mekanisme cadangan manual (<em>fallback</em>)[cite: 2]</td>
-<td>AI002, U003[cite: 2]</td>
-<td>Batas kognitif simulasi</td>
+<td>Ada kekhawatiran bot mengalami error.</td>
+<td>Gagasan fallback dan pembatasan uji diperkenalkan.</td>
+<td>AI002; U003</td>
+<td>Pemahaman detail risiko belum diperiksa.</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>Fajar cepat mencoba namun lemah dokumentasi[cite: 2]</td>
-<td>Disepakati panduan checklist dan demo singkat[cite: 2]</td>
-<td>U003, U004[cite: 2]</td>
-<td>Demonstrasi kesepakatan</td>
+<td>Kebutuhan demo dan checklist berasal dari profil target.</td>
+<td>Demo serta panduan dijadwalkan.</td>
+<td>U003–U004</td>
+<td>Belum ada demonstrasi penggunaan atau penanganan error.</td>
 </tr>
 </tbody>
 </table>
@@ -579,22 +610,31 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>U002/AI002</td>
-<td>Rasa aman awal sedang, cenderung tidak sabar[cite: 2]</td>
-<td>“Langsung saja, kita pangkas waktu… setup 5 menit…”[cite: 2]</td>
-<td>Fajar tertarik karena durasi singkat dan relevan[cite: 2]</td>
-<td>Peningkatan perhatian (<em>Attention</em>)</td>
-<td>Komunikasi <em>to the point</em></td>
+<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
+<td>Bot otomatis sederhana yang langsung tersambung ke spreadsheet pesanan dalam 5 menit setup.</td>
+<td>Fajar bersedia jika cepat, tetapi meminta pesanan tidak terlewat saat error.</td>
+<td>Tawaran relevan membuka perhatian; klaim lima menit belum terbukti.</td>
+<td>Periksa infrastruktur dan perlakukan durasi sebagai estimasi, bukan kepastian.</td>
 </tr>
 <tr class="even">
 <td>U003/AI003</td>
-<td>Rasa aman tinggi, kooperatif[cite: 2]</td>
-<td>“Kita siapkan mekanisme fallback… uji coba 10 pelanggan dulu…”[cite: 2]</td>
-<td>Fajar menyetujui uji coba karena ada jaminan keamanan[cite: 2]</td>
-<td>Penguatan keyakinan (<em>Desire/Action</em>)</td>
-<td>Solusi mitigasi risiko</td>
+<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
+<td>Kita siapkan mekanisme fallback ke admin manual dan checklist harian.</td>
+<td>Fajar menerima uji terbatas karena ada cadangan.</td>
+<td>Kesediaan meningkat setelah risiko diakui.</td>
+<td>Rinci pemicu fallback, petugas, dan rekonsiliasi catatan.</td>
+</tr>
+<tr class="odd">
+<td>U004/AI004</td>
+<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
+<td>Besok siang jam 10 kita demo setup 15 menit dan langsung uji coba.</td>
+<td>Fajar menyetujui jadwal jam 10.</td>
+<td>Jadwal disepakati, tetapi jam 10 lebih tepat disebut pagi.</td>
+<td>Gunakan jadwal pukul 10.00 pada ringkasan; mulai uji setelah kesiapan diperiksa.</td>
 </tr>
 </tbody>
 </table>
+<p>Profil konfigurasi untuk evaluasi: Fajar K3-06 merupakan customer: A ingin hasil cepat tanpa beban baru; K perlu memahami risiko kesalahan otomatis; S perlu demo, checklist, dan fallback. Gaya pragmatis serta preferensi ESTP adalah konfigurasi tokoh. Profil customer ini dipisahkan dari profil mahasiswa yang menawarkan solusi. Dugaan awal yang belum tercatat tidak direkonstruksi sebagai temuan sebelum pengungkapan.</p>
 </section>
 <section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
 <h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
@@ -617,21 +657,23 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>U002, U003</td>
-<td>Menghargai waktu Fajar, langsung pada solusi praktis, menyediakan mitigasi risiko (<em>fallback</em>)[cite: 2]</td>
-<td>Fajar merespons cepat, antusias, dan menyepakati jadwal demo[cite: 2]</td>
-<td>Sedang → Tinggi; dibuktikan dengan kepastian jadwal uji coba[cite: 2]</td>
-<td>Pendekatan pragmatis terbukti sangat efektif untuk komunikan lapangan yang sibuk</td>
+<td>U002–AI003</td>
+<td>Menghargai waktu dan menawarkan cadangan manual.</td>
+<td>AI003: “kalau ada mekanisme cadangan manual dan dibatasi dulu, saya oke coba.”</td>
+<td>Awal belum ditetapkan; kepercayaan akhir sedang dan bersyarat sebagai estimasi.</td>
+<td>Fallback mengurangi risiko; tidak menjamin nol kesalahan.</td>
 </tr>
 </tbody>
 </table>
+<p>Kategori relasional merupakan estimasi dalam simulasi, bukan pengukuran psikologis. Teks tidak membuktikan prosodi atau ketulusan batin.</p>
 </section>
 <section id="uji-ulang-dan-pembelajaran" class="level2">
 <h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
-<p>Menghadapi customer yang berorientasi hasil cepat menuntut komunikator untuk menghindari penjelasan teoretis yang panjang. Fokus harus diberikan pada demonstrasi manfaat langsung, efisiensi waktu, serta kepastian adanya pengamanan operasional (<em>fallback</em>).</p>
+<p>Tidak ada uji ulang setelah AI004 pada skrip. Uji ulang yang sesuai adalah situasi bot gagal, staf baru belum memahami checklist, atau satu pesanan belum tercatat. Tindakan yang perlu diperiksa mencakup penghentian bagian otomatis yang bermasalah, pengalihan ke admin, pencatatan manual, serta pencocokan ulang agar catatan tidak hilang atau ganda.</p>
 </section>
 <section id="penilaian-enam-dimensi" class="level2">
 <h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
+<p>Paket menetapkan skala 1–4, tetapi deskriptor pembeda tiap tingkat belum tersedia di lampiran. Skor numerik tidak ditetapkan tanpa dasar indikator tersebut. Tabel ini mencatat bukti dan batas tiap dimensi; penilaian AI tetap berupa usulan untuk moderasi dosen.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -650,112 +692,147 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Tujuan dan konteks</td>
-<td>4</td>
-<td>U001, U002[cite: 2]</td>
-<td>Konteks efisiensi pesan pelanggan dan solusi otomatisasi diangkat secara tepat.</td>
+<td>BT</td>
+<td>U002: “pangkas waktu balasan pesan berulang pelangganmu”</td>
+<td>Manfaat relevan; estimasi setup belum diuji.</td>
 </tr>
 <tr class="even">
 <td>Persepsi dan validasi profil/status</td>
-<td>4</td>
-<td>U002, AI002[cite: 2]</td>
-<td>Mampu mengenali kebutuhan Fajar akan kecepatan dan langsung merespons secara akurat.</td>
+<td>BT</td>
+<td>AI002: “nggak bikin ribet operasional”</td>
+<td>Keberatan operasional terungkap; sarana belum diperiksa.</td>
 </tr>
 <tr class="odd">
 <td>Pemilihan dan urutan repertoar</td>
-<td>4</td>
-<td>U003[cite: 2]</td>
-<td>Memilih stimulus berupa demo cepat dan skema pengamanan (<em>fallback</em>) yang relevan.</td>
+<td>BT</td>
+<td>U003: “checklist harian supaya aman.”</td>
+<td>Cadangan ditawarkan; pemicu dan petugas belum dirinci.</td>
 </tr>
 <tr class="even">
 <td>Eksekusi jelas, peduli dan konsisten</td>
-<td>4</td>
-<td>U003, U004[cite: 2]</td>
-<td>Penyampaian pesan sangat jelas, menghargai waktu, serta menunjukkan dukungan operasional.</td>
+<td>BT</td>
+<td>U003: “10 pelanggan pertama dulu minggu ini”</td>
+<td>Cakupan uji disebut; kesiapan teknis belum ditampilkan.</td>
 </tr>
 <tr class="odd">
 <td>Evaluasi dan adaptasi</td>
-<td>4</td>
-<td>AI003, U004[cite: 2]</td>
-<td>Beradaptasi secara responsif terhadap syarat keamanan dari Fajar hingga tercapai mufakat.</td>
+<td>BT</td>
+<td>AI004: “Mari kita lanjutkan ke tahap evaluasi dan refleksi.”</td>
+<td>Evaluasi dan uji ulang belum ditampilkan.</td>
 </tr>
 <tr class="even">
 <td>Refleksi dan lesson learned</td>
-<td>4</td>
-<td>Refleksi[cite: 2]</td>
-<td>Menyusun pembelajaran mendalam mengenai strategi komunikasi penjualan solusi TI/AI.</td>
+<td>BT</td>
+<td>Refleksi tertulis tersedia; giliran refleksi dan konfirmasi belum tersedia.</td>
+<td>Isi refleksi dapat dibahas; kepemilikan dan koreksinya belum dikonfirmasi dalam dialog.</td>
 </tr>
 </tbody>
 </table>
-<p><em>Usulan skor AI = 24 / 24 × 100 = 100 (Memerlukan moderasi dosen).</em>[cite: 1, 2]</p>
 </section>
 <section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
 <h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
-<p>Mahasiswa memahami bahwa dalam menawarkan inovasi teknologi kepada pelaku lapangan yang sibuk, fitur canggih bukanlah penentu utama, melainkan jaminan kemudahan penggunaan (<em>ease of use</em>) dan adanya sistem pengamanan jika terjadi kesalahan (<em>fallback</em>). Komunikasi harus dibuat ringkas, padat, dan berorientasi pada nilai guna praktis.</p>
+<p>Penawaran teknologi perlu berangkat dari manfaat dan beban kerja customer. Pesan ringkas membantu membuka percakapan, sedangkan keandalan tetap perlu diuji. Adanya cadangan manual tidak menjamin semua kesalahan teratasi; keputusan kelanjutan uji memerlukan data. Refleksi tertulis ini belum disertai giliran konfirmasi mahasiswa.</p>
 </section>
 <section id="tindak-lanjut-dan-batas-bukti" class="level2">
 <h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
-<ul>
-<li>Langkah: Melaksanakan sesi demo setup sistem dan uji coba terbatas dengan 10 pelanggan pertama.</li>
-<li>Waktu: Keesokan harinya pukul 10.00 WIB.</li>
-<li>Dukungan: Panduan checklist ringkas dan sistem cadangan manual.</li>
-<li>Indikator: Uji coba berjalan lancar dan Fajar melihat penurunan waktu penanganan pesan berulang.</li>
-<li>Batas bukti: Hasil diperoleh melalui simulasi teks interaktif; efektivitas nyata bergantung pada eksekusi teknis di lapangan.</li>
-</ul>
+<p>Tabel berikut memisahkan waktu yang disebut dalam dialog dan usulan pelaksanaan berikutnya. Penanggung jawab tambahan perlu disepakati, bukan dianggap sudah ditetapkan.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Langkah</th>
+<th>Waktu</th>
+<th>Penanggung jawab/dukungan</th>
+<th>Indikator</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Demo setup dan pemeriksaan sarana</td>
+<td>Keesokan hari pukul 10.00; demo direncanakan 15 menit</td>
+<td>Mahasiswa dan Fajar</td>
+<td>Demo menggunakan data contoh; estimasi setup diperiksa.</td>
+</tr>
+<tr class="even">
+<td>Uji terbatas</td>
+<td>Sepuluh pelanggan pertama sebagaimana U003</td>
+<td>Admin yang ditetapkan bersama customer</td>
+<td>Cakupan, waktu uji, biaya, dan penanggung jawab diperjelas sebelum mulai.</td>
+</tr>
+<tr class="odd">
+<td>Penanganan error</td>
+<td>Saat pemicu fallback terjadi</td>
+<td>Admin manual sesuai kesepakatan</td>
+<td>Pesanan dari sumber dicocokkan dengan catatan; duplikasi diperiksa.</td>
+</tr>
+<tr class="even">
+<td>Evaluasi manfaat</td>
+<td>Setelah batas uji tercapai</td>
+<td>Mahasiswa, customer, dan petugas</td>
+<td>Kelengkapan pesanan, kesalahan, serta waktu penanganan dibandingkan dengan kondisi awal yang diukur.</td>
+</tr>
+</tbody>
+</table>
+<p>Batas bukti: hasil yang tersedia berupa respons dan rencana dalam simulasi teks. Pelaksanaan kegiatan, perubahan kemampuan, dan hasil jangka panjang belum dibuktikan.</p>
 </section>
 <section id="bobot-dan-nilai-akhir-uts" class="level2">
 <h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 30%">
-<col style="width: 40%">
-<col style="width: 30%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Komponen</th>
-<th style="text-align: right;">Bobot</th>
+<th>Bobot</th>
 <th>Nilai komponen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Makalah pra-UTS (<code>paper.qmd</code>)</td>
-<td style="text-align: right;">10%</td>
-<td>Nilai dosen pada skala 0–100[cite: 1, 2]</td>
+<td>Makalah pra-UTS</td>
+<td>10%</td>
+<td>Nilai dosen belum tersedia</td>
 </tr>
 <tr class="even">
 <td>Sesi 1</td>
-<td style="text-align: right;">18%</td>
-<td>100[cite: 1, 2]</td>
+<td>18%</td>
+<td>BT</td>
 </tr>
 <tr class="odd">
 <td>Sesi 2a</td>
-<td style="text-align: right;">18%</td>
-<td>100[cite: 1, 2]</td>
+<td>18%</td>
+<td>BT</td>
 </tr>
 <tr class="even">
 <td>Sesi 2b</td>
-<td style="text-align: right;">18%</td>
-<td>100[cite: 1, 2]</td>
+<td>18%</td>
+<td>BT</td>
 </tr>
 <tr class="odd">
 <td>Sesi 3a</td>
-<td style="text-align: right;">18%</td>
-<td>100 (Selesai dinilai)[cite: 1, 2]</td>
+<td>18%</td>
+<td>BT</td>
 </tr>
 <tr class="even">
 <td>Sesi 3b</td>
-<td style="text-align: right;">18%</td>
-<td>Belum dihitung</td>
+<td>18%</td>
+<td>BT</td>
 </tr>
 <tr class="odd">
-<td><strong>Total</strong></td>
-<td style="text-align: right;"><strong>100%</strong></td>
-<td></td>
+<td>Total</td>
+<td>100%</td>
+<td>Belum dihitung</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Nilai akhir UTS = Belum dihitung</strong> (sampai seluruh komponen sesi lengkap tersedia).[cite: 1, 2]</p>
+<p>Nilai sesi = jumlah enam skor / 24 × 100, hanya jika keenam skor sah tersedia.</p>
+<p><span class="math display">\[
+N_{\mathrm{UTS}}=0{,}10M+0{,}18(S_1+S_{2a}+S_{2b}+S_{3a}+S_{3b}).
+\]</span></p>
+<p>Seluruh komponen berskala 0–100. BT bukan nol; bobot tidak dinormalisasi ulang. Nilai akhir belum dihitung sampai semua komponen sah tersedia. Rata-rata kasus tidak dihitung lagi sebagai komponen tambahan.</p>
 
 
 </section>
