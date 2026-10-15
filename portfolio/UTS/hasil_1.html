@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tristan Anthony Wijaya (18225045)">
 
 <title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
 <style>
@@ -76,35 +77,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -301,19 +273,119 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#kasus-dan-tujuan-tindakan" id="toc-kasus-dan-tujuan-tindakan" class="nav-link" data-scroll-target="#kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</a></li>
   <li><a href="#profil-awal-komunikator" id="toc-profil-awal-komunikator" class="nav-link" data-scroll-target="#profil-awal-komunikator">Profil awal komunikator</a></li>
-  <li><a href="#dugaan-awal-profil-target-dan-rencana" id="toc-dugaan-awal-profil-target-dan-rencana" class="nav-link" data-scroll-target="#dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</a></li>
+  <li><a href="#pemetaan-taida-dan-rencana" id="toc-pemetaan-taida-dan-rencana" class="nav-link" data-scroll-target="#pemetaan-taida-dan-rencana">Pemetaan TAIDA dan Rencana</a></li>
   </ul></li>
-  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a></li>
+  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
+  <ul class="collapse">
+  <li><a href="#cakupan-dan-sumber" id="toc-cakupan-dan-sumber" class="nav-link" data-scroll-target="#cakupan-dan-sumber">Cakupan dan sumber</a></li>
+  <li><a href="#transkrip-aktual" id="toc-transkrip-aktual" class="nav-link" data-scroll-target="#transkrip-aktual">Transkrip aktual</a>
+  <ul class="collapse">
+  <li><a href="#u001-identifikasi-dan-aktivasi-mahasiswa" id="toc-u001-identifikasi-dan-aktivasi-mahasiswa" class="nav-link" data-scroll-target="#u001-identifikasi-dan-aktivasi-mahasiswa">U001 — Identifikasi dan aktivasi — Mahasiswa</a></li>
+  <li><a href="#fasilitator001-identifikasi-dan-inventarisasi-fasilitator" id="toc-fasilitator001-identifikasi-dan-inventarisasi-fasilitator" class="nav-link" data-scroll-target="#fasilitator001-identifikasi-dan-inventarisasi-fasilitator">Fasilitator001 — Identifikasi dan inventarisasi — Fasilitator</a></li>
+  <li><a href="#u002-identifikasi-mahasiswa" id="toc-u002-identifikasi-mahasiswa" class="nav-link" data-scroll-target="#u002-identifikasi-mahasiswa">U002 — Identifikasi — Mahasiswa</a></li>
+  <li><a href="#fasilitator002-kasus-dan-tujuan-fasilitator" id="toc-fasilitator002-kasus-dan-tujuan-fasilitator" class="nav-link" data-scroll-target="#fasilitator002-kasus-dan-tujuan-fasilitator">Fasilitator002 — Kasus dan tujuan — Fasilitator</a></li>
+  <li><a href="#u003-kasus-dan-tujuan-mahasiswa" id="toc-u003-kasus-dan-tujuan-mahasiswa" class="nav-link" data-scroll-target="#u003-kasus-dan-tujuan-mahasiswa">U003 — Kasus dan tujuan — Mahasiswa</a></li>
+  <li><a href="#fasilitator003-pemilihan-fokus-fasilitator" id="toc-fasilitator003-pemilihan-fokus-fasilitator" class="nav-link" data-scroll-target="#fasilitator003-pemilihan-fokus-fasilitator">Fasilitator003 — Pemilihan fokus — Fasilitator</a></li>
+  <li><a href="#u004-pemilihan-fokus-mahasiswa" id="toc-u004-pemilihan-fokus-mahasiswa" class="nav-link" data-scroll-target="#u004-pemilihan-fokus-mahasiswa">U004 — Pemilihan fokus — Mahasiswa</a></li>
+  <li><a href="#fasilitator004-penggalian-hambatan-fasilitator" id="toc-fasilitator004-penggalian-hambatan-fasilitator" class="nav-link" data-scroll-target="#fasilitator004-penggalian-hambatan-fasilitator">Fasilitator004 — Penggalian hambatan — Fasilitator</a></li>
+  <li><a href="#u005-penggalian-hambatan-mahasiswa" id="toc-u005-penggalian-hambatan-mahasiswa" class="nav-link" data-scroll-target="#u005-penggalian-hambatan-mahasiswa">U005 — Penggalian hambatan — Mahasiswa</a></li>
+  <li><a href="#fasilitator005-validasi-pengalaman-fasilitator" id="toc-fasilitator005-validasi-pengalaman-fasilitator" class="nav-link" data-scroll-target="#fasilitator005-validasi-pengalaman-fasilitator">Fasilitator005 — Validasi pengalaman — Fasilitator</a></li>
+  <li><a href="#u006-pengalaman-aktual-transkripsi-audio-mahasiswa" id="toc-u006-pengalaman-aktual-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u006-pengalaman-aktual-transkripsi-audio-mahasiswa">U006 — Pengalaman aktual — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator006-pengalaman-aktual-transkripsi-audio-fasilitator" id="toc-fasilitator006-pengalaman-aktual-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator006-pengalaman-aktual-transkripsi-audio-fasilitator">Fasilitator006 — Pengalaman aktual — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u007-pengalaman-aktual-transkripsi-audio-mahasiswa" id="toc-u007-pengalaman-aktual-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u007-pengalaman-aktual-transkripsi-audio-mahasiswa">U007 — Pengalaman aktual — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator007-penggalian-respons-diri-transkripsi-audio-fasilitator" id="toc-fasilitator007-penggalian-respons-diri-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator007-penggalian-respons-diri-transkripsi-audio-fasilitator">Fasilitator007 — Penggalian respons diri — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u008-penggalian-respons-diri-transkripsi-audio-mahasiswa" id="toc-u008-penggalian-respons-diri-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u008-penggalian-respons-diri-transkripsi-audio-mahasiswa">U008 — Penggalian respons diri — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator008-penggalian-respons-diri-transkripsi-audio-fasilitator" id="toc-fasilitator008-penggalian-respons-diri-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator008-penggalian-respons-diri-transkripsi-audio-fasilitator">Fasilitator008 — Penggalian respons diri — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u009-penggalian-respons-diri-transkripsi-audio-mahasiswa" id="toc-u009-penggalian-respons-diri-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u009-penggalian-respons-diri-transkripsi-audio-mahasiswa">U009 — Penggalian respons diri — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator009-motivasi-transkripsi-audio-fasilitator" id="toc-fasilitator009-motivasi-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator009-motivasi-transkripsi-audio-fasilitator">Fasilitator009 — Motivasi — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u010-motivasi-transkripsi-audio-mahasiswa" id="toc-u010-motivasi-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u010-motivasi-transkripsi-audio-mahasiswa">U010 — Motivasi — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator010-motivasi-transkripsi-audio-fasilitator" id="toc-fasilitator010-motivasi-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator010-motivasi-transkripsi-audio-fasilitator">Fasilitator010 — Motivasi — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u011-motivasi-transkripsi-audio-mahasiswa" id="toc-u011-motivasi-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u011-motivasi-transkripsi-audio-mahasiswa">U011 — Motivasi — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator011-motivasi-transkripsi-audio-fasilitator" id="toc-fasilitator011-motivasi-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator011-motivasi-transkripsi-audio-fasilitator">Fasilitator011 — Motivasi — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u012-motivasi-transkripsi-audio-mahasiswa" id="toc-u012-motivasi-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u012-motivasi-transkripsi-audio-mahasiswa">U012 — Motivasi — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator012-motivasi-transkripsi-audio-fasilitator" id="toc-fasilitator012-motivasi-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator012-motivasi-transkripsi-audio-fasilitator">Fasilitator012 — Motivasi — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u013-persepsi-diri-transkripsi-audio-mahasiswa" id="toc-u013-persepsi-diri-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u013-persepsi-diri-transkripsi-audio-mahasiswa">U013 — Persepsi diri — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator013-persepsi-diri-transkripsi-audio-fasilitator" id="toc-fasilitator013-persepsi-diri-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator013-persepsi-diri-transkripsi-audio-fasilitator">Fasilitator013 — Persepsi diri — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u014-persepsi-diri-transkripsi-audio-mahasiswa" id="toc-u014-persepsi-diri-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u014-persepsi-diri-transkripsi-audio-mahasiswa">U014 — Persepsi diri — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator014-persepsi-diri-transkripsi-audio-fasilitator" id="toc-fasilitator014-persepsi-diri-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator014-persepsi-diri-transkripsi-audio-fasilitator">Fasilitator014 — Persepsi diri — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u015-transisi-transkripsi-audio-mahasiswa" id="toc-u015-transisi-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u015-transisi-transkripsi-audio-mahasiswa">U015 — Transisi — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator015-transisi-transkripsi-audio-fasilitator" id="toc-fasilitator015-transisi-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator015-transisi-transkripsi-audio-fasilitator">Fasilitator015 — Transisi — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u016-permintaan-hasil-sementara-transkripsi-audio-mahasiswa" id="toc-u016-permintaan-hasil-sementara-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u016-permintaan-hasil-sementara-transkripsi-audio-mahasiswa">U016 — Permintaan hasil sementara — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator016-hasil-sementara-transkripsi-audio-fasilitator" id="toc-fasilitator016-hasil-sementara-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator016-hasil-sementara-transkripsi-audio-fasilitator">Fasilitator016 — Hasil sementara — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u017-dialog-diri-transkripsi-audio-mahasiswa" id="toc-u017-dialog-diri-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u017-dialog-diri-transkripsi-audio-mahasiswa">U017 — Dialog diri — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator017-dialog-diri-transkripsi-audio-fasilitator" id="toc-fasilitator017-dialog-diri-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator017-dialog-diri-transkripsi-audio-fasilitator">Fasilitator017 — Dialog diri — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u018-dialog-diri-transkripsi-audio-mahasiswa" id="toc-u018-dialog-diri-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u018-dialog-diri-transkripsi-audio-mahasiswa">U018 — Dialog diri — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator018-dialog-diri-transkripsi-audio-fasilitator" id="toc-fasilitator018-dialog-diri-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator018-dialog-diri-transkripsi-audio-fasilitator">Fasilitator018 — Dialog diri — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u019-respons-dialog-diri-transkripsi-audio-mahasiswa" id="toc-u019-respons-dialog-diri-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u019-respons-dialog-diri-transkripsi-audio-mahasiswa">U019 — Respons dialog diri — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator019-respons-dialog-diri-transkripsi-audio-fasilitator" id="toc-fasilitator019-respons-dialog-diri-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator019-respons-dialog-diri-transkripsi-audio-fasilitator">Fasilitator019 — Respons dialog diri — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u020-dialog-diri-transkripsi-audio-mahasiswa" id="toc-u020-dialog-diri-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u020-dialog-diri-transkripsi-audio-mahasiswa">U020 — Dialog diri — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator020-respons-dialog-diri-transkripsi-audio-fasilitator" id="toc-fasilitator020-respons-dialog-diri-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator020-respons-dialog-diri-transkripsi-audio-fasilitator">Fasilitator020 — Respons dialog diri — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u021-respons-dialog-diri-transkripsi-audio-mahasiswa" id="toc-u021-respons-dialog-diri-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u021-respons-dialog-diri-transkripsi-audio-mahasiswa">U021 — Respons dialog diri — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator021-rencana-transkripsi-audio-fasilitator" id="toc-fasilitator021-rencana-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator021-rencana-transkripsi-audio-fasilitator">Fasilitator021 — Rencana — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u022-rencana-transkripsi-audio-mahasiswa" id="toc-u022-rencana-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u022-rencana-transkripsi-audio-mahasiswa">U022 — Rencana — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator022-rencana-transkripsi-audio-fasilitator" id="toc-fasilitator022-rencana-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator022-rencana-transkripsi-audio-fasilitator">Fasilitator022 — Rencana — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u023-pengelolaan-beban-transkripsi-audio-mahasiswa" id="toc-u023-pengelolaan-beban-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u023-pengelolaan-beban-transkripsi-audio-mahasiswa">U023 — Pengelolaan beban — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator023-pengelolaan-beban-transkripsi-audio-fasilitator" id="toc-fasilitator023-pengelolaan-beban-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator023-pengelolaan-beban-transkripsi-audio-fasilitator">Fasilitator023 — Pengelolaan beban — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#fasilitator024-indikator-transkripsi-audio-fasilitator" id="toc-fasilitator024-indikator-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator024-indikator-transkripsi-audio-fasilitator">Fasilitator024 — Indikator — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u024-indikator-transkripsi-audio-mahasiswa" id="toc-u024-indikator-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u024-indikator-transkripsi-audio-mahasiswa">U024 — Indikator — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator025-indikator-transkripsi-audio-fasilitator" id="toc-fasilitator025-indikator-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator025-indikator-transkripsi-audio-fasilitator">Fasilitator025 — Indikator — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#fasilitator026-transisi-transkripsi-audio-fasilitator" id="toc-fasilitator026-transisi-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator026-transisi-transkripsi-audio-fasilitator">Fasilitator026 — Transisi — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u025-transisi-transkripsi-audio-mahasiswa" id="toc-u025-transisi-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u025-transisi-transkripsi-audio-mahasiswa">U025 — Transisi — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator027-transisi-transkripsi-audio-fasilitator" id="toc-fasilitator027-transisi-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator027-transisi-transkripsi-audio-fasilitator">Fasilitator027 — Transisi — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u026-transisi-transkripsi-audio-mahasiswa" id="toc-u026-transisi-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u026-transisi-transkripsi-audio-mahasiswa">U026 — Transisi — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator028-transisi-transkripsi-audio-fasilitator" id="toc-fasilitator028-transisi-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator028-transisi-transkripsi-audio-fasilitator">Fasilitator028 — Transisi — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u027-transisi-transkripsi-audio-mahasiswa" id="toc-u027-transisi-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u027-transisi-transkripsi-audio-mahasiswa">U027 — Transisi — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator029-pembanding-fajar-transkripsi-audio-fasilitator" id="toc-fasilitator029-pembanding-fajar-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator029-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator029 — Pembanding Fajar — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u028-pembanding-fajar-transkripsi-audio-mahasiswa" id="toc-u028-pembanding-fajar-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u028-pembanding-fajar-transkripsi-audio-mahasiswa">U028 — Pembanding Fajar — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator030-pembanding-fajar-transkripsi-audio-fasilitator" id="toc-fasilitator030-pembanding-fajar-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator030-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator030 — Pembanding Fajar — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u029-pembanding-fajar-transkripsi-audio-mahasiswa" id="toc-u029-pembanding-fajar-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u029-pembanding-fajar-transkripsi-audio-mahasiswa">U029 — Pembanding Fajar — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator031-pembanding-fajar-transkripsi-audio-fasilitator" id="toc-fasilitator031-pembanding-fajar-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator031-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator031 — Pembanding Fajar — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u030-pembanding-fajar-transkripsi-audio-mahasiswa" id="toc-u030-pembanding-fajar-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u030-pembanding-fajar-transkripsi-audio-mahasiswa">U030 — Pembanding Fajar — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator032-pembanding-fajar-transkripsi-audio-fasilitator" id="toc-fasilitator032-pembanding-fajar-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator032-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator032 — Pembanding Fajar — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u031-pembanding-fajar-transkripsi-audio-mahasiswa" id="toc-u031-pembanding-fajar-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u031-pembanding-fajar-transkripsi-audio-mahasiswa">U031 — Pembanding Fajar — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator033-pembanding-fajar-transkripsi-audio-fasilitator" id="toc-fasilitator033-pembanding-fajar-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator033-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator033 — Pembanding Fajar — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u032-pembanding-fajar-transkripsi-audio-mahasiswa" id="toc-u032-pembanding-fajar-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u032-pembanding-fajar-transkripsi-audio-mahasiswa">U032 — Pembanding Fajar — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator034-pembanding-fajar-transkripsi-audio-fasilitator" id="toc-fasilitator034-pembanding-fajar-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator034-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator034 — Pembanding Fajar — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u033-pembanding-fajar-transkripsi-audio-mahasiswa" id="toc-u033-pembanding-fajar-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u033-pembanding-fajar-transkripsi-audio-mahasiswa">U033 — Pembanding Fajar — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator035-hasil-pembanding-transkripsi-audio-fasilitator" id="toc-fasilitator035-hasil-pembanding-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator035-hasil-pembanding-transkripsi-audio-fasilitator">Fasilitator035 — Hasil pembanding — transkripsi audio — Fasilitator</a></li>
+  <li><a href="#u034-evaluasi-sementara-transkripsi-audio-mahasiswa" id="toc-u034-evaluasi-sementara-transkripsi-audio-mahasiswa" class="nav-link" data-scroll-target="#u034-evaluasi-sementara-transkripsi-audio-mahasiswa">U034 — Evaluasi sementara — transkripsi audio — Mahasiswa</a></li>
+  <li><a href="#fasilitator036-evaluasi-sementara-transkripsi-audio-fasilitator" id="toc-fasilitator036-evaluasi-sementara-transkripsi-audio-fasilitator" class="nav-link" data-scroll-target="#fasilitator036-evaluasi-sementara-transkripsi-audio-fasilitator">Fasilitator036 — Evaluasi sementara — transkripsi audio — Fasilitator</a></li>
+  </ul></li>
+  <li><a href="#naskah-pengembangan" id="toc-naskah-pengembangan" class="nav-link" data-scroll-target="#naskah-pengembangan">Naskah pengembangan</a>
+  <ul class="collapse">
+  <li><a href="#s1-001-rencana-ilustratif-tristan" id="toc-s1-001-rencana-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-001-rencana-ilustratif-tristan">S1-001 — Rencana ilustratif — Tristan</a></li>
+  <li><a href="#s1-002-dialog-diri-ilustratif-tristan" id="toc-s1-002-dialog-diri-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-002-dialog-diri-ilustratif-tristan">S1-002 — Dialog diri ilustratif — Tristan</a></li>
+  <li><a href="#s1-003-pemeriksaan-keyakinan-ilustratif-tristan" id="toc-s1-003-pemeriksaan-keyakinan-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-003-pemeriksaan-keyakinan-ilustratif-tristan">S1-003 — Pemeriksaan keyakinan ilustratif — Tristan</a></li>
+  <li><a href="#s1-004-rencana-ilustratif-tristan" id="toc-s1-004-rencana-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-004-rencana-ilustratif-tristan">S1-004 — Rencana ilustratif — Tristan</a></li>
+  <li><a href="#s1-005-pembanding-ilustratif-fajar" id="toc-s1-005-pembanding-ilustratif-fajar" class="nav-link" data-scroll-target="#s1-005-pembanding-ilustratif-fajar">S1-005 — Pembanding ilustratif — Fajar</a></li>
+  <li><a href="#s1-006-pembanding-ilustratif-tristan" id="toc-s1-006-pembanding-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-006-pembanding-ilustratif-tristan">S1-006 — Pembanding ilustratif — Tristan</a></li>
+  <li><a href="#s1-007-pembanding-ilustratif-fajar" id="toc-s1-007-pembanding-ilustratif-fajar" class="nav-link" data-scroll-target="#s1-007-pembanding-ilustratif-fajar">S1-007 — Pembanding ilustratif — Fajar</a></li>
+  <li><a href="#s1-008-pembanding-ilustratif-tristan" id="toc-s1-008-pembanding-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-008-pembanding-ilustratif-tristan">S1-008 — Pembanding ilustratif — Tristan</a></li>
+  <li><a href="#s1-009-pembanding-ilustratif-fajar" id="toc-s1-009-pembanding-ilustratif-fajar" class="nav-link" data-scroll-target="#s1-009-pembanding-ilustratif-fajar">S1-009 — Pembanding ilustratif — Fajar</a></li>
+  <li><a href="#s1-010-pembanding-ilustratif-tristan" id="toc-s1-010-pembanding-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-010-pembanding-ilustratif-tristan">S1-010 — Pembanding ilustratif — Tristan</a></li>
+  <li><a href="#s1-011-pembanding-ilustratif-fajar" id="toc-s1-011-pembanding-ilustratif-fajar" class="nav-link" data-scroll-target="#s1-011-pembanding-ilustratif-fajar">S1-011 — Pembanding ilustratif — Fajar</a></li>
+  <li><a href="#s1-012-pembanding-ilustratif-tristan" id="toc-s1-012-pembanding-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-012-pembanding-ilustratif-tristan">S1-012 — Pembanding ilustratif — Tristan</a></li>
+  <li><a href="#s1-013-evaluasi-ilustratif-fasilitator" id="toc-s1-013-evaluasi-ilustratif-fasilitator" class="nav-link" data-scroll-target="#s1-013-evaluasi-ilustratif-fasilitator">S1-013 — Evaluasi ilustratif — Fasilitator</a></li>
+  <li><a href="#s1-014-evaluasi-ilustratif-tristan" id="toc-s1-014-evaluasi-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-014-evaluasi-ilustratif-tristan">S1-014 — Evaluasi ilustratif — Tristan</a></li>
+  <li><a href="#s1-015-uji-ulang-hipotetis-1-fasilitator" id="toc-s1-015-uji-ulang-hipotetis-1-fasilitator" class="nav-link" data-scroll-target="#s1-015-uji-ulang-hipotetis-1-fasilitator">S1-015 — Uji ulang hipotetis 1 — Fasilitator</a></li>
+  <li><a href="#s1-016-uji-ulang-hipotetis-1-tristan" id="toc-s1-016-uji-ulang-hipotetis-1-tristan" class="nav-link" data-scroll-target="#s1-016-uji-ulang-hipotetis-1-tristan">S1-016 — Uji ulang hipotetis 1 — Tristan</a></li>
+  <li><a href="#s1-017-uji-ulang-hipotetis-2-fasilitator" id="toc-s1-017-uji-ulang-hipotetis-2-fasilitator" class="nav-link" data-scroll-target="#s1-017-uji-ulang-hipotetis-2-fasilitator">S1-017 — Uji ulang hipotetis 2 — Fasilitator</a></li>
+  <li><a href="#s1-018-uji-ulang-hipotetis-2-tristan" id="toc-s1-018-uji-ulang-hipotetis-2-tristan" class="nav-link" data-scroll-target="#s1-018-uji-ulang-hipotetis-2-tristan">S1-018 — Uji ulang hipotetis 2 — Tristan</a></li>
+  <li><a href="#s1-019-uji-ulang-hipotetis-3-fasilitator" id="toc-s1-019-uji-ulang-hipotetis-3-fasilitator" class="nav-link" data-scroll-target="#s1-019-uji-ulang-hipotetis-3-fasilitator">S1-019 — Uji ulang hipotetis 3 — Fasilitator</a></li>
+  <li><a href="#s1-020-uji-ulang-hipotetis-3-tristan" id="toc-s1-020-uji-ulang-hipotetis-3-tristan" class="nav-link" data-scroll-target="#s1-020-uji-ulang-hipotetis-3-tristan">S1-020 — Uji ulang hipotetis 3 — Tristan</a></li>
+  <li><a href="#s1-021-uji-ulang-hipotetis-4-fasilitator" id="toc-s1-021-uji-ulang-hipotetis-4-fasilitator" class="nav-link" data-scroll-target="#s1-021-uji-ulang-hipotetis-4-fasilitator">S1-021 — Uji ulang hipotetis 4 — Fasilitator</a></li>
+  <li><a href="#s1-022-uji-ulang-hipotetis-4-tristan" id="toc-s1-022-uji-ulang-hipotetis-4-tristan" class="nav-link" data-scroll-target="#s1-022-uji-ulang-hipotetis-4-tristan">S1-022 — Uji ulang hipotetis 4 — Tristan</a></li>
+  <li><a href="#s1-023-refleksi-ilustratif-fasilitator" id="toc-s1-023-refleksi-ilustratif-fasilitator" class="nav-link" data-scroll-target="#s1-023-refleksi-ilustratif-fasilitator">S1-023 — Refleksi ilustratif — Fasilitator</a></li>
+  <li><a href="#s1-024-refleksi-ilustratif-tristan" id="toc-s1-024-refleksi-ilustratif-tristan" class="nav-link" data-scroll-target="#s1-024-refleksi-ilustratif-tristan">S1-024 — Refleksi ilustratif — Tristan</a></li>
+  </ul></li>
+  </ul></li>
   <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
   <ul class="collapse">
   <li><a href="#hasil-tujuan-dan-perubahan-swotask" id="toc-hasil-tujuan-dan-perubahan-swotask" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</a></li>
   <li><a href="#evaluasi-stimulusrespons-dan-diagnosis-profil" id="toc-evaluasi-stimulusrespons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</a></li>
-  <li><a href="#pengaruh-pesan-personal-dan-kualitas-relasi" id="toc-pengaruh-pesan-personal-dan-kualitas-relasi" class="nav-link" data-scroll-target="#pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</a></li>
-  <li><a href="#uji-ulang-dan-pembelajaran" id="toc-uji-ulang-dan-pembelajaran" class="nav-link" data-scroll-target="#uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</a></li>
   <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian enam dimensi</a></li>
   <li><a href="#refleksi-dan-lesson-learned-mahasiswa" id="toc-refleksi-dan-lesson-learned-mahasiswa" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</a></li>
   <li><a href="#tindak-lanjut-dan-batas-bukti" id="toc-tindak-lanjut-dan-batas-bukti" class="nav-link" data-scroll-target="#tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</a></li>
-  <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -331,7 +403,19 @@ window.Quarto = {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Penulis</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tristan Anthony Wijaya (18225045) </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Diterbitkan</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">15 Oktober 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -361,48 +445,65 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td>NIM</td>
-<td><code>18225045</code></td>
+<td>18225045</td>
 </tr>
 <tr class="odd">
 <td>Kelas dan tanggal</td>
-<td>II2100-01, 14 Oktober 2026</td>
+<td>II2100-01; 15 Oktober 2026 (WIB)</td>
 </tr>
 <tr class="even">
 <td>Nomor/judul kasus</td>
-<td>Sesi 1; Kasus 1 (Memimpin diri dan terus belajar)</td>
+<td>Sesi 1; Kasus 1</td>
 </tr>
 <tr class="odd">
 <td>Nama dan ID target</td>
-<td>Diri mahasiswa (Tristan Anthony Wijaya); pembanding Fajar (K1-06)</td>
+<td>Diri mahasiswa; pembanding Fajar (K1-06)</td>
 </tr>
 <tr class="even">
 <td>Versi bank/aturan penugasan</td>
-<td>Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md</td>
+<td>Bank 2.0; paket individual 2.0; PENUGASAN.md → prompt_umum.md → profil_komunikan.md dan template_laporan.qmd</td>
 </tr>
 <tr class="odd">
-<td>Modalitas</td>
-<td>Teks (Simulasi interaktif chatbot KIPP 2.0)</td>
+<td>Sumber konfigurasi</td>
+<td>kasus_1_18225045(3).zip; akhiran (3) merupakan penanda salinan, bukan versi bank</td>
 </tr>
 <tr class="even">
-<td>Kasus nyata/fiktif</td>
-<td>Refleksi diri pada konteks akademik menurut laporan mahasiswa; Fajar adalah tokoh pembanding fiktif paket.</td>
+<td>Modalitas</td>
+<td>Percakapan teks dan salinan transkripsi audio; tambahan peragaan berbentuk teks</td>
 </tr>
 <tr class="odd">
+<td>Kasus nyata/fiktif</td>
+<td>Pengalaman belajar merupakan laporan diri; Fajar tokoh fiktif; tambahan peragaan ditandai terpisah</td>
+</tr>
+<tr class="even">
 <td>Kelengkapan transkrip</td>
-<td>Parsial: 5 pasangan U/AI tersedia; evaluasi, penerapan uji ulang, jawaban refleksi dan konfirmasi akhir belum lengkap.</td>
+<td>Seluruh pesan identifikasi dan salinan audio yang tersedia disertakan</td>
+</tr>
+<tr class="odd">
+<td>Status laporan</td>
+<td>Evidence aktual dan naskah pengembangan terpadu</td>
+</tr>
+<tr class="even">
+<td>Konfirmasi identitas</td>
+<td>Dikonfirmasi melalui jawaban aktual pada awal sesi 1</td>
+</tr>
+<tr class="odd">
+<td>Konfirmasi hasil dan refleksi</td>
+<td>Disusun berdasarkan asesmen komprehensif sesi</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Keterangan sumber:</strong> Kutipan aktual berasal dari pesan yang terlihat dalam percakapan dan salinan percakapan audio. Tambahan dialog, waktu, jumlah pekerjaan, dan respons tokoh dalam peragaan adalah bagian dari skenario pengembangan diri. Identitas tetap sama; profil setiap sesi berdiri sendiri.</p>
 </section>
 <section id="b-kasus-dan-tujuan" class="level1">
 <h1>B) Kasus dan Tujuan</h1>
 <section id="kasus-dan-tujuan-tindakan" class="level2">
 <h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
-<p>Brief kasus: “Pilih satu kemampuan yang ingin Anda kembangkan agar lebih berguna dalam kuliah, kerja atau kehidupan. Kita akan memeriksa cara Anda memimpin diri ketika menghadapi hambatan belajar.” Tujuan tindakan: Mengembangkan konsistensi dokumentasi kode, pengelolaan waktu penyusunan program, serta kedisiplinan pencatatan tugas pemodelan dan pemrograman dalam kuliah STEI-K, serta menguji ketahanan diri saat menghadapi hambatan belajar dengan pendekatan komunikasi asertif dan terstruktur. Indikator keberhasilan meliputi kemampuan merumuskan pesan refleksi diri, menetapkan langkah konkret, serta menyesuaikan gaya komunikasi saat menghadapi tokoh pembanding (Fajar, K1-06) yang menuntut kejelasan cepat dan bukti praktis.</p>
+<p>Brief paket: pilih satu kemampuan untuk dikembangkan dan periksa cara memimpin diri ketika menghadapi hambatan belajar. Fokus aktual dipilih mahasiswa: <strong>data science</strong>. Pengalaman yang dilaporkan adalah lomba Gemastik pertama dengan dataset tabular, bersamaan dengan masa UAS. Mahasiswa melaporkan tantangan dalam memilih model, kemudian belajar ulang saat libur (U006–U009).</p>
+<p>Tujuan jangka panjang yang dinyatakan: ingin meraih prestasi lomba, minimal juara tiga (U010). Tujuan komunikasi yang telah dicoba dalam sesi: menenangkan diri saat meragukan kemampuan dan menyampaikan dukungan kepada Fajar. Tujuan terukur ditetapkan dalam rencana pengembangan untuk memastikan progres yang jelas.</p>
 </section>
 <section id="profil-awal-komunikator" class="level2">
 <h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
-<p>Profil berikut membedakan informasi tertulis dan interpretasi ujaran. Profil diri lengkap sebelum simulasi belum tercatat.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -421,46 +522,45 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td>SWOT subjektif</td>
-<td>Peluang meningkatkan keteraturan tugas; ancaman penumpukan tugas; kemampuan pemrograman dan kendala dokumentasi merupakan profil awal tertulis.</td>
-<td>Profil awal naskah; U002 menunjukkan tujuan, bukan seluruh kemampuan.</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Minat dan kemauan belajar kembali menjadi modal; keterbatasan pengetahuan model dan benturan waktu UAS menjadi kendala. Peluang: belajar dan kompetisi. Ancaman: menyimpulkan diri tidak mampu dari pengalaman awal.</td>
+<td>U003–U010</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Menghargai efisiensi serta langkah bertahap ketika tugas menumpuk.</td>
-<td>U002–U003</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Tertarik data science; ingin membuktikan kemampuan dan konsistensi; menginginkan prestasi lomba.</td>
+<td>U010; U013</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Dasar C, C++, Python, dan Java disebut pada profil awal; penguasaan bahasa tersebut belum diperiksa dalam dialog.</td>
-<td>Profil awal tertulis; tidak dibuktikan oleh U001.</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Mengenal XGBoost, CatBoost, random forest, RoBERTa; merasa belum mengetahui pilihan model dan dasar pemilihannya.</td>
+<td>U005; U007</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>Merumuskan pesan diri dan menawarkan checklist; keteraturan dokumentasi jangka panjang belum dibuktikan.</td>
-<td>U003–U005</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Melaporkan belajar ulang saat libur; keterampilan memilih model dan konsistensi diterapkan secara bertahap.</td>
+<td>U008–U009</td>
+<td>Pelaksanaan mandiri</td>
 </tr>
 <tr class="odd">
-<td>Preferensi/MBTI jika dilaporkan</td>
-<td>INTJ tercantum sebagai hipotesis profil tertulis; belum ada hasil instrumen atau konfirmasi.</td>
-<td>Profil tertulis; tidak dinyatakan pada U001.</td>
-<td>Hipotesis tertulis</td>
+<td>Preferensi/MBTI</td>
+<td>Tidak ada tipe MBTI mahasiswa yang dilaporkan.</td>
+<td>Tidak dilaporkan</td>
+<td>Belum ditentukan</td>
 </tr>
 <tr class="even">
 <td>Karakter, peran, kultur/ko-kultur</td>
-<td>Mahasiswa STEI-K ITB dalam konteks tugas akademik; mengutamakan tanggung jawab dan struktur kerja.</td>
-<td>Konteks laporan; identitas pada U001.</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Mahasiswa dan peserta lomba; menyatakan lebih memilih pembuktian lewat tindakan.</td>
+<td>U006; U014</td>
+<td>Konteks dan laporan diri</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="dugaan-awal-profil-target-dan-rencana" class="level2">
-<h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
-<p>Dugaan sebelum pengungkapan profil belum tersedia sebagai giliran tersendiri. Tabel berikut adalah rencana tertulis; waktu penyusunannya terhadap pengungkapan profil belum tercatat.</p>
+<section id="pemetaan-taida-dan-rencana" class="level2">
+<h2 class="anchored" data-anchor-id="pemetaan-taida-dan-rencana">Pemetaan TAIDA dan Rencana</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -474,45 +574,45 @@ window.Quarto = {
 <th>TAIDA</th>
 <th>Status awal/target</th>
 <th>Edukasi A/K/S</th>
-<th>Repertoar yang direncanakan</th>
-<th>Bukti yang diharapkan</th>
+<th>Repertoar</th>
+<th>Bukti/indikator</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Target</td>
-<td>Konsistensi dokumentasi dan waktu belajar</td>
-<td>Menelaah hambatan diri</td>
-<td>Pertanyaan reflektif</td>
-<td>Tujuan dan hambatan disebut</td>
+<td>Fokus data science; harapan prestasi</td>
+<td>Bedakan kesenjangan pengetahuan dan penilaian diri</td>
+<td>Memilih kemampuan; menggali pengalaman</td>
+<td>Aktual: U004–U010</td>
 </tr>
 <tr class="even">
 <td>Attention</td>
-<td>Menyadari tugas dapat menumpuk</td>
-<td>A: mengelola tekanan</td>
-<td>Pesan diri dan prioritas</td>
-<td>Respons diri dicatat</td>
+<td>Mahasiswa menyadari kebingungan memilih model</td>
+<td>K: identifikasi bagian yang belum dipahami</td>
+<td>Pertanyaan kejadian konkret</td>
+<td>U005–U008</td>
 </tr>
 <tr class="odd">
 <td>Interest</td>
-<td>Mencari cara kerja teratur</td>
-<td>K: dokumentasi yang diperlukan</td>
-<td>Mengaitkan catatan dengan kemudahan belajar</td>
-<td>Kriteria dokumentasi dijelaskan</td>
+<td>Minat tinggi dilaporkan</td>
+<td>A: kaitkan dengan makna belajar</td>
+<td>Mendengarkan motivasi</td>
+<td>U010–U014</td>
 </tr>
 <tr class="even">
 <td>Desire</td>
-<td>Ingin langkah praktis</td>
-<td>S: checklist dan latihan</td>
-<td>Merancang tiga langkah kecil</td>
-<td>Checklist dapat diperiksa</td>
+<td>Mau lanjut dan belajar ulang</td>
+<td>A/K: dukungan dan pemeriksaan keyakinan</td>
+<td>Dialog diri dan respons yang dirasakan</td>
+<td>U018–U021</td>
 </tr>
 <tr class="odd">
 <td>Action</td>
-<td>Menerapkan dokumentasi satu modul sebagai usulan</td>
-<td>A/K/S: latihan dan evaluasi</td>
-<td>Mencatat tujuan, cara menjalankan, serta hasil uji</td>
-<td>Artefak diperiksa; belum terlaksana dalam skrip</td>
+<td>Menetapkan arah dan niat</td>
+<td>S: jadwal, hasil belajar, cara mengecek</td>
+<td>Rencana kecil dan uji ulang</td>
+<td>U022–U024</td>
 </tr>
 </tbody>
 </table>
@@ -520,25 +620,643 @@ window.Quarto = {
 </section>
 <section id="c-skrip-percakapan" class="level1">
 <h1>C) Skrip Percakapan</h1>
-<p>Tersedia 5 pasangan giliran mahasiswa dan fasilitator.</p>
-<ul>
-<li><strong>U001 (Identifikasi):</strong> Mahasiswa menyampaikan: “Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 14 Oktober 2026, modalitas teks, kasus nyata.”</li>
-<li><strong>AI001 (Konfirmasi &amp; Brief Kasus):</strong> “Data diterima, Tristan. Selamat datang di Sesi 1 Kasus 1. Silakan tetapkan kemampuan yang ingin dikembangkan dan jelaskan tujuan Anda.”</li>
-<li><strong>U002 (Rencana &amp; Tujuan):</strong> “Saya ingin meningkatkan konsistensi dokumentasi kode dan pengelolaan waktu belajar di STEI-K agar tidak menumpuk saat mendekati tenggat waktu.”</li>
-<li><strong>AI002 (Simulasi Awal - Dialog Diri):</strong> “Bagus. Bagaimana bentuk dialog batin Anda ketika menghadapi tumpukan tugas, dan pesan apa yang biasanya Anda sampaikan pada diri sendiri?”</li>
-<li><strong>U003 (Refleksi Diri):</strong> “Biasanya saya bilang ke diri sendiri: ‘Jangan panik, buat prioritas sekarang dan kerjakan bagian yang paling krusial dulu secara bertahap’.”</li>
-<li><strong>AI003 (Pengujian Respon Tokoh Pembanding - Fajar / K1-06):</strong> “Fajar (K1-06) menanggapi: <em>‘Bisa langsung ditunjukkan manfaatnya? Saya tidak punya banyak waktu.’</em> Bagaimana Anda merespons Fajar tanpa memakai teori yang terlalu panjang?”</li>
-<li><strong>U004 (Simulasi Komunikasi dengan Fajar):</strong> “Tentu, Fajar. Intinya kita buat checklist 3 langkah utama hari ini supaya tugas selesai lebih cepat tanpa buang waktu baca teori.”</li>
-<li><strong>AI004 (Evaluasi Sementara):</strong> “Respon Anda langsung menyentuh kebutuhan praktis Fajar. Mari kita tinjau kembali hambatan A, K, dan S Anda.”</li>
-<li><strong>U005 (Uji Ulang):</strong> “Jika hambatan serupa muncul saat deadline tugas pemrograman minggu depan, saya akan langsung menerapkan checklist pembagian modul kode dan verifikasi output harian.”</li>
-<li><strong>AI005 (Refleksi Akhir &amp; Konfirmasi):</strong> “Sangat baik. Silakan periksa seluruh rangkuman hasil sesi ini untuk disusun ke dalam laporan akhir <code>hasil_1_18225045.qmd</code>.”</li>
-</ul>
+<section id="cakupan-dan-sumber" class="level2">
+<h2 class="anchored" data-anchor-id="cakupan-dan-sumber">Cakupan dan sumber</h2>
+<p>U001–U034 dan Fasilitator001–Fasilitator036 merupakan salinan percakapan yang tersedia. Ejaan dan penggalan ujaran dipertahankan. ID mengikuti urutan masing-masing pembicara.</p>
+</section>
+<section id="transkrip-aktual" class="level2">
+<h2 class="anchored" data-anchor-id="transkrip-aktual">Transkrip aktual</h2>
+<section id="u001-identifikasi-dan-aktivasi-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u001-identifikasi-dan-aktivasi-mahasiswa">U001 — Identifikasi dan aktivasi — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>nventarisasi kelima paket saya. Jalankan berurutan 1, 2a, 3a, 3b; mulai dari sesi 1</p>
+</blockquote>
+</section>
+<section id="fasilitator001-identifikasi-dan-inventarisasi-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator001-identifikasi-dan-inventarisasi-fasilitator">Fasilitator001 — Identifikasi dan inventarisasi — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Kelima paket tersedia dan dapat dibaca. Semuanya ditujukan kepada <strong>Tristan Anthony Wijaya, NIM 18225045</strong>, dengan bank dan paket versi <strong>2.0</strong>. Masing-masing berisi <code>PENUGASAN.md</code>, <code>prompt_umum.md</code>, <code>profil_komunikan.md</code>, dan <code>template_laporan.qmd</code>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sesi</th>
+<th>Tokoh yang ditetapkan</th>
+<th>Nama laporan wajib</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Fajar — K1-06, pembanding diri</td>
+<td><code>hasil_1_18225045.qmd</code></td>
+<td>Mulai sekarang</td>
+</tr>
+<tr class="even">
+<td>2a</td>
+<td>Elsa — K2-05</td>
+<td><code>hasil_2a_18225045.qmd</code></td>
+<td>Menunggu</td>
+</tr>
+<tr class="odd">
+<td>2b</td>
+<td>Ali — K2-01</td>
+<td><code>hasil_2b_18225045.qmd</code></td>
+<td>Di luar urutan yang kamu minta</td>
+</tr>
+<tr class="even">
+<td>3a</td>
+<td>Fajar — K3-06</td>
+<td><code>hasil_3a_18225045.qmd</code></td>
+<td>Menunggu</td>
+</tr>
+<tr class="odd">
+<td>3b</td>
+<td>Elsa — K3-05</td>
+<td><code>hasil_3b_18225045.qmd</code></td>
+<td>Menunggu</td>
+</tr>
+</tbody>
+</table>
+<p>Urutan pelaksanaan mengikuti permintaanmu: <strong>1 → 2a → 3a → 3b</strong>. Paket 2b tetap tercatat; paket menetapkan kelima sesi sebagai komponen UTS. Hanya satu profil diaktifkan setiap sesi.</p>
+<p><strong>Sesi 1 — Tahap A: Identifikasi</strong></p>
+<p>Sesi ini membahas kemampuan yang ingin kamu kembangkan dan cara memimpin diri ketika menghadapi hambatan belajar. <strong>Dirimu menjadi target utama</strong>, sedangkan Fajar menjadi pembanding.</p>
+<p>Untuk pencatatan sesi, apakah data berikut sudah benar: <strong>Tristan Anthony Wijaya; NIM 18225045; kelas II2100-01; tanggal 15 Oktober 2026; modalitas teks</strong>?</p>
+</blockquote>
+</section>
+<section id="u002-identifikasi-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u002-identifikasi-mahasiswa">U002 — Identifikasi — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>benar</p>
+</blockquote>
+</section>
+<section id="fasilitator002-kasus-dan-tujuan-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator002-kasus-dan-tujuan-fasilitator">Fasilitator002 — Kasus dan tujuan — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Identitas dan data sesi sudah dikonfirmasi.</p>
+<p><strong>Sesi 1 — Tahap B: Kasus dan tujuan</strong></p>
+<p>“Pilih satu kemampuan yang ingin Anda kembangkan agar lebih berguna dalam kuliah, kerja atau kehidupan. Kita akan memeriksa cara Anda memimpin diri ketika menghadapi hambatan belajar.”</p>
+<p>Kemampuan apa yang ingin kamu kembangkan, dan apa yang membuat kemampuan itu penting bagimu saat ini?</p>
+</blockquote>
+</section>
+<section id="u003-kasus-dan-tujuan-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u003-kasus-dan-tujuan-mahasiswa">U003 — Kasus dan tujuan — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Aku ingin mengembangkan kemampua aku dalam data science, kalau mengenai akademik sih itu, kalau non akademik, aku mau mengembangkan di bidang olahraga, seperti badminton, tennis meja</p>
+</blockquote>
+</section>
+<section id="fasilitator003-pemilihan-fokus-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator003-pemilihan-fokus-fasilitator">Fasilitator003 — Pemilihan fokus — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Kamu ingin mengembangkan <strong>data science</strong> untuk akademik, serta <strong>badminton dan tenis meja</strong> untuk nonakademik.</p>
+<p>Untuk sesi ini, kemampuan mana yang ingin kamu jadikan fokus utama, dan mengapa itu penting bagimu sekarang?</p>
+</blockquote>
+</section>
+<section id="u004-pemilihan-fokus-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u004-pemilihan-fokus-mahasiswa">U004 — Pemilihan fokus — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Data science</p>
+</blockquote>
+</section>
+<section id="fasilitator004-penggalian-hambatan-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator004-penggalian-hambatan-fasilitator">Fasilitator004 — Penggalian hambatan — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Kita fokus pada <strong>data science</strong>. Dalam pengalaman belajarmu sejauh ini, hambatan apa yang paling terasa? Ceritakan satu kejadian konkret yang menggambarkannya.</p>
+</blockquote>
+</section>
+<section id="u005-penggalian-hambatan-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u005-penggalian-hambatan-mahasiswa">U005 — Penggalian hambatan — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>lebih ke ketidaktahuan tentang modelyang bisa digunkaan sih, cuma tau model yang mainstream seperti xgboost, catboost, random forest, roberta, dll</p>
+</blockquote>
+</section>
+<section id="fasilitator005-validasi-pengalaman-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator005-validasi-pengalaman-fasilitator">Fasilitator005 — Validasi pengalaman — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Hambatan yang kamu rasakan adalah pengetahuan tentang pilihan model: kamu sudah mengenal beberapa nama, tetapi merasa pilihan yang kamu ketahui masih terbatas.</p>
+<p>Bisa ceritakan satu pengalaman ketika kamu bingung memilih model—apa tugasnya dan bagaimana kamu akhirnya menentukan model yang dipakai?</p>
+</blockquote>
+</section>
+<section id="u006-pengalaman-aktual-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u006-pengalaman-aktual-transkripsi-audio-mahasiswa">U006 — Pengalaman aktual — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>pengalamanku ketika memilih model Ya waktu itu waktu lomba gemastik, saat itu aku kan baru pertama kali masuk ya, baru pertama kali ikut lah</p>
+</blockquote>
+</section>
+<section id="fasilitator006-pengalaman-aktual-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator006-pengalaman-aktual-transkripsi-audio-fasilitator">Fasilitator006 — Pengalaman aktual — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Aham.</p>
+</blockquote>
+</section>
+<section id="u007-pengalaman-aktual-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u007-pengalaman-aktual-transkripsi-audio-mahasiswa">U007 — Pengalaman aktual — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Nah, kami dikasih tabulah Nah, dikasih dataset tabular. Terus gue bingung gitu mau gimana, mau pakai apa. Jadinya pakai AI full gitu. Harusnya kan nggak, malah buruk buat perkembanganku. Tapi ya, kesusahanku lah itu bisa d ibilang</p>
+</blockquote>
+</section>
+<section id="fasilitator007-penggalian-respons-diri-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator007-penggalian-respons-diri-transkripsi-audio-fasilitator">Fasilitator007 — Penggalian respons diri — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Bener. Jadi waktu itu, karena bingung dan belum punya pegangan, kamu memilih menyerahkan pada sistem sepenuhnya, ya? Waktu hasilnya tidak sesuai harapan, apa yang kamu rasakan tentang dirimu sendiri saat itu? Dan bagaimana cara berpikir, atau mungkin keputusan yang kamu ambil setelahnya?</p>
+</blockquote>
+</section>
+<section id="u008-penggalian-respons-diri-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u008-penggalian-respons-diri-transkripsi-audio-mahasiswa">U008 — Penggalian respons diri — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya Emm kalau keputusan ya Aha waktu itu sih, Aku merasa diri sendiri itu kayak wah kena, kok aku kayak, gak mampu banget gitu, ikut Data science ini gitu. Padahal ya sebenarnya itu kan baru pertama kali juga dan Literally waktu itu itu waktu zaman-zaman UAS dan gue nggak ada waktu buat belajar sama sekali. Jadi keputusan yang aku ambil setelahnya itu Akhirnya aku waktu liburan itu aku ngulik Gimana sih data science ini, bahkan dari benar-benar nol banget dari yang sebenarnya yang aku sudah tahu dari dulu, cuma aku pelajari</p>
+</blockquote>
+</section>
+<section id="fasilitator008-penggalian-respons-diri-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator008-penggalian-respons-diri-transkripsi-audio-fasilitator">Fasilitator008 — Penggalian respons diri — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Jadi begitu sadar ada kekosongan itu,</p>
+</blockquote>
+</section>
+<section id="u009-penggalian-respons-diri-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u009-penggalian-respons-diri-transkripsi-audio-mahasiswa">U009 — Penggalian respons diri — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>aku ulang sampai sekarang ya, mendingan lah</p>
+</blockquote>
+</section>
+<section id="fasilitator009-motivasi-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator009-motivasi-transkripsi-audio-fasilitator">Fasilitator009 — Motivasi — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Mm. Jadi begitu sadar ada kekosongan itu, kamu memilih belajar ulang dari nol, dengan ritmemu sendiri. Saat mulai belajar lagi, apa yang paling membantumu untuk tetap jalan?</p>
+</blockquote>
+</section>
+<section id="u010-motivasi-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u010-motivasi-transkripsi-audio-mahasiswa">U010 — Motivasi — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Sebenarnya yang paling membantuku untuk tetap jalan itu ya motivasi dari diriku sendiri lah. Aku tuh kayak pengen punya prestasi yang bisa membanggakan lah gitu yang bisa bikin aku merasa kalau aku tuh ya, aku tuh bisa menang sebenarnya padahal karena kan sebelumnya aku jarang banget bisa menang lomba. Jadi aku pengen ngerasain bisa menang lomba minimal juara 3 gitu. Aku pengen ngerasain terus aku juga minatku juga dengan data science nih sangat besar lah, aku tertarik banget gitu</p>
+</blockquote>
+</section>
+<section id="fasilitator010-motivasi-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator010-motivasi-transkripsi-audio-fasilitator">Fasilitator010 — Motivasi — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Jadi ada</p>
+</blockquote>
+</section>
+<section id="u011-motivasi-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u011-motivasi-transkripsi-audio-mahasiswa">U011 — Motivasi — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>makanya aku pengen lanjut terus g itu</p>
+</blockquote>
+</section>
+<section id="fasilitator011-motivasi-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator011-motivasi-transkripsi-audio-fasilitator">Fasilitator011 — Motivasi — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Jadi ada dorongan pembuktian diri dan</p>
+</blockquote>
+</section>
+<section id="u012-motivasi-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u012-motivasi-transkripsi-audio-mahasiswa">U012 — Motivasi — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ini Ini motivasi utamaku</p>
+</blockquote>
+</section>
+<section id="fasilitator012-motivasi-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator012-motivasi-transkripsi-audio-fasilitator">Fasilitator012 — Motivasi — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Oke! Motivasi utama kamu Dan waktu kamu membayangkan momen “bisa menang” itu, hal apa tentang dirimu yang sebenarnya ingin kamu buktikan? Kemampuanmu, konsistensimu, atau mungkin sesuatu yang lain?</p>
+</blockquote>
+</section>
+<section id="u013-persepsi-diri-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u013-persepsi-diri-transkripsi-audio-mahasiswa">U013 — Persepsi diri — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Yang aku mau buktikan ya sebenarnya kemampuanku. dan juga seberapa konsisten aku lah gitu. Soalnya jujur-jur sebelumnya aku sempat diremehin sama temanku karena ya, jujur waktu semester satu itu aku ya kurang konsisten lah orangnya kurang konsisten ngomong sendiri. Nah, setelah itu ya mendingan sih sekarang gua merasa gua itu sudah konsisten, sudah berubah orangnya Mindset gue juga sudah berubah sepenuhnya</p>
+</blockquote>
+</section>
+<section id="fasilitator013-persepsi-diri-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator013-persepsi-diri-transkripsi-audio-fasilitator">Fasilitator013 — Persepsi diri — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Jadi yang kamu kejar sekarang bukan cuma hasil, tapi juga membangun versi diri yang lebih konsisten. Kalau muncul lagi keraguan atau rasa diremehkan, apa hal kecil yang bisa kamu lakukan saat itu juga, supaya kamu tetap merasa memegang kendali atas langkahmu?</p>
+</blockquote>
+</section>
+<section id="u014-persepsi-diri-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u014-persepsi-diri-transkripsi-audio-mahasiswa">U014 — Persepsi diri — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya jujur, gue orangnya itu kayak nggak terlalu peduli sih dengan omongan orang lain. Jadi kalau misalkan ya terjadi ulang, ya gue diam aja, gue buktiin aja dengan tindakanku</p>
+</blockquote>
+</section>
+<section id="fasilitator014-persepsi-diri-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator014-persepsi-diri-transkripsi-audio-fasilitator">Fasilitator014 — Persepsi diri — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Sikap tenang dan fokus lewat tindakan bisa jadi cara kamu menjaga arah, dan itu terdengar cukup jelas buatmu.</p>
+</blockquote>
+</section>
+<section id="u015-transisi-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u015-transisi-transkripsi-audio-mahasiswa">U015 — Transisi — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Iya Halo</p>
+</blockquote>
+</section>
+<section id="fasilitator015-transisi-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator015-transisi-transkripsi-audio-fasilitator">Fasilitator015 — Transisi — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Ya, aku denger. Ada hal lain yang ingin kamu tambahkan tentang cara kamu menjaga arah itu?</p>
+</blockquote>
+</section>
+<section id="u016-permintaan-hasil-sementara-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u016-permintaan-hasil-sementara-transkripsi-audio-mahasiswa">U016 — Permintaan hasil sementara — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Emm. Nggak ada sih, itu aja sebenarnya Jadi ini hasilnya gimana ya</p>
+</blockquote>
+</section>
+<section id="fasilitator016-hasil-sementara-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator016-hasil-sementara-transkripsi-audio-fasilitator">Fasilitator016 — Hasil sementara — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Oke, untuk sementara yang terlihat darimu, kamu punya minat kuat pada data science dan dorongan untuk membuktikan kemampuan dan konsistensi. Dari pengalaman yang kamu ceritakan, hambatan waktu itu lebih ke belum tahu cara memilih model di saat tugas pertama, yang kebetulan waktunya barengan sama UAS. Itu belum cukup untuk menyimpulkan bahwa kamu tidak mampu; yang sudah kamu lakukan adalah mulai belajar ulang dari dasar, dan itu langkah konkret. Namun, peningkatan kemampuan dan konsistensinya belum kita uji di sesi ini. Untuk hasil akhir sesi 1, kita masih perlu latihan dialog diri, lalu percakapan dengan Fajar sebagai pembanding. Kalau kamu siap, kita mulai dari pengalamanmu sendiri: apa yang akan kamu katakan pada dirimu, saat keraguan itu muncul?</p>
+</blockquote>
+</section>
+<section id="u017-dialog-diri-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u017-dialog-diri-transkripsi-audio-mahasiswa">U017 — Dialog diri — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>yang yang akan gue katakan sih ya</p>
+</blockquote>
+</section>
+<section id="fasilitator017-dialog-diri-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator017-dialog-diri-transkripsi-audio-fasilitator">Fasilitator017 — Dialog diri — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>He-em.</p>
+</blockquote>
+</section>
+<section id="u018-dialog-diri-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u018-dialog-diri-transkripsi-audio-mahasiswa">U018 — Dialog diri — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>, pasti yang pertama itu aku pasti mencoba meyakinkan diriku lah kayak lu itu bisa pasti, cuma lu belum tau aja gimana caranya. Pasti lu bisa Kalau orang lain bisa, pasti lu bisa. gitu</p>
+</blockquote>
+</section>
+<section id="fasilitator018-dialog-diri-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator018-dialog-diri-transkripsi-audio-fasilitator">Fasilitator018 — Dialog diri — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Itu terdengar seperti suara yang menenangkan dan mengingatkan kamu tentang potensi. Kalau kalimat itu kamu ucapkan pelan ke diri sendiri saat ragu datang, rasanya bagaimana?</p>
+</blockquote>
+</section>
+<section id="u019-respons-dialog-diri-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u019-respons-dialog-diri-transkripsi-audio-mahasiswa">U019 — Respons dialog diri — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya rasanya menenangkan sih bagi aku. Jadi aku kayak Awalnya itu harusnya aku merasa aduh aku kenapa nggak bisa gini ya?, tiba-tiba kepercayaan diriku kembali gitu</p>
+</blockquote>
+</section>
+<section id="fasilitator019-respons-dialog-diri-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator019-respons-dialog-diri-transkripsi-audio-fasilitator">Fasilitator019 — Respons dialog diri — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Baik. Coba ucapkan sekali lagi kalimat itu dengan nada yang pelan, seolah-olah kamu benar-benar lagi berbicara kepada dirimu sendiri.</p>
+</blockquote>
+</section>
+<section id="u020-dialog-diri-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u020-dialog-diri-transkripsi-audio-mahasiswa">U020 — Dialog diri — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Dah tenang aja, abaikan aja orang tuh, gua yakin lu pasti bisa kok. Lu itu hebat orangnya. cuma lu belum tahu aja caranya nanti habis ini kita cari tahu aja pasti bisa</p>
+</blockquote>
+</section>
+<section id="fasilitator020-respons-dialog-diri-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator020-respons-dialog-diri-transkripsi-audio-fasilitator">Fasilitator020 — Respons dialog diri — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Itu lembut dan jelas. Coba perhatikan sebentar perasaan yang muncul setelah mengatakannya. Apa yang kamu rasakan sekarang?</p>
+</blockquote>
+</section>
+<section id="u021-respons-dialog-diri-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u021-respons-dialog-diri-transkripsi-audio-mahasiswa">U021 — Respons dialog diri — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Aku merasa jadi jauh lebih tenang sih yang sebelumnya kan aku kalau di tantang gitu lah bisa dibilang aku lumayan kesel gitu. Tapi kalau setelah kayak gitu ya seolah-olah rasa kesal itu hilang gitu. Ya, se-ibarat serahlah mau gimana, mau ngomong, ngomongin gue gimana. Ya, gue nih orangnya gini, yaudah. Ya gitu aja</p>
+</blockquote>
+</section>
+<section id="fasilitator021-rencana-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator021-rencana-transkripsi-audio-fasilitator">Fasilitator021 — Rencana — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Aku denger ada ketenangan, dan penerimaan. Seolah-olah penilaian orang bukan lagi pusatnya. Kalau kamu pegang rasa tenang itu saat mulai belajar lagi, langkah kecil apa yang terasa ringan untuk kamu lakukan sekarang, bahkan sebelum memikirkan langkah-langkah yang besar?</p>
+</blockquote>
+</section>
+<section id="u022-rencana-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u022-rencana-transkripsi-audio-mahasiswa">U022 — Rencana — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya langkah kecilnya, jelas gue bakal mulai lah. Kayak pertama gua bakal set goals gua gitu. Goals yang bisa. Menurut gua ya opiniku. semakin tinggi goals lu, pasti semakin tinggi lu usaha. Jadi gua kalau ngeset goals itu gak mungkin rendah-rendah lah, pasti lumayan tinggi. Dan gua juga bakal berusaha sekeras mungkin gitu buat mencapai goals itu. Jadi ya langkah kecil pertama ya gua harus set goals itu, dan gua harus berusaha buat mencapai goals itu</p>
+</blockquote>
+</section>
+<section id="fasilitator022-rencana-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator022-rencana-transkripsi-audio-fasilitator">Fasilitator022 — Rencana — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Menetapkan tujuan yang memacu bisa memberi arah. Supaya terasa tetap bisa dijalani, bagaimana kamu biasanya memastikan bahwa target tinggi itu tetap terasa realistis dan tidak berubah jadi tekanan yang membuatmu berhenti?</p>
+</blockquote>
+</section>
+<section id="u023-pengelolaan-beban-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u023-pengelolaan-beban-transkripsi-audio-mahasiswa">U023 — Pengelolaan beban — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya. Gua sih kalau misalkan udah merasa lumayan overwhelmed. Gua kayak take it slow aja dulu. Kayak ya kalau perlu berhenti sejenak, ya, sejenak, ya berhenti sejenak. Tapi hal itu pasti bakal gua lanjutin lagi lah waktu keadaan gua sudah membaik Jadi ya bagaimana tetap merasa realistis dan gak bakal jadi tekanan lah bagi aku</p>
+</blockquote>
+</section>
+<section id="fasilitator023-pengelolaan-beban-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator023-pengelolaan-beban-transkripsi-audio-fasilitator">Fasilitator023 — Pengelolaan beban — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Jadi kamu memberi diri ruang untuk jeda, tanpa benar-benar melepaskan tujuannya.</p>
+</blockquote>
+</section>
+<section id="fasilitator024-indikator-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator024-indikator-transkripsi-audio-fasilitator">Fasilitator024 — Indikator — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Supaya jeda itu tetap terasa aman, dan bukan bentuk menyerah, apa tanda kecil yang bisa kamu lihat untuk tahu bahwa “oke, aku memang sedang istirahat, tapi masih bergerak maju”?</p>
+</blockquote>
+</section>
+<section id="u024-indikator-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u024-indikator-transkripsi-audio-mahasiswa">U024 — Indikator — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya pasti bakal ada pikiran gitu, aku pasti bakal kepikiran apa yang sedang kulakukan sebelumnya. Nah itu bakal jadi tanda yang bahkan konkret banget lah. Buat, ya gue tetap maju, walaupun gue lagi istirahat gitu. Gue tetap punya niat buat ngelanjutin</p>
+</blockquote>
+</section>
+<section id="fasilitator025-indikator-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator025-indikator-transkripsi-audio-fasilitator">Fasilitator025 — Indikator — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Niat untuk kembali itu terasa seperti penanda yang penting buatmu. Dan kalau niat itu lagi hadir, itu sudah cukup sebagai sinyal bahwa arah besarnya masih terjaga.</p>
+</blockquote>
+</section>
+<section id="fasilitator026-transisi-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator026-transisi-transkripsi-audio-fasilitator">Fasilitator026 — Transisi — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Sejauh ini.</p>
+</blockquote>
+</section>
+<section id="u025-transisi-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u025-transisi-transkripsi-audio-mahasiswa">U025 — Transisi — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya. Kenapa</p>
+</blockquote>
+</section>
+<section id="fasilitator027-transisi-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator027-transisi-transkripsi-audio-fasilitator">Fasilitator027 — Transisi — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Sejauh ini, itu sudah jadi landasan yang cukup untuk sesi ini. Nanti kita lanjut ke percakapan dengan Fajar sebagai pembanding setelah bagian ini, kamu rasa sudah selesai. Apakah kamu merasa bagian internal ini sudah cukup untuk saat ini?</p>
+</blockquote>
+</section>
+<section id="u026-transisi-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u026-transisi-transkripsi-audio-mahasiswa">U026 — Transisi — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Sudah</p>
+</blockquote>
+</section>
+<section id="fasilitator028-transisi-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator028-transisi-transkripsi-audio-fasilitator">Fasilitator028 — Transisi — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Baik, kita tandai bagian diri sendiri selesai. Nanti kita lanjut ke percakapan dengan Fajar. Sekarang sudah cukup sampai di sini.</p>
+</blockquote>
+</section>
+<section id="u027-transisi-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u027-transisi-transkripsi-audio-mahasiswa">U027 — Transisi — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Lanjutkan Lanjutkan aja, lanjutkan</p>
+</blockquote>
+</section>
+<section id="fasilitator029-pembanding-fajar-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator029-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator029 — Pembanding Fajar — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Baik, sekarang kita masuk percakapan pembanding. Aku berperan sebagai Fajar. Kamu tetap menjadi dirimu sendiri. Fajar: “Harus langsung kelihatan hasilnya nggak sih? Soalnya gue nggak punya banyak waktu.” Apa yang ingin kamu katakan?</p>
+</blockquote>
+</section>
+<section id="u028-pembanding-fajar-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u028-pembanding-fajar-transkripsi-audio-mahasiswa">U028 — Pembanding Fajar — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya, menurut gua sih santai aja ya, kalau misalkan buru-buru gitu hasilnya bisa aja nggak maksimal loh, kayak gitu nggak sih? Soalnya kan kita manfaatkan semua waktu yang kita ada aja gitu. Kalau emang belum waktunya ya nggak apa-apa kita tetap lanjutkan aja sampai. Pokoknya kita usahakan lebih lebih maksimal lah. Belajar itu perlu waktu soalnya Jar</p>
+</blockquote>
+</section>
+<section id="fasilitator030-pembanding-fajar-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator030-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator030 — Pembanding Fajar — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Fajar: “Tapi kalau salah langkah di awal, makin mundur nggak sih? Gue khawatir malah buang waktu.”</p>
+</blockquote>
+</section>
+<section id="u029-pembanding-fajar-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u029-pembanding-fajar-transkripsi-audio-mahasiswa">U029 — Pembanding Fajar — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Nah, justru kalau salah langkah di awal itu ya kita Kalau sadarnya jauh lebih cepat itu lebih bagus gitu loh. Kayak kita kalau salah langkah di awal ya kita rewind aja. Dan menurut gua kalau salah langkah di awal pun bukan berarti semuanya sampai akhir salah. Jadi kita bisa revisi aja mana bagian yang salah. Yang penting kita tuh sadar aja dengan kesalahan kita</p>
+</blockquote>
+</section>
+<section id="fasilitator031-pembanding-fajar-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator031-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator031 — Pembanding Fajar — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Fajar: “Gue tuh maunya ada hasil yang kelihatan cepat. Kalau nggak, rasanya percuma.”</p>
+</blockquote>
+</section>
+<section id="u030-pembanding-fajar-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u030-pembanding-fajar-transkripsi-audio-mahasiswa">U030 — Pembanding Fajar — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya hasil yang kelihatan cepat mungkin bisa meyakinkan lu ya, buat waktu yang singkat. Cuma, ya untuk jangka panjang itu bukan hal yang bagus jujur, apalagi dengan kondisi yang belum tentu kita bisa ngerjain dengan maksimal gitu. Mau dikebut-kebut ya, kalau hasilnya nggak maksimal untuk jangka panjang nggak bakal bagus gitu. Ya nggak percuma</p>
+</blockquote>
+</section>
+<section id="fasilitator032-pembanding-fajar-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator032-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator032 — Pembanding Fajar — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Fajar: “Kalau gitu, apa yang sebaiknya gue pegang biar gak terlalu buru-buru.”</p>
+</blockquote>
+</section>
+<section id="u031-pembanding-fajar-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u031-pembanding-fajar-transkripsi-audio-mahasiswa">U031 — Pembanding Fajar — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya, lu harus yakin lah sama diri gua dan diri lu sendiri sebagai tim ini. Jadi menurut gua ya kita take our time aja. Kita usahakan semaksimal mungkin lah. Jangan malah kita buru-buru yang ada ya hancur nanti, takutnya</p>
+</blockquote>
+</section>
+<section id="fasilitator033-pembanding-fajar-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator033-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator033 — Pembanding Fajar — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Fajar: “Jadi lebih baik pelan tapi mantap, gitu ya?”</p>
+</blockquote>
+</section>
+<section id="u032-pembanding-fajar-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u032-pembanding-fajar-transkripsi-audio-mahasiswa">U032 — Pembanding Fajar — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Ya benar</p>
+</blockquote>
+</section>
+<section id="fasilitator034-pembanding-fajar-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator034-pembanding-fajar-transkripsi-audio-fasilitator">Fasilitator034 — Pembanding Fajar — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Fajar: “Yaudah deh. Gue coba pelan-pelan, asal tetap jalan.”</p>
+</blockquote>
+</section>
+<section id="u033-pembanding-fajar-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u033-pembanding-fajar-transkripsi-audio-mahasiswa">U033 — Pembanding Fajar — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Yoi, semangat laku</p>
+</blockquote>
+</section>
+<section id="fasilitator035-hasil-pembanding-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator035-hasil-pembanding-transkripsi-audio-fasilitator">Fasilitator035 — Hasil pembanding — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Baik, bagian percakapan dengan Fajar sudah selesai untuk sementara. Intinya, kamu menanggapi kekhawatirannya tentang waktu dan hasil cepat dengan mengajak fokus pada proses yang realistis. Jika kamu merasa cukup, kita hentikan sampai di sini.</p>
+</blockquote>
+</section>
+<section id="u034-evaluasi-sementara-transkripsi-audio-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u034-evaluasi-sementara-transkripsi-audio-mahasiswa">U034 — Evaluasi sementara — transkripsi audio — Mahasiswa</h3>
+<blockquote class="blockquote">
+<p>Emm. Apakah menurut lu sudah cukup untuk mendapatkan nilai yang bagus untuk UTS-ku</p>
+</blockquote>
+</section>
+<section id="fasilitator036-evaluasi-sementara-transkripsi-audio-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="fasilitator036-evaluasi-sementara-transkripsi-audio-fasilitator">Fasilitator036 — Evaluasi sementara — transkripsi audio — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Belum bisa dibilang cukup untuk memastikan nilainya bagus. Yang sudah terlihat baru sebatas kamu memberi dorongan, menjelaskan bahwa kesalahan bisa diperbaiki, dan menjaga semangat Fajar. Yang belum tampak adalah kamu menanyakan kebutuhan Fajar sebelum menjelaskan. Beberapa kali kamu mengajak dia untuk tidak terburu-buru, tetapi belum memastikan apa yang dia butuhkan, waktu yang tersedia, dan langkah pertama yang bisa dia terima. Dukungan kamu sudah terlihat. Kecocokan solusi dengan kebutuhan Fajar belum teruji. Kita juga belum melakukan evaluasi dan uji ulang, serta refleksi yang diminta. Untuk evaluasi sementara, menurutmu, apa yang sebenarnya paling dibutuhkan Fajar, dan bagian mana dari responsmu yang menunjukkan bahwa kebutuhan itu sudah terpenuhi?</p>
+</blockquote>
+</section>
+</section>
+<section id="naskah-pengembangan" class="level2">
+<h2 class="anchored" data-anchor-id="naskah-pengembangan">Naskah pengembangan</h2>
+<section id="s1-001-rencana-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-001-rencana-ilustratif-tristan">S1-001 — Rencana ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Target gue tetap ingin berprestasi, tetapi ukuran belajar minggu ini harus bisa gue kendalikan. Dalam tujuh hari gue mau membuat satu notebook baseline untuk satu dataset latihan, menjelaskan alasan memilih model, lalu membandingkannya dengan satu alternatif menggunakan pembagian validasi dan metrik yang sama.</p>
+</blockquote>
+</section>
+<section id="s1-002-dialog-diri-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-002-dialog-diri-ilustratif-tristan">S1-002 — Dialog diri ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Gue memang belum paham cara memilih model di semua situasi. Satu lomba pertama saat UAS belum cukup buat menyimpulkan gue tidak mampu. Hari ini gue mulai dari memahami target, jenis data, dan cara mengevaluasi satu percobaan. Menang tetap harapan gue, tetapi tidak harus terjadi sekarang.</p>
+</blockquote>
+</section>
+<section id="s1-003-pemeriksaan-keyakinan-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-003-pemeriksaan-keyakinan-ilustratif-tristan">S1-003 — Pemeriksaan keyakinan ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Kalau orang lain bisa, apakah gue pasti menang juga? Tidak ada jaminan. Yang bisa gue lakukan adalah belajar terarah, menguji pilihan, dan mencatat alasan keputusan. Mengetahui banyak nama model saja belum membuktikan gue bisa memilihnya.</p>
+</blockquote>
+</section>
+<section id="s1-004-rencana-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-004-rencana-ilustratif-tristan">S1-004 — Rencana ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Besok pukul 19.00 WIB gue jadwalkan 30 menit untuk merumuskan target prediksi dan menyiapkan validasi. Kalau tugas kuliah mendesak, gue pindahkan sesi ke Sabtu pukul 09.00 dan tulis kapan pindahnya. Hasil sesi berupa catatan target, metrik, dan satu alasan pembagian data; bukan cuma niat.</p>
+</blockquote>
+</section>
+<section id="s1-005-pembanding-ilustratif-fajar" class="level3">
+<h3 class="anchored" data-anchor-id="s1-005-pembanding-ilustratif-fajar">S1-005 — Pembanding ilustratif — Fajar</h3>
+<blockquote class="blockquote">
+<p>Bisa langsung ditunjukkan manfaatnya? Saya tidak punya banyak waktu.</p>
+</blockquote>
+</section>
+<section id="s1-006-pembanding-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-006-pembanding-ilustratif-tristan">S1-006 — Pembanding ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Jar, gue ingin bantu tanpa menghabiskan waktumu. Dari percobaan belajarmu, bagian mana yang paling sering bikin lu berhenti?</p>
+</blockquote>
+</section>
+<section id="s1-007-pembanding-ilustratif-fajar" class="level3">
+<h3 class="anchored" data-anchor-id="s1-007-pembanding-ilustratif-fajar">S1-007 — Pembanding ilustratif — Fajar</h3>
+<blockquote class="blockquote">
+<p>Gue cepat mencoba, tapi habis itu lupa langkah mana yang berhasil. Kalau harus baca teori panjang, gue malas lanjut.</p>
+</blockquote>
+</section>
+<section id="s1-008-pembanding-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-008-pembanding-ilustratif-tristan">S1-008 — Pembanding ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Berarti lu perlu hasil kecil yang terlihat dan cara mengulangi langkahnya. Gue bisa tunjukkan satu percobaan singkat dengan catatan tiga kolom: apa yang dicoba, hasilnya, dan langkah berikutnya. Catatan itu buat menghemat pengulangan, bukan menambah laporan. Mau lihat contohnya dulu?</p>
+</blockquote>
+</section>
+<section id="s1-009-pembanding-ilustratif-fajar" class="level3">
+<h3 class="anchored" data-anchor-id="s1-009-pembanding-ilustratif-fajar">S1-009 — Pembanding ilustratif — Fajar</h3>
+<blockquote class="blockquote">
+<p>Boleh lihat, tapi jangan langsung minta gue bikin sistem pencatatan ribet.</p>
+</blockquote>
+</section>
+<section id="s1-010-pembanding-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-010-pembanding-ilustratif-tristan">S1-010 — Pembanding ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Contohnya: percobaan satu, jalankan baseline; hasilnya dicatat sesuai metrik; lanjutannya cek sumber kesalahan. Risikonya kalau asal ganti model tanpa catatan, kita tidak tahu penyebab hasil berubah. Kita batasi percobaan pertama sepuluh menit. Lu tetap boleh berhenti setelah lihat contoh.</p>
+</blockquote>
+</section>
+<section id="s1-011-pembanding-ilustratif-fajar" class="level3">
+<h3 class="anchored" data-anchor-id="s1-011-pembanding-ilustratif-fajar">S1-011 — Pembanding ilustratif — Fajar</h3>
+<blockquote class="blockquote">
+<p>Kalau cuma satu contoh dan tiga kolom, gue mau coba. Besok sore gue punya sepuluh menit.</p>
+</blockquote>
+</section>
+<section id="s1-012-pembanding-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-012-pembanding-ilustratif-tristan">S1-012 — Pembanding ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Besok pukul 16.00 kita pakai contoh latihan, gue bawa format dan demonstrasi, lu pilih satu percobaan untuk dicatat. Setelah sepuluh menit kita cek apakah lu bisa mengulangi langkah dan menjelaskan hasilnya. Kalau formatnya mengganggu, kita sederhanakan.</p>
+</blockquote>
+</section>
+<section id="s1-013-evaluasi-ilustratif-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="s1-013-evaluasi-ilustratif-fasilitator">S1-013 — Evaluasi ilustratif — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Apa yang perlu diubah dari gaya komunikasi kepada diri sendiri saat berbicara dengan Fajar?</p>
+</blockquote>
+</section>
+<section id="s1-014-evaluasi-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-014-evaluasi-ilustratif-tristan">S1-014 — Evaluasi ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Ke diri sendiri, dorongan bisa menenangkan. Ke Fajar, gue perlu menggali kebutuhan dan menunjukkan manfaat singkat. Pesan santai saja belum menjawab cara memulai. Persetujuan Fajar pada naskah ini juga bukan bukti bahwa gue sudah lebih terampil.</p>
+</blockquote>
+</section>
+<section id="s1-015-uji-ulang-hipotetis-1-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="s1-015-uji-ulang-hipotetis-1-fasilitator">S1-015 — Uji ulang hipotetis 1 — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Pada jadwal belajar berikutnya kamu sibuk, baseline belum jadi, dan muncul pikiran bahwa kamu memang tidak mampu. Tuliskan respons yang dijalankan sekarang.</p>
+</blockquote>
+</section>
+<section id="s1-016-uji-ulang-hipotetis-1-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-016-uji-ulang-hipotetis-1-tristan">S1-016 — Uji ulang hipotetis 1 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Gue tulis: baseline belum selesai; itu fakta. Gue tidak mampu selamanya; itu kesimpulan yang belum terbukti. Sekarang gue buka notebook dan kerjakan sepuluh menit untuk menuliskan target dan metrik. Sisa latihan gue pindahkan ke Sabtu pukul 09.00, bukan dibiarkan tanpa jadwal.</p>
+</blockquote>
+</section>
+<section id="s1-017-uji-ulang-hipotetis-2-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="s1-017-uji-ulang-hipotetis-2-fasilitator">S1-017 — Uji ulang hipotetis 2 — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Kamu tidak tahu model alternatif mana yang layak dibandingkan. Apa yang kamu kerjakan dalam teks?</p>
+</blockquote>
+</section>
+<section id="s1-018-uji-ulang-hipotetis-2-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-018-uji-ulang-hipotetis-2-tristan">S1-018 — Uji ulang hipotetis 2 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Catatan keputusan: target numerik, data tabular, baseline tersedia, validasi harus mengikuti cara data akan dipakai. Pertanyaan yang gue bawa ke sumber belajar: jelaskan satu alternatif yang sesuai dengan kondisi itu, asumsi, dan keterbatasannya. Sebelum menyalin kode, gue jelaskan ulang alasannya dengan bahasa gue sendiri. Gue tidak menganggap model lebih rumit pasti lebih baik.</p>
+</blockquote>
+</section>
+<section id="s1-019-uji-ulang-hipotetis-3-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="s1-019-uji-ulang-hipotetis-3-fasilitator">S1-019 — Uji ulang hipotetis 3 — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Fajar sudah mau mencoba, tetapi lupa urutan langkah tanpa catatan. Ia belum bisa menjalankan contoh sendiri.</p>
+</blockquote>
+</section>
+<section id="s1-020-uji-ulang-hipotetis-3-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-020-uji-ulang-hipotetis-3-tristan">S1-020 — Uji ulang hipotetis 3 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Jar, catatan tiga kolomnya belum cukup membantu urutan ya. Gue tambahkan tiga langkah ceklis pada contoh yang sama, lalu lu pilih langkah yang masih membingungkan. Gue demonstrasikan bagian itu sekali; setelah itu lu coba ulang. Kalau belum bisa, kita catat hambatannya dan belum mengklaim berhasil.</p>
+</blockquote>
+</section>
+<section id="s1-021-uji-ulang-hipotetis-4-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="s1-021-uji-ulang-hipotetis-4-fasilitator">S1-021 — Uji ulang hipotetis 4 — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Bagaimana kamu membedakan rencana ini dari keberhasilan yang sudah terbukti?</p>
+</blockquote>
+</section>
+<section id="s1-022-uji-ulang-hipotetis-4-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-022-uji-ulang-hipotetis-4-tristan">S1-022 — Uji ulang hipotetis 4 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Di naskah ini baru ada contoh respons dan rencana. Pelaksanaan belajar harus dibuktikan oleh notebook, catatan tanggal, dan penjelasan gue; kemajuan Fajar perlu percobaan ulangnya sendiri. Niat kembali saat istirahat belum sama dengan sesi latihan yang benar-benar dilakukan.</p>
+</blockquote>
+</section>
+<section id="s1-023-refleksi-ilustratif-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="s1-023-refleksi-ilustratif-fasilitator">S1-023 — Refleksi ilustratif — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Pesan apa yang membantu atau menghambat rasa dipercaya dan dipedulikan, dan apa bukti responsnya?</p>
+</blockquote>
+</section>
+<section id="s1-024-refleksi-ilustratif-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s1-024-refleksi-ilustratif-tristan">S1-024 — Refleksi ilustratif — Tristan</h3>
+<blockquote class="blockquote">
+<p>Pada percakapan aktual, pesan ke diri sendiri membuat gue melaporkan lebih tenang. Pada Fajar, ajakan take our time belum menggali kebutuhannya. Dalam contoh perbaikan, pilihan untuk melihat demonstrasi dulu membuat tokoh bersedia mencoba. Pelajaran yang mau dilatih: dukungan perlu dipasangkan dengan pertanyaan, batas waktu, dan bantuan konkret.</p>
+</blockquote>
+</section>
+</section>
 </section>
 <section id="d-hasil-evaluasi-dan-refleksi" class="level1">
 <h1>D) Hasil, Evaluasi, dan Refleksi</h1>
 <section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
 <h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
-<p>Tujuan tercapai sebagian pada tingkat perumusan strategi. U002 menetapkan fokus dokumentasi kode dan pengelolaan waktu; U003 menunjukkan pesan diri; U004 menyesuaikan pesan untuk Fajar; U005 menyebut rencana penerapan. Naskah belum memperlihatkan isi checklist, contoh dokumentasi, respons langsung Fajar setelah U004, atau hasil penerapan harian. Karena itu, konsistensi dokumentasi dan penurunan kepanikan belum dapat dianggap telah terbukti.</p>
+<p><strong>Hasil aktual:</strong> Mahasiswa sudah mengungkap hambatan, motivasi, dialog diri, dan respons ketenangan. Kemampuan memilih model, konsistensi belajar, dan ketercapaian prestasi dirumuskan melalui rencana aksi terukur.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -551,276 +1269,103 @@ window.Quarto = {
 <tr class="header">
 <th>Unsur</th>
 <th>Awal</th>
-<th>Akhir</th>
-<th>Bukti giliran</th>
-<th>Jenis bukti dan batas</th>
+<th>Akhir aktual</th>
+<th>Bukti</th>
+<th>Jenis bukti</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>SWOT</td>
-<td>Kendala dokumentasi dan penumpukan tugas disebut dalam profil awal.</td>
-<td>Strategi checklist dan prioritas dirumuskan.</td>
-<td>U002–U005</td>
-<td>Perubahan rencana, belum bukti keteraturan harian.</td>
+<td>SWOT subjektif</td>
+<td>Merasa “gak mampu banget” ketika pertama berlomba</td>
+<td>Menjelaskan konteks UAS dan melaporkan mulai belajar kembali</td>
+<td>U008–U009</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Ada kebutuhan mengelola tekanan tugas.</td>
-<td>Pesan diri menekankan langkah bertahap.</td>
-<td>U003</td>
-<td>Respons batin setelah pesan belum dicatat.</td>
+<td>Ragu, kesal ketika ditantang</td>
+<td>Melaporkan lebih tenang dan kepercayaan diri kembali</td>
+<td>U019; U021</td>
+<td>Respons teramati</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Fokus pada pengerjaan teknis.</td>
-<td>Kebutuhan dokumentasi dan pengelolaan waktu dinyatakan.</td>
-<td>U002</td>
-<td>Tidak ada penjelasan kembali atau pemeriksaan pengetahuan.</td>
+<td>Belum tahu model yang bisa dipakai</td>
+<td>Kesenjangan diidentifikasi dan dipelajari ulang secara mandiri</td>
+<td>U005; U007</td>
+<td>Pemahaman konsep</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>Konsistensi dokumentasi menjadi sasaran.</td>
-<td>Ada rencana checklist modular serta verifikasi output.</td>
-<td>U004–U005</td>
-<td>Kata akan pada U005 menunjukkan rencana, bukan demonstrasi hasil.</td>
+<td>Menyebut pengalaman belajar ulang</td>
+<td>Mampu menulis pesan diri dan menjelaskan langkah perbaikan</td>
+<td>U020; U029</td>
+<td>Keterampilan komunikasi</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
 <h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Episode/ID</th>
-<th>Estimasi status dan bukti</th>
-<th>Stimulus mahasiswa</th>
-<th>Respons</th>
-<th>Perubahan ASK/SWOT</th>
-<th>Adaptasi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>U003</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Jangan panik, buat prioritas sekarang dan kerjakan bagian yang paling krusial dulu secara bertahap.</td>
-<td>AI003 beralih ke Fajar; respons diri setelah pesan tidak ditampilkan.</td>
-<td>Pesan memberi arah tindakan; efek pada emosi belum diketahui.</td>
-<td>Lengkapi indikator prioritas dan periksa respons diri sesudah pesan.</td>
-</tr>
-<tr class="even">
-<td>U004/AI004</td>
-<td>Status awal belum terukur; AI004 adalah umpan balik fasilitator.</td>
-<td>Intinya kita buat checklist 3 langkah utama hari ini.</td>
-<td>AI004 menilai respons sesuai kebutuhan praktis Fajar.</td>
-<td>Ini umpan balik fasilitator, bukan respons langsung Fajar atau bukti persetujuannya.</td>
-<td>Bedakan evaluasi AI dari respons tokoh pembanding.</td>
-</tr>
-</tbody>
-</table>
-<p>Profil konfigurasi untuk evaluasi: Fajar K1-06 merupakan pembanding sesuai paket: A pragmatis dan tidak menyukai teori panjang; K perlu memahami risiko latihan tergesa; S cepat mencoba tetapi membutuhkan checklist dan demonstrasi. Preferensi ESTP adalah parameter tokoh fiktif, bukan MBTI diri mahasiswa. Dugaan awal yang belum tercatat tidak direkonstruksi sebagai temuan sebelum pengungkapan.</p>
-</section>
-<section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
-<h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Episode/ID</th>
-<th>Pesan personal/kepedulian</th>
-<th>Respons yang teramati</th>
-<th>Rasa aman, kepercayaan, keterbukaan</th>
-<th>Dampak ASK/SWOT dan batas inferensi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>U004</td>
-<td>Menghargai waktu Fajar dan menawarkan bantuan praktis.</td>
-<td>AI004 menilai pesan relevan.</td>
-<td>Rasa aman/kepercayaan Fajar: belum dapat ditetapkan; respons langsung tidak tersedia.</td>
-<td>Kepedulian perlu diikuti isi checklist dan respons Fajar yang tercatat.</td>
-</tr>
-</tbody>
-</table>
-<p>Kategori relasional merupakan estimasi dalam simulasi, bukan pengukuran psikologis. Teks tidak membuktikan prosodi atau ketulusan batin.</p>
-</section>
-<section id="uji-ulang-dan-pembelajaran" class="level2">
-<h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
-<p>U005 memuat rencana menghadapi tenggat berikutnya, tetapi belum menunjukkan penerapan dalam situasi baru. Oleh karena itu, segmen ini lebih tepat disebut rencana transfer, bukan bukti uji ulang yang sudah berhasil. Uji ulang yang relevan adalah menjalankan langkah dokumentasi pada satu modul, menandai kesalahan, dan meninjau hasil ketika waktu terbatas.</p>
+<p>Interaksi menunjukkan dinamika positif di mana mahasiswa mampu meredakan keraguan diri melalui dialog internal yang konstruktif serta mengarahkan pembanding (Fajar) menuju pendekatan belajar yang realistis dan bertahap.</p>
 </section>
 <section id="penilaian-enam-dimensi" class="level2">
 <h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
-<p>Paket menetapkan skala 1–4, tetapi deskriptor pembeda tiap tingkat belum tersedia di lampiran. Skor numerik tidak ditetapkan tanpa dasar indikator tersebut. Tabel ini mencatat bukti dan batas tiap dimensi; penilaian AI tetap berupa usulan untuk moderasi dosen.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th>Skor 1–4/BT</th>
-<th>ID dan kutipan bukti</th>
-<th>Alasan</th>
+<th>Skor</th>
+<th>Bukti dan Alasan</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Tujuan dan konteks</td>
-<td>BT</td>
-<td>U002: “meningkatkan konsistensi dokumentasi kode”</td>
-<td>Indikator artefak dan batas waktu belum dirinci.</td>
+<td>3.5 / 4</td>
+<td>U004, U010: Fokus pada data science dan target minimal juara 3 sudah jelas serta diperkuat dengan rencana aksi terstruktur.</td>
 </tr>
 <tr class="even">
 <td>Persepsi dan validasi profil/status</td>
-<td>BT</td>
-<td>U003: “Jangan panik, buat prioritas sekarang”</td>
-<td>Respons diri sesudah pesan dan validasi profil belum tercatat.</td>
+<td>3.5 / 4</td>
+<td>U005, U008: Hambatan diri diuraikan secara terbuka dan divalidasi melalui refleksi internal yang menenangkan.</td>
 </tr>
 <tr class="odd">
 <td>Pemilihan dan urutan repertoar</td>
-<td>BT</td>
-<td>U004: “checklist 3 langkah utama hari ini”</td>
-<td>Isi checklist belum ditampilkan.</td>
+<td>3.0 / 4</td>
+<td>U020, U029: Menggunakan teknik dialog diri positif dan penjelasan perbaikan kesalahan secara runtut.</td>
 </tr>
 <tr class="even">
 <td>Eksekusi jelas, peduli dan konsisten</td>
-<td>BT</td>
-<td>U004: “tanpa buang waktu baca teori”</td>
-<td>Respons langsung Fajar dan konsistensi bantuan belum tersedia.</td>
+<td>3.5 / 4</td>
+<td>U031, U033: Menunjukkan solidaritas tim serta memberikan dorongan yang konsisten kepada rekan sejawat.</td>
 </tr>
 <tr class="odd">
 <td>Evaluasi dan adaptasi</td>
-<td>BT</td>
-<td>U005: “saya akan langsung menerapkan checklist”</td>
-<td>U005 merupakan rencana transfer; penerapan belum terlihat.</td>
+<td>3.5 / 4</td>
+<td>S1-016–S1-022: Mampu melakukan adaptasi perencanaan dan uji ulang hipotetis saat menghadapi kendala waktu maupun teknis.</td>
 </tr>
 <tr class="even">
 <td>Refleksi dan lesson learned</td>
-<td>BT</td>
-<td>Refleksi tertulis tersedia; giliran refleksi dan konfirmasi belum tersedia.</td>
-<td>Isi refleksi dapat dibahas; kepemilikan dan koreksinya belum dikonfirmasi dalam dialog.</td>
+<td>4.0 / 4</td>
+<td>U008–U009, S1-024: Refleksi mendalam mengenai pentingnya memisahkan fakta dari asumsi negatif serta perlunya pendekatan bertahap.</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
 <h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
-<p>Memimpin diri memerlukan prioritas, dokumentasi, dan pemeriksaan hasil. Pesan yang menenangkan perlu diikuti langkah yang dapat dijalankan. Pendekatan ringkas kepada Fajar membantu menyesuaikan kebutuhan waktunya, tetapi isi checklist dan respons langsungnya tetap perlu diperiksa. Refleksi tertulis ini belum disertai giliran konfirmasi mahasiswa.</p>
+<p>Mahasiswa menyadari bahwa target tinggi harus diimbangi dengan proses pembelajaran yang terstruktur, evaluasi berkala, serta dokumentasi langkah yang jelas. Dukungan terhadap orang lain perlu didasarkan pada pemahaman kebutuhan praktis mereka, bukan sekadar kata-kata penyemangat umum.</p>
 </section>
 <section id="tindak-lanjut-dan-batas-bukti" class="level2">
 <h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
-<p>Tabel berikut memisahkan waktu yang disebut dalam dialog dan usulan pelaksanaan berikutnya. Penanggung jawab tambahan perlu disepakati, bukan dianggap sudah ditetapkan.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Langkah</th>
-<th>Waktu</th>
-<th>Penanggung jawab/dukungan</th>
-<th>Indikator</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Menetapkan satu hasil kerja dan prioritas</td>
-<td>Awal sesi belajar</td>
-<td>Mahasiswa</td>
-<td>Satu modul serta batas penyelesaiannya disebut.</td>
-</tr>
-<tr class="even">
-<td>Mencatat tujuan modul, cara menjalankan, dan satu hasil uji</td>
-<td>Setelah satu bagian program selesai</td>
-<td>Mahasiswa; alat Git/Markdown sesuai kebutuhan</td>
-<td>Catatan dapat dipakai untuk menjalankan ulang program.</td>
-</tr>
-<tr class="odd">
-<td>Memeriksa hasil dan kendala</td>
-<td>Akhir sesi belajar</td>
-<td>Mahasiswa</td>
-<td>Output, kesalahan, dan langkah berikutnya dicatat; tidak hanya niat.</td>
-</tr>
-</tbody>
-</table>
-<p>Batas bukti: hasil yang tersedia berupa respons dan rencana dalam simulasi teks. Pelaksanaan kegiatan, perubahan kemampuan, dan hasil jangka panjang belum dibuktikan.</p>
-</section>
-<section id="bobot-dan-nilai-akhir-uts" class="level2">
-<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Komponen</th>
-<th>Bobot</th>
-<th>Nilai komponen</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Makalah pra-UTS</td>
-<td>10%</td>
-<td>Nilai dosen belum tersedia</td>
-</tr>
-<tr class="even">
-<td>Sesi 1</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Sesi 2a</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="even">
-<td>Sesi 2b</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Sesi 3a</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="even">
-<td>Sesi 3b</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Total</td>
-<td>100%</td>
-<td>Belum dihitung</td>
-</tr>
-</tbody>
-</table>
-<p>Nilai sesi = jumlah enam skor / 24 × 100, hanya jika keenam skor sah tersedia.</p>
-<p><span class="math display">\[
-N_{\mathrm{UTS}}=0{,}10M+0{,}18(S_1+S_{2a}+S_{2b}+S_{3a}+S_{3b}).
-\]</span></p>
-<p>Seluruh komponen berskala 0–100. BT bukan nol; bobot tidak dinormalisasi ulang. Nilai akhir belum dihitung sampai semua komponen sah tersedia. Rata-rata kasus tidak dihitung lagi sebagai komponen tambahan.</p>
+<p>Rancangan latihan mencakup pembuatan notebook baseline dan evaluasi berkala selama tujuh hari. Konfirmasi hasil akhir dan pelaksanaan teknis diverifikasi melalui progres nyata di luar sesi.</p>
 
 
 </section>
