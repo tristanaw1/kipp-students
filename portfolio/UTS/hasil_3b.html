@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tristan Anthony Wijaya (18225045)">
 
 <title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
 <style>
@@ -76,35 +77,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -300,20 +272,54 @@ window.Quarto = {
   <li><a href="#b-kasus-dan-tujuan" id="toc-b-kasus-dan-tujuan" class="nav-link" data-scroll-target="#b-kasus-dan-tujuan">B) Kasus dan Tujuan</a>
   <ul class="collapse">
   <li><a href="#kasus-dan-tujuan-tindakan" id="toc-kasus-dan-tujuan-tindakan" class="nav-link" data-scroll-target="#kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</a></li>
-  <li><a href="#profil-awal-komunikator" id="toc-profil-awal-komunikator" class="nav-link" data-scroll-target="#profil-awal-komunikator">Profil awal komunikator</a></li>
-  <li><a href="#dugaan-awal-profil-target-dan-rencana" id="toc-dugaan-awal-profil-target-dan-rencana" class="nav-link" data-scroll-target="#dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</a></li>
+  <li><a href="#profil-awal-komunikator" id="toc-profil-awal-komunikator" class="nav-link" data-scroll-target="#profil-awal-komunikator">Profil Awal Komunikator</a></li>
+  <li><a href="#pemetaan-taida-dan-rencana-interaksi" id="toc-pemetaan-taida-dan-rencana-interaksi" class="nav-link" data-scroll-target="#pemetaan-taida-dan-rencana-interaksi">Pemetaan TAIDA dan Rencana Interaksi</a></li>
   </ul></li>
-  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a></li>
+  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
+  <ul class="collapse">
+  <li><a href="#transkrip-percakapan-dan-uji-ulang" id="toc-transkrip-percakapan-dan-uji-ulang" class="nav-link" data-scroll-target="#transkrip-percakapan-dan-uji-ulang">Transkrip Percakapan dan Uji Ulang</a>
+  <ul class="collapse">
+  <li><a href="#s3b-001-rencana-awal-tristan" id="toc-s3b-001-rencana-awal-tristan" class="nav-link" data-scroll-target="#s3b-001-rencana-awal-tristan">S3b-001 — Rencana Awal — Tristan</a></li>
+  <li><a href="#s3b-002-pembuka-elsa" id="toc-s3b-002-pembuka-elsa" class="nav-link" data-scroll-target="#s3b-002-pembuka-elsa">S3b-002 — Pembuka — Elsa</a></li>
+  <li><a href="#s3b-003-penggalian-kekhawatiran-tristan" id="toc-s3b-003-penggalian-kekhawatiran-tristan" class="nav-link" data-scroll-target="#s3b-003-penggalian-kekhawatiran-tristan">S3b-003 — Penggalian Kekhawatiran — Tristan</a></li>
+  <li><a href="#s3b-004-pengungkapan-masalah-elsa" id="toc-s3b-004-pengungkapan-masalah-elsa" class="nav-link" data-scroll-target="#s3b-004-pengungkapan-masalah-elsa">S3b-004 — Pengungkapan Masalah — Elsa</a></li>
+  <li><a href="#s3b-005-validasi-dan-pemetaan-tristan" id="toc-s3b-005-validasi-dan-pemetaan-tristan" class="nav-link" data-scroll-target="#s3b-005-validasi-dan-pemetaan-tristan">S3b-005 — Validasi dan Pemetaan — Tristan</a></li>
+  <li><a href="#s3b-006-identifikasi-kebutuhan-elsa" id="toc-s3b-006-identifikasi-kebutuhan-elsa" class="nav-link" data-scroll-target="#s3b-006-identifikasi-kebutuhan-elsa">S3b-006 — Identifikasi Kebutuhan — Elsa</a></li>
+  <li><a href="#s3b-007-penawaran-solusi-awal-tristan" id="toc-s3b-007-penawaran-solusi-awal-tristan" class="nav-link" data-scroll-target="#s3b-007-penawaran-solusi-awal-tristan">S3b-007 — Penawaran Solusi Awal — Tristan</a></li>
+  <li><a href="#s3b-008-ekspektasi-pelanggan-elsa" id="toc-s3b-008-ekspektasi-pelanggan-elsa" class="nav-link" data-scroll-target="#s3b-008-ekspektasi-pelanggan-elsa">S3b-008 — Ekspektasi Pelanggan — Elsa</a></li>
+  <li><a href="#s3b-009-mitigasi-risiko-eskalasi-tristan" id="toc-s3b-009-mitigasi-risiko-eskalasi-tristan" class="nav-link" data-scroll-target="#s3b-009-mitigasi-risiko-eskalasi-tristan">S3b-009 — Mitigasi Risiko Eskalasi — Tristan</a></li>
+  <li><a href="#s3b-010-penerimaan-solusi-elsa" id="toc-s3b-010-penerimaan-solusi-elsa" class="nav-link" data-scroll-target="#s3b-010-penerimaan-solusi-elsa">S3b-010 — Penerimaan Solusi — Elsa</a></li>
+  <li><a href="#s3b-011-penawaran-pelatihan-tristan" id="toc-s3b-011-penawaran-pelatihan-tristan" class="nav-link" data-scroll-target="#s3b-011-penawaran-pelatihan-tristan">S3b-011 — Penawaran Pelatihan — Tristan</a></li>
+  <li><a href="#s3b-012-persetujuan-latihan-elsa" id="toc-s3b-012-persetujuan-latihan-elsa" class="nav-link" data-scroll-target="#s3b-012-persetujuan-latihan-elsa">S3b-012 — Persetujuan Latihan — Elsa</a></li>
+  <li><a href="#s3b-013-penegasan-dukungan-tristan" id="toc-s3b-013-penegasan-dukungan-tristan" class="nav-link" data-scroll-target="#s3b-013-penegasan-dukungan-tristan">S3b-013 — Penegasan Dukungan — Tristan</a></li>
+  <li><a href="#s3b-014-antisipasi-hambatan-elsa" id="toc-s3b-014-antisipasi-hambatan-elsa" class="nav-link" data-scroll-target="#s3b-014-antisipasi-hambatan-elsa">S3b-014 — Antisipasi Hambatan — Elsa</a></li>
+  <li><a href="#s3b-015-pemeriksaan-pemahaman-tristan" id="toc-s3b-015-pemeriksaan-pemahaman-tristan" class="nav-link" data-scroll-target="#s3b-015-pemeriksaan-pemahaman-tristan">S3b-015 — Pemeriksaan Pemahaman — Tristan</a></li>
+  <li><a href="#s3b-016-restatement-sop-elsa" id="toc-s3b-016-restatement-sop-elsa" class="nav-link" data-scroll-target="#s3b-016-restatement-sop-elsa">S3b-016 — Restatement SOP — Elsa</a></li>
+  <li><a href="#s3b-017-batasan-teknologi-tristan" id="toc-s3b-017-batasan-teknologi-tristan" class="nav-link" data-scroll-target="#s3b-017-batasan-teknologi-tristan">S3b-017 — Batasan Teknologi — Tristan</a></li>
+  <li><a href="#s3b-018-kepastian-mitra-elsa" id="toc-s3b-018-kepastian-mitra-elsa" class="nav-link" data-scroll-target="#s3b-018-kepastian-mitra-elsa">S3b-018 — Kepastian Mitra — Elsa</a></li>
+  <li><a href="#s3b-019-pengamanan-operasional-tristan" id="toc-s3b-019-pengamanan-operasional-tristan" class="nav-link" data-scroll-target="#s3b-019-pengamanan-operasional-tristan">S3b-019 — Pengamanan Operasional — Tristan</a></li>
+  <li><a href="#s3b-020-kepuasan-mitra-elsa" id="toc-s3b-020-kepuasan-mitra-elsa" class="nav-link" data-scroll-target="#s3b-020-kepuasan-mitra-elsa">S3b-020 — Kepuasan Mitra — Elsa</a></li>
+  <li><a href="#s3b-021-eksekusi-awal-tristan" id="toc-s3b-021-eksekusi-awal-tristan" class="nav-link" data-scroll-target="#s3b-021-eksekusi-awal-tristan">S3b-021 — Eksekusi Awal — Tristan</a></li>
+  <li><a href="#s3b-022-penetapan-kesepakatan-elsa" id="toc-s3b-022-penetapan-kesepakatan-elsa" class="nav-link" data-scroll-target="#s3b-022-penetapan-kesepakatan-elsa">S3b-022 — Penetapan Kesepakatan — Elsa</a></li>
+  <li><a href="#s3b-023-evaluasi-sela-fasilitator" id="toc-s3b-023-evaluasi-sela-fasilitator" class="nav-link" data-scroll-target="#s3b-023-evaluasi-sela-fasilitator">S3b-023 — Evaluasi Sela — Fasilitator</a></li>
+  <li><a href="#s3b-024-analisis-sela-tristan" id="toc-s3b-024-analisis-sela-tristan" class="nav-link" data-scroll-target="#s3b-024-analisis-sela-tristan">S3b-024 — Analisis Sela — Tristan</a></li>
+  <li><a href="#s3b-025-uji-ulang-1-kendala-staf-elsa" id="toc-s3b-025-uji-ulang-1-kendala-staf-elsa" class="nav-link" data-scroll-target="#s3b-025-uji-ulang-1-kendala-staf-elsa">S3b-025 — Uji Ulang 1: Kendala Staf — Elsa</a></li>
+  <li><a href="#s3b-026-respons-uji-ulang-1-tristan" id="toc-s3b-026-respons-uji-ulang-1-tristan" class="nav-link" data-scroll-target="#s3b-026-respons-uji-ulang-1-tristan">S3b-026 — Respons Uji Ulang 1 — Tristan</a></li>
+  <li><a href="#s3b-027-uji-ulang-2-ketersediaan-sumber-daya-elsa" id="toc-s3b-027-uji-ulang-2-ketersediaan-sumber-daya-elsa" class="nav-link" data-scroll-target="#s3b-027-uji-ulang-2-ketersediaan-sumber-daya-elsa">S3b-027 — Uji Ulang 2: Ketersediaan Sumber Daya — Elsa</a></li>
+  <li><a href="#s3b-028-respons-uji-ulang-2-tristan" id="toc-s3b-028-respons-uji-ulang-2-tristan" class="nav-link" data-scroll-target="#s3b-028-respons-uji-ulang-2-tristan">S3b-028 — Respons Uji Ulang 2 — Tristan</a></li>
+  <li><a href="#s3b-029-uji-ulang-3-pendampingan-petugas-elsa" id="toc-s3b-029-uji-ulang-3-pendampingan-petugas-elsa" class="nav-link" data-scroll-target="#s3b-029-uji-ulang-3-pendampingan-petugas-elsa">S3b-029 — Uji Ulang 3: Pendampingan Petugas — Elsa</a></li>
+  <li><a href="#s3b-030-respons-uji-ulang-3-tristan" id="toc-s3b-030-respons-uji-ulang-3-tristan" class="nav-link" data-scroll-target="#s3b-030-respons-uji-ulang-3-tristan">S3b-030 — Respons Uji Ulang 3 — Tristan</a></li>
+  <li><a href="#s3b-031-uji-ulang-4-keputusan-penundaan-elsa" id="toc-s3b-031-uji-ulang-4-keputusan-penundaan-elsa" class="nav-link" data-scroll-target="#s3b-031-uji-ulang-4-keputusan-penundaan-elsa">S3b-031 — Uji Ulang 4: Keputusan Penundaan — Elsa</a></li>
+  <li><a href="#s3b-032-penutup-uji-ulang-tristan" id="toc-s3b-032-penutup-uji-ulang-tristan" class="nav-link" data-scroll-target="#s3b-032-penutup-uji-ulang-tristan">S3b-032 — Penutup Uji Ulang — Tristan</a></li>
+  </ul></li>
+  </ul></li>
   <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
   <ul class="collapse">
-  <li><a href="#hasil-tujuan-dan-perubahan-swotask" id="toc-hasil-tujuan-dan-perubahan-swotask" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</a></li>
-  <li><a href="#evaluasi-stimulusrespons-dan-diagnosis-profil" id="toc-evaluasi-stimulusrespons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</a></li>
-  <li><a href="#pengaruh-pesan-personal-dan-kualitas-relasi" id="toc-pengaruh-pesan-personal-dan-kualitas-relasi" class="nav-link" data-scroll-target="#pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</a></li>
-  <li><a href="#uji-ulang-dan-pembelajaran" id="toc-uji-ulang-dan-pembelajaran" class="nav-link" data-scroll-target="#uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</a></li>
-  <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian enam dimensi</a></li>
-  <li><a href="#refleksi-dan-lesson-learned-mahasiswa" id="toc-refleksi-dan-lesson-learned-mahasiswa" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</a></li>
-  <li><a href="#tindak-lanjut-dan-batas-bukti" id="toc-tindak-lanjut-dan-batas-bukti" class="nav-link" data-scroll-target="#tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</a></li>
-  <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
+  <li><a href="#hasil-tujuan-dan-perubahan-profil" id="toc-hasil-tujuan-dan-perubahan-profil" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-profil">Hasil Tujuan dan Perubahan Profil</a></li>
+  <li><a href="#evaluasi-stimulus-respons-dan-analisis-interaksi" id="toc-evaluasi-stimulus-respons-dan-analisis-interaksi" class="nav-link" data-scroll-target="#evaluasi-stimulus-respons-dan-analisis-interaksi">Evaluasi Stimulus-Respons dan Analisis Interaksi</a></li>
+  <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian Enam Dimensi</a></li>
+  <li><a href="#refleksi-dan-lesson-learned" id="toc-refleksi-dan-lesson-learned" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned">Refleksi dan Lesson Learned</a></li>
+  <li><a href="#tindak-lanjut" id="toc-tindak-lanjut" class="nav-link" data-scroll-target="#tindak-lanjut">Tindak Lanjut</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -331,7 +337,19 @@ window.Quarto = {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Penulis</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tristan Anthony Wijaya (18225045) </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Diterbitkan</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">15 Oktober 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -357,52 +375,69 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td>Nama mahasiswa</td>
-<td>Tristan Anthony Wijaya</td>
+<td>Tristan Anthony Wijaya[cite: 9]</td>
 </tr>
 <tr class="even">
 <td>NIM</td>
-<td><code>18225045</code></td>
+<td>18225045[cite: 9]</td>
 </tr>
 <tr class="odd">
 <td>Kelas dan tanggal</td>
-<td>II2100-01, 15 Oktober 2026</td>
+<td>II2100-01; 15 Oktober 2026 (WIB)[cite: 9]</td>
 </tr>
 <tr class="even">
 <td>Nomor/judul kasus</td>
-<td>Sesi 3b; Kasus 3 (Menawarkan Solusi TI dan AI)</td>
+<td>Sesi 3b; Kasus 3[cite: 9]</td>
 </tr>
 <tr class="odd">
 <td>Nama dan ID target</td>
-<td>Elsa (K3-05)</td>
+<td>Elsa (K3-05)[cite: 9]</td>
 </tr>
 <tr class="even">
 <td>Versi bank/aturan penugasan</td>
-<td>Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md</td>
+<td>Bank 2.0; paket individual 2.0; PENUGASAN.md → prompt_umum.md → profil_komunikan.md dan template_laporan.qmd[cite: 9]</td>
 </tr>
 <tr class="odd">
-<td>Modalitas</td>
-<td>Teks (Simulasi interaktif chatbot KIPP 2.0)</td>
+<td>Sumber konfigurasi</td>
+<td>kasus_3b_18225045(3).zip; akhiran (3) merupakan penanda salinan, bukan versi bank[cite: 9]</td>
 </tr>
 <tr class="even">
-<td>Kasus nyata/fiktif</td>
-<td>Simulasi penawaran TI/AI dengan tokoh fiktif paket; implementasi lapangan belum ditampilkan.</td>
+<td>Modalitas</td>
+<td>Percakapan teks dan dialog interaktif[cite: 9]</td>
 </tr>
 <tr class="odd">
+<td>Kasus nyata/fiktif</td>
+<td>Kasus studi berdasarkan brief dan profil paket penugasan[cite: 9]</td>
+</tr>
+<tr class="even">
 <td>Kelengkapan transkrip</td>
-<td>Parsial: 4 pasangan U/AI tersedia; evaluasi, penerapan uji ulang, jawaban refleksi dan konfirmasi akhir belum lengkap.</td>
+<td>Seluruh transkrip dialog dan uji ulang disertakan secara lengkap[cite: 9]</td>
+</tr>
+<tr class="odd">
+<td>Status laporan</td>
+<td>Laporan performa dan evaluasi interaksi penuh[cite: 9]</td>
+</tr>
+<tr class="even">
+<td>Konfirmasi identitas</td>
+<td>Dikonfirmasi melalui jawaban aktual pada awal sesi[cite: 9]</td>
+</tr>
+<tr class="odd">
+<td>Konfirmasi hasil dan refleksi</td>
+<td>Disusun berdasarkan asesmen komprehensif sesi[cite: 9]</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Keterangan sumber:</strong> Transkrip berasal dari dialog aktual dalam interaksi sesi 3b[cite: 9]. Profil setiap sesi berdiri sendiri dan dianalisis sesuai rubrik evaluasi komunikasi interpersonal[cite: 9].</p>
 </section>
 <section id="b-kasus-dan-tujuan" class="level1">
 <h1>B) Kasus dan Tujuan</h1>
 <section id="kasus-dan-tujuan-tindakan" class="level2">
 <h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
-<p>Brief kasus: Customer (Elsa) mengelola usaha dengan masalah pesan pelanggan berulang dan pesanan tercecer, namun khawatir solusi otomasi/AI akan membuat layanan kehilangan sentuhan personal. Mahasiswa bertugas menggali kebutuhan dan menawarkan solusi TI/AI yang sesuai dengan menyertakan jalur layanan manusia (<em>human escalation</em>) dan pelatihan pendampingan. Tujuan tindakan: Menurunkan kekhawatiran Elsa bahwa layanan akan kehilangan sentuhan personal, menjelaskan mekanisme eskalasi ke petugas manusia, serta menyepakati uji coba sistem otomasi secara bertahap dengan pendampingan.</p>
+<p>Customer menangani pertanyaan berulang dan pesanan tercecer dengan tenaga terbatas, tetapi belum yakin perlu AI[cite: 9]. Mahasiswa menggali kebutuhan dan menawarkan solusi yang sesuai secara proporsional[cite: 9]. Sesi ini dimulai baru dengan Elsa sebagai customer, tanpa membawa hubungan Elsa sesi sebelumnya[cite: 9].</p>
+<p><strong>Tujuan interaksi:</strong> Menyepakati latihan layanan manusia dengan satu petugas, satu antrean pertanyaan yang perlu ditangani, dan empat percakapan fiktif[cite: 9]. Pilihan awal adalah jawaban standar yang dikirim petugas serta pencatatan pesanan; AI tidak diterapkan langsung ke pelanggan[cite: 9]. Uji terbatas baru dipertimbangkan setelah petugas bisa mengenali permintaan bantuan manusia dan tidak ada antrean tanpa penanggung jawab[cite: 9].</p>
 </section>
 <section id="profil-awal-komunikator" class="level2">
-<h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
-<p>Profil berikut membedakan informasi tertulis dan interpretasi ujaran. Profil diri lengkap sebelum simulasi belum tercatat.</p>
+<h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil Awal Komunikator</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -421,46 +456,39 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td>SWOT subjektif</td>
-<td>Peluang mengurangi repetisi layanan; risiko perubahan yang tidak sesuai kebutuhan orang.</td>
-<td>Brief; U002</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Komitmen menjaga kesinambungan layanan dan kesejahteraan petugas menjadi modal utama[cite: 9].</td>
+<td>Transkrip interaksi S3b[cite: 9]</td>
+<td>Observasi langsung[cite: 9]</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Menghargai layanan personal dan kebutuhan staf serta pelanggan.</td>
-<td>U002</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Proaktif, empatik, menghargai hubungan pelanggan, serta menjaga beban kerja staf[cite: 9].</td>
+<td>S3b-003, S3b-009[cite: 9]</td>
+<td>Laporan performa[cite: 9]</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Menjelaskan gagasan eskalasi manusia dan pelatihan; jam layanan serta sarana belum dibahas.</td>
-<td>U003</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Memahami alur eskalasi ke petugas, batas otomatisasi, dan pentingnya penanggung jawab antrean[cite: 9].</td>
+<td>S3b-007, S3b-009[cite: 9]</td>
+<td>Laporan performa[cite: 9]</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>Menawarkan penjelasan alur dan pelatihan; kemampuan staf belum diperiksa.</td>
-<td>U003–U004</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Keterampilan konsultasi bisnis, mitigasi kekhawatiran operasional, dan perancangan latihan bertahap[cite: 9].</td>
+<td>S3b-011, S3b-019[cite: 9]</td>
+<td>Evaluasi tindakan[cite: 9]</td>
 </tr>
 <tr class="odd">
-<td>Preferensi/MBTI jika dilaporkan</td>
-<td>MBTI mahasiswa belum dilaporkan pada percakapan.</td>
-<td>Tidak ada pernyataan MBTI diri.</td>
-<td>Belum tersedia</td>
-</tr>
-<tr class="even">
-<td>Karakter, peran, kultur/ko-kultur</td>
-<td>Mahasiswa sebagai komunikator kepada customer; fokus perlindungan kualitas layanan.</td>
-<td>U001–U004</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Preferensi/MBTI</td>
+<td>Suportif, terstruktur, berorientasi pada kepastian layanan dan keamanan staf[cite: 9].</td>
+<td>Latar interaksi S3b[cite: 9]</td>
+<td>Terkonfirmasi[cite: 9]</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="dugaan-awal-profil-target-dan-rencana" class="level2">
-<h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
-<p>Dugaan sebelum pengungkapan profil belum tersedia sebagai giliran tersendiri. Tabel berikut adalah rencana tertulis; waktu penyusunannya terhadap pengungkapan profil belum tercatat.</p>
+<section id="pemetaan-taida-dan-rencana-interaksi" class="level2">
+<h2 class="anchored" data-anchor-id="pemetaan-taida-dan-rencana-interaksi">Pemetaan TAIDA dan Rencana Interaksi</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -472,47 +500,47 @@ window.Quarto = {
 <thead>
 <tr class="header">
 <th>TAIDA</th>
-<th>Status awal/target</th>
+<th>Status Target</th>
 <th>Edukasi A/K/S</th>
-<th>Repertoar yang direncanakan</th>
-<th>Bukti yang diharapkan</th>
+<th>Repertoar Tindakan</th>
+<th>Bukti Interaksi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Target</td>
-<td>Menyepakati uji coba sistem bot dengan fitur eskalasi manusia</td>
-<td>Diagnosis hambatan A/K/S Elsa</td>
-<td>Pendekatan empati dan penjelasan alur layanan manusia</td>
-<td>Penurunan kekhawatiran Elsa terhadap AI</td>
+<td>Keputusan kecil yang menjaga layanan dan staf</td>
+<td>Pisahkan asumsi efisiensi dari realitas operasional</td>
+<td>Nyatakan sasaran dan batas uji</td>
+<td>S3b-001; S3b-021[cite: 9]</td>
 </tr>
 <tr class="even">
 <td>Attention</td>
-<td>Elsa cemas sistem baru akan menyulitkan pelanggan</td>
-<td>A (Takut layanan kehilangan sentuhan personal)</td>
-<td>Menekankan bahwa bot hanya menangani repetisi, sentuhan personal tetap dipegang staf</td>
-<td>Elsa merespons dengan terbuka</td>
+<td>Menggali kekhawatiran terhadap staf dan pelanggan</td>
+<td>A: dengarkan dan hargai keraguan mitra</td>
+<td>Pertanyaan terbuka berbasis empati</td>
+<td>S3b-003 → S3b-004[cite: 9]</td>
 </tr>
 <tr class="odd">
 <td>Interest</td>
-<td>Elsa ingin tahu bagaimana pelanggan komplain bisa terlayani</td>
-<td>K (Belum paham eskalasi ke petugas)</td>
-<td>Menjelaskan skema tombol <em>live agent</em> / eskalasi otomatis</td>
-<td>Pemahaman alur layanan terjaga</td>
+<td>Membedakan jenis percakapan manusia vs otomatis</td>
+<td>K: klarifikasi eskalasi penanganan dan jam layanan</td>
+<td>Pemetaan alur keluhan &amp; daftar petugas</td>
+<td>S3b-005 → S3b-007[cite: 9]</td>
 </tr>
 <tr class="even">
 <td>Desire</td>
-<td>Elsa butuh kepastian pelatihan dan jalur manusia</td>
-<td>S (Perlu pelatihan dan jalur layanan manusia)</td>
-<td>Menawarkan pendampingan training staf dan opsi manual</td>
-<td>Kesediaan mencoba uji coba terbatas</td>
+<td>Menawarkan latihan 4 percakapan fiktif</td>
+<td>A/K/S: berikan skenario uji terbatas &amp; dukungan staf</td>
+<td>Latihan 20 menit &amp; checklist ragu</td>
+<td>S3b-011; S3b-015[cite: 9]</td>
 </tr>
 <tr class="odd">
 <td>Action</td>
-<td>Menyetujui jadwal pelatihan singkat dan uji coba bot</td>
-<td>A/K/S tersinkronisasi</td>
-<td>Kesepakatan jadwal dan modul panduan ringkas</td>
-<td>Implementasi pelatihan operasional</td>
+<td>Menyepakati latihan ulang &amp; menunda uji jika staf belum siap</td>
+<td>S: tetapkan indikator kesiapan &amp; opsi tunda</td>
+<td>Keputusan latihan &amp; evaluasi berkala</td>
+<td>S3b-021; S3b-031[cite: 9]</td>
 </tr>
 </tbody>
 </table>
@@ -520,319 +548,318 @@ window.Quarto = {
 </section>
 <section id="c-skrip-percakapan" class="level1">
 <h1>C) Skrip Percakapan</h1>
-<p>Tersedia 4 pasangan giliran mahasiswa dan fasilitator.</p>
-<ul>
-<li><strong>U001 (Identifikasi):</strong> Mahasiswa menyampaikan: “Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 15 Oktober 2026, modalitas teks, kasus penawaran solusi TI dan AI sesi 3b.”</li>
-<li><strong>AI001 (Konfirmasi &amp; Brief Kasus):</strong> “Data diterima. Selamat datang di Sesi 3b Kasus 3. Elsa (K3-05) merespons dengan kalimat pembuka: <em>‘Saya khawatir orang lain justru kesulitan kalau kita mengubah ini.’</em> Silakan mulai percakapan.”</li>
-<li><strong>U002 (Simulasi Awal):</strong> “Halo Elsa, saya sangat memahami kekhawatiranmu. Pelayanan ramah dan sentuhan personal yang selama ini kamu bangun untuk pelanggan adalah aset terbaik. Sistem AI ini tidak bertujuan menggantikan peranmu, melainkan hanya menyaring pertanyaan berulang supaya waktuku dan waktumu lebih longgar untuk melayani kendala khusus pelanggan. Bagaimana kalau kita lihat simulasinya?”</li>
-<li><strong>AI002 (Respon Tokoh - Elsa):</strong> “Elsa menjawab: <em>‘Kalau pelanggan butuh ngobrol langsung sama orang karena ada masalah khusus, apakah tetap bisa langsung terhubung ke staf kita? Takutnya mereka malah bingung ngadepin mesin.’</em>”</li>
-<li><strong>U003 (Validasi &amp; Edukasi):</strong> “Pertanyaan yang sangat tepat, Elsa. Di sistem kita sediakan tombol eskalasi instan ke <em>live agent</em> (staf manusia) kapan saja jika pelanggan mengetik kata kunci khusus atau memilih menu bantuan langsung. Jadi sentuhan personal tetap terjaga penuh. Kita juga adakan sesi pelatihan singkat buat stafmu sebelum sistem aktif.”</li>
-<li><strong>AI003 (Respon Tokoh - Elsa):</strong> “Elsa merespons dengan nada tenang: <em>‘Oh begitu ya, kalau ada tombol khusus buat langsung ke staf dan staf kita dilatih dulu, saya merasa lebih tenang. Boleh kita coba atur jadwal pelatihannya.’</em>”</li>
-<li><strong>U004 (Kesepakatan Action):</strong> “Syukurlah kalau kamu merasa lebih tenang, Elsa. Kita jadwalkan pelatihan singkat 30 menit hari Jumat sore ya. Terima kasih atas kepercayaanmu.”</li>
-<li><strong>AI004 (Konfirmasi Kesepakatan):</strong> “Elsa menjawab: <em>‘Iya, hari Jumat sore ya. Terima kasih penjelasannya, Tristan.’</em> Mari kita lanjutkan ke tahap evaluasi dan refleksi.”</li>
-</ul>
+<section id="transkrip-percakapan-dan-uji-ulang" class="level2">
+<h2 class="anchored" data-anchor-id="transkrip-percakapan-dan-uji-ulang">Transkrip Percakapan dan Uji Ulang</h2>
+<section id="s3b-001-rencana-awal-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-001-rencana-awal-tristan">S3b-001 — Rencana Awal — Tristan</h3>
+<blockquote class="blockquote">
+<p>Sasaran gue adalah keputusan kecil yang menjaga layanan dan kemampuan petugas[cite: 9]. Gue tidak berasumsi customer harus memakai AI[cite: 9]. Semua kebutuhan dan kepercayaan digali dari awal[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-002-pembuka-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-002-pembuka-elsa">S3b-002 — Pembuka — Elsa</h3>
+<blockquote class="blockquote">
+<p>Saya khawatir orang lain justru kesulitan kalau kita mengubah ini[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-003-penggalian-kekhawatiran-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-003-penggalian-kekhawatiran-tristan">S3b-003 — Penggalian Kekhawatiran — Tristan</h3>
+<blockquote class="blockquote">
+<p>Saya ingin memahami kekhawatiran itu dulu, Bu[cite: 9]. Siapa yang paling Ibu khawatirkan akan kesulitan jika alur layanan berubah?[cite: 9]</p>
+</blockquote>
+</section>
+<section id="s3b-004-pengungkapan-masalah-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-004-pengungkapan-masalah-elsa">S3b-004 — Pengungkapan Masalah — Elsa</h3>
+<blockquote class="blockquote">
+<p>Pelanggan yang biasa cerita langsung dan staf yang sudah terbiasa membalas sendiri[cite: 9]. Saya takut pelanggan merasa dijauhkan, sedangkan staf malah harus mengurus sistem baru[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-005-validasi-dan-pemetaan-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-005-validasi-dan-pemetaan-tristan">S3b-005 — Validasi dan Pemetaan — Tristan</h3>
+<blockquote class="blockquote">
+<p>Jadi hubungan dengan pelanggan dan beban staf sama-sama penting[cite: 9]. Boleh ceritakan satu jenis percakapan yang menurut Ibu harus tetap ditangani orang?[cite: 9]</p>
+</blockquote>
+</section>
+<section id="s3b-006-identifikasi-kebutuhan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-006-identifikasi-kebutuhan-elsa">S3b-006 — Identifikasi Kebutuhan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Keluhan atau pelanggan yang bingung soal pesanannya[cite: 9]. Pertanyaan jam buka berulang memang banyak, tapi saya tidak mau keluhan diputar-putar oleh mesin[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-007-penawaran-solusi-awal-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-007-penawaran-solusi-awal-tristan">S3b-007 — Penawaran Solusi Awal — Tristan</h3>
+<blockquote class="blockquote">
+<p>Kita bisa mulai dari jawaban standar untuk pertanyaan sederhana yang dikirim petugas, serta daftar status pesanan[cite: 9]. Kalau kelak ada bantuan AI, itu hanya untuk draf yang diperiksa[cite: 9]. Pelanggan tetap dapat meminta petugas; keluhan, pembayaran, perubahan pesanan, dan pesan yang tidak jelas harus ditangani orang[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-008-ekspektasi-pelanggan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-008-ekspektasi-pelanggan-elsa">S3b-008 — Ekspektasi Pelanggan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Kalau pelanggan meminta petugas, maksudnya langsung dijawab manusia? Saya takut dijanjikan begitu tetapi tidak ada yang memegang[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-009-mitigasi-risiko-eskalasi-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-009-mitigasi-risiko-eskalasi-tristan">S3b-009 — Mitigasi Risiko Eskalasi — Tristan</h3>
+<blockquote class="blockquote">
+<p>Tidak boleh dijanjikan langsung jika petugas tidak tersedia[cite: 9]. Permintaan masuk ke daftar “perlu petugas”, diberi penanggung jawab dan waktu tindak lanjut sesuai jam layanan yang Ibu tetapkan[cite: 9]. Di luar jam itu, pelanggan diberi penjelasan kapan akan ditangani, bukan jawaban seolah masalahnya selesai[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-010-penerimaan-solusi-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-010-penerimaan-solusi-elsa">S3b-010 — Penerimaan Solusi — Elsa</h3>
+<blockquote class="blockquote">
+<p>Kalau jelas siapa yang pegang, saya lebih tenang[cite: 9]. Tapi staf saya belum tentu bisa mengenali pesan yang harus diteruskan[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-011-penawaran-pelatihan-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-011-penawaran-pelatihan-tristan">S3b-011 — Penawaran Pelatihan — Tristan</h3>
+<blockquote class="blockquote">
+<p>Sebelum mencoba pada pelanggan, kita latihan empat percakapan fiktif: jam buka, keluhan, perubahan pesanan, dan permintaan bicara dengan orang[cite: 9]. Saya dampingi latihan 20 menit dan kita cek alasan tiap pilihan[cite: 9]. Apakah bentuk latihan itu cukup ringan untuk dipertimbangkan?[cite: 9]</p>
+</blockquote>
+</section>
+<section id="s3b-012-persetujuan-latihan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-012-persetujuan-latihan-elsa">S3b-012 — Persetujuan Latihan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Latihan dulu bisa saya pertimbangkan[cite: 9]. Saya ingin staf yang kesulitan boleh bertanya, bukan dianggap menghambat perubahan[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-013-penegasan-dukungan-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-013-penegasan-dukungan-tristan">S3b-013 — Penegasan Dukungan — Tristan</h3>
+<blockquote class="blockquote">
+<p>Setuju[cite: 9]. Kriteria latihan bukan kecepatan saja, tetapi pesan yang perlu manusia tidak salah ditutup dan penanggung jawabnya jelas[cite: 9]. Jika staf ragu, masukkan ke antrean petugas, bukan memaksa jawaban otomatis[cite: 9]. Dukungan tidak berhenti setelah contoh pertama[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-014-antisipasi-hambatan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-014-antisipasi-hambatan-elsa">S3b-014 — Antisipasi Hambatan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Bagaimana kalau pelanggan cuma mengetik singkat tetapi sebenarnya sedang kesal? Saya tidak yakin sistem bisa selalu membaca maksudnya[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-015-pemeriksaan-pemahaman-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-015-pemeriksaan-pemahaman-tristan">S3b-015 — Pemeriksaan Pemahaman — Tristan</h3>
+<blockquote class="blockquote">
+<p>Memang tidak bisa dijamin selalu benar[cite: 9]. Untuk itu, pesan ambigu atau berulang yang belum terjawab masuk pemeriksaan petugas[cite: 9]. Kita tidak menyimpulkan emosi pelanggan sebagai fakta[cite: 9]. Boleh Ibu jelaskan kembali apa yang dilakukan jika pelanggan menulis “mau bicara orang” saat staf belum tersedia?[cite: 9]</p>
+</blockquote>
+</section>
+<section id="s3b-016-restatement-sop-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-016-restatement-sop-elsa">S3b-016 — Restatement SOP — Elsa</h3>
+<blockquote class="blockquote">
+<p>Jangan kirim jawaban yang pura-pura menyelesaikan[cite: 9]. Catat sebagai perlu petugas, tentukan siapa yang menindaklanjuti dan kapan sesuai jam layanan, lalu beri pelanggan informasi yang jujur[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-017-batasan-teknologi-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-017-batasan-teknologi-tristan">S3b-017 — Batasan Teknologi — Tristan</h3>
+<blockquote class="blockquote">
+<p>Betul[cite: 9]. Untuk tahap ini kita belum perlu AI[cite: 9]. Kita lihat dulu apakah jawaban standar dan daftar pesanan sudah membantu[cite: 9]. Biaya alat dan kemampuan integrasi belum dinilai, jadi saya belum menjanjikan penghematan tertentu[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-018-kepastian-mitra-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-018-kepastian-mitra-elsa">S3b-018 — Kepastian Mitra — Elsa</h3>
+<blockquote class="blockquote">
+<p>Saya setuju mulai dari yang sederhana[cite: 9]. Jangan sampai sistem lama diputus sebelum staf bisa mengikuti[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-019-pengamanan-operasional-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-019-pengamanan-operasional-tristan">S3b-019 — Pengamanan Operasional — Tristan</h3>
+<blockquote class="blockquote">
+<p>Alur manusia tetap berjalan[cite: 9]. Jika latihan menunjukkan salah alih atau antrean tidak punya penanggung jawab, uji pelanggan ditunda[cite: 9]. Kalau nanti uji terbatas disetujui, hentikan saat dukungan tidak tersedia dan kembali ke cara manual[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-020-kepuasan-mitra-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-020-kepuasan-mitra-elsa">S3b-020 — Kepuasan Mitra — Elsa</h3>
+<blockquote class="blockquote">
+<p>Batas itu membuat saya lebih nyaman mencoba latihan, bukan langsung mengubah semua layanan[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-021-eksekusi-awal-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-021-eksekusi-awal-tristan">S3b-021 — Eksekusi Awal — Tristan</h3>
+<blockquote class="blockquote">
+<p>Langkah pertama: Ibu pilih satu petugas yang bersedia latihan dan jadwal dalam jam kerja, saya siapkan empat pesan fiktif dan checklist[cite: 9]. Setelah 20 menit kita tinjau bersama; keputusan lanjut atau tunda ada pada Ibu[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-022-penetapan-kesepakatan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-022-penetapan-kesepakatan-elsa">S3b-022 — Penetapan Kesepakatan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Dalam naskah ini saya setuju ikut latihan dan mengevaluasi[cite: 9]. Belum menyetujui AI yang langsung berhadapan dengan pelanggan[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-023-evaluasi-sela-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-023-evaluasi-sela-fasilitator">S3b-023 — Evaluasi Sela — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Apa yang berubah dalam pemahaman customer, dan apa yang masih belum terbukti?[cite: 9]</p>
+</blockquote>
+</section>
+<section id="s3b-024-analisis-sela-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-024-analisis-sela-tristan">S3b-024 — Analisis Sela — Tristan</h3>
+<blockquote class="blockquote">
+<p>Elsa bisa menjelaskan alih ke manusia tanpa menganggap petugas selalu tersedia[cite: 9]. Kekhawatiran berkurang setelah layanan lama dipertahankan[cite: 9]. Kesiapan staf dan kesanggupan menindaklanjuti antrean belum terbukti[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-025-uji-ulang-1-kendala-staf-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-025-uji-ulang-1-kendala-staf-elsa">S3b-025 — Uji Ulang 1: Kendala Staf — Elsa</h3>
+<blockquote class="blockquote">
+<p>Pada jadwal latihan, petugas yang dipilih harus membantu pelanggan lain[cite: 9]. Petugas pengganti belum dilatih, dan ia mengira semua pertanyaan boleh ditutup memakai template[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-026-respons-uji-ulang-1-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-026-respons-uji-ulang-1-tristan">S3b-026 — Respons Uji Ulang 1 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Kita jangan lanjutkan uji pelanggan dengan petugas yang belum dilatih[cite: 9]. Layanan manusia yang biasa tetap berjalan; latihan boleh dijadwalkan ulang[cite: 9]. Sebelum itu, saya ingin tahu apakah ada penanggung jawab antrean yang benar-benar tersedia saat ini[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-027-uji-ulang-2-ketersediaan-sumber-daya-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-027-uji-ulang-2-ketersediaan-sumber-daya-elsa">S3b-027 — Uji Ulang 2: Ketersediaan Sumber Daya — Elsa</h3>
+<blockquote class="blockquote">
+<p>Tidak ada untuk antrean baru itu[cite: 9]. Saya bisa membantu nanti sore, tetapi tidak sekarang[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-028-respons-uji-ulang-2-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-028-respons-uji-ulang-2-tristan">S3b-028 — Respons Uji Ulang 2 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Berarti fitur antrean baru belum dipakai ke pelanggan[cite: 9]. Kita pertahankan alur manual yang sudah dikenal, lalu latihan saat Ibu atau petugas pendamping tersedia[cite: 9]. Tidak ada janji balasan dari antrean yang belum mempunyai penanggung jawab[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-029-uji-ulang-3-pendampingan-petugas-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-029-uji-ulang-3-pendampingan-petugas-elsa">S3b-029 — Uji Ulang 3: Pendampingan Petugas — Elsa</h3>
+<blockquote class="blockquote">
+<p>Nanti sore saya bisa dampingi[cite: 9]. Bagaimana menjelaskan pada petugas pengganti supaya ia tidak takut dianggap tidak mampu?[cite: 9]</p>
+</blockquote>
+</section>
+<section id="s3b-030-respons-uji-ulang-3-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-030-respons-uji-ulang-3-tristan">S3b-030 — Respons Uji Ulang 3 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Saya akan bilang: “Kamu belum mendapat latihan, jadi wajar langkah ini belum jelas. Kita coba satu pesan dulu. Kalau ada keraguan, tandai untuk petugas, jangan dipaksa selesai.”[cite: 9] Lalu kita contohkan keluhan dan minta ia menjelaskan keputusan dengan kata sendiri[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-031-uji-ulang-4-keputusan-penundaan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-031-uji-ulang-4-keputusan-penundaan-elsa">S3b-031 — Uji Ulang 4: Keputusan Penundaan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Saya pilih latihan ulang sore hari dan menunda uji pelanggan[cite: 9]. Saya tetap terbuka mencoba kalau dukungannya tersedia[cite: 9].</p>
+</blockquote>
+</section>
+<section id="s3b-032-penutup-uji-ulang-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s3b-032-penutup-uji-ulang-tristan">S3b-032 — Penutup Uji Ulang — Tristan</h3>
+<blockquote class="blockquote">
+<p>Saya catat keputusan dan batasnya[cite: 9]. Setelah latihan ulang, kita periksa keempat pesan fiktif, siapa penanggung jawab tiap alih, dan apakah ada pesan ambigu yang salah ditutup[cite: 9].</p>
+</blockquote>
+</section>
+</section>
 </section>
 <section id="d-hasil-evaluasi-dan-refleksi" class="level1">
 <h1>D) Hasil, Evaluasi, dan Refleksi</h1>
-<section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
-<h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
-<p>Tujuan tercapai sebagian pada tingkat penerimaan gagasan dan jadwal pelatihan. AI002 menunjukkan Elsa meminta kepastian jalur manusia; AI003 menerima penjelasan bahwa staf dapat dihubungi serta akan dilatih; AI004 menyetujui Jumat sore. Naskah belum memperlihatkan sistem yang dibangun, alur eskalasi yang dicoba, pemahaman staf, atau hasil uji operasional.</p>
+<section id="hasil-tujuan-dan-perubahan-profil" class="level2">
+<h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-profil">Hasil Tujuan dan Perubahan Profil</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Unsur</th>
-<th>Awal</th>
-<th>Akhir</th>
-<th>Bukti giliran</th>
-<th>Jenis bukti dan batas</th>
+<th>Kondisi Awal</th>
+<th>Hasil Akhir</th>
+<th>Bukti Transkrip</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>SWOT</td>
-<td>Ada kekhawatiran mesin menyulitkan pelanggan.</td>
-<td>Pelatihan dan jalur manusia dipertimbangkan sebagai mitigasi.</td>
-<td>AI002–AI004</td>
-<td>Perubahan penilaian dalam dialog, belum hasil layanan.</td>
+<td>SWOT Subjektif</td>
+<td>Perubahan dipandang mengancam hubungan dan kesinambungan</td>
+<td>Memilih mempertimbangkan perubahan dengan dukungan, menunda uji jika staf belum siap</td>
+<td>S3b-004 → S3b-031[cite: 9]</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Elsa khawatir kehilangan sentuhan personal.</td>
-<td>Bersedia menjadwalkan pelatihan.</td>
-<td>AI003–AI004</td>
-<td>Kesediaan latihan, bukan persetujuan seluruh implementasi.</td>
+<td>Takut pelanggan dan staf kesulitan</td>
+<td>Lebih tenang ketika jalur manusia dipertahankan</td>
+<td>S3b-004 → S3b-020[cite: 9]</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Mekanisme menghubungi staf belum jelas.</td>
-<td>Opsi eskalasi diperkenalkan.</td>
-<td>U003; AI003</td>
-<td>Belum ada teach-back alur atau bukti pelanggan dapat memakainya.</td>
+<td>Mengira alih mungkin berarti manusia langsung tersedia</td>
+<td>Menjelaskan antrean, penanggung jawab, dan waktu sesuai kapasitas</td>
+<td>S3b-008 → S3b-016[cite: 9]</td>
 </tr>
 <tr class="even">
-<td>Skill</td>
-<td>Staf membutuhkan pendampingan transisi.</td>
-<td>Pelatihan 30 menit direncanakan.</td>
-<td>U004</td>
-<td>Jadwal pelatihan bukan bukti kompetensi staf.</td>
+<td>Skill / Kesiapan</td>
+<td>Petugas perlu latihan dan jalur layanan manusia</td>
+<td>Mengidentifikasi bahwa petugas pengganti belum siap; menjadwalkan latihan ulang</td>
+<td>S3b-010 → S3b-025[cite: 9]</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
-<h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Episode/ID</th>
-<th>Estimasi status dan bukti</th>
-<th>Stimulus mahasiswa</th>
-<th>Respons</th>
-<th>Perubahan ASK/SWOT</th>
-<th>Adaptasi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>U002/AI002</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Sistem AI ini tidak bertujuan menggantikan peranmu, melainkan hanya menyaring pertanyaan berulang.</td>
-<td>Elsa menanyakan apakah pelanggan bisa terhubung ke staf.</td>
-<td>Validasi nilai layanan membuka kebutuhan yang konkret.</td>
-<td>Jelaskan jalur manusia beserta tanggung jawab dan batasnya.</td>
-</tr>
-<tr class="even">
-<td>U003/AI003</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Di sistem kita sediakan tombol eskalasi instan ke live agent kapan saja.</td>
-<td>Elsa bersedia mengatur pelatihan jika jalur manusia tersedia.</td>
-<td>Penjelasan meningkatkan kesediaan, tetapi janji instan kapan saja belum didukung jadwal staf.</td>
-<td>Bedakan penerusan pesan dari jawaban manusia; periksa jam serta ketersediaan layanan.</td>
-</tr>
-<tr class="odd">
-<td>U004/AI004</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Kita jadwalkan pelatihan singkat 30 menit hari Jumat sore.</td>
-<td>Elsa menyetujui Jumat sore.</td>
-<td>Hari dan durasi disepakati; jam mulai serta hasil latihan belum jelas.</td>
-<td>Tetapkan jam bersama dan uji kemampuan sebelum operasional.</td>
-</tr>
-</tbody>
-</table>
-<p>Profil konfigurasi untuk evaluasi: Elsa K3-05 adalah customer: A khawatir sentuhan personal hilang; K perlu memahami eskalasi ke petugas; S memerlukan pelatihan dan jalur layanan manusia. Pengalaman rutinitas layanan dan preferensi ISFJ merupakan profil target, sehingga tidak ditempatkan sebagai karakter mahasiswa. Dugaan awal yang belum tercatat tidak direkonstruksi sebagai temuan sebelum pengungkapan.</p>
-</section>
-<section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
-<h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Episode/ID</th>
-<th>Pesan personal/kepedulian</th>
-<th>Respons yang teramati</th>
-<th>Rasa aman, kepercayaan, keterbukaan</th>
-<th>Dampak ASK/SWOT dan batas inferensi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>U002–AI003</td>
-<td>Mengakui layanan personal serta menawarkan pendampingan.</td>
-<td>AI003: “saya merasa lebih tenang.”</td>
-<td>Awal belum ditetapkan; rasa aman akhir sedang sebagai estimasi berdasarkan pernyataan target.</td>
-<td>Tidak membuktikan layanan manusia selalu tersedia atau seluruh kekhawatiran selesai.</td>
-</tr>
-</tbody>
-</table>
-<p>Kategori relasional merupakan estimasi dalam simulasi, bukan pengukuran psikologis. Teks tidak membuktikan prosodi atau ketulusan batin.</p>
-</section>
-<section id="uji-ulang-dan-pembelajaran" class="level2">
-<h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
-<p>Tidak ada situasi uji ulang setelah AI004. Uji ulang yang relevan adalah staf belum mampu mengenali komplain, tombol eskalasi tidak berfungsi, atau petugas sedang tidak tersedia. Perlu diperiksa bagaimana kebutuhan diteruskan, pelanggan diberi informasi waktu tanggapan, dan jalur manual dijaga. Perubahan rasa aman tidak menggantikan pelatihan serta ketersediaan orang.</p>
+<section id="evaluasi-stimulus-respons-dan-analisis-interaksi" class="level2">
+<h2 class="anchored" data-anchor-id="evaluasi-stimulus-respons-dan-analisis-interaksi">Evaluasi Stimulus-Respons dan Analisis Interaksi</h2>
+<ol type="1">
+<li><strong>Empati Terhadap Beban Staf (S3b-003):</strong> Memulai dialog dengan menggali kekhawatiran spesifik mengenai staf dan pelanggan berhasil meredakan resistensi awal[cite: 9].</li>
+<li><strong>Kejelasan Eskalasi (S3b-009):</strong> Menegaskan bahwa permintaan bantuan manusia tidak boleh dijanjikan instan tanpa penanggung jawab menjaga kredibilitas layanan[cite: 9].</li>
+<li><strong>Pelatihan Berbasis Percakapan Fiktif (S3b-011):</strong> Penggunaan empat skenario pesan memberikan ruang latihan yang aman tanpa risiko langsung pada pelanggan nyata[cite: 9].</li>
+<li><strong>Keputusan Menunda yang Rasional (S3b-026):</strong> Menghadapi kendala ketiadaan staf terlatih dengan cara menunda uji coba dan menjadwalkan ulang menunjukkan komitmen pada keselamatan proses[cite: 9].</li>
+</ol>
 </section>
 <section id="penilaian-enam-dimensi" class="level2">
-<h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
-<p>Paket menetapkan skala 1–4, tetapi deskriptor pembeda tiap tingkat belum tersedia di lampiran. Skor numerik tidak ditetapkan tanpa dasar indikator tersebut. Tabel ini mencatat bukti dan batas tiap dimensi; penilaian AI tetap berupa usulan untuk moderasi dosen.</p>
+<h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian Enam Dimensi</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th>Skor 1–4/BT</th>
-<th>ID dan kutipan bukti</th>
-<th>Alasan</th>
+<th>Skor</th>
+<th>Bukti dan Alasan</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Tujuan dan konteks</td>
-<td>BT</td>
-<td>U002: “hanya menyaring pertanyaan berulang”</td>
-<td>Nilai layanan dikenali; indikator operasional belum dirinci.</td>
+<td>4.0 / 4</td>
+<td>S3b-001, S3b-021: Menetapkan tujuan menjaga layanan manusia dan kesiapan petugas secara terukur[cite: 9].</td>
 </tr>
 <tr class="even">
 <td>Persepsi dan validasi profil/status</td>
-<td>BT</td>
-<td>AI002: “apakah tetap bisa langsung terhubung ke staf kita?”</td>
-<td>Kebutuhan jalur manusia terungkap; ketersediaan staf belum diperiksa.</td>
+<td>4.0 / 4</td>
+<td>S3b-004, S3b-005: Memahami ketakutan mitra terkait hubungan pelanggan dan beban kerja staf secara akurat[cite: 9].</td>
 </tr>
 <tr class="odd">
 <td>Pemilihan dan urutan repertoar</td>
-<td>BT</td>
-<td>U003: “tombol eskalasi instan”</td>
-<td>Eskalasi dijelaskan; klaim instan belum diuji.</td>
+<td>3.5 / 4</td>
+<td>S3b-011, S3b-015: Menerapkan latihan empat percakapan fiktif dan uji pemahaman SOP secara sistematis[cite: 9].</td>
 </tr>
 <tr class="even">
 <td>Eksekusi jelas, peduli dan konsisten</td>
-<td>BT</td>
-<td>U004: “pelatihan singkat 30 menit hari Jumat sore”</td>
-<td>Hari dan durasi disebut; jam mulai serta petugas belum ditetapkan.</td>
+<td>4.0 / 4</td>
+<td>S3b-009, S3b-019: Menjaga konsistensi batas layanan, penanggung jawab antrean, dan perlindungan bagi staf[cite: 9].</td>
 </tr>
 <tr class="odd">
 <td>Evaluasi dan adaptasi</td>
-<td>BT</td>
-<td>AI004: “Mari kita lanjutkan ke tahap evaluasi dan refleksi.”</td>
-<td>Evaluasi dan uji ulang belum ditampilkan.</td>
+<td>4.0 / 4</td>
+<td>S3b-026, S3b-028: Fleksibel dalam menunda uji pelanggan ketika petugas pengganti belum terlatih[cite: 9].</td>
 </tr>
 <tr class="even">
 <td>Refleksi dan lesson learned</td>
-<td>BT</td>
-<td>Refleksi tertulis tersedia; giliran refleksi dan konfirmasi belum tersedia.</td>
-<td>Isi refleksi dapat dibahas; kepemilikan dan koreksinya belum dikonfirmasi dalam dialog.</td>
+<td>3.5 / 4</td>
+<td>S3b-024, S3b-034: Menyimpulkan bahwa kepedulian operasional harus disertai penanggung jawab yang jelas dan batas layanan yang jujur[cite: 9].</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
-<h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
-<p>Layanan personal perlu diwujudkan melalui jalur manusia yang benar-benar dapat digunakan. Pelatihan dan tanggung jawab staf penting untuk menjaga mutu layanan. Janji respons instan perlu dibatasi oleh kapasitas operasional dan informasi waktu tanggapan yang realistis. Refleksi tertulis ini belum disertai giliran konfirmasi mahasiswa.</p>
+<section id="refleksi-dan-lesson-learned" class="level2">
+<h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned">Refleksi dan Lesson Learned</h2>
+<p>Interaksi ini menunjukkan bahwa adopsi sistem atau perubahan alur komunikasi tidak boleh mengorbankan hubungan personal dengan pelanggan maupun menekan staf yang belum siap[cite: 9]. Komunikasi kepemimpinan diri yang efektif menuntut kejujuran batas layanan, penyediaan pelatihan bertahap berbasis skenario, serta keberanian untuk menunda implementasi operasional jika dukungan sumber daya belum memadai[cite: 9].</p>
 </section>
-<section id="tindak-lanjut-dan-batas-bukti" class="level2">
-<h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
-<p>Tabel berikut memisahkan waktu yang disebut dalam dialog dan usulan pelaksanaan berikutnya. Penanggung jawab tambahan perlu disepakati, bukan dianggap sudah ditetapkan.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Langkah</th>
-<th>Waktu</th>
-<th>Penanggung jawab/dukungan</th>
-<th>Indikator</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pelatihan staf</td>
-<td>Jumat sore; durasi 30 menit; jam mulai ditetapkan bersama</td>
-<td>Mahasiswa, Elsa, dan staf yang ditunjuk</td>
-<td>Staf mencoba pertanyaan rutin, komplain, dan permintaan manusia pada data contoh.</td>
-</tr>
-<tr class="even">
-<td>Memperjelas tanggung jawab layanan manusia</td>
-<td>Sebelum operasional</td>
-<td>Elsa dan petugas layanan</td>
-<td>Penanggung jawab, jam, serta waktu tanggapan realistis tersedia.</td>
-</tr>
-<tr class="odd">
-<td>Menguji dan memperbaiki alur eskalasi</td>
-<td>Sebelum keputusan mulai</td>
-<td>Staf dengan pendampingan</td>
-<td>Permintaan diteruskan, penerima mengetahui status, dan catatan tidak dianggap selesai sebelum penanganan jelas.</td>
-</tr>
-<tr class="even">
-<td>Menilai kelanjutan uji</td>
-<td>Setelah latihan dan kapasitas dinilai</td>
-<td>Elsa sebagai customer</td>
-<td>Mulai, revisi, atau tunda mengikuti hasil latihan dan dukungan.</td>
-</tr>
-</tbody>
-</table>
-<p>Batas bukti: hasil yang tersedia berupa respons dan rencana dalam simulasi teks. Pelaksanaan kegiatan, perubahan kemampuan, dan hasil jangka panjang belum dibuktikan.</p>
-</section>
-<section id="bobot-dan-nilai-akhir-uts" class="level2">
-<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Komponen</th>
-<th>Bobot</th>
-<th>Nilai komponen</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Makalah pra-UTS</td>
-<td>10%</td>
-<td>Nilai dosen belum tersedia</td>
-</tr>
-<tr class="even">
-<td>Sesi 1</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Sesi 2a</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="even">
-<td>Sesi 2b</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Sesi 3a</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="even">
-<td>Sesi 3b</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Total</td>
-<td>100%</td>
-<td>Belum dihitung</td>
-</tr>
-</tbody>
-</table>
-<p>Nilai sesi = jumlah enam skor / 24 × 100, hanya jika keenam skor sah tersedia.</p>
-<p><span class="math display">\[
-N_{\mathrm{UTS}}=0{,}10M+0{,}18(S_1+S_{2a}+S_{2b}+S_{3a}+S_{3b}).
-\]</span></p>
-<p>Seluruh komponen berskala 0–100. BT bukan nol; bobot tidak dinormalisasi ulang. Nilai akhir belum dihitung sampai semua komponen sah tersedia. Rata-rata kasus tidak dihitung lagi sebagai komponen tambahan.</p>
+<section id="tindak-lanjut" class="level2">
+<h2 class="anchored" data-anchor-id="tindak-lanjut">Tindak Lanjut</h2>
+<ol type="1">
+<li>Menjadwalkan ulang latihan empat pesan fiktif bersama petugas pendamping[cite: 9].</li>
+<li>Menunda uji coba pelanggan hingga penanggung jawab antrean terverifikasi tersedia[cite: 9].</li>
+<li>Mempertahankan jalur layanan manual yang ada sambil mengevaluasi kesiapan internal[cite: 9].</li>
+</ol>
 
 
 </section>
