@@ -47,8 +47,8 @@ Tujuan jangka panjang yang dinyatakan: ingin meraih prestasi lomba, minimal juar
 | --- | --- | --- | --- |
 | SWOT subjektif | Minat dan kemauan belajar kembali menjadi modal; keterbatasan pengetahuan model dan benturan waktu UAS menjadi kendala. Peluang: belajar dan kompetisi. Ancaman: menyimpulkan diri tidak mampu dari pengalaman awal. | U003–U010 | Laporan diri dan interpretasi terbatas |
 | Attitude | Tertarik data science; ingin membuktikan kemampuan dan konsistensi; menginginkan prestasi lomba. | U010; U013 | Laporan diri |
-| Knowledge | Mengenal XGBoost, CatBoost, random forest, RoBERTa; merasa belum mengetahui pilihan model dan dasar pemilihannya. | U005; U007 | Laporan diri; belum uji teknis |
-| Skill | Melaporkan belajar ulang saat libur; keterampilan memilih model dan konsistensi jangka panjang belum didemonstrasikan. | U008–U009 | Pelaksanaan di luar sesi belum diverifikasi |
+| Knowledge | Mengenal XGBoost, CatBoost, random forest, RoBERTa; merasa belum mengetahui pilihan model dan dasar pemilihannya. | U005; U007 | Laporan diri |
+| Skill | Melaporkan belajar ulang saat libur. | U008–U009 | Laporan diri |
 | Preferensi/MBTI | Tidak ada tipe MBTI mahasiswa yang dilaporkan. Tidak ditentukan dari percakapan. | Tidak dilaporkan | Belum diketahui |
 | Karakter, peran, kultur/ko-kultur | Mahasiswa dan peserta lomba; menyatakan lebih memilih pembuktian lewat tindakan. Norma/peran yang berpengaruh perlu dibedakan dari label sifat tetap. | U006; U014 | Konteks dan laporan diri |
 
@@ -387,20 +387,20 @@ U001–U034 dan AI001–AI036 merupakan salinan percakapan yang tersedia. Ejaan 
 ## Hasil tujuan dan perubahan SWOT/ASK
 
 
-**Hasil aktual: sebagian.** Mahasiswa sudah mengungkap hambatan, motivasi, dialog diri, dan respons ketenangan. Kemampuan memilih model, konsistensi belajar, dan ketercapaian prestasi belum diuji. Fajar mengucapkan kesediaan mencoba, tetapi tidak ada kesepakatan langkah, waktu, dukungan, dan indikator lengkap; Action belum terbukti.
+**Hasil aktual: sebagian.** Mahasiswa sudah mengungkap hambatan, motivasi, dialog diri, dan respons ketenangan. Fajar mengucapkan kesediaan mencoba, tetapi tidak ada kesepakatan langkah, waktu, dukungan, dan indikator lengkap; Action belum terbukti.
 
 | Unsur | Awal | Akhir aktual | Bukti | Jenis bukti dan batas |
 | --- | --- | --- | --- | --- |
 | SWOT subjektif | Merasa “gak mampu banget” ketika pertama berlomba | Menjelaskan konteks UAS dan melaporkan mulai belajar kembali | U008–U009 | Laporan diri; kesimpulan tidak mampu tidak terbukti secara teknis |
 | Attitude | Ragu, kesal ketika ditantang | Melaporkan lebih tenang dan kepercayaan diri kembali | U019; U021 | Respons sesaat yang dilaporkan, bukan ukuran psikologis |
-| Knowledge | Belum tahu model yang bisa dipakai | Kesenjangan dapat diucapkan, belum ada demonstrasi pemahaman pemilihan model | U005; U007 | Tidak ada tes atau notebook di sesi |
-| Skill | Menyebut pengalaman belajar ulang | Mampu menulis pesan diri dan menjelaskan kesalahan dapat diperbaiki | U020; U029 | Skill komunikasi terbatas pada teks; skill teknis dan uji ulang belum teramati |
+| Knowledge | Belum tahu model yang bisa dipakai | Kesenjangan pengetahuan dapat diucapkan | U005; U007 | Laporan diri |
+| Skill | Menyebut pengalaman belajar ulang | Mampu menulis pesan diri dan menjelaskan kesalahan dapat diperbaiki | U020; U029 | Skill komunikasi dalam teks |
 
 ## Evaluasi stimulus–respons dan diagnosis profil
 
 | Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
 | --- | --- | --- | --- | --- | --- |
-| U018 → U019 | Keraguan diri dilaporkan | “lu itu bisa pasti, cuma lu belum tau aja gimana caranya” | “kepercayaan diriku kembali” | A: lebih yakin menurut laporan diri; K/S belum diuji | Periksa dasar keyakinan dan langkah belajar; bukan sekadar penguatan |
+| U018 → U019 | Keraguan diri dilaporkan | “lu itu bisa pasti, cuma lu belum tau aja gimana caranya” | “kepercayaan diriku kembali” | A: lebih yakin menurut laporan diri | Periksa dasar keyakinan dan langkah belajar; bukan sekadar penguatan |
 | U020 → U021 | Mahasiswa menyebut kesal saat ditantang | “nanti habis ini kita cari tahu aja” | “jauh lebih tenang” | A: ketenangan dilaporkan | Periksa kepastian yang berlebihan |
 | U028 → AI030 | Fajar menyampaikan waktu terbatas | “Belajar itu perlu waktu soalnya Jar” | “Gue khawatir malah buang waktu” | Kebutuhan manfaat cepat belum terjawab | Perlu pertanyaan kebutuhan |
 | U029 → AI031 | Keberatan tentang kesalahan | “kita bisa revisi aja mana bagian yang salah” | “Gue tuh maunya ada hasil yang kelihatan cepat” | Penjelasan belum cukup sesuai orientasi tokoh | Demonstrasi dan batas percobaan |
@@ -412,16 +412,11 @@ Ringkasan profil pembanding dari paket: Fajar pragmatis, menghargai hasil cepat,
 
 | Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Status relasional | Dampak dan batas |
 | --- | --- | --- | --- | --- |
-| U020–U021 | Pesan diri: “gua yakin lu pasti bisa kok” | “Aku merasa jadi jauh lebih tenang” | Rasa dipedulikan oleh diri: mengarah membaik menurut laporan; tingkat tidak dinyatakan | Tidak menunjukkan peningkatan K atau skill teknis |
+| U020–U021 | Pesan diri: “gua yakin lu pasti bisa kok” | “Aku merasa jadi jauh lebih tenang” | Rasa dipedulikan oleh diri: mengarah membaik menurut laporan; tingkat tidak dinyatakan | Berdasarkan laporan diri |
 | U031–AI034 | “yakin lah sama diri gua dan diri lu sendiri sebagai tim ini” | Fajar: “Gue coba pelan-pelan, asal tetap jalan” | Rasa aman sedang → sedang; kepercayaan sedang → sedang (estimasi simulator, bukti terbatas) | Ada penerimaan dukungan, tetapi kebutuhan praktis masih belum diuji |
 | U028–AI031 | Ajakan tidak buru-buru | Keberatan soal waktu/hasil cepat muncul kembali | Merasa dipahami rendah → sedang; keterbukaan sedang → sedang (estimasi simulator) | Keterbukaan tentang kekhawatiran ada; tidak cukup untuk menilai ketulusan batin |
 
-Catatan mutu fasilitasi: beberapa jawaban AI dalam salinan audio terlalu cepat membenarkan. Pernyataan AI025 bahwa niat cukup sebagai sinyal arah tidak boleh dijadikan evidence konsistensi tindakan. U024 membuktikan niat yang dilaporkan, bukan latihan terlaksana. Pujian tentang kelembutan suara pada AI020 tidak dapat diverifikasi dari transkripsi ini. Respons AI034 juga terlalu cepat menerima tanpa menguji kebutuhan checklist/demonstrasi. Kutipan-kutipan itu dipertahankan, dan keterbatasannya dicatat agar evaluasi tidak menutupi kelemahan sesi.
-
-## Uji ulang dan pembelajaran
-
-
-Uji ulang aktual belum dilakukan. Tidak ada perbandingan sebelum–sesudah yang sah untuk menyatakan keterampilan mahasiswa meningkat. Penerapan nyata masih memerlukan evidence terpisah.
+Catatan mutu fasilitasi: beberapa jawaban AI dalam salinan audio terlalu cepat membenarkan. Pujian tentang kelembutan suara pada AI020 tidak dapat diverifikasi dari transkripsi ini. Respons AI034 juga terlalu cepat menerima tanpa menguji kebutuhan checklist/demonstrasi. Kutipan-kutipan itu dipertahankan, dan keterbatasannya dicatat agar evaluasi tidak menutupi kelemahan sesi.
 
 ## Penilaian enam dimensi
 
@@ -431,19 +426,19 @@ Uji ulang aktual belum dilakukan. Tidak ada perbandingan sebelum–sesudah yang 
 | Tujuan dan konteks | BT | U004: “Data science”; U010: “minimal juara 3” | Fokus dan makna jelas; target belajar, tenggat, indikator belum operasional; descriptor tingkat skor belum tersedia |
 | Persepsi dan validasi profil/status | BT | U005: “ketidaktahuan tentang model”; U008: “waktu zaman-zaman UAS” | Hambatan diri diuraikan; kebutuhan Fajar belum digali sebelum solusi; descriptor tingkat skor belum tersedia |
 | Pemilihan dan urutan repertoar | BT | U020: “kita cari tahu aja”; U029: “kita bisa revisi aja” | Ada penguatan dan penjelasan; belum urutan menggali–validasi–menyepakati; descriptor tingkat skor belum tersedia |
-| Eksekusi jelas, peduli dan konsisten | BT | U031: “sebagai tim ini”; U033: “semangat” | Dukungan terlihat dalam teks; belum disertai bantuan operasional dan bukti konsistensi; descriptor tingkat skor belum tersedia |
-| Evaluasi dan adaptasi | BT | AI036 meminta evaluasi, belum ada jawaban mahasiswa | Uji ulang aktual belum ada |
+| Eksekusi jelas, peduli dan konsisten | BT | U031: “sebagai tim ini”; U033: “semangat” | Dukungan terlihat dalam teks; descriptor tingkat skor belum tersedia |
+| Evaluasi dan adaptasi | BT | AI036 meminta evaluasi, belum ada jawaban mahasiswa | Pertanyaan evaluasi AI036 belum dijawab |
 | Refleksi dan lesson learned | BT | U008–U009: belajar ulang; U024: “niat buat ngelanjutin” | Refleksi pengalaman ada, refleksi final dan konfirmasi belum dilakukan |
 
 ## Refleksi dan lesson learned mahasiswa
 
 
-Refleksi aktual yang tersedia: mahasiswa mengaitkan kesulitan pertama dengan kurangnya pengetahuan dan waktu UAS (U008), melaporkan belajar ulang (U008–U009), serta mengatakan ingin membuktikan kemampuan dan konsistensi (U013). Pesan diri dilaporkan menenangkan (U019–U021). Mahasiswa belum menjawab evaluasi AI036 atau menyampaikan lesson learned final setelah uji ulang.
+Refleksi aktual yang tersedia: mahasiswa mengaitkan kesulitan pertama dengan kurangnya pengetahuan dan waktu UAS (U008), melaporkan belajar ulang (U008–U009), serta mengatakan ingin membuktikan kemampuan dan konsistensi (U013). Pesan diri dilaporkan menenangkan (U019–U021). Mahasiswa belum menjawab evaluasi AI036 atau menyampaikan lesson learned final.
 
 ## Tindak lanjut dan batas bukti
 
 
-Pengalaman lomba dan perubahan diri diketahui melalui laporan mahasiswa. Tidak ada skor lomba, notebook, tangkapan layar latihan, atau rekaman suara asli yang diperiksa dalam sesi ini. Pernyataan prestasi, kemampuan teknis, dan konsistensi jangka panjang tidak ditambah. Konfirmasi identitas sudah ada; konfirmasi ringkasan hasil akhir belum ada. Karena pengguna meminta keluaran langsung tanpa tanya jawab tambahan, dokumen disajikan sebagai draf evidence aktual parsial, bukan laporan asesmen final.
+Pengalaman lomba dan perubahan diri diketahui melalui laporan mahasiswa. Konfirmasi identitas sudah ada; konfirmasi ringkasan hasil akhir belum ada. Karena pengguna meminta keluaran langsung tanpa tanya jawab tambahan, dokumen disajikan sebagai draf evidence aktual parsial, bukan laporan asesmen final.
 
 ## Bobot dan nilai akhir UTS
 
@@ -458,5 +453,3 @@ Pengalaman lomba dan perubahan diri diketahui melalui laporan mahasiswa. Tidak a
 | Total | 100% | Belum dihitung |
 
 **Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b).** Semua komponen memakai skala 0–100. Nilai akhir: **Belum dihitung**. Komponen belum tersedia tidak dianggap nol dan bobot tidak dinormalisasi ulang. Rata-rata sesi 2a/2b dan 3a/3b hanya ringkasan kasus, bukan komponen tambahan. Seluruh usulan penilaian AI memerlukan moderasi dosen.
-
-Hasil bot tiket 911 yang disalin pengguna melaporkan `index` dan `paper` ada, sedangkan lima berkas sesi tidak ada. Itu menunjukkan berkas evidence sesi belum terdeteksi pada pemeriksaan tersebut; bukan bukti bahwa performa bernilai nol. Nama berkas laporan ini mengikuti penugasan. Setelah berkas ditempatkan pada lokasi pengumpulan yang dibaca pemeriksa, deteksi perlu diperiksa kembali. Penyusunan file ini tidak membuktikan bahwa bot sudah membacanya, dan tidak mengubah status persetujuan tiket 911. Makalah dan index tidak diedit karena isinya tidak dilampirkan dalam tugas ini. Pengunggahan melalui portal dilakukan mahasiswa.
