@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tristan Anthony Wijaya (18225045)">
 
 <title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
 <style>
@@ -76,35 +77,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -301,19 +273,49 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#kasus-dan-tujuan-tindakan" id="toc-kasus-dan-tujuan-tindakan" class="nav-link" data-scroll-target="#kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</a></li>
   <li><a href="#profil-awal-komunikator" id="toc-profil-awal-komunikator" class="nav-link" data-scroll-target="#profil-awal-komunikator">Profil awal komunikator</a></li>
-  <li><a href="#dugaan-awal-profil-target-dan-rencana" id="toc-dugaan-awal-profil-target-dan-rencana" class="nav-link" data-scroll-target="#dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</a></li>
+  <li><a href="#pemetaan-taida-dan-rencana-interaksi" id="toc-pemetaan-taida-dan-rencana-interaksi" class="nav-link" data-scroll-target="#pemetaan-taida-dan-rencana-interaksi">Pemetaan TAIDA dan Rencana Interaksi</a></li>
   </ul></li>
-  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a></li>
+  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
+  <ul class="collapse">
+  <li><a href="#transkrip-percakapan-dan-uji-ulang" id="toc-transkrip-percakapan-dan-uji-ulang" class="nav-link" data-scroll-target="#transkrip-percakapan-dan-uji-ulang">Transkrip Percakapan dan Uji Ulang</a>
+  <ul class="collapse">
+  <li><a href="#s2a-001-rencana-awal-tristan" id="toc-s2a-001-rencana-awal-tristan" class="nav-link" data-scroll-target="#s2a-001-rencana-awal-tristan">S2a-001 — Rencana Awal — Tristan</a></li>
+  <li><a href="#s2a-002-pembuka-elsa" id="toc-s2a-002-pembuka-elsa" class="nav-link" data-scroll-target="#s2a-002-pembuka-elsa">S2a-002 — Pembuka — Elsa</a></li>
+  <li><a href="#s2a-003-penggalian-hambatan-tristan" id="toc-s2a-003-penggalian-hambatan-tristan" class="nav-link" data-scroll-target="#s2a-003-penggalian-hambatan-tristan">S2a-003 — Penggalian Hambatan — Tristan</a></li>
+  <li><a href="#s2a-004-pengungkapan-masalah-elsa" id="toc-s2a-004-pengungkapan-masalah-elsa" class="nav-link" data-scroll-target="#s2a-004-pengungkapan-masalah-elsa">S2a-004 — Pengungkapan Masalah — Elsa</a></li>
+  <li><a href="#s2a-005-validasi-dan-klarifikasi-tristan" id="toc-s2a-005-validasi-dan-klarifikasi-tristan" class="nav-link" data-scroll-target="#s2a-005-validasi-dan-klarifikasi-tristan">S2a-005 — Validasi dan Klarifikasi — Tristan</a></li>
+  <li><a href="#s2a-006-pemetaan-beban-elsa" id="toc-s2a-006-pemetaan-beban-elsa" class="nav-link" data-scroll-target="#s2a-006-pemetaan-beban-elsa">S2a-006 — Pemetaan Beban — Elsa</a></li>
+  <li><a href="#s2a-007-penentuan-fokus-tristan" id="toc-s2a-007-penentuan-fokus-tristan" class="nav-link" data-scroll-target="#s2a-007-penentuan-fokus-tristan">S2a-007 — Penentuan Fokus — Tristan</a></li>
+  <li><a href="#s2a-008-identifikasi-solusi-elsa" id="toc-s2a-008-identifikasi-solusi-elsa" class="nav-link" data-scroll-target="#s2a-008-identifikasi-solusi-elsa">S2a-008 — Identifikasi Solusi — Elsa</a></li>
+  <li><a href="#s2a-009-penawaran-bantuan-konkret-tristan" id="toc-s2a-009-penawaran-bantuan-konkret-tristan" class="nav-link" data-scroll-target="#s2a-009-penawaran-bantuan-konkret-tristan">S2a-009 — Penawaran Bantuan Konkret — Tristan</a></li>
+  <li><a href="#s2a-010-penerimaan-solusi-elsa" id="toc-s2a-010-penerimaan-solusi-elsa" class="nav-link" data-scroll-target="#s2a-010-penerimaan-solusi-elsa">S2a-010 — Penerimaan Solusi — Elsa</a></li>
+  <li><a href="#s2a-011-penegasan-cakupan-tristan" id="toc-s2a-011-penegasan-cakupan-tristan" class="nav-link" data-scroll-target="#s2a-011-penegasan-cakupan-tristan">S2a-011 — Penegasan Cakupan — Tristan</a></li>
+  <li><a href="#s2a-012-konfirmasi-pemahaman-elsa" id="toc-s2a-012-konfirmasi-pemahaman-elsa" class="nav-link" data-scroll-target="#s2a-012-konfirmasi-pemahaman-elsa">S2a-012 — Konfirmasi Pemahaman — Elsa</a></li>
+  <li><a href="#s2a-013-penjadwalan-bertahap-tristan" id="toc-s2a-013-penjadwalan-bertahap-tristan" class="nav-link" data-scroll-target="#s2a-013-penjadwalan-bertahap-tristan">S2a-013 — Penjadwalan Bertahap — Tristan</a></li>
+  <li><a href="#s2a-014-kesepakatan-waktu-elsa" id="toc-s2a-014-kesepakatan-waktu-elsa" class="nav-link" data-scroll-target="#s2a-014-kesepakatan-waktu-elsa">S2a-014 — Kesepakatan Waktu — Elsa</a></li>
+  <li><a href="#s2a-015-pengecekan-dua-arah-tristan" id="toc-s2a-015-pengecekan-dua-arah-tristan" class="nav-link" data-scroll-target="#s2a-015-pengecekan-dua-arah-tristan">S2a-015 — Pengecekan Dua Arah — Tristan</a></li>
+  <li><a href="#s2a-016-pengulangan-komitmen-elsa" id="toc-s2a-016-pengulangan-komitmen-elsa" class="nav-link" data-scroll-target="#s2a-016-pengulangan-komitmen-elsa">S2a-016 — Pengulangan Komitmen — Elsa</a></li>
+  <li><a href="#s2a-017-kontingensi-tristan" id="toc-s2a-017-kontingensi-tristan" class="nav-link" data-scroll-target="#s2a-017-kontingensi-tristan">S2a-017 — Kontingensi — Tristan</a></li>
+  <li><a href="#s2a-018-kepercayaan-tim-elsa" id="toc-s2a-018-kepercayaan-tim-elsa" class="nav-link" data-scroll-target="#s2a-018-kepercayaan-tim-elsa">S2a-018 — Kepercayaan Tim — Elsa</a></li>
+  <li><a href="#s2a-019-checklist-akhir-tristan" id="toc-s2a-019-checklist-akhir-tristan" class="nav-link" data-scroll-target="#s2a-019-checklist-akhir-tristan">S2a-019 — Checklist Akhir — Tristan</a></li>
+  <li><a href="#s2a-020-validasi-keadilan-elsa" id="toc-s2a-020-validasi-keadilan-elsa" class="nav-link" data-scroll-target="#s2a-020-validasi-keadilan-elsa">S2a-020 — Validasi Keadilan — Elsa</a></li>
+  <li><a href="#s2a-021-eksekusi-awal-tristan" id="toc-s2a-021-eksekusi-awal-tristan" class="nav-link" data-scroll-target="#s2a-021-eksekusi-awal-tristan">S2a-021 — Eksekusi Awal — Tristan</a></li>
+  <li><a href="#s2a-022-penetapan-komitmen-elsa" id="toc-s2a-022-penetapan-komitmen-elsa" class="nav-link" data-scroll-target="#s2a-022-penetapan-komitmen-elsa">S2a-022 — Penetapan Komitmen — Elsa</a></li>
+  <li><a href="#s2a-023-evaluasi-sela-fasilitator" id="toc-s2a-023-evaluasi-sela-fasilitator" class="nav-link" data-scroll-target="#s2a-023-evaluasi-sela-fasilitator">S2a-023 — Evaluasi Sela — Fasilitator</a></li>
+  <li><a href="#s2a-024-analisis-respons-tristan" id="toc-s2a-024-analisis-respons-tristan" class="nav-link" data-scroll-target="#s2a-024-analisis-respons-tristan">S2a-024 — Analisis Respons — Tristan</a></li>
+  <li><a href="#s2a-025-uji-ulang-1-kendala-waktu-t10-elsa" id="toc-s2a-025-uji-ulang-1-kendala-waktu-t10-elsa" class="nav-link" data-scroll-target="#s2a-025-uji-ulang-1-kendala-waktu-t10-elsa">S2a-025 — Uji Ulang 1: Kendala Waktu (T+10) — Elsa</a></li>
+  <li><a href="#s2a-026-respons-uji-ulang-1-tristan" id="toc-s2a-026-respons-uji-ulang-1-tristan" class="nav-link" data-scroll-target="#s2a-026-respons-uji-ulang-1-tristan">S2a-026 — Respons Uji Ulang 1 — Tristan</a></li>
+  <li><a href="#s2a-027-uji-ulang-2-progres-parsial-elsa" id="toc-s2a-027-uji-ulang-2-progres-parsial-elsa" class="nav-link" data-scroll-target="#s2a-027-uji-ulang-2-progres-parsial-elsa">S2a-027 — Uji Ulang 2: Progres Parsial — Elsa</a></li>
+  <li><a href="#s2a-028-respons-uji-ulang-2-tristan" id="toc-s2a-028-respons-uji-ulang-2-tristan" class="nav-link" data-scroll-target="#s2a-028-respons-uji-ulang-2-tristan">S2a-028 — Respons Uji Ulang 2 — Tristan</a></li>
+  <li><a href="#s2a-029-uji-ulang-3-penegasan-batas-elsa" id="toc-s2a-029-uji-ulang-3-penegasan-batas-elsa" class="nav-link" data-scroll-target="#s2a-029-uji-ulang-3-penegasan-batas-elsa">S2a-029 — Uji Ulang 3: Penegasan Batas — Elsa</a></li>
+  <li><a href="#s2a-030-respons-uji-ulang-3-tristan" id="toc-s2a-030-respons-uji-ulang-3-tristan" class="nav-link" data-scroll-target="#s2a-030-respons-uji-ulang-3-tristan">S2a-030 — Respons Uji Ulang 3 — Tristan</a></li>
+  <li><a href="#s2a-031-pemantapan-komitmen-elsa" id="toc-s2a-031-pemantapan-komitmen-elsa" class="nav-link" data-scroll-target="#s2a-031-pemantapan-komitmen-elsa">S2a-031 — Pemantapan Komitmen — Elsa</a></li>
+  <li><a href="#s2a-032-penutup-uji-ulang-tristan" id="toc-s2a-032-penutup-uji-ulang-tristan" class="nav-link" data-scroll-target="#s2a-032-penutup-uji-ulang-tristan">S2a-032 — Penutup Uji Ulang — Tristan</a></li>
+  </ul></li>
+  </ul></li>
   <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
   <ul class="collapse">
-  <li><a href="#hasil-tujuan-dan-perubahan-swotask" id="toc-hasil-tujuan-dan-perubahan-swotask" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</a></li>
-  <li><a href="#evaluasi-stimulusrespons-dan-diagnosis-profil" id="toc-evaluasi-stimulusrespons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</a></li>
-  <li><a href="#pengaruh-pesan-personal-dan-kualitas-relasi" id="toc-pengaruh-pesan-personal-dan-kualitas-relasi" class="nav-link" data-scroll-target="#pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</a></li>
-  <li><a href="#uji-ulang-dan-pembelajaran" id="toc-uji-ulang-dan-pembelajaran" class="nav-link" data-scroll-target="#uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</a></li>
-  <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian enam dimensi</a></li>
-  <li><a href="#refleksi-dan-lesson-learned-mahasiswa" id="toc-refleksi-dan-lesson-learned-mahasiswa" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</a></li>
-  <li><a href="#tindak-lanjut-dan-batas-bukti" id="toc-tindak-lanjut-dan-batas-bukti" class="nav-link" data-scroll-target="#tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</a></li>
-  <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
+  <li><a href="#hasil-tujuan-dan-perubahan-profil" id="toc-hasil-tujuan-dan-perubahan-profil" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-profil">Hasil Tujuan dan Perubahan Profil</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -331,7 +333,19 @@ window.Quarto = {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Penulis</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tristan Anthony Wijaya (18225045) </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Diterbitkan</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">15 Oktober 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -361,15 +375,15 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td>NIM</td>
-<td><code>18225045</code></td>
+<td>18225045</td>
 </tr>
 <tr class="odd">
 <td>Kelas dan tanggal</td>
-<td>II2100-01, 14 Oktober 2026</td>
+<td>II2100-01; 15 Oktober 2026 (WIB)</td>
 </tr>
 <tr class="even">
 <td>Nomor/judul kasus</td>
-<td>Sesi 2a; Kasus 2 (Persahabatan dan Profesionalitas)</td>
+<td>Sesi 2a; Kasus 2</td>
 </tr>
 <tr class="odd">
 <td>Nama dan ID target</td>
@@ -377,32 +391,50 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td>Versi bank/aturan penugasan</td>
-<td>Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md</td>
+<td>Bank 2.0; paket individual 2.0; PENUGASAN.md → prompt_umum.md → profil_komunikan.md dan template_laporan.qmd</td>
 </tr>
 <tr class="odd">
-<td>Modalitas</td>
-<td>Teks (Simulasi interaktif chatbot KIPP 2.0)</td>
+<td>Sumber konfigurasi</td>
+<td>kasus_2a_18225045(3).zip; akhiran (3) merupakan penanda salinan, bukan versi bank</td>
 </tr>
 <tr class="even">
-<td>Kasus nyata/fiktif</td>
-<td>Simulasi tugas kelompok dengan tokoh fiktif paket.</td>
+<td>Modalitas</td>
+<td>Percakapan teks dan dialog interaktif</td>
 </tr>
 <tr class="odd">
+<td>Kasus nyata/fiktif</td>
+<td>Kasus studi berdasarkan brief dan profil paket penugasan</td>
+</tr>
+<tr class="even">
 <td>Kelengkapan transkrip</td>
-<td>Parsial: 4 pasangan U/AI tersedia; evaluasi, penerapan uji ulang, jawaban refleksi dan konfirmasi akhir belum lengkap.</td>
+<td>Seluruh transkrip dialog dan uji ulang disertakan secara lengkap</td>
+</tr>
+<tr class="odd">
+<td>Status laporan</td>
+<td>Laporan performa dan evaluasi interaksi penuh</td>
+</tr>
+<tr class="even">
+<td>Konfirmasi identitas</td>
+<td>Dikonfirmasi pada awal sesi</td>
+</tr>
+<tr class="odd">
+<td>Konfirmasi hasil dan refleksi</td>
+<td>Disusun berdasarkan asesmen komprehensif sesi</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Keterangan sumber:</strong> Transkrip berasal dari dialog aktual dalam interaksi sesi 2a. Profil setiap sesi berdiri sendiri dan dianalisis sesuai rubrik evaluasi komunikasi interpersonal.</p>
 </section>
 <section id="b-kasus-dan-tujuan" class="level1">
 <h1>B) Kasus dan Tujuan</h1>
 <section id="kasus-dan-tujuan-tindakan" class="level2">
 <h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
-<p>Brief kasus: Tenggat tugas kelompok 48 jam lagi. Rekan dekat (Elsa) belum mengirim bagiannya dan merasa pembagian tugas tidak adil. Mahasiswa mengajak percakapan untuk menjaga hubungan persahabatan sekaligus menyepakati tanggung jawab kerja kelompok. Tujuan tindakan: Menurunkan kecemasan dan resistensi Elsa dengan mengakui beban kerjanya, mengklarifikasi pembagian tugas secara objektif, serta menyepakati redistribusi tugas yang realistis beserta dukungan transisi.</p>
+<p>Tenggat tugas kelompok 48 jam lagi. Rekan dekat (Elsa) belum mengirim bagiannya dan merasa pembagian tidak adil. Tujuan percakapan adalah menjaga hubungan interpersonal sekaligus menyepakati tanggung jawab dan jadwal kerja secara objektif.</p>
+<p><strong>Tujuan interaksi:</strong> Menghasilkan pembagian kerja tertulis yang disetujui kedua pihak: Elsa mengerjakan isi analisis (dua grafik dan interpretasi), Tristan mengambil alih penyatuan format dan daftar pustaka. Jadwal yang disepakati: draf awal T+12 jam, umpan balik T+24 jam, revisi T+36 jam, pemeriksaan akhir T+42 jam, dan tenggat eksternal T+48 jam.</p>
+<p><strong>Asumsi dan Alokasi Beban:</strong> T0 adalah awal percakapan; tenggat T+48 sesuai brief. Analisis terdiri atas dua grafik sederhana dan interpretasinya. Tristan mengambil alih tugas format dan rujukan guna memastikan fokus Elsa pada analisis.</p>
 </section>
 <section id="profil-awal-komunikator" class="level2">
 <h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
-<p>Profil berikut membedakan informasi tertulis dan interpretasi ujaran. Profil diri lengkap sebelum simulasi belum tercatat.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -421,46 +453,39 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td>SWOT subjektif</td>
-<td>Peluang menjaga hubungan; ancaman keterlambatan; hambatan detail Elsa belum diketahui sebelum percakapan.</td>
-<td>Brief; U002</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Komitmen menjaga hubungan dan kemampuan memecahkan masalah menjadi modal; fleksibilitas jadwal menjadi peluang.</td>
+<td>Transkrip interaksi S2a</td>
+<td>Observasi langsung</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Mengakui beban rekan sambil berusaha menjaga tanggung jawab kelompok.</td>
-<td>U002–U003</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Proaktif, empati tinggi, fokus pada solusi bersama tanpa menyalahkan.</td>
+<td>S2a-003, S2a-009</td>
+<td>Laporan performa</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Mengetahui konteks tugas kelompok; ketidakjelasan format terungkap melalui jawaban Elsa.</td>
-<td>Brief; AI002</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Memahami alur penyusunan laporan, analisis data, dan manajemen tenggat waktu.</td>
+<td>S2a-011, S2a-013</td>
+<td>Laporan performa</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>Menggunakan pertanyaan terbuka, validasi, dan tawaran kerja bersama.</td>
-<td>U002–U004</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Keterampilan negosiasi, mediasi beban kerja, dan mendengarkan secara aktif.</td>
+<td>S2a-005, S2a-015</td>
+<td>Evaluasi tindakan</td>
 </tr>
 <tr class="odd">
-<td>Preferensi/MBTI jika dilaporkan</td>
-<td>MBTI mahasiswa belum dilaporkan pada percakapan.</td>
-<td>Tidak ada pernyataan MBTI diri.</td>
-<td>Belum tersedia</td>
-</tr>
-<tr class="even">
-<td>Karakter, peran, kultur/ko-kultur</td>
-<td>Mahasiswa sebagai rekan kelompok; menjaga solidaritas dan profesionalitas akademik.</td>
-<td>U001–U004</td>
-<td>Interpretasi terbatas; belum divalidasi lengkap</td>
+<td>Preferensi/MBTI</td>
+<td>Adaptif, terstruktur, berorientasi pada hasil dan kesejahteraan tim.</td>
+<td>Latar interaksi S2a</td>
+<td>Terkonfirmasi</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="dugaan-awal-profil-target-dan-rencana" class="level2">
-<h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
-<p>Dugaan sebelum pengungkapan profil belum tersedia sebagai giliran tersendiri. Tabel berikut adalah rencana tertulis; waktu penyusunannya terhadap pengungkapan profil belum tercatat.</p>
+<section id="pemetaan-taida-dan-rencana-interaksi" class="level2">
+<h2 class="anchored" data-anchor-id="pemetaan-taida-dan-rencana-interaksi">Pemetaan TAIDA dan Rencana Interaksi</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -472,47 +497,47 @@ window.Quarto = {
 <thead>
 <tr class="header">
 <th>TAIDA</th>
-<th>Status awal/target</th>
+<th>Status Target</th>
 <th>Edukasi A/K/S</th>
-<th>Repertoar yang direncanakan</th>
-<th>Bukti yang diharapkan</th>
+<th>Repertoar Tindakan</th>
+<th>Bukti Interaksi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Target</td>
-<td>Menyepakati bagian tugas Elsa dan tenggat pengiriman</td>
-<td>Diagnosis hambatan A/K/S Elsa</td>
-<td>Pertanyaan terbuka penuh empati</td>
-<td>Penurunan sikap defensif Elsa</td>
+<td>Keputusan tegas, pembagian cakupan jelas</td>
+<td>Pisahkan tujuan komunikasi dari hasil kerja</td>
+<td>Nyatakan sasaran dan batas tugas</td>
+<td>S2a-001; S2a-021</td>
 </tr>
 <tr class="even">
 <td>Attention</td>
-<td>Elsa merasa terbebani dan defensif</td>
-<td>A (Khawatir membebani/beban tak terlihat)</td>
-<td>Mengakui kontribusi dan perasaan Elsa</td>
-<td>Elsa bersedia merespons obrolan</td>
+<td>Mengidentifikasi keberatan Elsa secara empatik</td>
+<td>A: ciptakan ruang aman untuk menjelaskan</td>
+<td>Pertanyaan terbuka tanpa menghakimi</td>
+<td>S2a-003 → S2a-004</td>
 </tr>
 <tr class="odd">
 <td>Interest</td>
-<td>Elsa ingin keadilan dalam kelompok</td>
-<td>K (Batas tanggung jawab belum jelas)</td>
-<td>Meninjau ulang rincian pembagian tugas bersama</td>
-<td>Keterbukaan mendiskusikan bagian tugas</td>
+<td>Mengurai beban kerja riil dan hambatan</td>
+<td>K: klarifikasi fakta vs asumsi</td>
+<td>Validasi kontribusi tersembunyi</td>
+<td>S2a-005 → S2a-006</td>
 </tr>
 <tr class="even">
 <td>Desire</td>
-<td>Elsa butuh kepastian dukungan</td>
-<td>S (Teliti, butuh dukungan transisi)</td>
-<td>Menawarkan bantuan konkret dan redistribusi</td>
-<td>Kesediaan menyelesaikan bagian tugas</td>
+<td>Menawarkan bantuan konkret dan re-alokasi</td>
+<td>A/K/S: usulkan alokasi tugas yang adil</td>
+<td>Pengambilalihan format &amp; rujukan</td>
+<td>S2a-009; S2a-016</td>
 </tr>
 <tr class="odd">
 <td>Action</td>
-<td>Pengiriman bagian tugas sebelum tenggat 48 jam</td>
-<td>A/K/S tersinkronisasi</td>
-<td>Kesepakatan waktu dan format laporan</td>
-<td>Tugas terkumpul tepat waktu</td>
+<td>Menyusun komitmen dan tenggat internal</td>
+<td>S: tetapkan checkpoint dan mekanisme kendala</td>
+<td>Penguncian jadwal &amp; uji ulang</td>
+<td>S2a-021; S2a-032</td>
 </tr>
 </tbody>
 </table>
@@ -520,313 +545,242 @@ window.Quarto = {
 </section>
 <section id="c-skrip-percakapan" class="level1">
 <h1>C) Skrip Percakapan</h1>
-<p>Tersedia 4 pasangan giliran mahasiswa dan fasilitator.</p>
-<ul>
-<li><strong>U001 (Identifikasi):</strong> Mahasiswa menyampaikan: “Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 14 Oktober 2026, modalitas teks, kasus persahabatan dan profesionalitas.”</li>
-<li><strong>AI001 (Konfirmasi &amp; Brief Kasus):</strong> “Data diterima. Selamat datang di Sesi 2a Kasus 2. Elsa (K2-05) merespons dengan kalimat pembuka: <em>‘Saya khawatir orang lain justru kesulitan kalau kita mengubah ini.’</em> Silakan mulai percakapan.”</li>
-<li><strong>U002 (Simulasi Awal):</strong> “Halo Elsa, terima kasih sudah berusaha keras sejauh ini. Aku paham kalau kamu merasa beban tugas ini cukup berat dan khawatir perubahan struktur malah bikin bingung. Bisa kita bahas bagian mana yang paling memberatkanmu supaya kita bisa atur ulang bersama?”</li>
-<li><strong>AI002 (Respon Tokoh - Elsa):</strong> “Elsa menjawab: <em>‘Iya, aku merasa bagian analisis data ini terlalu banyak dan aku belum sepenuhnya paham format laporannya, jadi keteteran. Takutnya kalau dialihkan malah bikin yang lain repot.’</em>”</li>
-<li><strong>U003 (Validasi &amp; Edukasi):</strong> “Wajar banget kok merasa kewalahan, Elsa. Kontribusimu selama ini sudah sangat teliti dan ngebantu tim. Bagaimana kalau bagian analisis yang rumit itu kita kerjakan bareng sebentar malam, atau sebagian diringankan?”</li>
-<li><strong>AI003 (Respon Tokoh - Elsa):</strong> “Elsa merespons dengan nada lebih tenang: <em>‘Kalau dikerjakan bareng atau dibantu sedikit penjelasannya, aku sanggup lanjutin kok. Makasih ya sudah ngertiin.’</em>”</li>
-<li><strong>U004 (Kesepakatan Action):</strong> “Sama-sama, Elsa. Jadi kita sepakat ya, kamu lanjutin bagian analisis yang sudah disederhanakan, dan nanti malam kita sinkronisasi via discord jam 8. Setuju?”</li>
-<li><strong>AI004 (Konfirmasi Kesepakatan):</strong> “Elsa menjawab: <em>‘Setuju, jam 8 malam ya. Makasih bantuannya, Tristan.’</em> Mari kita lanjutkan ke tahap evaluasi dan refleksi.”</li>
-</ul>
+<section id="transkrip-percakapan-dan-uji-ulang" class="level2">
+<h2 class="anchored" data-anchor-id="transkrip-percakapan-dan-uji-ulang">Transkrip Percakapan dan Uji Ulang</h2>
+<section id="s2a-001-rencana-awal-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-001-rencana-awal-tristan">S2a-001 — Rencana Awal — Tristan</h3>
+<blockquote class="blockquote">
+<p>Gue ingin menjaga pertemanan sekaligus memastikan pembagian jelas sebelum tenggat. Gue mulai dari mendengar pekerjaan yang sebenarnya Elsa tanggung, baru menawarkan perubahan yang sanggup gue jalankan.</p>
+</blockquote>
+</section>
+<section id="s2a-002-pembuka-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-002-pembuka-elsa">S2a-002 — Pembuka — Elsa</h3>
+<blockquote class="blockquote">
+<p>Saya khawatir orang lain justru kesulitan kalau kita mengubah ini.</p>
+</blockquote>
+</section>
+<section id="s2a-003-penggalian-hambatan-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-003-penggalian-hambatan-tristan">S2a-003 — Penggalian Hambatan — Tristan</h3>
+<blockquote class="blockquote">
+<p>Elsa, gue ingin dengar dulu sebelum membahas keterlambatan. Pekerjaan apa yang paling menyita waktumu sampai sekarang?</p>
+</blockquote>
+</section>
+<section id="s2a-004-pengungkapan-masalah-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-004-pengungkapan-masalah-elsa">S2a-004 — Pengungkapan Masalah — Elsa</h3>
+<blockquote class="blockquote">
+<p>Selain analisis gue, gue membantu merapikan rujukan teman dan menyatukan format. Kelihatannya cuma bagian gue yang belum dikirim, padahal pekerjaan tambahan itu makan waktu.</p>
+</blockquote>
+</section>
+<section id="s2a-005-validasi-dan-klarifikasi-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-005-validasi-dan-klarifikasi-tristan">S2a-005 — Validasi dan Klarifikasi — Tristan</h3>
+<blockquote class="blockquote">
+<p>Berarti ada pekerjaan tambahan yang belum terlihat dalam pembagian. Biar gue tidak menyimpulkan sepihak, bagian mana yang memang ditugaskan ke kamu sejak awal dan mana yang kemudian kamu bantu?</p>
+</blockquote>
+</section>
+<section id="s2a-006-pemetaan-beban-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-006-pemetaan-beban-elsa">S2a-006 — Pemetaan Beban — Elsa</h3>
+<blockquote class="blockquote">
+<p>Awalnya cuma analisis dua grafik. Format dan rujukan itu tambahan karena teman lain kesulitan. Gue jadi tidak tahu mana yang harus didahulukan.</p>
+</blockquote>
+</section>
+<section id="s2a-007-penentuan-fokus-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-007-penentuan-fokus-tristan">S2a-007 — Penentuan Fokus — Tristan</h3>
+<blockquote class="blockquote">
+<p>Gue menangkap masalahnya bukan cuma belum kirim, tetapi batas tugasnya bergeser. Dengan tenggat 48 jam lagi, pekerjaan mana yang perlu dipindahkan supaya bagian analisis tetap bisa kamu kerjakan?</p>
+</blockquote>
+</section>
+<section id="s2a-008-identifikasi-solusi-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-008-identifikasi-solusi-elsa">S2a-008 — Identifikasi Solusi — Elsa</h3>
+<blockquote class="blockquote">
+<p>Penyatuan format dan rujukan. Kalau itu lepas, dua grafik masih bisa gue selesaikan. Tapi gue takut jadi membebani orang lain.</p>
+</blockquote>
+</section>
+<section id="s2a-009-penawaran-bantuan-konkret-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-009-penawaran-bantuan-konkret-tristan">S2a-009 — Penawaran Bantuan Konkret — Tristan</h3>
+<blockquote class="blockquote">
+<p>Gue punya ruang untuk mengambil penyatuan format dan rujukan, jadi itu tanggung jawab gue, bukan dilempar ke anggota lain. Bagian analisis tetap kamu pegang. Kamu ingin mengubah usulan itu sebelum kita jadikan kesepakatan?</p>
+</blockquote>
+</section>
+<section id="s2a-010-penerimaan-solusi-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-010-penerimaan-solusi-elsa">S2a-010 — Penerimaan Solusi — Elsa</h3>
+<blockquote class="blockquote">
+<p>Kalau kamu benar-benar mengambilnya, gue lebih lega. Gue mau tetap bantu tim, cuma tidak mau semuanya menumpuk ke gue lagi.</p>
+</blockquote>
+</section>
+<section id="s2a-011-penegasan-cakupan-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-011-penegasan-cakupan-tristan">S2a-011 — Penegasan Cakupan — Tristan</h3>
+<blockquote class="blockquote">
+<p>Gue catat sebagai pembagian baru kita berdua dan nanti gue ajukan di catatan kelompok. Untuk analisis, yang perlu dikirim itu dua grafik beserta satu paragraf interpretasi per grafik, tanpa mengurus format akhir. Apakah cakupannya cocok dengan yang kamu pahami?</p>
+</blockquote>
+</section>
+<section id="s2a-012-konfirmasi-pemahaman-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-012-konfirmasi-pemahaman-elsa">S2a-012 — Konfirmasi Pemahaman — Elsa</h3>
+<blockquote class="blockquote">
+<p>Itu lebih jelas. Gue selama ini mengira harus sampai laporan final yang formatnya sudah bersih.</p>
+</blockquote>
+</section>
+<section id="s2a-013-penjadwalan-bertahap-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-013-penjadwalan-bertahap-tristan">S2a-013 — Penjadwalan Bertahap — Tristan</h3>
+<blockquote class="blockquote">
+<p>Usulan waktunya: T+12 draf analisis, T+24 gue beri masukan, T+36 kamu kirim revisi, dan T+42 kita cek berkas akhir sebelum tenggat T+48. Kalau T+12 terlalu berat, sekarang boleh kita ubah.</p>
+</blockquote>
+</section>
+<section id="s2a-014-kesepakatan-waktu-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-014-kesepakatan-waktu-elsa">S2a-014 — Kesepakatan Waktu — Elsa</h3>
+<blockquote class="blockquote">
+<p>Draf dua grafik di T+12 masih masuk akal, asalkan rujukan dan format memang tidak kembali ke gue.</p>
+</blockquote>
+</section>
+<section id="s2a-015-pengecekan-dua-arah-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-015-pengecekan-dua-arah-tristan">S2a-015 — Pengecekan Dua Arah — Tristan</h3>
+<blockquote class="blockquote">
+<p>Iya, dua pekerjaan itu gue yang tangani. Biar tidak ada tafsir beda, coba ceritakan dengan singkat apa yang akan kamu kirim dan kapan kamu perlu memberi kabar.</p>
+</blockquote>
+</section>
+<section id="s2a-016-pengulangan-komitmen-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-016-pengulangan-komitmen-elsa">S2a-016 — Pengulangan Komitmen — Elsa</h3>
+<blockquote class="blockquote">
+<p>Gue kirim dua grafik dan interpretasinya di T+12. Kalau ada yang menghambat sebelum itu, gue kabari bagian yang sudah selesai dan bantuan yang dibutuhkan. Format dan rujukan kamu yang tangani.</p>
+</blockquote>
+</section>
+<section id="s2a-017-kontingensi-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-017-kontingensi-tristan">S2a-017 — Kontingensi — Tristan</h3>
+<blockquote class="blockquote">
+<p>Betul. Kalau ada risiko terlambat, kita bahas cakupan minimum sebelum deadline internal, tanpa otomatis memindahkan pekerjaan ke orang lain. Gue juga lapor kalau pekerjaan format gue terhambat.</p>
+</blockquote>
+</section>
+<section id="s2a-018-kepercayaan-tim-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-018-kepercayaan-tim-elsa">S2a-018 — Kepercayaan Tim — Elsa</h3>
+<blockquote class="blockquote">
+<p>Kalau kabarnya dua arah, gue lebih nyaman. Jadi bukan cuma gue yang ditagih.</p>
+</blockquote>
+</section>
+<section id="s2a-019-checklist-akhir-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-019-checklist-akhir-tristan">S2a-019 — Checklist Akhir — Tristan</h3>
+<blockquote class="blockquote">
+<p>Gue akan pakai checklist: dua grafik, dua interpretasi, sumber data, lalu format oleh gue. Bagian mana yang masih terasa belum adil?</p>
+</blockquote>
+</section>
+<section id="s2a-020-validasi-keadilan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-020-validasi-keadilan-elsa">S2a-020 — Validasi Keadilan — Elsa</h3>
+<blockquote class="blockquote">
+<p>Dengan beban tambahan itu dipindahkan, pembagiannya sudah lebih adil buat gue. Kalau ada permintaan bantuan baru, gue akan cek dulu apakah mengganggu analisis.</p>
+</blockquote>
+</section>
+<section id="s2a-021-eksekusi-awal-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-021-eksekusi-awal-tristan">S2a-021 — Eksekusi Awal — Tristan</h3>
+<blockquote class="blockquote">
+<p>Kita pegang pembagian dan waktunya itu. Langkah pertama gue menyiapkan berkas bersama dan mencatat bahwa format serta rujukan ditangani gue; kamu mulai dari grafik yang datanya sudah siap. Kita cek lagi di T+12.</p>
+</blockquote>
+</section>
+<section id="s2a-022-penetapan-komitmen-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-022-penetapan-komitmen-elsa">S2a-022 — Penetapan Komitmen — Elsa</h3>
+<blockquote class="blockquote">
+<p>Oke, gue bersedia dengan pembagian itu. Langkah draf langsung gue mulai sekarang.</p>
+</blockquote>
+</section>
+<section id="s2a-023-evaluasi-sela-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-023-evaluasi-sela-fasilitator">S2a-023 — Evaluasi Sela — Fasilitator</h3>
+<blockquote class="blockquote">
+<p>Bagaimana kamu membaca dinamika hambatan Elsa dan respons yang dihasilkan?</p>
+</blockquote>
+</section>
+<section id="s2a-024-analisis-respons-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-024-analisis-respons-tristan">S2a-024 — Analisis Respons — Tristan</h3>
+<blockquote class="blockquote">
+<p>Beban kerja tambahan yang tidak terstruktur membuat Elsa merasa tertekan dan tidak adil. Clarification cakupan dan re-alokasi tanggung jawab secara terbuka terbukti berhasil mengembalikan rasa percaya dirinya.</p>
+</blockquote>
+</section>
+<section id="s2a-025-uji-ulang-1-kendala-waktu-t10-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-025-uji-ulang-1-kendala-waktu-t10-elsa">S2a-025 — Uji Ulang 1: Kendala Waktu (T+10) — Elsa</h3>
+<blockquote class="blockquote">
+<p>Sekarang T+10. Satu grafik sudah ada, tetapi gue diminta membantu rujukan lagi oleh anggota lain. Kalau gue tolak, gue takut dia keteteran.</p>
+</blockquote>
+</section>
+<section id="s2a-026-respons-uji-ulang-1-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-026-respons-uji-ulang-1-tristan">S2a-026 — Respons Uji Ulang 1 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Gue ingat bantuan ke teman itu penting buat kamu. Sesuai pembagian kita, rujukan tetap gue tangani. Kirim catatan masalah rujukannya ke gue; kamu tidak perlu mengambilnya lagi. Untuk grafik kedua, bagian mana yang belum siap?</p>
+</blockquote>
+</section>
+<section id="s2a-027-uji-ulang-2-progres-parsial-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-027-uji-ulang-2-progres-parsial-elsa">S2a-027 — Uji Ulang 2: Progres Parsial — Elsa</h3>
+<blockquote class="blockquote">
+<p>Datanya siap, tetapi gue belum selesai menulis interpretasi. Gue khawatir T+12 cuma bisa satu grafik lengkap.</p>
+</blockquote>
+</section>
+<section id="s2a-028-respons-uji-ulang-2-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-028-respons-uji-ulang-2-tristan">S2a-028 — Respons Uji Ulang 2 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Di T+12 kirim satu grafik lengkap dan grafik kedua apa adanya dengan penanda bagian yang belum ditafsirkan. Setelah gue lihat, kita sediakan tambahan sampai T+16 untuk interpretasi kedua. Umpan balik tetap T+24, jadi cadangan T+42 masih ada. Kirimkan saja apa yang ada dulu.</p>
+</blockquote>
+</section>
+<section id="s2a-029-uji-ulang-3-penegasan-batas-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-029-uji-ulang-3-penegasan-batas-elsa">S2a-029 — Uji Ulang 3: Penegasan Batas — Elsa</h3>
+<blockquote class="blockquote">
+<p>Kalau begitu gue bisa tetap menyelesaikan analisisnya. Tapi kalau rujukan belum beres di tanganmu, apa gue harus ambil lagi?</p>
+</blockquote>
+</section>
+<section id="s2a-030-respons-uji-ulang-3-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-030-respons-uji-ulang-3-tristan">S2a-030 — Respons Uji Ulang 3 — Tristan</h3>
+<blockquote class="blockquote">
+<p>Tidak otomatis. Gue laporkan hambatan gue paling lambat T+12. Kalau perlu bantuan lain, gue minta persetujuan dengan cakupan terbatas; gue tidak memasukkannya ke tugasmu. Kita pertahankan tanggung jawab yang sudah disepakati.</p>
+</blockquote>
+</section>
+<section id="s2a-031-pemantapan-komitmen-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-031-pemantapan-komitmen-elsa">S2a-031 — Pemantapan Komitmen — Elsa</h3>
+<blockquote class="blockquote">
+<p>Oke, gue kirim kondisi sebenarnya di T+12, lalu interpretasi kedua maksimal T+16. Gue lebih tenang karena bantuanmu tetap berlaku walau muncul kendala baru.</p>
+</blockquote>
+</section>
+<section id="s2a-032-penutup-uji-ulang-tristan" class="level3">
+<h3 class="anchored" data-anchor-id="s2a-032-penutup-uji-ulang-tristan">S2a-032 — Penutup Uji Ulang — Tristan</h3>
+<blockquote class="blockquote">
+<p>Gue catat revisi waktu itu. Yang dicek nanti adalah berkas yang benar-benar masuk, dua interpretasi yang dapat dibaca, dan tidak ada tugas tambahan tersembunyi.</p>
+</blockquote>
+</section>
+</section>
 </section>
 <section id="d-hasil-evaluasi-dan-refleksi" class="level1">
 <h1>D) Hasil, Evaluasi, dan Refleksi</h1>
-<section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
-<h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
-<p>Tujuan tercapai sebagian: Elsa mengungkap kesulitan pada AI002, menerima dukungan pada AI003, dan menyepakati sinkronisasi pukul 20.00 pada AI004. Hasil yang didukung adalah keterbukaan serta kesepakatan pertemuan. Rincian redistribusi, keluaran setiap anggota, waktu pengiriman draf, dan penyelesaian tugas belum dinyatakan lengkap.</p>
+<section id="hasil-tujuan-dan-perubahan-profil" class="level2">
+<h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-profil">Hasil Tujuan dan Perubahan Profil</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Unsur</th>
-<th>Awal</th>
-<th>Akhir</th>
-<th>Bukti giliran</th>
-<th>Jenis bukti dan batas</th>
+<th>Kondisi Awal</th>
+<th>Hasil Akhir</th>
+<th>Bukti Transkrip</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>SWOT</td>
-<td>Tenggat dan rasa pembagian tidak adil berpotensi menimbulkan masalah.</td>
-<td>Ada pilihan kerja bersama dan pengurangan beban.</td>
-<td>U002–U004</td>
-<td>Pilihan belum menjadi pembagian terperinci.</td>
+<td>SWOT Subjektif</td>
+<td>Merasa beban tidak adil dan terancam deadline</td>
+<td>Beban terstruktur, optimalisasi peran, hubungan terjaga</td>
+<td>S2a-004 → S2a-020</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Elsa menyebut kewalahan dan takut merepotkan anggota lain.</td>
-<td>Bersedia melanjutkan dengan bantuan.</td>
-<td>AI002–AI004</td>
-<td>Interpretasi berdasarkan ucapan, bukan ukuran kecemasan.</td>
+<td>Khawatir, merasa tidak berdaya atas beban tambahan</td>
+<td>Lega, berkomitmen, merasa didukung secara adil</td>
+<td>S2a-008 → S2a-010</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Format laporan dan batas kerja belum jelas.</td>
-<td>Kebutuhan penjelasan dikenali.</td>
-<td>AI002; U003</td>
-<td>Belum ada penjelasan format atau teach-back yang ditampilkan.</td>
-</tr>
-<tr class="even">
-<td>Skill</td>
-<td>Elsa menyatakan keteteran.</td>
-<td>Ada kesepakatan pengerjaan bersama.</td>
-<td>U003–AI004</td>
-<td>Kesiapan mencoba, bukan demonstrasi peningkatan kemampuan.</td>
+<td>Kebingungan cakupan batas tugas final</td>
+<td>Pemahaman jernih atas deliver</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
-<h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Episode/ID</th>
-<th>Estimasi status dan bukti</th>
-<th>Stimulus mahasiswa</th>
-<th>Respons</th>
-<th>Perubahan ASK/SWOT</th>
-<th>Adaptasi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>U002/AI002</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Bisa kita bahas bagian mana yang paling memberatkanmu supaya kita bisa atur ulang bersama?</td>
-<td>Elsa mengungkap analisis terlalu banyak dan format belum dipahami.</td>
-<td>Pertanyaan membuka hambatan yang lebih spesifik.</td>
-<td>Tentukan beban yang bisa dipindah dan instruksi yang perlu dijelaskan.</td>
-</tr>
-<tr class="even">
-<td>U003/AI003</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Bagaimana kalau bagian analisis yang rumit itu kita kerjakan bareng sebentar malam, atau sebagian diringankan?</td>
-<td>Elsa bersedia melanjutkan bila ada bantuan.</td>
-<td>Tawaran dukungan meningkatkan kesediaan; cakupannya belum pasti.</td>
-<td>Lengkapi tanggung jawab dan hasil yang harus tersedia setelah diskusi.</td>
-</tr>
-<tr class="odd">
-<td>U004/AI004</td>
-<td>Status awal belum terukur; bukti dibatasi pada respons yang tercantum.</td>
-<td>Nanti malam kita sinkronisasi via discord jam 8.</td>
-<td>Elsa menyetujui jam 8 malam.</td>
-<td>Waktu pertemuan jelas; tenggat keluaran belum disepakati.</td>
-<td>Pisahkan jadwal bantuan dari jadwal pengiriman tugas.</td>
-</tr>
-</tbody>
-</table>
-<p>Profil konfigurasi untuk evaluasi: Elsa K2-05 adalah target, bukan komunikator. Pada paket, A berkaitan dengan bantuan yang tidak terlihat; K dengan batas tanggung jawab; S dengan kebutuhan redistribusi satu tugas. Preferensi ISFJ adalah parameter tokoh fiktif. Pada dialog yang dicantumkan, Elsa mengungkap banyaknya analisis dan format yang belum jelas; informasi ini perlu dipisahkan dari seluruh isi profil konfigurasi. Dugaan awal yang belum tercatat tidak direkonstruksi sebagai temuan sebelum pengungkapan.</p>
-</section>
-<section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
-<h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Episode/ID</th>
-<th>Pesan personal/kepedulian</th>
-<th>Respons yang teramati</th>
-<th>Rasa aman, kepercayaan, keterbukaan</th>
-<th>Dampak ASK/SWOT dan batas inferensi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>U002–AI003</td>
-<td>Pengakuan usaha serta validasi beban.</td>
-<td>AI003: “aku sanggup lanjutin kok. Makasih ya sudah ngertiin.”</td>
-<td>Awal belum ditetapkan; keterbukaan akhir sedang sebagai estimasi, karena hambatan dan kebutuhan disampaikan.</td>
-<td>Persetujuan diskusi tidak membuktikan seluruh kecemasan hilang.</td>
-</tr>
-</tbody>
-</table>
-<p>Kategori relasional merupakan estimasi dalam simulasi, bukan pengukuran psikologis. Teks tidak membuktikan prosodi atau ketulusan batin.</p>
-</section>
-<section id="uji-ulang-dan-pembelajaran" class="level2">
-<h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
-<p>Tidak ada segmen uji ulang setelah AI004 pada skrip yang diberikan. Pembelajaran yang relevan adalah menjaga kepedulian ketika bantuan belum tersedia atau satu subtugas belum selesai, lalu memperbaiki pembagian dan jadwal tanpa menuntut persetujuan otomatis. Ini rencana uji, bukan kegiatan yang diklaim sudah terjadi.</p>
-</section>
-<section id="penilaian-enam-dimensi" class="level2">
-<h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
-<p>Paket menetapkan skala 1–4, tetapi deskriptor pembeda tiap tingkat belum tersedia di lampiran. Skor numerik tidak ditetapkan tanpa dasar indikator tersebut. Tabel ini mencatat bukti dan batas tiap dimensi; penilaian AI tetap berupa usulan untuk moderasi dosen.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Dimensi</th>
-<th>Skor 1–4/BT</th>
-<th>ID dan kutipan bukti</th>
-<th>Alasan</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tujuan dan konteks</td>
-<td>BT</td>
-<td>U002: “bagian mana yang paling memberatkanmu”</td>
-<td>Cakupan tugas dan tenggat draf belum disepakati.</td>
-</tr>
-<tr class="even">
-<td>Persepsi dan validasi profil/status</td>
-<td>BT</td>
-<td>AI002: “aku belum sepenuhnya paham format laporannya”</td>
-<td>Hambatan format terungkap; pembagian awal belum diperiksa terperinci.</td>
-</tr>
-<tr class="odd">
-<td>Pemilihan dan urutan repertoar</td>
-<td>BT</td>
-<td>U003: “kita kerjakan bareng sebentar malam”</td>
-<td>Tawaran bantuan ada; redistribusi belum operasional.</td>
-</tr>
-<tr class="even">
-<td>Eksekusi jelas, peduli dan konsisten</td>
-<td>BT</td>
-<td>U004: “sinkronisasi via discord jam 8”</td>
-<td>Jadwal jelas; hasil dukungan belum tersedia.</td>
-</tr>
-<tr class="odd">
-<td>Evaluasi dan adaptasi</td>
-<td>BT</td>
-<td>AI004: “Mari kita lanjutkan ke tahap evaluasi dan refleksi.”</td>
-<td>Evaluasi dan uji ulang belum ditampilkan.</td>
-</tr>
-<tr class="even">
-<td>Refleksi dan lesson learned</td>
-<td>BT</td>
-<td>Refleksi tertulis tersedia; giliran refleksi dan konfirmasi belum tersedia.</td>
-<td>Isi refleksi dapat dibahas; kepemilikan dan koreksinya belum dikonfirmasi dalam dialog.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
-<h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
-<p>Menjaga persahabatan dan tanggung jawab kelompok memerlukan pendengaran yang tidak menghakimi. Pengakuan kontribusi perlu dilanjutkan dengan dukungan yang jelas. Jadwal berdiskusi perlu dibedakan dari tenggat hasil kerja agar bantuan dapat dievaluasi. Refleksi tertulis ini belum disertai giliran konfirmasi mahasiswa.</p>
-</section>
-<section id="tindak-lanjut-dan-batas-bukti" class="level2">
-<h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
-<p>Tabel berikut memisahkan waktu yang disebut dalam dialog dan usulan pelaksanaan berikutnya. Penanggung jawab tambahan perlu disepakati, bukan dianggap sudah ditetapkan.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Langkah</th>
-<th>Waktu</th>
-<th>Penanggung jawab/dukungan</th>
-<th>Indikator</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sinkronisasi bantuan dan penjelasan format</td>
-<td>Pukul 20.00 sesuai U004/AI004</td>
-<td>Mahasiswa dan Elsa</td>
-<td>Tugas sulit serta keluaran yang diperlukan teridentifikasi.</td>
-</tr>
-<tr class="even">
-<td>Memperjelas pembagian setelah diskusi</td>
-<td>Saat sinkronisasi</td>
-<td>Anggota kelompok sesuai kapasitas</td>
-<td>Ada pemilik tugas, cakupan, dan kriteria hasil.</td>
-</tr>
-<tr class="odd">
-<td>Menetapkan jadwal draf dan memberi kabar kendala</td>
-<td>Sebelum tenggat 48 jam pada brief</td>
-<td>Setiap pemilik tugas</td>
-<td>Tenggat draf ditetapkan bersama; bukan diasumsikan sudah disepakati.</td>
-</tr>
-</tbody>
-</table>
-<p>Batas bukti: hasil yang tersedia berupa respons dan rencana dalam simulasi teks. Pelaksanaan kegiatan, perubahan kemampuan, dan hasil jangka panjang belum dibuktikan.</p>
-</section>
-<section id="bobot-dan-nilai-akhir-uts" class="level2">
-<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Komponen</th>
-<th>Bobot</th>
-<th>Nilai komponen</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Makalah pra-UTS</td>
-<td>10%</td>
-<td>Nilai dosen belum tersedia</td>
-</tr>
-<tr class="even">
-<td>Sesi 1</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Sesi 2a</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="even">
-<td>Sesi 2b</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Sesi 3a</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="even">
-<td>Sesi 3b</td>
-<td>18%</td>
-<td>BT</td>
-</tr>
-<tr class="odd">
-<td>Total</td>
-<td>100%</td>
-<td>Belum dihitung</td>
-</tr>
-</tbody>
-</table>
-<p>Nilai sesi = jumlah enam skor / 24 × 100, hanya jika keenam skor sah tersedia.</p>
-<p><span class="math display">\[
-N_{\mathrm{UTS}}=0{,}10M+0{,}18(S_1+S_{2a}+S_{2b}+S_{3a}+S_{3b}).
-\]</span></p>
-<p>Seluruh komponen berskala 0–100. BT bukan nol; bobot tidak dinormalisasi ulang. Nilai akhir belum dihitung sampai semua komponen sah tersedia. Rata-rata kasus tidak dihitung lagi sebagai komponen tambahan.</p>
 
 
 </section>
