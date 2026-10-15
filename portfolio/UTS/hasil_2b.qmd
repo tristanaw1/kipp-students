@@ -13,122 +13,141 @@ execute:
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | Tristan Anthony Wijaya[cite: 3] |
-| NIM | 18225045[cite: 3] |
-| Kelas dan tanggal | II2100-01, 14 Oktober 2026[cite: 1, 3] |
-| Nomor/judul kasus | Sesi 2b; Kasus 2 (Persahabatan dan Profesionalitas)[cite: 1, 3] |
-| Nama dan ID target | Ali (K2-01)[cite: 3] |
-| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md[cite: 3] |
-| Modalitas | Teks (Simulasi interaktif chatbot KIPP 2.0)[cite: 3] |
-| Kasus nyata/fiktif | Nyata / Reflektif (Pengelolaan tugas kelompok kuliah STEI-K)[cite: 3] |
-| Kelengkapan transkrip | Lengkap (mencakup identifikasi, rencana, simulasi, evaluasi, uji ulang, refleksi, dan konfirmasi)[cite: 3] |
+| Nama mahasiswa | Tristan Anthony Wijaya |
+| NIM | `18225045` |
+| Kelas dan tanggal | II2100-01, 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 2b; Kasus 2 (Persahabatan dan Profesionalitas) |
+| Nama dan ID target | Ali (K2-01) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
+| Modalitas | Teks (Simulasi interaktif chatbot KIPP 2.0) |
+| Kasus nyata/fiktif | Simulasi tugas kelompok dengan tokoh fiktif paket. |
+| Kelengkapan transkrip | Parsial: 4 pasangan U/AI tersedia; evaluasi, penerapan uji ulang, jawaban refleksi dan konfirmasi akhir belum lengkap. |
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
 
-Brief kasus: Tenggat tugas kelompok 48 jam lagi. Rekan dekat (Ali) belum mengirim bagiannya dan merasa pembagian tugas tidak adil. Mahasiswa mengajak percakapan untuk menjaga hubungan persahabatan sekaligus menyepakati tanggung jawab kerja kelompok[cite: 3].
-Tujuan tindakan: Menurunkan ketakutan gagal dan rasa tidak aman Ali, mengakui keraguannya, serta menyepakati langkah kecil dan pendampingan subtugas tanpa membuatnya merasa dipermalukan[cite: 3].
+Brief kasus: Tenggat tugas kelompok 48 jam lagi. Rekan dekat (Ali) belum mengirim bagiannya dan merasa pembagian tugas tidak adil. Mahasiswa mengajak percakapan untuk menjaga hubungan persahabatan sekaligus menyepakati tanggung jawab kerja kelompok.
+Tujuan tindakan: Menurunkan ketakutan gagal dan rasa tidak aman Ali, mengakui keraguannya, serta menyepakati langkah kecil dan pendampingan subtugas tanpa membuatnya merasa dipermalukan.
 
 ## Profil awal komunikator
 
+Profil berikut membedakan informasi tertulis dan interpretasi ujaran. Profil diri lengkap sebelum simulasi belum tercatat.
+
 | Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
 |---|---|---|---|
-| SWOT subjektif | Peluang menyelesaikan tugas bersama; Ancaman keterlambatan dan penurunan rasa percaya diri Ali; Mampu membimbing; Belum tahu bagian mana yang paling sulit bagi Ali[cite: 3] | U001[cite: 3] | Sementara[cite: 3] |
-| Attitude | Menjaga harmoni dan empati tinggi terhadap rekan yang kurang percaya diri[cite: 3] | U001[cite: 3] | Sementara[cite: 3] |
-| Knowledge | Mengetahui tenggat tugas kelompok dan adanya kendala di bagian Ali[cite: 3] | U001[cite: 3] | Sementara[cite: 3] |
-| Skill | Mampu berkomunikasi secara lembut dan suportif[cite: 3] | U001[cite: 3] | Sementara[cite: 3] |
-| Preferensi/MBTI jika dilaporkan | INFP (berdasarkan analisis profil komunikan dan orientasi nilai personal)[cite: 1, 3] | U001[cite: 3] | Hipotesis[cite: 3] |
-| Karakter, peran, kultur/ko-kultur | Rekan kuliah di STEI-K ITB; menjunjung tinggi solidaritas sebaya yang tidak saling mempermalukan[cite: 1, 3] | U001[cite: 3] | Sementara[cite: 3] |
+| SWOT subjektif | Peluang menyelesaikan tugas bersama; ancaman keterlambatan; hambatan khusus perlu digali. | Brief; U002 | Interpretasi terbatas; belum divalidasi lengkap |
+| Attitude | Menghindari penghakiman dan menjaga peran rekan. | U002–U003 | Interpretasi terbatas; belum divalidasi lengkap |
+| Knowledge | Mengetahui konteks tugas; kesulitan skema basis data diketahui dari jawaban Ali. | AI002 | Interpretasi terbatas; belum divalidasi lengkap |
+| Skill | Menggunakan pertanyaan lembut dan menawarkan pendampingan langkah kecil. | U002–U004 | Interpretasi terbatas; belum divalidasi lengkap |
+| Preferensi/MBTI jika dilaporkan | MBTI mahasiswa belum dilaporkan pada percakapan. | Tidak ada pernyataan MBTI diri. | Belum tersedia |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa sebagai rekan kelompok; menjaga solidaritas sebaya dan tanggung jawab tugas. | U001–U004 | Interpretasi terbatas; belum divalidasi lengkap |
 
 ## Dugaan awal profil target dan rencana
 
+Dugaan sebelum pengungkapan profil belum tersedia sebagai giliran tersendiri. Tabel berikut adalah rencana tertulis; waktu penyusunannya terhadap pengungkapan profil belum tercatat.
+
 | TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 |---|---|---|---|---|
-| Target | Menyepakati penyelesaian bagian tugas Ali sebelum tenggat[cite: 3] | Diagnosis hambatan A/K/S Ali[cite: 3] | Pertanyaan lembut dan penuh empati[cite: 3] | Penurunan rasa takut gagal Ali[cite: 3] |
-| Attention | Ali merasa tidak yakin dan takut dianggap tidak berguna[cite: 3] | A (Ingin berkembang namun takut gagal)[cite: 3] | Mengakui potensi dan meredakan ketakutan Ali[cite: 3] | Ali bersedia membuka diri berdialog[cite: 3] |
-| Interest | Ali ingin memahami instruksi dengan baik[cite: 3] | K (Manfaat ada, prosedur belum dipahami)[cite: 3] | Menjelaskan instruksi subtugas secara sederhana[cite: 3] | Keterlibatan aktif memahami langkah kerja[cite: 3] |
-| Desire | Ali butuh pendampingan langkah kecil[cite: 3] | S (Mampu langkah dasar, perlu latihan)[cite: 3] | Menawarkan pendampingan pengerjaan subtugas[cite: 3] | Kesediaan mencoba langkah pertama[cite: 3] |
-| Action | Menyelesaikan subtugas bersama dengan pendampingan[cite: 3] | A/K/S tersinkronisasi[cite: 3] | Penentuan jadwal diskusi singkat[cite: 3] | Subtugas selesai dan terkirim[cite: 3] |
+| Target | Menyepakati penyelesaian bagian tugas Ali sebelum tenggat | Diagnosis hambatan A/K/S Ali | Pertanyaan lembut dan penuh empati | Penurunan rasa takut gagal Ali |
+| Attention | Ali merasa tidak yakin dan takut dianggap tidak berguna | A (Ingin berkembang namun takut gagal) | Mengakui potensi dan meredakan ketakutan Ali | Ali bersedia membuka diri berdialog |
+| Interest | Ali ingin memahami instruksi dengan baik | K (Manfaat ada, prosedur belum dipahami) | Menjelaskan instruksi subtugas secara sederhana | Keterlibatan aktif memahami langkah kerja |
+| Desire | Ali butuh pendampingan langkah kecil | S (Mampu langkah dasar, perlu latihan) | Menawarkan pendampingan pengerjaan subtugas | Kesediaan mencoba langkah pertama |
+| Action | Menyelesaikan subtugas bersama dengan pendampingan | A/K/S tersinkronisasi | Penentuan jadwal diskusi singkat | Subtugas selesai dan terkirim |
 
 # C) Skrip Percakapan
 
-**Transkrip aktual, bukan dialog karangan.**[cite: 3]
+Tersedia 4 pasangan giliran mahasiswa dan fasilitator.
 
-- **U001 (Identifikasi):** Mahasiswa menyampaikan: "Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 14 Oktober 2026, modalitas teks, kasus persahabatan dan profesionalitas sesi 2b."[cite: 1, 3]
-- **AI001 (Konfirmasi & Brief Kasus):** "Data diterima. Selamat datang di Sesi 2b Kasus 2. Ali (K2-01) merespons dengan kalimat pembuka: *'Terima kasih, tetapi saya belum yakin bisa melakukannya.'* Silakan mulai percakapan."[cite: 3]
-- **U002 (Simulasi Awal):** "Halo Ali, tidak apa-apa merasa ragu, wajar banget kok kalau bagian tugas ini terasa membingungkan. Kamu tidak sendirian di kelompok ini, kita bisa cicil pelan-pelan. Kira-kira bagian mana yang paling bikin kamu ragu?"[cite: 3]
-- **AI002 (Respon Tokoh - Ali):** "Ali menjawab: *'Aku bingung di bagian perancangan skema basis data-nya, takut salah format dan malah bikin yang lain kerja dua kali.'*"[cite: 3]
-- **U003 (Validasi & Edukasi):** "Oh, di bagian skema itu memang agak tricky di awal. Kamu nggak perlu langsung bikin semuanya sekaligus kok. Bagaimana kalau kita buat coretan kasar (draft awal) untuk tabel utamanya bareng-bareng lewat sesi daring 15 menit?"[cite: 3]
-- **AI003 (Respon Tokoh - Ali):** "Ali merespons dengan nada lega: *'Kalau ditemani bikin draft awalnya dulu, sepertinya aku bisa coba. Makasih ya, Tristan, sudah mau bantu.'*"[cite: 3]
-- **U004 (Kesepakatan Action):** "Sama-sama, Ali. Jadi kita sepakat ya, nanti sore jam 4 kita kumpul sebentar buat susun draft awal tabel utamanya. Semangat ya!"[cite: 3]
-- **AI004 (Konfirmasi Kesepakatan):** "Ali menjawab: *'Siap, jam 4 sore ya. Terima kasih banyak bantuannya.'* Mari kita lanjutkan ke tahap evaluasi dan refleksi."[cite: 3]
+- **U001 (Identifikasi):** Mahasiswa menyampaikan: "Nama saya Tristan Anthony Wijaya, NIM 18225045, kelas II2100-01, tanggal 14 Oktober 2026, modalitas teks, kasus persahabatan dan profesionalitas sesi 2b."
+- **AI001 (Konfirmasi & Brief Kasus):** "Data diterima. Selamat datang di Sesi 2b Kasus 2. Ali (K2-01) merespons dengan kalimat pembuka: *'Terima kasih, tetapi saya belum yakin bisa melakukannya.'* Silakan mulai percakapan."
+- **U002 (Simulasi Awal):** "Halo Ali, tidak apa-apa merasa ragu, wajar banget kok kalau bagian tugas ini terasa membingungkan. Kamu tidak sendirian di kelompok ini, kita bisa cicil pelan-pelan. Kira-kira bagian mana yang paling bikin kamu ragu?"
+- **AI002 (Respon Tokoh - Ali):** "Ali menjawab: *'Aku bingung di bagian perancangan skema basis data-nya, takut salah format dan malah bikin yang lain kerja dua kali.'*"
+- **U003 (Validasi & Edukasi):** "Oh, di bagian skema itu memang agak tricky di awal. Kamu nggak perlu langsung bikin semuanya sekaligus kok. Bagaimana kalau kita buat coretan kasar (draft awal) untuk tabel utamanya bareng-bareng lewat sesi daring 15 menit?"
+- **AI003 (Respon Tokoh - Ali):** "Ali merespons dengan nada lega: *'Kalau ditemani bikin draft awalnya dulu, sepertinya aku bisa coba. Makasih ya, Tristan, sudah mau bantu.'*"
+- **U004 (Kesepakatan Action):** "Sama-sama, Ali. Jadi kita sepakat ya, nanti sore jam 4 kita kumpul sebentar buat susun draft awal tabel utamanya. Semangat ya!"
+- **AI004 (Konfirmasi Kesepakatan):** "Ali menjawab: *'Siap, jam 4 sore ya. Terima kasih banyak bantuannya.'* Mari kita lanjutkan ke tahap evaluasi dan refleksi."
 
 # D) Hasil, Evaluasi, dan Refleksi
 
 ## Hasil tujuan dan perubahan SWOT/ASK
 
-Tujuan tercapai dengan sangat baik. Mahasiswa berhasil mengatasi ketakutan gagal Ali (*Attitude*), memperjelas instruksi prosedur (*Knowledge*), serta memberikan dukungan pendampingan langkah kecil (*Skill*) sehingga tugas dapat diselesaikan tanpa merusak relasi pertemanan[cite: 3].
+Tujuan tercapai sebagian pada kesepakatan pendampingan. Ali menjelaskan kesulitan merancang skema pada AI002 dan bersedia mencoba draf awal pada AI003. AI004 menyetujui pertemuan pukul 16.00. Naskah belum memperlihatkan penjelasan instruksi skema, draf tabel, langkah yang dicoba Ali, atau pengiriman tugas.
 
 | Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
 |---|---|---|---|---|
-| Kesimpulan SWOT | Potensi macetnya tugas dan kecemasan rekan[cite: 3] | Tugas teratasi dengan pendampingan langkah kecil[cite: 3] | U002, U004[cite: 3] | Simulasi interaktif[cite: 3] |
-| Attitude | Ali merasa tidak yakin dan takut gagal[cite: 3] | Ali merasa didukung dan termotivasi[cite: 3] | AI003[cite: 3] | Batas respons emosional |
-| Knowledge | Prosedur perancangan skema belum dipahami[cite: 3] | Pemahaman alur dasar menjadi lebih jelas[cite: 3] | AI002, U003[cite: 3] | Batas kognitif simulasi |
-| Skill | Ali ragu-ragu dan butuh latihan dasar[cite: 3] | Memiliki jadwal pendampingan draf awal[cite: 3] | U003, U004[cite: 3] | Demonstrasi kesepakatan |
+| SWOT | Ada kekhawatiran salah format dan membuat kerja anggota lain bertambah. | Ada pilihan mencoba draf awal dengan dukungan. | AI002–AI004 | Perubahan kesiapan, belum bukti tugas selesai. |
+| Attitude | Ali menyatakan ragu. | Bersedia mencoba ketika ditawarkan pendampingan. | AI002–AI003 | Berdasarkan respons teks. |
+| Knowledge | Cara merancang skema belum jelas. | Bagian yang membingungkan sudah diidentifikasi. | AI002; U003 | Pengetahuan belum diperiksa melalui penjelasan kembali. |
+| Skill | Ali memerlukan bantuan langkah awal. | Ada jadwal pendampingan draf. | U003–AI004 | Kesepakatan tidak setara dengan kemampuan merancang tabel. |
 
 ## Evaluasi stimulus–respons dan diagnosis profil
 
 | Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
 |---|---|---|---|---|---|
-| U002/AI002 | Rasa aman awal rendah, defensif/tertutup[cite: 3] | "Tidak apa-apa merasa ragu... kita bisa cicil pelan-pelan..."[cite: 3] | Ali terbuka mengakui kebingungan teknisnya[cite: 3] | Penurunan kecemasan dan ketakutan gagal | Validasi keraguan |
-| U003/AI003 | Rasa aman sedang menuju tinggi[cite: 3] | "Bagaimana kalau kita buat coretan kasar... bareng-bareng..."[cite: 3] | Ali merasa lega dan bersedia mencoba[cite: 3] | Penguatan motivasi dan kesiapan aksi | Tawaran langkah kecil |
+| U002/AI002 | Status awal belum terukur; bukti dibatasi pada respons yang tercantum. | Kira-kira bagian mana yang paling bikin kamu ragu? | Ali menjelaskan kebingungan skema basis data dan takut salah format. | Pertanyaan membuka gap pengetahuan serta kekhawatiran relasional. | Perjelas instruksi tabel sebelum menilai hasil. |
+| U003/AI003 | Status awal belum terukur; bukti dibatasi pada respons yang tercantum. | Bagaimana kalau kita buat coretan kasar untuk tabel utamanya bareng-bareng lewat sesi daring 15 menit? | Ali bersedia mencoba draf awal jika ditemani. | Langkah kecil dan dukungan membantu kesediaan mencoba. | Berikan kesempatan Ali mengerjakan bagian berikutnya sendiri. |
+| U004/AI004 | Status awal belum terukur; bukti dibatasi pada respons yang tercantum. | Nanti sore jam 4 kita kumpul sebentar buat susun draft awal tabel utamanya. | Ali menyetujui jam 4 sore. | Waktu diskusi jelas; hasil dan tenggat akhir belum dirinci. | Tentukan kriteria draf dan jadwal pengiriman. |
+
+Profil konfigurasi untuk evaluasi: Ali K2-01 merupakan target. Paket memuat A takut dianggap tidak berguna, K instruksi subtugas kurang jelas, dan S membutuhkan bantuan satu subtugas. Preferensi INFP tidak digunakan untuk melabeli mahasiswa atau menganggap semua orang dengan tipe tersebut mempunyai hambatan yang sama. Dugaan awal yang belum tercatat tidak direkonstruksi sebagai temuan sebelum pengungkapan.
 
 ## Pengaruh pesan personal dan kualitas relasi
 
 | Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
 |---|---|---|---|---|
-| U002, U003 | Mengakui keraguan tanpa menghakimi, menawarkan pendampingan langkah kecil[cite: 3] | Ali merasa dihargai, kecemasan turun, bersedia berpartisipasi[cite: 3] | Rendah → Tinggi; dibuktikan dengan kesepakatan sesi daring sore hari[cite: 3] | Pendekatan penuh empati sangat efektif untuk tipe komunikan yang sensitif terhadap kegagalan |
+| U002–AI003 | Mengakui keraguan tanpa menghakimi dan menawarkan pendampingan. | AI003: “sepertinya aku bisa coba.” | Awal belum ditetapkan; keterbukaan akhir sedang sebagai estimasi, didukung pengungkapan kesulitan dan pilihan mencoba. | Belum membuktikan peningkatan kemampuan atau hilangnya rasa takut. |
+
+Kategori relasional merupakan estimasi dalam simulasi, bukan pengukuran psikologis. Teks tidak membuktikan prosodi atau ketulusan batin.
 
 ## Uji ulang dan pembelajaran
 
-Menghadapi rekan yang kurang percaya diri memerlukan pendekatan psikologis yang meredakan ketakutan akan kegagalan (*fear of failure*). Alih-alih menuntut hasil akhir, memberikan tawaran pendampingan pada langkah pertama terbukti efektif membuka keterbukaan.
+Tidak ada situasi uji ulang setelah AI004 pada skrip. Uji ulang yang relevan adalah meminta Ali menerapkan satu instruksi pada tabel berikutnya dan menjelaskan alasannya. Bila ada kendala baru, dukungan disesuaikan tanpa mengambil alih seluruh pekerjaannya. Rencana ini tidak ditulis sebagai kejadian yang telah berlangsung.
 
 ## Penilaian enam dimensi
 
+Paket menetapkan skala 1–4, tetapi deskriptor pembeda tiap tingkat belum tersedia di lampiran. Skor numerik tidak ditetapkan tanpa dasar indikator tersebut. Tabel ini mencatat bukti dan batas tiap dimensi; penilaian AI tetap berupa usulan untuk moderasi dosen.
+
 | Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
 |---|---|---|---|
-| Tujuan dan konteks | 4 | U001, U002[cite: 3] | Konteks tenggat tugas kelompok dan hambatan psikologis rekan diangkat secara tepat. |
-| Persepsi dan validasi profil/status | 4 | U002, AI002[cite: 3] | Mampu mengenali keraguan Ali dan memvalidasi perasaannya tanpa menghakimi. |
-| Pemilihan dan urutan repertoar | 4 | U003[cite: 3] | Memilih stimulus berupa tawaran pendampingan langkah kecil yang sangat relevan. |
-| Eksekusi jelas, peduli dan konsisten | 4 | U003, U004[cite: 3] | Pesan disampaikan dengan kelembutan, jelas, dan menunjukkan kepedulian tulus. |
-| Evaluasi dan adaptasi | 4 | AI003, U004[cite: 3] | Beradaptasi secara responsif terhadap keterbukaan Ali hingga tercapai mufakat. |
-| Refleksi dan lesson learned | 4 | Refleksi[cite: 3] | Menyusun pembelajaran mendalam mengenai pentingnya keamanan psikologis dalam kerja tim. |
-
-*Usulan skor AI = 24 / 24 × 100 = 100 (Memerlukan moderasi dosen).*[cite: 1, 3]
+| Tujuan dan konteks | BT | U002: “bagian mana yang paling bikin kamu ragu?” | Kriteria draf dan jadwal pengiriman belum ditetapkan. |
+| Persepsi dan validasi profil/status | BT | AI002: “takut salah format” | Keraguan terungkap; pemeriksaan pemahaman belum dilakukan. |
+| Pemilihan dan urutan repertoar | BT | U003: “lewat sesi daring 15 menit?” | Pendampingan ditawarkan; contoh skema belum diberikan. |
+| Eksekusi jelas, peduli dan konsisten | BT | U004: “nanti sore jam 4” | Waktu pertemuan jelas; pelaksanaan belum terlihat. |
+| Evaluasi dan adaptasi | BT | AI004: “Mari kita lanjutkan ke tahap evaluasi dan refleksi.” | Evaluasi dan uji ulang belum ditampilkan. |
+| Refleksi dan lesson learned | BT | Refleksi tertulis tersedia; giliran refleksi dan konfirmasi belum tersedia. | Isi refleksi dapat dibahas; kepemilikan dan koreksinya belum dikonfirmasi dalam dialog. |
 
 ## Refleksi dan lesson learned mahasiswa
 
-Mahasiswa memahami bahwa tipe rekan yang perfeksionis namun rapuh terhadap kegagalan membutuhkan validasi emosional dan rasa aman sebelum diminta mengeksekusi tugas. Komunikasi yang suportif dan tidak menghakimi menjadi kunci utama keberhasilan kolaborasi tim.
+Keraguan rekan perlu digali sebelum ditafsirkan sebagai kurangnya kemauan. Pendampingan langkah kecil memberi ruang mencoba. Penjelasan instruksi, pemeriksaan pemahaman, dan kesempatan mengerjakan bagian sendiri tetap diperlukan untuk menilai perkembangan kemampuan. Refleksi tertulis ini belum disertai giliran konfirmasi mahasiswa.
 
 ## Tindak lanjut dan batas bukti
 
-- Langkah: Melaksanakan sesi diskusi daring singkat untuk menyusun draf awal tugas.
-- Waktu: Sore hari menjelang pengumpulan tugas kelompok.
-- Dukungan: Komunikasi personal dan kolaborasi dokumen bersama.
-- Indikator: Tugas terselesaikan dan rasa percaya diri rekan meningkat.
-- Batas bukti: Evaluasi bersumber dari simulasi interaktif teks; implementasi nyata memerlukan komitmen konsisten dari kedua belah pihak.
+Tabel berikut memisahkan waktu yang disebut dalam dialog dan usulan pelaksanaan berikutnya. Penanggung jawab tambahan perlu disepakati, bukan dianggap sudah ditetapkan.
+
+| Langkah | Waktu | Penanggung jawab/dukungan | Indikator |
+|---|---|---|---|
+| Pendampingan draf awal tabel utama | Pukul 16.00; usulan durasi 15 menit | Mahasiswa dan Ali | Instruksi serta satu draf dibahas. |
+| Pemeriksaan pemahaman | Saat pendampingan | Ali menjelaskan kembali; mahasiswa memberi umpan balik | Ali menyebut langkah serta alasan pada drafnya. |
+| Percobaan bagian berikutnya dan jadwal kirim | Setelah pendampingan; tenggat ditetapkan bersama | Ali dengan bantuan terbatas | Ada hasil mandiri dan kendala spesifik yang dapat diperiksa. |
+
+Batas bukti: hasil yang tersedia berupa respons dan rencana dalam simulasi teks. Pelaksanaan kegiatan, perubahan kemampuan, dan hasil jangka panjang belum dibuktikan.
 
 ## Bobot dan nilai akhir UTS
 
 | Komponen | Bobot | Nilai komponen |
-|---|---:|---|
-| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100[cite: 1, 3] |
-| Sesi 1 | 18% | 100[cite: 1, 3] |
-| Sesi 2a | 18% | 100[cite: 1, 3] |
-| Sesi 2b | 18% | 100 (Selesai dinilai)[cite: 1, 3] |
-| Sesi 3a | 18% | Belum dihitung |
-| Sesi 3b | 18% | Belum dihitung |
-| **Total** | **100%** | |
+|---|---|---|
+| Makalah pra-UTS | 10% | Nilai dosen belum tersedia |
+| Sesi 1 | 18% | BT |
+| Sesi 2a | 18% | BT |
+| Sesi 2b | 18% | BT |
+| Sesi 3a | 18% | BT |
+| Sesi 3b | 18% | BT |
+| Total | 100% | Belum dihitung |
 
-**Nilai akhir UTS = Belum dihitung** (sampai seluruh komponen sesi lengkap tersedia).[cite: 1, 3]
+Nilai sesi = jumlah enam skor / 24 × 100, hanya jika keenam skor sah tersedia.
+
+$$
+N_{\mathrm{UTS}}=0{,}10M+0{,}18(S_1+S_{2a}+S_{2b}+S_{3a}+S_{3b}).
+$$
+
+Seluruh komponen berskala 0–100. BT bukan nol; bobot tidak dinormalisasi ulang. Nilai akhir belum dihitung sampai semua komponen sah tersedia. Rata-rata kasus tidak dihitung lagi sebagai komponen tambahan.
