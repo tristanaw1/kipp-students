@@ -389,4 +389,3 @@ Catatan mutu fasilitasi dan ketepatan pelaporan: Salah sebut “pasien” dari A
 
 **Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b).** Nilai belum tersedia tidak dianggap nol dan bobot tidak dinormalisasi ulang. Rata-rata 2a/2b serta 3a/3b adalah ringkasan kasus, bukan komponen tambahan.
 
-Tiket 911 sebelumnya menyatakan lima evidence sesi belum terdeteksi. Nama file ini sudah sesuai paket; keberhasilan pembacaan bot hanya dapat dipastikan setelah file dan tautannya berada di repositori/lokasi pengumpulan yang dibaca pemeriksa. Isi index dan paper serta konfigurasi repositori tidak disertakan dalam pembuatan ini sehingga tidak diubah. Mahasiswa tetap perlu mengunggah dan memeriksa proses pengumpulan.
