@@ -1,8 +1,8 @@
 ---
-title: "Laporan UTS KIPP 2026 — Versi 2.0"
-subtitle: "Sesi 3b — Kasus 3"
-author: "Tristan Anthony Wijaya (18225045)"
-date: "2026-10-15"
+title: Laporan UTS KIPP 2026 — Versi 2.0
+subtitle: Sesi 3b — Kasus 3
+author: Tristan Anthony Wijaya (18225045)
+date: '2026-10-15'
 lang: id
 format:
   html:
@@ -15,185 +15,359 @@ execute:
 
 | Elemen | Keterangan |
 | --- | --- |
-| Nama mahasiswa | Tristan Anthony Wijaya[cite: 9] |
-| NIM | 18225045[cite: 9] |
-| Kelas dan tanggal | II2100-01; 15 Oktober 2026 (WIB)[cite: 9] |
-| Nomor/judul kasus | Sesi 3b; Kasus 3[cite: 9] |
-| Nama dan ID target | Elsa (K3-05)[cite: 9] |
-| Versi bank/aturan penugasan | Bank 2.0; paket individual 2.0; PENUGASAN.md → prompt_umum.md → profil_komunikan.md dan template_laporan.qmd[cite: 9] |
-| Sumber konfigurasi | kasus_3b_18225045(3).zip; akhiran (3) merupakan penanda salinan, bukan versi bank[cite: 9] |
-| Modalitas | Percakapan teks dan dialog interaktif[cite: 9] |
-| Kasus nyata/fiktif | Kasus studi berdasarkan brief dan profil paket penugasan[cite: 9] |
-| Kelengkapan transkrip | Seluruh transkrip dialog dan uji ulang disertakan secara lengkap[cite: 9] |
-| Status laporan | Laporan performa dan evaluasi interaksi penuh[cite: 9] |
-| Konfirmasi identitas | Dikonfirmasi melalui jawaban aktual pada awal sesi[cite: 9] |
-| Konfirmasi hasil dan refleksi | Disusun berdasarkan asesmen komprehensif sesi[cite: 9] |
+| Nama mahasiswa | Tristan Anthony Wijaya |
+| NIM | 18225045 |
+| Kelas dan tanggal | II2100-01; 15 Oktober 2026 (WIB) |
+| Nomor/judul kasus | Sesi 3b; Kasus 3 |
+| Nama dan ID target | Elsa (K3-05) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0. Prioritas: PENUGASAN.md → prompt_umum.md → profil_komunikan.md dan template_laporan.qmd |
+| Sumber konfigurasi | kasus_3b_18225045(3).zip; (3) hanya penanda salinan unggahan |
+| Modalitas | Suara; sumber yang diperiksa berupa salinan transkripsi SRT dalam percakapan, bukan rekaman audio asli |
+| Kasus nyata/fiktif | Kasus fiktif dari paket; tokoh diperankan AI. Jawaban mahasiswa berasal dari transkripsi interaksi yang benar-benar diberikan, bukan naskah dua peran yang dibuat sebelumnya. |
+| Kelengkapan transkrip | Giliran substantif, sela tanggapan yang tersedia, evaluasi, uji ulang dan refleksi disertakan. Jeda murni “sebentar/cek dulu”, notifikasi alat dan pengulangan konteks teknis tidak dihitung sebagai performa. Bukan transkripsi audio baru. |
+| Identifikasi | Data identitas dirujuk dari konfirmasi awal rangkaian sesi 1; tidak dilakukan verifikasi identitas independen. |
+| Konfirmasi hasil dan refleksi | Refleksi akhir tersedia. Persetujuan atas ringkasan formal hasil belum diminta; ucapan perpisahan tidak dianggap konfirmasi laporan. |
+| Nama laporan wajib | hasil_3b_18225045.qmd |
 
-**Keterangan sumber:** Transkrip berasal dari dialog aktual dalam interaksi sesi 3b[cite: 9]. Profil setiap sesi berdiri sendiri dan dianalisis sesuai rubrik evaluasi komunikasi interpersonal[cite: 9].
+
+Kutipan mempertahankan penggalan, pengulangan, kesalahan istilah, dan koreksi yang ada pada transkripsi. Pemenggalan baris dan spasi dirapikan. U adalah mahasiswa; AI adalah fasilitator atau pemeran tokoh sesuai penanda tahap. Perasaan tokoh merupakan respons pemeranan, bukan bukti perasaan manusia nyata. Analisis dan saran penilai berada di bagian B/D, terpisah dari kutipan di bagian C.
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
 
-Customer menangani pertanyaan berulang dan pesanan tercecer dengan tenaga terbatas, tetapi belum yakin perlu AI[cite: 9]. Mahasiswa menggali kebutuhan dan menawarkan solusi yang sesuai secara proporsional[cite: 9]. Sesi ini dimulai baru dengan Elsa sebagai customer, tanpa membawa hubungan Elsa sesi sebelumnya[cite: 9].
+Customer menghadapi pertanyaan pelanggan berulang dan pesanan tercecer, dengan tenaga terbatas. Ia belum yakin memerlukan AI. Mahasiswa menggali kebutuhan dan menawarkan solusi TI/AI yang sesuai, dengan sasaran keputusan atau uji coba konkret.
 
-**Tujuan interaksi:** Menyepakati latihan layanan manusia dengan satu petugas, satu antrean pertanyaan yang perlu ditangani, dan empat percakapan fiktif[cite: 9]. Pilihan awal adalah jawaban standar yang dikirim petugas serta pencatatan pesanan; AI tidak diterapkan langsung ke pelanggan[cite: 9]. Uji terbatas baru dipertimbangkan setelah petugas bisa mengenali permintaan bantuan manusia dan tidak ada antrean tanpa penanggung jawab[cite: 9].
+Tujuan yang dinyatakan mahasiswa: [U001](#u001): “bisa memutuskan sendiri dia butuh atau enggak”.
 
-## Profil Awal Komunikator
+Hasil yang dapat dinilai dari sesi ini: Sebagian: Elsa mulai membayangkan alur, tetapi menunda penerapan karena penanggung jawab setiap keluhan belum jelas. Indikator pemeriksaan adalah kesesuaian respons, kejelasan tanggung jawab, bantuan, langkah berikut dan cara evaluasi. Pernyataan niat tidak disamakan dengan hasil kerja.
+
+## Profil awal komunikator
+
 
 | Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
 | --- | --- | --- | --- |
-| SWOT subjektif | Komitmen menjaga kesinambungan layanan dan kesejahteraan petugas menjadi modal utama[cite: 9]. | Transkrip interaksi S3b[cite: 9] | Observasi langsung[cite: 9] |
-| Attitude | Proaktif, empatik, menghargai hubungan pelanggan, serta menjaga beban kerja staf[cite: 9]. | S3b-003, S3b-009[cite: 9] | Laporan performa[cite: 9] |
-| Knowledge | Memahami alur eskalasi ke petugas, batas otomatisasi, dan pentingnya penanggung jawab antrean[cite: 9]. | S3b-007, S3b-009[cite: 9] | Laporan performa[cite: 9] |
-| Skill | Keterampilan konsultasi bisnis, mitigasi kekhawatiran operasional, dan perancangan latihan bertahap[cite: 9]. | S3b-011, S3b-019[cite: 9] | Evaluasi tindakan[cite: 9] |
-| Preferensi/MBTI | Suportif, terstruktur, berorientasi pada kepastian layanan dan keamanan staf[cite: 9]. | Latar interaksi S3b[cite: 9] | Terkonfirmasi[cite: 9] |
+| SWOT subjektif | Mampu menawarkan bantuan dan menjelaskan materi; keterbatasan yang tampak adalah kecenderungan menyimpulkan kesiapan target sebelum melihat pelaksanaan. | [U009](#u009): “jangan langsung ambil mentah-mentah dari AI” | Interpretasi dari interaksi, bukan sifat tetap |
+| Attitude | Ingin membantu dan menjaga hubungan atau kepentingan target. | [U001](#u001): “bisa memutuskan sendiri dia butuh atau enggak”; [U009](#u009): “jangan langsung ambil mentah-mentah dari AI” | Tujuan dan ungkapan mahasiswa |
+| Knowledge | Menjelaskan pilihan tindakan; ketepatan dan kecocokan tiap penjelasan tetap dinilai secara terpisah. | [U003](#u003): “tetap pertahankan sistem yang sekarang” | Terlihat dalam teks, bukan sertifikasi kompetensi |
+| Skill | Memberikan respons dan menyesuaikan penjelasan pada kendala baru. | [U018](#u018): “Kalian butuh sebuah sistem informasi gitu” | Demonstrasi komunikasi melalui transkripsi; skill operasional di luar sesi belum diuji |
+| Preferensi/MBTI jika dilaporkan | Tipe MBTI mahasiswa tidak dilaporkan; tidak didiagnosis dari percakapan. | Tidak ada laporan tipe | Belum diketahui |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa; menggunakan bahasa pertemanan dan menawarkan pendampingan. Klaim IP atau keahlian, jika muncul, dicatat sebagai ucapan diri. | [U009](#u009): “jangan langsung ambil mentah-mentah dari AI” | Laporan diri dan konteks percakapan |
 
-## Pemetaan TAIDA dan Rencana Interaksi
 
-| TAIDA | Status Target | Edukasi A/K/S | Repertoar Tindakan | Bukti Interaksi |
+## Dugaan awal profil target dan rencana
+
+Dugaan profil lengkap dan rencana TAIDA tertulis tidak diminta tuntas sebelum pemeranan; tidak diisi ulang seolah sudah dibuat mahasiswa sebelumnya. Tabel ini adalah pemetaan analitis atas respons aktual setelah sesi.
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 | --- | --- | --- | --- | --- |
-| Target | Keputusan kecil yang menjaga layanan dan staf | Pisahkan asumsi efisiensi dari realitas operasional | Nyatakan sasaran dan batas uji | S3b-001; S3b-021[cite: 9] |
-| Attention | Menggali kekhawatiran terhadap staf dan pelanggan | A: dengarkan dan hargai keraguan mitra | Pertanyaan terbuka berbasis empati | S3b-003 → S3b-004[cite: 9] |
-| Interest | Membedakan jenis percakapan manusia vs otomatis | K: klarifikasi eskalasi penanganan dan jam layanan | Pemetaan alur keluhan & daftar petugas | S3b-005 → S3b-007[cite: 9] |
-| Desire | Menawarkan latihan 4 percakapan fiktif | A/K/S: berikan skenario uji terbatas & dukungan staf | Latihan 20 menit & checklist ragu | S3b-011; S3b-015[cite: 9] |
-| Action | Menyepakati latihan ulang & menunda uji jika staf belum siap | S: tetapkan indikator kesiapan & opsi tunda | Keputusan latihan & evaluasi berkala | S3b-021; S3b-031[cite: 9] |
+| Target | Tujuan mahasiswa dan masalah dalam brief | Pisahkan sasaran dari hasil | Menyatakan sasaran | [U001](#u001): “bisa memutuskan sendiri dia butuh atau enggak” |
+| Attention | Keberatan awal dan hambatan yang diungkap target | A: rasa aman; K: klarifikasi konteks | Mendengarkan dan bertanya | [U002](#u002): “Mengubah apa maksudnya” |
+| Interest | Target mempertimbangkan bantuan | K: penjelasan yang terkait kebutuhan | Contoh dan penjelasan | [U003](#u003): “tetap pertahankan sistem yang sekarang” |
+| Desire | Kesediaan mencoba masih dapat bersyarat | A/S: dukungan dan pilihan | Tawaran pendampingan | [U009](#u009): “jangan langsung ambil mentah-mentah dari AI” |
+| Action | Langkah dan dukungan perlu disepakati; pelaksanaan belum diverifikasi | S: penerapan dan cara mengecek | Respons uji ulang dan rencana lanjutan | [U018](#u018): “Kalian butuh sebuah sistem informasi gitu” |
+
 
 # C) Skrip Percakapan
 
-## Transkrip Percakapan dan Uji Ulang
+**Transkrip interaksi aktual yang tersedia.** Tokoh bersifat fiktif; ucapan mahasiswa adalah jawaban dalam sesi. Giliran tidak diganti dengan respons ideal. Jeda teknis tidak menjadi evidence nilai.
 
-### S3b-001 — Rencana Awal — Tristan
-> Sasaran gue adalah keputusan kecil yang menjaga layanan dan kemampuan petugas[cite: 9]. Gue tidak berasumsi customer harus memakai AI[cite: 9]. Semua kebutuhan dan kepercayaan digali dari awal[cite: 9].
+### AI001 — Kasus dan tujuan — AI — fasilitator/pemeran sesuai tahap {#ai001}
 
-### S3b-002 — Pembuka — Elsa
-> Saya khawatir orang lain justru kesulitan kalau kita mengubah ini[cite: 9].
+> Iya, benar, tinggal 3B. Kali ini dengan Elsa sebagai pengelola usaha. Konteksnya sama, pertanyaan berulang, pesanan tercecer, tenaga terbatas, dan dia belum yakin butuh AI. Kita mulai dari keadaan baru, ya. Sebelum aku memerankan Elsa, hasil konkret apa yang ingin kamu capai dari percakapan ini?
 
-### S3b-003 — Penggalian Kekhawatiran — Tristan
-> Saya ingin memahami kekhawatiran itu dulu, Bu[cite: 9]. Siapa yang paling Ibu khawatirkan akan kesulitan jika alur layanan berubah?[cite: 9]
+### U001 — Kasus dan tujuan — Mahasiswa {#u001}
 
-### S3b-004 — Pengungkapan Masalah — Elsa
-> Pelanggan yang biasa cerita langsung dan staf yang sudah terbiasa membalas sendiri[cite: 9]. Saya takut pelanggan merasa dijauhkan, sedangkan staf malah harus mengurus sistem baru[cite: 9].
+> Ya gua pengen dia. Dapat mengatasi semua masalah dia dan dia. Akhirnya ya ee- ya bukan yakin sih. Tapi lebih ke bisa memutuskan sendiri dia butuh atau enggak eh
 
-### S3b-005 — Validasi dan Pemetaan — Tristan
-> Jadi hubungan dengan pelanggan dan beban staf sama-sama penting[cite: 9]. Boleh ceritakan satu jenis percakapan yang menurut Ibu harus tetap ditangani orang?[cite: 9]
+### AI002 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai002}
 
-### S3b-006 — Identifikasi Kebutuhan — Elsa
-> Keluhan atau pelanggan yang bingung soal pesanannya[cite: 9]. Pertanyaan jam buka berulang memang banyak, tapi saya tidak mau keluhan diputar-putar oleh mesin[cite: 9].
+> Sekarang eee aku berperan sebagai Elsa, pengelola usaha. "Saya khawatir orang lain justru kesulitan kalau kita mengubah ini."
 
-### S3b-007 — Penawaran Solusi Awal — Tristan
-> Kita bisa mulai dari jawaban standar untuk pertanyaan sederhana yang dikirim petugas, serta daftar status pesanan[cite: 9]. Kalau kelak ada bantuan AI, itu hanya untuk draf yang diperiksa[cite: 9]. Pelanggan tetap dapat meminta petugas; keluhan, pembayaran, perubahan pesanan, dan pesan yang tidak jelas harus ditangani orang[cite: 9].
+### U002 — Simulasi awal — Elsa — Mahasiswa {#u002}
 
-### S3b-008 — Ekspektasi Pelanggan — Elsa
-> Kalau pelanggan meminta petugas, maksudnya langsung dijawab manusia? Saya takut dijanjikan begitu tetapi tidak ada yang memegang[cite: 9].
+> Mengubah apa maksudnya
 
-### S3b-009 — Mitigasi Risiko Eskalasi — Tristan
-> Tidak boleh dijanjikan langsung jika petugas tidak tersedia[cite: 9]. Permintaan masuk ke daftar “perlu petugas”, diberi penanggung jawab dan waktu tindak lanjut sesuai jam layanan yang Ibu tetapkan[cite: 9]. Di luar jam itu, pelanggan diberi penjelasan kapan akan ditangani, bukan jawaban seolah masalahnya selesai[cite: 9].
+### AI003 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai003}
 
-### S3b-010 — Penerimaan Solusi — Elsa
-> Kalau jelas siapa yang pegang, saya lebih tenang[cite: 9]. Tapi staf saya belum tentu bisa mengenali pesan yang harus diteruskan[cite: 9].
+> "Cara kerja yang sekarang. Kalau mendadak pakai sistem baru, saya takut staf bingung dan pelanggan malah kena dampaknya."
 
-### S3b-011 — Penawaran Pelatihan — Tristan
-> Sebelum mencoba pada pelanggan, kita latihan empat percakapan fiktif: jam buka, keluhan, perubahan pesanan, dan permintaan bicara dengan orang[cite: 9]. Saya dampingi latihan 20 menit dan kita cek alasan tiap pilihan[cite: 9]. Apakah bentuk latihan itu cukup ringan untuk dipertimbangkan?[cite: 9]
+### U003 — Simulasi awal — Elsa — Mahasiswa {#u003}
 
-### S3b-012 — Persetujuan Latihan — Elsa
-> Latihan dulu bisa saya pertimbangkan[cite: 9]. Saya ingin staf yang kesulitan boleh bertanya, bukan dianggap menghambat perubahan[cite: 9].
+> Nah justru i- Nah itu E- sementara lu tetap pertahankan sistem yang sekarang Ya lu pelan- pelan. Pelatihan lah untuk Staf lu. Pelatihannya bisa dari gua kok, gua bisa ngajarin orang gua, orang IT yang jago dengan IP 4 di ITB juga kan Ya gua bisa ngajarin, gua tutorin lah. Gimana - kira- kira pengoperasian dasarnya. Lalu sisanya nanti mereka eksplor untuk tugas mereka gitu. Tenang aja
 
-### S3b-013 — Penegasan Dukungan — Tristan
-> Setuju[cite: 9]. Kriteria latihan bukan kecepatan saja, tetapi pesan yang perlu manusia tidak salah ditutup dan penanggung jawabnya jelas[cite: 9]. Jika staf ragu, masukkan ke antrean petugas, bukan memaksa jawaban otomatis[cite: 9]. Dukungan tidak berhenti setelah contoh pertama[cite: 9].
+### AI004 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai004}
 
-### S3b-014 — Antisipasi Hambatan — Elsa
-> Bagaimana kalau pelanggan cuma mengetik singkat tetapi sebenarnya sedang kesal? Saya tidak yakin sistem bisa selalu membaca maksudnya[cite: 9].
+> "Tapi waktu mereka terbatas, saya nggak mau memaksakan sesuatu yang bikin tambah terbebani."
 
-### S3b-015 — Pemeriksaan Pemahaman — Tristan
-> Memang tidak bisa dijamin selalu benar[cite: 9]. Untuk itu, pesan ambigu atau berulang yang belum terjawab masuk pemeriksaan petugas[cite: 9]. Kita tidak menyimpulkan emosi pelanggan sebagai fakta[cite: 9]. Boleh Ibu jelaskan kembali apa yang dilakukan jika pelanggan menulis “mau bicara orang” saat staf belum tersedia?[cite: 9]
+### U004 — Simulasi awal — Elsa — Mahasiswa {#u004}
 
-### S3b-016 — Restatement SOP — Elsa
-> Jangan kirim jawaban yang pura-pura menyelesaikan[cite: 9]. Catat sebagai perlu petugas, tentukan siapa yang menindaklanjuti dan kapan sesuai jam layanan, lalu beri pelanggan informasi yang jujur[cite: 9].
+> Gak apa- ah Tiga puluh menit sehari cukup kok
 
-### S3b-017 — Batasan Teknologi — Tristan
-> Betul[cite: 9]. Untuk tahap ini kita belum perlu AI[cite: 9]. Kita lihat dulu apakah jawaban standar dan daftar pesanan sudah membantu[cite: 9]. Biaya alat dan kemampuan integrasi belum dinilai, jadi saya belum menjanjikan penghematan tertentu[cite: 9].
+### AI005 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai005}
 
-### S3b-018 — Kepastian Mitra — Elsa
-> Saya setuju mulai dari yang sederhana[cite: 9]. Jangan sampai sistem lama diputus sebelum staf bisa mengikuti[cite: 9].
+> "Kalau tiga puluh menit, mungkin bisa diusahakan. Tapi saya perlu jelasin ke tim dulu. Supaya mereka ngerti ini bukan tambahan beban."
 
-### S3b-019 — Pengamanan Operasional — Tristan
-> Alur manusia tetap berjalan[cite: 9]. Jika latihan menunjukkan salah alih atau antrean tidak punya penanggung jawab, uji pelanggan ditunda[cite: 9]. Kalau nanti uji terbatas disetujui, hentikan saat dukungan tidak tersedia dan kembali ke cara manual[cite: 9].
+### U005 — Simulasi awal — Elsa — Mahasiswa {#u005}
 
-### S3b-020 — Kepuasan Mitra — Elsa
-> Batas itu membuat saya lebih nyaman mencoba latihan, bukan langsung mengubah semua layanan[cite: 9].
+> Iya. Jelasin lah. Ya gua yakin mereka juga paham gitu. Apalagi dengan perkembangan zaman yang semakin sekarang- keren. Mereka juga, gua yakin mereka Pengen dapat skill baru lah. Daripada ketinggalan dengan metode tradisional, mending mereka belajar gitu metode- metode Yang dengan AI dan teknologi informasi gitu
 
-### S3b-021 — Eksekusi Awal — Tristan
-> Langkah pertama: Ibu pilih satu petugas yang bersedia latihan dan jadwal dalam jam kerja, saya siapkan empat pesan fiktif dan checklist[cite: 9]. Setelah 20 menit kita tinjau bersama; keputusan lanjut atau tunda ada pada Ibu[cite: 9].
+### AI006 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai006}
 
-### S3b-022 — Penetapan Kesepakatan — Elsa
-> Dalam naskah ini saya setuju ikut latihan dan mengevaluasi[cite: 9]. Belum menyetujui AI yang langsung berhadapan dengan pelanggan[cite: 9].
+> "Baik, kalau begitu saya akan coba sampaikan dulu ke mereka, lalu kita lihat siapa yang bisa ikut latihan. Terima kasih ya."
 
-### S3b-023 — Evaluasi Sela — Fasilitator
-> Apa yang berubah dalam pemahaman customer, dan apa yang masih belum terbukti?[cite: 9]
+### U006 — Simulasi awal — Elsa — Mahasiswa {#u006}
 
-### S3b-024 — Analisis Sela — Tristan
-> Elsa bisa menjelaskan alih ke manusia tanpa menganggap petugas selalu tersedia[cite: 9]. Kekhawatiran berkurang setelah layanan lama dipertahankan[cite: 9]. Kesiapan staf dan kesanggupan menindaklanjuti antrean belum terbukti[cite: 9].
+> Aman ayo
 
-### S3b-025 — Uji Ulang 1: Kendala Staf — Elsa
-> Pada jadwal latihan, petugas yang dipilih harus membantu pelanggan lain[cite: 9]. Petugas pengganti belum dilatih, dan ia mengira semua pertanyaan boleh ditutup memakai template[cite: 9].
+### AI007 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai007}
 
-### S3b-026 — Respons Uji Ulang 1 — Tristan
-> Kita jangan lanjutkan uji pelanggan dengan petugas yang belum dilatih[cite: 9]. Layanan manusia yang biasa tetap berjalan; latihan boleh dijadwalkan ulang[cite: 9]. Sebelum itu, saya ingin tahu apakah ada penanggung jawab antrean yang benar-benar tersedia saat ini[cite: 9].
+> Sebentar.
 
-### S3b-027 — Uji Ulang 2: Ketersediaan Sumber Daya — Elsa
-> Tidak ada untuk antrean baru itu[cite: 9]. Saya bisa membantu nanti sore, tetapi tidak sekarang[cite: 9].
+### U007 — Simulasi awal — Elsa — Mahasiswa {#u007}
 
-### S3b-028 — Respons Uji Ulang 2 — Tristan
-> Berarti fitur antrean baru belum dipakai ke pelanggan[cite: 9]. Kita pertahankan alur manual yang sudah dikenal, lalu latihan saat Ibu atau petugas pendamping tersedia[cite: 9]. Tidak ada janji balasan dari antrean yang belum mempunyai penanggung jawab[cite: 9].
+> Watashi no saigo. Halo
 
-### S3b-029 — Uji Ulang 3: Pendampingan Petugas — Elsa
-> Nanti sore saya bisa dampingi[cite: 9]. Bagaimana menjelaskan pada petugas pengganti supaya ia tidak takut dianggap tidak mampu?[cite: 9]
+### AI008 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai008}
 
-### S3b-030 — Respons Uji Ulang 3 — Tristan
-> Saya akan bilang: “Kamu belum mendapat latihan, jadi wajar langkah ini belum jelas. Kita coba satu pesan dulu. Kalau ada keraguan, tandai untuk petugas, jangan dipaksa selesai.”[cite: 9] Lalu kita contohkan keluhan dan minta ia menjelaskan keputusan dengan kata sendiri[cite: 9].
+> Elsa: "Saya menghargai tawaranmu mendampingi staf sambil mempertahankan cara kerja sekarang." "Tapi sistem yang mau dilatih belum jelas buat saya." "Bagian pekerjaan mana yang ingin kamu bantu lebih dulu, dan bisa beri contoh sederhana caranya?"
 
-### S3b-031 — Uji Ulang 4: Keputusan Penundaan — Elsa
-> Saya pilih latihan ulang sore hari dan menunda uji pelanggan[cite: 9]. Saya tetap terbuka mencoba kalau dukungannya tersedia[cite: 9].
+### U008 — Simulasi awal — Elsa — Mahasiswa {#u008}
 
-### S3b-032 — Penutup Uji Ulang — Tristan
-> Saya catat keputusan dan batasnya[cite: 9]. Setelah latihan ulang, kita periksa keempat pesan fiktif, siapa penanggung jawab tiap alih, dan apakah ada pesan ambigu yang salah ditutup[cite: 9].
+> Ya bagian pekerjaan mana ya, yang terutama kasiah kan. Ada yang pertanyaan berulang-ulang. Ada juga pertanyaan yang berceceran. Nah, dengan adanya bantuan AI gitu Nah, AI salah satu TI yang bisa dimanfaatkan AI itu bisa nge-stok data, ngebantuin lah, ngebantuin nge-stok data. Bisa ngebantuin juga menjawab pertanyaan. Bisa ngebantuin merapikan. Nah, pokoknya semua tuh AI bisa. Yang penting jangan lu caci maki AI aja
+
+### AI009 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai009}
+
+> Elsa: "Kalau gitu, bagian mana yang ditangani dulu?" "Tolong beri contoh yang sederhana, langkah demi langkah," "Biar saya bisa lihat apakah cocok dengan situasi tim saya." "Dan bagaimana caranya biar kalau ada yang salah, kami tahu dan bisa memperbaikinya?"
+
+### U009 — Simulasi awal — Elsa — Mahasiswa {#u009}
+
+> Ya, contohnya bagian pernyataan-pertanyaan berceceran gitu. Ya lu lempar aja ke AI dan- tapi lu jangan langsung ambil mentah-mentah dari AI, lu tetap sesuaikan dengan kondisi nyata gimana. Kalau ada yang salah ya, cara kalian tahu ya Ya kalian pasti tahu sih menurut gua. Soalnya kan bisnis kalian, kalian gak ada yang lebih tahu dari kalian gitu Ap alagi AI itu, gak kan- B ukan yang langsung ter jun. Ya cara memper baikinya, ya kalian jangan ambil mentah-ment ah dari AI itu Kalian tetap ses ua ikan sama kondisi kalian g itu
+
+### AI010 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai010}
+
+> Emm. Emm. Emm. "Oke, saya mulai paham alurnya." "Tapi bagaimana caranya supaya staf saya bisa mengikuti tanpa merasa terbebani?" "Apa langkah berikutnya yang realistis untuk kami?"
+
+### U010 — Simulasi awal — Elsa — Mahasiswa {#u010}
+
+> Ya, menurutku ya Yang realistis, ya lu kasih beberapa hari libur lah gitu. Kalau bisa. Ya, beberapa hari libur tuh diganti dengan pelatihan. Ya, menurutku ininya adalah untuk jangka panjang sih. Jadi jangka panjangnya mereka menjadi dapat skill baru dan juga pengelolaan bisnis lu lebih efisien juga
+
+### AI011 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai011}
+
+> Emm. "Baik, terima kasih."
+
+### U011 — Simulasi awal — Elsa — Mahasiswa {#u011}
+
+> Biaya yang keluar juga
+
+### AI012 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai012}
+
+> "Iya." "Baik,
+
+### U012 — Simulasi awal — Elsa — Mahasiswa {#u012}
+
+> gak beda jauh kok
+
+### AI013 — Simulasi awal — Elsa — AI — fasilitator/pemeran sesuai tahap {#ai013}
+
+> oke saya paham." "Jadi intinya kita harus eee bangun skill dulu sambil tetap jalanin cara lama. " Biar nggak bikin kaget tim." "Oke, terima kasih ya."
+
+### U013 — Simulasi awal — Elsa — Mahasiswa {#u013}
+
+> Emm. mana Jo, pelan-pelan lah. Pokoknya ngenalinnya itu pelan-pelan emang harus
+
+### AI014 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai014}
+
+> Oke, sip. Balik ke refleksi sebentar ya. Dari percakapan tadi, mana yang menurutmu asumsi dan mana yang didukung oleh respons Elsa?
+
+### U014 — Evaluasi sementara — Mahasiswa {#u014}
+
+> Emm. Gak ada sih. Menurutku nggak ada yang asumsi. Menurutku itu konkret semua
+
+### AI015 — Evaluasi sementara — AI — fasilitator/pemeran sesuai tahap {#ai015}
+
+> Dari respons Elsa, yang bisa kamu anggap cukup kuat adalah bahwa dia mulai paham. Itu terlihat dari kalimatnya. "Oke, saya mulai paham." Tapi klaim bahwa biaya "gak berbeda jauh" atau soal kemampuan staf setelah pelatihan itu belum punya bukti. Jadi masih asumsi. Nah, menurut kamu, informasi apa yang perlu kamu tahu dulu sebelum yakin bahwa beban dan biaya itu memang aman?
+
+### U015 — Evaluasi sementara — Mahasiswa {#u015}
+
+> Ya. Biaya pertama dari gua- gua sendiri pastiin bakal aman. Soalnya kan gua yang bakal melatih mereka Itu satu Nah, kalau mengetahui- menganaI kemampuan setelah pelatihan. Ya ya pasti aku sebagai yang melatih, aku pasti bakal nyediain beberapa tes yang pastinya kalau mereka berhasil kerjain ya berarti mereka lebih mampu gitu. Udah jauh lebih mampu. Gitu sih si- eh
+
+### AI016 — Uji ulang — contoh keluhan pelanggan dalam latihan — AI — fasilitator/pemeran sesuai tahap {#ai016}
+
+> Tes yang kamu usulkan bisa jadi cara untuk memeriksa kemampuan, tapi hasilnya nanti dulu baru kelihatan. Sekarang kita uji ulang sesi tiga B ya. Sekarang aku jadi Elsa lagi nih. "Staf saya mulai bisa memeriksa jawaban untuk pertanyaan umum." "Tapi ada contoh keluhan pesanan salah yang jawabannya tidak sesuai dari AI." "Staf bingung harus meneruskannya ke siapa." "Apa instruksi yang perlu mereka ikuti saat itu?"
+
+### U016 — Uji ulang — contoh keluhan pelanggan dalam latihan — Mahasiswa {#u016}
+
+> Ya kalau misalkan dari AI ada yang salah, ya jangan diikuti. Ya biarin dia nggak nyebar, lu hapus bagian situ aja. Simpel sih. Pelan-pelan AI itu semakin kita tanya, bakal semakin pintar kok. Soalnya dia tuh belajar dari informasi yang kita berikan
+
+### AI017 — Uji ulang — contoh keluhan pelanggan dalam latihan — AI — fasilitator/pemeran sesuai tahap {#ai017}
+
+> Elsa: "Berarti jawaban yang salah tidak kami kirim." "Tapi keluhan pelanggan tetap harus ditangani." "Dan saya belum yakin masalahnya selesai sendiri hanya karena AI sering ditanya." "Kalau staf sudah hentikan jawaban AI, lalu siapa yang ambil alih keluhan itu?"
+
+### U017 — Uji ulang — contoh keluhan pelanggan dalam latihan — Mahasiswa {#u017}
+
+> Ya yang ngambil alih itu ya Nah kan sebelumnya masa lalu itu pertanyaan berceceran Nah kalau AI ada salah jawab, ya diambil alih sama yang- ngurus usahanya, bisa pegawai, bisa pemilik seperti lu. Ya kan Masalahnya awal tuh berceceran. Ya- eh- udah nggak berceceran lagi dong. Soalnya kan udah dibantu AI, jadi kalau ada satu yang salah dari AI ya, satu itu lu aja tanganin gitu. Berarti AI itu yang ada kesalahan di bagian situ. Gitu
+
+### AI018 — Uji ulang — contoh keluhan pelanggan dalam latihan — AI — fasilitator/pemeran sesuai tahap {#ai018}
+
+> Elsa: "Saya bersedia mengambil alih keluhan yang perlu penanganan manusia." "Tapi kalau tanggung jawabnya bisa ke pegawai atau saya, "saya khawatir kami malah saling mengira sudah ditangani." "Bagaimana staf menandai dan menyerahkan keluhan itu supaya jelas siapa yang sedang pegang tanggung jawab?"
+
+### U018 — Uji ulang — contoh keluhan pelanggan dalam latihan — Mahasiswa {#u018}
+
+> Ya Untuk itu ya, ya, sebenarnya salah aku sih nggak bilang dari awal. Kalian butuh sebuah sistem informasi gitu yang otomatis mendeteksi masukan keluhan dari pelanggan Nah, masukan keluhan itu- itu nanti dimasukin secara manual ke AI aja buat ngejawabnya kalau mau. Nah, kalau misalkan ada kesalahan dari AI-nya, ya udah lu tinggal jawab secara mandiri di sistem informasi tersebut. Nanti ya semua pelanggan- eh semua pelanggan, maksudnya semua pegawai bakal bisa tengok gitu
+
+### AI019 — Jeda teknis dalam uji ulang — AI — fasilitator/pemeran sesuai tahap {#ai019}
+
+> Maaf, aku lagi kesulitan untuk memeriksa ini. Mau aku coba lagi atau lewat dulu?
+
+### U019 — Jeda teknis dalam uji ulang — Mahasiswa {#u019}
+
+> Coba aja lagi leh, aman aja lo
+
+### AI020 — Jeda teknis dalam uji ulang — AI — fasilitator/pemeran sesuai tahap {#ai020}
+
+> Oke, sebentar ya.
+
+### U020 — Jeda teknis dalam uji ulang — Mahasiswa {#u020}
+
+> Udah belum
+
+### AI021 — Uji ulang dilanjutkan — AI — fasilitator/pemeran sesuai tahap {#ai021}
+
+> Kita masih di bagian sistem informasi yang kamu usulkan tadi. Elsa: "Kalau semua staf bisa melihat keluhan dan jawabannya, alurnya mulai lebih jelas buat saya." "Tapi bisa dilihat bersama belum berarti ada yang bertanggung jawab." "Di sistem itu, bagaimana kita menetapkan siapa yang menangani satu keluhan dan mengetahui kalau keluhannya sudah selesai?"
+
+### U021 — Uji ulang dilanjutkan — Mahasiswa {#u021}
+
+> Ya. Keluhannya yang sudah ada selesai ya, pasti di sistem informasi ada yang namanya fitur checklist ya. Kalau ada checklist itu berarti sudah selesai gitu. Tinggal ditambahin aja eh
+
+### AI022 — Uji ulang dilanjutkan — AI — fasilitator/pemeran sesuai tahap {#ai022}
+
+> Sebentar ya.
+
+### U022 — Uji ulang dilanjutkan — Mahasiswa {#u022}
+
+> Mana Jo
+
+### AI023 — Uji ulang dilanjutkan — AI — fasilitator/pemeran sesuai tahap {#ai023}
+
+> Elsa: "Penanda selesai membantu saya membayangkan alurnya." "Tapi siapa yang memegang tiap keluhan masih belum jelas." "Jadi saya belum siap menerapkannya." Oke, sesi tiga B selesai,
+
+### U023 — Uji ulang dilanjutkan — Mahasiswa {#u023}
+
+> Ya
+
+### AI024 — Refleksi akhir — AI — fasilitator/pemeran sesuai tahap {#ai024}
+
+> sekarang refleksi akhir ya. Pesan atau tindakanmu yang mana yang membantu atau menghambat Elsa merasa dipahami dan didukung dan respons apa yang menjadi buktinya?
+
+### U024 — Refleksi akhir — Mahasiswa {#u024}
+
+> Menurutku ya yang menghambat tuh gak ada sih, soalnya kan aku cuma kasih masukan. Ya tapi yang membantu itu ya, mengenai sistem informasi, menurutku itu ide yang sangat cemerlang. Ya mungkin ada bagian yang kurangnya, lupa gua bilang, kalau misalkan nanti yang menangani- yang nge-checklist kotak itu ya bakal muncul namanya. Ya itu sih yang ngatasinnya to. Eh
+
+### AI025 — Refleksi akhir — AI — fasilitator/pemeran sesuai tahap {#ai025}
+
+> Tambahanmu tentang nama di checklist aku catat sebagai bagian pengembangan saat refleksi. Itu belum disampaikan ketika Elsa mengatakan belum siap. Jadi, itu belum mengubah respons pada uji ulang tadi. Kamu menilai sistem informasi itu membantu dan tidak melihat ada hal yang menghambat. Dari bagian yang tadi terlewat, apa pelajaran yang ingin kamu terapkan dalam percakapan berikutnya?
+
+### U025 — Refleksi akhir — Mahasiswa {#u025}
+
+> Ya, aku ingin selanjutnya lebih memahami lah situasinya gimana. Lebih mencari tahu dulu daripada langsung kasih solusi gitu
+
+### AI026 — Penutup; ringkasan formal belum dikonfirmasi — AI — fasilitator/pemeran sesuai tahap {#ai026}
+
+> Oke, refleksi kamu jelas. Kita akhiri sampai di situ ya.
+
+### U026 — Penutup; ringkasan formal belum dikonfirmasi — Mahasiswa {#u026}
+
+> Byee
+
+### AI027 — Penutup; ringkasan formal belum dikonfirmasi — AI — fasilitator/pemeran sesuai tahap {#ai027}
+
+> Sampai ketemu, Tristan!
 
 # D) Hasil, Evaluasi, dan Refleksi
 
-## Hasil Tujuan dan Perubahan Profil
+## Hasil tujuan dan perubahan SWOT/ASK
 
-| Unsur | Kondisi Awal | Hasil Akhir | Bukti Transkrip |
+**Hasil tujuan: Sebagian: Elsa mulai membayangkan alur, tetapi menunda penerapan karena penanggung jawab setiap keluhan belum jelas.**
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+| --- | --- | --- | --- | --- |
+| Kesimpulan SWOT | Khawatir dampak perubahan pada staf/pelanggan | Mulai memahami usulan; penerapan tetap ditunda | [AI021](#ai021): “alurnya mulai lebih jelas buat saya.”; [AI023](#ai023): “Jadi saya belum siap menerapkannya.” | Penundaan merupakan keputusan sah, bukan otomatis kegagalan komunikasi |
+| Attitude | Takut menambah beban dan mengganggu layanan | Menghargai pendampingan dan cara lama dipertahankan | [U003](#u003): “tetap pertahankan sistem yang sekarang”; [AI008](#ai008): “Saya menghargai tawaranmu mendampingi staf” | Tidak membuktikan staf sepakat atau beban sudah terukur |
+| Knowledge | Belum jelas eskalasi ke manusia | Pemeriksaan manusia dan tampilan bersama dibahas | [U009](#u009): “jangan langsung ambil mentah-mentah dari AI”; [U017](#u017): “bisa pegawai, bisa pemilik seperti lu” | Penanggung jawab setiap keluhan belum jelas pada akhir uji ulang |
+| Skill | Perlu latihan dan dukungan transisi | Mahasiswa mengembangkan usulan sistem bersama dan checklist | [U018](#u018): “Kalian butuh sebuah sistem informasi gitu”; [U021](#u021): “fitur checklist ya” | Desain dalam percakapan; sistem dan tes staf belum dilaksanakan |
+
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+| --- | --- | --- | --- | --- | --- |
+| Transisi | Elsa khawatir staf bingung | [U003](#u003): “tetap pertahankan sistem yang sekarang” | [AI008](#ai008): “Saya menghargai tawaranmu mendampingi staf” | A: lebih terbuka; K/S masih perlu dukungan | Menawarkan pelatihan |
+| Uji ulang | AI memberi jawaban keluhan salah | [U009](#u009): “jangan langsung ambil mentah-mentah dari AI” | [AI017](#ai017): “keluhan pelanggan tetap harus ditangani” | Menghentikan jawaban salah belum menyelesaikan keluhan | Pengambilalihan manusia dibahas |
+| Pengembangan | Pemilik/staf dapat saling mengira sudah ditangani | [U018](#u018): “Kalian butuh sebuah sistem informasi gitu” | [AI021](#ai021): “alurnya mulai lebih jelas buat saya.” | K: visibilitas bersama mulai jelas | Checklist diusulkan; penanggung jawab belum tuntas |
+| Akhir uji ulang | Ada status selesai tetapi pemilik kasus belum jelas | [U021](#u021): “fitur checklist ya” | [AI023](#ai023): “Jadi saya belum siap menerapkannya.” | Keputusan menunda dipertahankan | Tambahan nama baru muncul saat refleksi |
+
+
+Profil K3-05 dari paket: Elsa mengutamakan kepedulian dan kesinambungan layanan; khawatir sentuhan personal hilang, belum memahami eskalasi, dan memerlukan pelatihan serta jalur manusia. Dukungan bertahap relevan, tetapi tidak otomatis menyelesaikan beban atau kejelasan eskalasi.
+
+## Pengaruh pesan personal dan kualitas relasi
+
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| --- | --- | --- | --- | --- |
+| Awal | [U003](#u003): “tetap pertahankan sistem yang sekarang” | [AI008](#ai008): “Saya menghargai tawaranmu mendampingi staf” | Rasa aman sedang; keterbukaan meningkat | Pilihan mempertahankan layanan lama dihargai |
+| Akhir | [U018](#u018): “Kalian butuh sebuah sistem informasi gitu” | [AI021](#ai021): “alurnya mulai lebih jelas buat saya.”; [AI023](#ai023): “Jadi saya belum siap menerapkannya.” | Pemahaman membaik; kepercayaan tetap bersyarat | Elsa masih menunda; tidak diubah menjadi persetujuan setelah tambahan refleksi |
+
+
+Kategori relasional adalah estimasi kualitatif fasilitator berdasarkan ujaran, bukan skala psikometri. Ketulusan batin, prosodi, mimik, serta perubahan jangka panjang tidak disimpulkan. Dukungan dan persetujuan tidak membuktikan kemampuan mandiri.
+
+## Uji ulang dan pembelajaran
+
+Contoh keluhan salah dipakai untuk menguji pemeriksaan dan eskalasi. Mahasiswa menyebut manusia mengambil alih, kemudian mengembangkan usulan menjadi sistem informasi bersama dan checklist. [U017](#u017): “bisa pegawai, bisa pemilik seperti lu”; [U018](#u018): “Kalian butuh sebuah sistem informasi gitu”; [U021](#u021): “fitur checklist ya”. Tambahan identitas penangan pada checklist disampaikan kemudian saat refleksi: [U024](#u024): “yang nge-checklist kotak itu ya bakal muncul namanya”. Perubahan itu tidak dipindah ke transkrip uji ulang dan tidak digunakan untuk mengarang persetujuan baru dari Elsa.
+
+## Penilaian enam dimensi
+
+Evidence per dimensi kini tersedia dan dirujuk langsung. Paket memberikan enam dimensi dan skala 1–4, tetapi descriptor resmi per tingkat tidak disertakan. Karena itu kolom skor tetap **BT (belum dapat ditetapkan)** sampai descriptor atau moderasi dosen tersedia. BT di sini tidak berarti evidence tidak ada atau nilai nol. Angka penilaian diri 8/10, jika disebut, bukan skor resmi rubrik.
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
 | --- | --- | --- | --- |
-| SWOT Subjektif | Perubahan dipandang mengancam hubungan dan kesinambungan | Memilih mempertimbangkan perubahan dengan dukungan, menunda uji jika staf belum siap | S3b-004 → S3b-031[cite: 9] |
-| Attitude | Takut pelanggan dan staf kesulitan | Lebih tenang ketika jalur manusia dipertahankan | S3b-004 → S3b-020[cite: 9] |
-| Knowledge | Mengira alih mungkin berarti manusia langsung tersedia | Menjelaskan antrean, penanggung jawab, dan waktu sesuai kapasitas | S3b-008 → S3b-016[cite: 9] |
-| Skill / Kesiapan | Petugas perlu latihan dan jalur layanan manusia | Mengidentifikasi bahwa petugas pengganti belum siap; menjadwalkan latihan ulang | S3b-010 → S3b-025[cite: 9] |
+| Tujuan dan konteks | BT | [U001](#u001): “bisa memutuskan sendiri dia butuh atau enggak” | Tujuan menghormati otonomi; mengatasi semua masalah belum menjadi sasaran terukur. Descriptor tingkat resmi belum tersedia. |
+| Persepsi dan validasi profil/status | BT | [U002](#u002): “Mengubah apa maksudnya” | Mengklarifikasi maksud perubahan, tetapi kapasitas, kebutuhan spesifik dan biaya belum digali cukup. Descriptor tingkat resmi belum tersedia. |
+| Pemilihan dan urutan repertoar | BT | [U003](#u003): “tetap pertahankan sistem yang sekarang” | Memilih transisi bertahap dan pendampingan; alur awal masih umum. Descriptor tingkat resmi belum tersedia. |
+| Eksekusi jelas, peduli dan konsisten | BT | [U009](#u009): “jangan langsung ambil mentah-mentah dari AI” | Ada perhatian pada pemeriksaan jawaban; sekaligus ada klaim terlalu luas bahwa AI bisa semua. Descriptor tingkat resmi belum tersedia. |
+| Evaluasi dan adaptasi | BT | [U018](#u018): “Kalian butuh sebuah sistem informasi gitu” | Usulan berkembang menjadi sistem informasi bersama dan checklist; pembagian penanggung jawab masih belum tuntas pada uji ulang. Descriptor tingkat resmi belum tersedia. |
+| Refleksi dan lesson learned | BT | [U025](#u025): “Lebih mencari tahu dulu daripada langsung kasih solusi gitu” | Pelajaran eksplisit; tambahan nama checklist baru muncul saat refleksi, bukan sebelum respons akhir Elsa. Descriptor tingkat resmi belum tersedia. |
 
-## Evaluasi Stimulus-Respons dan Analisis Interaksi
 
-1. **Empati Terhadap Beban Staf (S3b-003):** Memulai dialog dengan menggali kekhawatiran spesifik mengenai staf dan pelanggan berhasil meredakan resistensi awal[cite: 9].
-2. **Kejelasan Eskalasi (S3b-009):** Menegaskan bahwa permintaan bantuan manusia tidak boleh dijanjikan instan tanpa penanggung jawab menjaga kredibilitas layanan[cite: 9].
-3. **Pelatihan Berbasis Percakapan Fiktif (S3b-011):** Penggunaan empat skenario pesan memberikan ruang latihan yang aman tanpa risiko langsung pada pelanggan nyata[cite: 9].
-4. **Keputusan Menunda yang Rasional (S3b-026):** Menghadapi kendala ketiadaan staf terlatih dengan cara menunda uji coba dan menjadwalkan ulang menunjukkan komitmen pada keselamatan proses[cite: 9].
+Nilai sesi = jumlah enam skor / 24 × 100 hanya jika semua skor sah tersedia. Nilai sesi: **Belum dihitung**. Laporan ini tidak mengesahkan nilai UTS atau persetujuan bot.
 
-## Penilaian Enam Dimensi
+## Refleksi dan lesson learned mahasiswa
 
-| Dimensi | Skor | Bukti dan Alasan |
+Mahasiswa menilai sistem informasi membantu dan belum melihat hambatan dari pesannya. Ia mengakui ada bagian yang lupa disampaikan, yaitu identitas pada checklist. Lesson learned aktual: [U025](#u025): “Lebih mencari tahu dulu daripada langsung kasih solusi gitu”. Ketiga bagian dipertahankan: penilaian diri, koreksi desain, dan pelajaran; tidak dipaksakan menjadi klaim seluruh masalah sudah selesai.
+
+## Tindak lanjut dan batas bukti
+
+Rencana yang diusulkan mahasiswa: transisi perlahan, pendampingan, latihan sekitar 30 menit per hari dan tes setelah pelatihan. Ketersediaan staf, jadwal, biaya total dan hasil tes belum diketahui. Rekomendasi penilai yang belum menjadi komitmen: tetapkan penanggung jawab sebelum penanganan, status proses/selesai, batas pemeriksaan jawaban dan jalur manusia, lalu minta Elsa menilai ulang contoh alurnya.
+
+Refleksi akhir tersedia. Persetujuan atas ringkasan formal hasil belum diminta; ucapan perpisahan tidak dianggap konfirmasi laporan.
+
+Catatan mutu fasilitasi dan ketepatan pelaporan: Tiga puluh menit, biaya tidak berbeda jauh, “semua AI bisa”, kepastian kemauan staf dan anggapan AI otomatis makin pintar adalah klaim dalam percakapan, bukan fakta tervalidasi. Pemeriksaan manusia tidak membuktikan seluruh pesanan otomatis tercatat. Tidak ada sistem, fitur checklist atau pelatihan yang benar-benar dijalankan. Sesi terhenti teknis lalu dilanjutkan; instruksi dan respons pentingnya tetap tercatat. Konfirmasi ringkasan formal belum tersedia.
+
+## Bobot dan nilai akhir UTS
+
+
+| Komponen | Bobot | Nilai komponen |
 | --- | --- | --- |
-| Tujuan dan konteks | 4.0 / 4 | S3b-001, S3b-021: Menetapkan tujuan menjaga layanan manusia dan kesiapan petugas secara terukur[cite: 9]. |
-| Persepsi dan validasi profil/status | 4.0 / 4 | S3b-004, S3b-005: Memahami ketakutan mitra terkait hubungan pelanggan dan beban kerja staf secara akurat[cite: 9]. |
-| Pemilihan dan urutan repertoar | 3.5 / 4 | S3b-011, S3b-015: Menerapkan latihan empat percakapan fiktif dan uji pemahaman SOP secara sistematis[cite: 9]. |
-| Eksekusi jelas, peduli dan konsisten | 4.0 / 4 | S3b-009, S3b-019: Menjaga konsistensi batas layanan, penanggung jawab antrean, dan perlindungan bagi staf[cite: 9]. |
-| Evaluasi dan adaptasi | 4.0 / 4 | S3b-026, S3b-028: Fleksibel dalam menunda uji pelanggan ketika petugas pengganti belum terlatih[cite: 9]. |
-| Refleksi dan lesson learned | 3.5 / 4 | S3b-024, S3b-034: Menyimpulkan bahwa kepedulian operasional harus disertai penanggung jawab yang jelas dan batas layanan yang jujur[cite: 9]. |
+| Makalah pra-UTS (paper.qmd) | 10% | Nilai dosen belum tersedia |
+| Sesi 1 | 18% | Belum dihitung |
+| Sesi 2a | 18% | Belum dihitung |
+| Sesi 2b | 18% | Belum dihitung |
+| Sesi 3a | 18% | Belum dihitung |
+| Sesi 3b | 18% | Belum dihitung |
+| Total | 100% | Belum dihitung |
 
-## Refleksi dan Lesson Learned
 
-Interaksi ini menunjukkan bahwa adopsi sistem atau perubahan alur komunikasi tidak boleh mengorbankan hubungan personal dengan pelanggan maupun menekan staf yang belum siap[cite: 9]. Komunikasi kepemimpinan diri yang efektif menuntut kejujuran batas layanan, penyediaan pelatihan bertahap berbasis skenario, serta keberanian untuk menunda implementasi operasional jika dukungan sumber daya belum memadai[cite: 9].
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b).** Nilai belum tersedia tidak dianggap nol dan bobot tidak dinormalisasi ulang. Rata-rata 2a/2b serta 3a/3b adalah ringkasan kasus, bukan komponen tambahan.
 
-## Tindak Lanjut
-
-1. Menjadwalkan ulang latihan empat pesan fiktif bersama petugas pendamping[cite: 9].
-2. Menunda uji coba pelanggan hingga penanggung jawab antrean terverifikasi tersedia[cite: 9].
-3. Mempertahankan jalur layanan manual yang ada sambil mengevaluasi kesiapan internal[cite: 9].
+Tiket 911 sebelumnya menyatakan lima evidence sesi belum terdeteksi. Nama file ini sudah sesuai paket; keberhasilan pembacaan bot hanya dapat dipastikan setelah file dan tautannya berada di repositori/lokasi pengumpulan yang dibaca pemeriksa. Isi index dan paper serta konfigurasi repositori tidak disertakan dalam pembuatan ini sehingga tidak diubah. Mahasiswa tetap perlu mengunggah dan memeriksa proses pengumpulan.
