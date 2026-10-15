@@ -2,7 +2,6 @@
   {
     "listing": "/portfolio/index.html",
     "items": [
-      "/portfolio/week-01.html",
       "/portfolio/week-02.html",
       "/portfolio/week-03.html",
       "/portfolio/week-04.html",
@@ -16,7 +15,8 @@
       "/portfolio/week-12.html",
       "/portfolio/week-13.html",
       "/portfolio/week-14.html",
-      "/portfolio/week-15.html"
+      "/portfolio/week-15.html",
+      "/portfolio/week-01.html"
     ]
   }
 ]
