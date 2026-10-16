@@ -16,7 +16,7 @@ execute:
 |---|---|
 | Nama dan NIM | Tristan Anthony Wijaya — `18225045` |
 | Mata kuliah dan kelas | II2100 Interpersonal and Public Communication — II2100-01 |
-| Tanggal laporan | 15 2026 |
+| Tanggal laporan | 15–16 Oktober 2026 |
 | Versi | Bank/paket 2.0 |
 
 ## Paket jawaban dan pemetaan penugasan
@@ -24,13 +24,13 @@ execute:
 | Tahap | Jawaban | Sasaran | Hasil yang tersedia |
 |---|---|---|---|
 | Pra-UTS | [Makalah MBTI dan PASK](UTS/paper.qmd) | Empat pertanyaan kajian | Pembahasan konseptual dan referensi |
-| 1 | [Memimpin diri](UTS/hasil_1_18225045.qmd) | Diri; Fajar K1-06 sebagai pembanding | Dialog diri, percakapan pembanding, uji ulang aktual, refleksi dan konfirmasi ringkasan; transkrip parsial |
-| 2a | [Persahabatan: Elsa](UTS/hasil_2a_18225045.qmd) | Elsa K2-05 | 34 giliran mahasiswa; evaluasi, uji ulang dan refleksi; konfirmasi terbatas |
-| 2b | [Persahabatan: Ali](UTS/hasil_2b_18225045.qmd) | Ali K2-01 | 33 giliran mahasiswa; evaluasi, uji ulang dan refleksi; ringkasan disetujui |
-| 3a | [Solusi TI/AI: Fajar](UTS/hasil_3a_18225045.qmd) | Fajar K3-06 | 27 giliran mahasiswa; evaluasi, uji ulang dan refleksi; ringkasan disetujui |
-| 3b | [Solusi TI/AI: Elsa](UTS/hasil_3b_18225045.qmd) | Elsa K3-05 | 26 giliran mahasiswa; evaluasi, uji ulang dan refleksi; ringkasan formal belum dikonfirmasi |
+| 1 | [Memimpin diri](UTS/hasil_1.qmd) | Diri; Fajar K1-06 sebagai pembanding | Dialog diri, percakapan pembanding, uji ulang aktual, refleksi dan konfirmasi ringkasan; transkrip parsial |
+| 2a | [Persahabatan: Elsa](UTS/hasil_2a.qmd) | Elsa K2-05 | 34 giliran mahasiswa; evaluasi, uji ulang dan refleksi; konfirmasi terbatas |
+| 2b | [Persahabatan: Ali](UTS/hasil_2b.qmd) | Ali K2-01 | 33 giliran mahasiswa; evaluasi, uji ulang dan refleksi; ringkasan disetujui |
+| 3a | [Solusi TI/AI: Fajar](UTS/hasil_3a.qmd) | Fajar K3-06 | 27 giliran mahasiswa; evaluasi, uji ulang dan refleksi; ringkasan disetujui |
+| 3b | [Solusi TI/AI: Elsa](UTS/hasil_3b.qmd) | Elsa K3-05 | 26 giliran mahasiswa; evaluasi, uji ulang dan refleksi; ringkasan formal belum dikonfirmasi |
 
-Nama utama laporan mengikuti PENUGASAN.md. Nama pendek `hasil_1.qmd` sampai `hasil_3b.qmd` merupakan salinan identik untuk menjaga tautan lama, bukan sesi tambahan. Setiap sesi berdiri sendiri.
+Tautan mengacu pada nama berkas di repositori (`hasil_1.qmd` sampai `hasil_3b.qmd`). Berkas ini bukan sesi tambahan dan isinya sama dengan laporan bernama `hasil_*_18225045.qmd` dari paket. Setiap sesi berdiri sendiri.
 
 ## Pra-UTS: makalah akademik
 
@@ -42,25 +42,25 @@ Kelima laporan mengikuti A) Identitas; B) Kasus dan Tujuan; C) Skrip Percakapan;
 
 ## Kasus 1: memimpin diri dan terus belajar
 
-Mahasiswa memilih data science dan melaporkan kebingungan memilih model pada lomba pertama yang bertepatan dengan UAS ([U007](UTS/hasil_1_18225045.qmd#u007), [U008](UTS/hasil_1_18225045.qmd#u008)). Ia merumuskan pesan penguatan diri ([U018](UTS/hasil_1_18225045.qmd#u018), [U020](UTS/hasil_1_18225045.qmd#u020)) dan melaporkan lebih tenang ([U021](UTS/hasil_1_18225045.qmd#u021)). Pada percakapan dengan Fajar sebagai pembanding, Fajar menyatakan akan mencoba pelan-pelan ([AI034](UTS/hasil_1_18225045.qmd#ai034)); kebutuhan operasional Fajar belum digali.
+Mahasiswa memilih data science dan melaporkan kebingungan memilih model pada lomba pertama yang bertepatan dengan UAS ([U007](UTS/hasil_1.qmd#u007), [U008](UTS/hasil_1.qmd#u008)). Ia merumuskan pesan penguatan diri ([U018](UTS/hasil_1.qmd#u018), [U020](UTS/hasil_1.qmd#u020)) dan melaporkan lebih tenang ([U021](UTS/hasil_1.qmd#u021)). Pada percakapan dengan Fajar sebagai pembanding, Fajar menyatakan akan mencoba pelan-pelan ([AI034](UTS/hasil_1.qmd#ai034)); kebutuhan operasional Fajar belum digali.
 
-Respons pertama pada uji ulang masih umum ([U035](UTS/hasil_1_18225045.qmd#u035)). Setelah pertanyaan lanjutan, mahasiswa menyebut memeriksa jenis dan bentuk dataset, mencari referensi yang diizinkan (Google, Hugging Face), lalu mempelajari kandidat model ([U044](UTS/hasil_1_18225045.qmd#u044)–[U047](UTS/hasil_1_18225045.qmd#u047)). Pelajaran yang diucapkan: jangan langsung ke model, mulai dari analisis ([U051](UTS/hasil_1_18225045.qmd#u051)). Belum ada notebook, metrik atau hasil lomba yang diperiksa.
+Respons pertama pada uji ulang masih umum ([U035](UTS/hasil_1.qmd#u035)). Setelah pertanyaan lanjutan, mahasiswa menyebut memeriksa jenis dan bentuk dataset, mencari referensi yang diizinkan (Google, Hugging Face), lalu mempelajari kandidat model ([U044](UTS/hasil_1.qmd#u044)–[U047](UTS/hasil_1.qmd#u047)). Pelajaran yang diucapkan: jangan langsung ke model, mulai dari analisis ([U051](UTS/hasil_1.qmd#u051)). Belum ada notebook, metrik atau hasil lomba yang diperiksa.
 
 ## Kasus 2: persahabatan dan profesionalitas
 
-Elsa (K2-05) mengungkap pembagian tugas terasa tidak adil dan ia lelah; mahasiswa menawarkan bantuan, memisahkan tugas masing-masing, dan memandu tanpa mengerjakan bagian Elsa ([U007](UTS/hasil_2a_18225045.qmd#u007)). Pada uji ulang, ketika permintaan merapikan format muncul lagi, mahasiswa menyatakan akan ikut merapikan sambil mengajak anggota lain belajar ([U022](UTS/hasil_2a_18225045.qmd#u022)). Mahasiswa menilai diri 8/10 dan mengakui penyelesaian sebelum tenggat belum pasti ([U012](UTS/hasil_2a_18225045.qmd#u012)). Jadwal, hasil dokumen dan konfirmasi anggota lain belum ada.
+Elsa (K2-05) mengungkap pembagian tugas terasa tidak adil dan ia lelah; mahasiswa menawarkan bantuan, memisahkan tugas masing-masing, dan memandu tanpa mengerjakan bagian Elsa ([U007](UTS/hasil_2a.qmd#u007)). Pada uji ulang, ketika permintaan merapikan format muncul lagi, mahasiswa menyatakan akan ikut merapikan sambil mengajak anggota lain belajar ([U022](UTS/hasil_2a.qmd#u022)). Mahasiswa menilai diri 8/10 dan mengakui penyelesaian sebelum tenggat belum pasti ([U012](UTS/hasil_2a.qmd#u012)). Jadwal, hasil dokumen dan konfirmasi anggota lain belum ada.
 
-Ali (K2-01) menyatakan takut salah dan belum pernah membuka alat analisis. Pertanyaan mahasiswa membantu membuka hambatan ([U003](UTS/hasil_2b_18225045.qmd#u003)), dan Ali menyatakan akan mencoba membuka aplikasi ([AI012](UTS/hasil_2b_18225045.qmd#ai012)). Uji ulang sempat terlewat lalu dijalankan: mahasiswa memberi contoh memilih kolom berdasarkan pertanyaan tugas ([U026](UTS/hasil_2b_18225045.qmd#u026)) dan Ali menyatakan mulai menangkap ([AI027](UTS/hasil_2b_18225045.qmd#ai027)). Kemampuan analisis mandiri Ali belum teruji. Pada refleksi, mahasiswa tidak melihat bagian yang ingin diubah dari cara menawarkan bantuan ([U030](UTS/hasil_2b_18225045.qmd#u030)).
+Ali (K2-01) menyatakan takut salah dan belum pernah membuka alat analisis. Pertanyaan mahasiswa membantu membuka hambatan ([U003](UTS/hasil_2b.qmd#u003)), dan Ali menyatakan akan mencoba membuka aplikasi ([AI012](UTS/hasil_2b.qmd#ai012)). Uji ulang sempat terlewat lalu dijalankan: mahasiswa memberi contoh memilih kolom berdasarkan pertanyaan tugas ([U026](UTS/hasil_2b.qmd#u026)) dan Ali menyatakan mulai menangkap ([AI027](UTS/hasil_2b.qmd#ai027)). Kemampuan analisis mandiri Ali belum teruji. Pada refleksi, mahasiswa tidak melihat bagian yang ingin diubah dari cara menawarkan bantuan ([U030](UTS/hasil_2b.qmd#u030)).
 
 ## Kasus 3: menawarkan solusi TI dan AI
 
-Fajar (K3-06) meminta contoh yang dekat dengan usahanya. Mahasiswa mengoreksi arah setelah salah menyebut profesi ([U004](UTS/hasil_3a_18225045.qmd#u004)), lalu menawarkan AI untuk pertanyaan berulang dan SQL untuk pencatatan stok. Pada uji ulang kesalahan stok, mahasiswa sempat menyebut delete/insert lalu mengoreksi menjadi update ([U018](UTS/hasil_3a_18225045.qmd#u018)), menyarankan data dummy ([U021](UTS/hasil_3a_18225045.qmd#u021)), dan menawarkan pendampingan dengan pemberitahuan H-1 ([U019](UTS/hasil_3a_18225045.qmd#u019), [U020](UTS/hasil_3a_18225045.qmd#u020)). Pencatatan manual sementara adalah pilihan Fajar sendiri ([AI026](UTS/hasil_3a_18225045.qmd#ai026)). Tidak ada sistem atau perintah yang diuji.
+Fajar (K3-06) meminta contoh yang dekat dengan usahanya. Mahasiswa mengoreksi arah setelah salah menyebut profesi ([U004](UTS/hasil_3a.qmd#u004)), lalu menawarkan AI untuk pertanyaan berulang dan SQL untuk pencatatan stok. Pada uji ulang kesalahan stok, mahasiswa sempat menyebut delete/insert lalu mengoreksi menjadi update ([U018](UTS/hasil_3a.qmd#u018)), menyarankan data dummy ([U021](UTS/hasil_3a.qmd#u021)), dan menawarkan pendampingan dengan pemberitahuan H-1 ([U019](UTS/hasil_3a.qmd#u019), [U020](UTS/hasil_3a.qmd#u020)). Pencatatan manual sementara adalah pilihan Fajar sendiri ([AI026](UTS/hasil_3a.qmd#ai026)). Tidak ada sistem atau perintah yang diuji.
 
-Elsa (K3-05) khawatir staf kebingungan. Mahasiswa menawarkan pelatihan bertahap dengan sistem lama dipertahankan ([U003](UTS/hasil_3b_18225045.qmd#u003)). Pada uji ulang, Elsa mengatakan alurnya mulai jelas dengan sistem informasi bersama dan checklist, tetapi belum siap menerapkannya karena penanggung jawab tiap keluhan belum jelas ([AI023](UTS/hasil_3b_18225045.qmd#ai023)). Penambahan nama penangan pada checklist baru disampaikan saat refleksi ([U024](UTS/hasil_3b_18225045.qmd#u024)) sehingga tidak mengubah respons Elsa. Jam pelatihan, kapasitas staf, biaya dan hasil tes belum diketahui.
+Elsa (K3-05) khawatir staf kebingungan. Mahasiswa menawarkan pelatihan bertahap dengan sistem lama dipertahankan ([U003](UTS/hasil_3b.qmd#u003)). Pada uji ulang, Elsa mengatakan alurnya mulai jelas dengan sistem informasi bersama dan checklist, tetapi belum siap menerapkannya karena penanggung jawab tiap keluhan belum jelas ([AI023](UTS/hasil_3b.qmd#ai023)). Penambahan nama penangan pada checklist baru disampaikan saat refleksi ([U024](UTS/hasil_3b.qmd#u024)) sehingga tidak mengubah respons Elsa. Jam pelatihan, kapasitas staf, biaya dan hasil tes belum diketahui.
 
 ## Evaluasi stimulus, relasi, dan PASK
 
-Analisis menghubungkan keadaan awal, stimulus, respons, interpretasi, dan adaptasi. Pengungkapan hambatan dan kesediaan mencoba menjadi bukti respons dalam sesi. Perubahan rasa aman dipisahkan dari pemahaman, keterampilan, dan hasil pekerjaan. Pola yang tampak: dukungan dan pendampingan umumnya mendapat respons terbuka, tetapi kecocokan solusi dengan kebutuhan target sering belum digali sebelum menjelaskan. Pelajaran akhir mahasiswa pada sesi 3a dan 3b sejalan: pahami usaha dan kendala target lebih dulu sebelum menawarkan solusi ([U025](UTS/hasil_3a_18225045.qmd#u025), [U025](UTS/hasil_3b_18225045.qmd#u025)). Klaim dalam percakapan (misalnya biaya, lama belajar, kemudahan SQL, kemampuan AI) tidak dijadikan fakta terverifikasi.
+Analisis menghubungkan keadaan awal, stimulus, respons, interpretasi, dan adaptasi. Pengungkapan hambatan dan kesediaan mencoba menjadi bukti respons dalam sesi. Perubahan rasa aman dipisahkan dari pemahaman, keterampilan, dan hasil pekerjaan. Pola yang tampak: dukungan dan pendampingan umumnya mendapat respons terbuka, tetapi kecocokan solusi dengan kebutuhan target sering belum digali sebelum menjelaskan. Pelajaran akhir mahasiswa pada sesi 3a dan 3b sejalan: pahami usaha dan kendala target lebih dulu sebelum menawarkan solusi ([U025](UTS/hasil_3a.qmd#u025), [U025](UTS/hasil_3b.qmd#u025)). Klaim dalam percakapan (misalnya biaya, lama belajar, kemudahan SQL, kemampuan AI) tidak dijadikan fakta terverifikasi.
 
 ## Penilaian enam dimensi
 
