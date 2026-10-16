@@ -16,7 +16,7 @@ execute:
 |---|---|
 | Nama dan NIM | Tristan Anthony Wijaya — `18225045` |
 | Mata kuliah dan kelas | II2100 Interpersonal and Public Communication — II2100-01 |
-| Tanggal laporan | 15–16 Oktober 2026 |
+| Tanggal laporan | 15 2026 |
 | Versi | Bank/paket 2.0 |
 
 ## Paket jawaban dan pemetaan penugasan
