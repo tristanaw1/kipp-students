@@ -7077,100 +7077,89 @@
   {
     "objectID": "portfolio/week-07.html",
     "href": "portfolio/week-07.html",
-    "title": "Problem–Solution Interest Pitch",
+    "title": "Minggu 7 — Interest Pitch",
     "section": "",
-    "text": "Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 19 Oktober 2026",
     "crumbs": [
       "Beranda",
-      "Problem–Solution Interest Pitch"
+      "Minggu 7 — Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#kompetensi-target",
-    "href": "portfolio/week-07.html#kompetensi-target",
-    "title": "Problem–Solution Interest Pitch",
+    "objectID": "portfolio/week-07.html#identitas",
+    "href": "portfolio/week-07.html#identitas",
+    "title": "Minggu 7 — Interest Pitch",
     "section": "",
-    "text": "Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 19 Oktober 2026",
     "crumbs": [
       "Beranda",
-      "Problem–Solution Interest Pitch"
+      "Minggu 7 — Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#evidence-wajib",
-    "href": "portfolio/week-07.html#evidence-wajib",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nAttention evidence dan problem–solution link.\nInterest pitch dengan evidence atau demonstration.\nResponse, state assessment, hidden concern, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 7 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "objectID": "portfolio/week-07.html#competency-target",
+    "href": "portfolio/week-07.html#competency-target",
+    "title": "Minggu 7 — Interest Pitch",
+    "section": "Competency Target",
+    "text": "Competency Target\nMampu menyusun dan menyampaikan Interest Pitch berbasis evidence perhatian target, membaca response serta hidden concern secara adaptif, menggeser mekanisme solusi tanpa kehilangan objective, serta menghasilkan agreement berupa komitmen tindakan nyata (pilot test atau pengujian terbatas).",
     "crumbs": [
       "Beranda",
-      "Problem–Solution Interest Pitch"
+      "Minggu 7 — Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#konteks-performance",
-    "href": "portfolio/week-07.html#konteks-performance",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "objectID": "portfolio/week-07.html#attention-evidence-dan-solution-hypothesis",
+    "href": "portfolio/week-07.html#attention-evidence-dan-solution-hypothesis",
+    "title": "Minggu 7 — Interest Pitch",
+    "section": "Attention Evidence dan Solution Hypothesis",
+    "text": "Attention Evidence dan Solution Hypothesis\nBerdasarkan pengamatan dua minggu di area gedung perkuliahan dan sekretariat unit, dicatat 14 kali mahasiswa baru/anggota kelompok tersesat mencari ruang kelas/gudang latihan, serta 6 keluhan langsung dari pengelola fasilitas terkait padatnya pertanyaan rute dan peminjaman ruang secara lisan. Target (Pengelola Fasilitas Gedung / Pembina Kegiatan) telah mengakui bahwa ketidakjelasan alur navigasi dan verifikasi keberadaan lokasi merupakan beban operasional harian.\nSolution Hypothesis: Sistem peta navigasi indoor berbasis web-app ringan yang memanfaatkan titik akses Wi-Fi / modul ESP8266 dan algoritma Dijkstra dapat menentukan posisi serta rute terpendek secara real-time tanpa menuntut pengguna mengunduh aplikasi tambahan atau mengubah infrastruktur jaringan kampus.\n\n\n\n\n\n\n\n\n\nProblem\nMechanism\nExpected Benefit\nValue bagi Target\n\n\n\n\nAkses Lokasi & Rute Mengambang: Pengunjung/mahasiswa bingung mencari posisi ruang praktikum/ruang unit.\nWeb-app ringan dengan pemindaian QR/SSID terdekat dan pengolahan jalur Dijkstra di sisi server.\nPengguna langsung mendapatkan rute visual visualisasi dari posisi saat ini tanpa install APK.\nMenurunkan interupsi pertanyaan arah ke staf gedung hingga &gt;50%.\n\n\nKekhawatiran Beban Jaringan & Perangkat: Pengelola khawatir alat tambahan merusak/membebani listrik dan jaringan kampus.\nNode penerima menggunakan modul mikrokontroler independen (ESP8266) berkonsumsi daya rendah (stand-alone).\nTidak ada intervensi ke core switch jaringan ITB atau perubahan konfigurasi router utama.\nMenghilangkan risiko keamanan siber internal dan menurunkan biaya maintenance.",
     "crumbs": [
       "Beranda",
-      "Problem–Solution Interest Pitch"
+      "Minggu 7 — Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#evidence",
-    "href": "portfolio/week-07.html#evidence",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "objectID": "portfolio/week-07.html#pitch-dan-demonstration",
+    "href": "portfolio/week-07.html#pitch-dan-demonstration",
+    "title": "Minggu 7 — Interest Pitch",
+    "section": "Pitch dan Demonstration",
+    "text": "Pitch dan Demonstration\n\n“Bapak/Ibu menyebutkan bahwa waktu staf habis hanya untuk mengarahkan rute ruangan dan memastikan lokasi kegiatan. Prototype FindMyClass ini tidak mengubah sistem inventaris atau jaringan utama kampus: pengguna cukup memindai QR di titik masuk, dan algoritma Dijkstra akan menampilkan rute terpendek di browser HP mereka secara real-time. Mari kita uji coba 2 titik node di koridor lantai 1 selama 3 hari; keberhasilannya kita ukur dari penurunan pertanyaan lokasi dan akurasi titik kedatangan pengguna.”\n\nSaya mendemonstrasikan working prototype selama 90 detik menggunakan perangkat HP. Target menguji navigasi dari titik selasar menuju gudang/ruang praktikum, lalu memberikan tanggapan:\n“Tampilannya cepat dan interaktif, tetapi bagaimana kalau modul ESP ini mati atau koneksi Wi-Fi node-nya terputus saat ribuan mahasiswa lewat? Apakah staf kami yang harus restart dan troubleshoot alatnya?”",
     "crumbs": [
       "Beranda",
-      "Problem–Solution Interest Pitch"
+      "Minggu 7 — Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#analisis-komunikasi",
-    "href": "portfolio/week-07.html#analisis-komunikasi",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "objectID": "portfolio/week-07.html#hidden-concern-dan-adaptation",
+    "href": "portfolio/week-07.html#hidden-concern-dan-adaptation",
+    "title": "Minggu 7 — Interest Pitch",
+    "section": "Hidden Concern dan Adaptation",
+    "text": "Hidden Concern dan Adaptation\nSaya semula mengira concern utama target adalah biaya pembuatan hardware atau kesulitan mahasiswa memakai web. Namun, response target menunjukkan bahwa hidden concern sebenarnya adalah integritas operasional, potensi workload baru bagi staf operasional, dan keandalan hardware (ESP8266).\nSaya tidak memaksakan defense atas prototype awal, melainkan melakukan adaptasi langsung pada mekanisme:\n\nAdaptasi Mekanisme Hardware & System: Modul ESP8266 dilengkapi mekanisme fallback otomatis (penentuan rute berbasis peta matriks statis QR jika node ESP kehilangan daya) serta indikator heartbeat LED sederhana yang dapat dipantau tanpa mengecek kodingan.\nAdaptasi Tanggung Jawab Operasional: Maintenance alat sepenuhnya dipegang oleh tim pengembang (PIC: Tristan), bukan staf gedung. Target tidak dibebani troubleshooting teknis.\nReframing Janji Solusi: Mengubah janji dari “sistem navigasi otomatis 100% tanpa henti” menjadi “uji coba terisolasi 2 node untuk memverifikasi penurunan interupsi rute dan kemudahan pemeliharaan alat”.\n\nTarget menunjukkan sinyal Interest kuat dengan meminta lembar spesifikasi teknis daya ESP8266, menyetujui lokasi peletakan node uji coba, serta menyepakati kriteria keberhasilan pilot test.",
     "crumbs": [
       "Beranda",
-      "Problem–Solution Interest Pitch"
+      "Minggu 7 — Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#penggunaan-ai",
-    "href": "portfolio/week-07.html#penggunaan-ai",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
+    "objectID": "portfolio/week-07.html#evidence-ai-dan-feedback",
+    "href": "portfolio/week-07.html#evidence-ai-dan-feedback",
+    "title": "Minggu 7 — Interest Pitch",
+    "section": "Evidence, AI, dan Feedback",
+    "text": "Evidence, AI, dan Feedback\n\nEvidence Lapangan: Rekaman demonstrasi 3 menit 21 detik, dan Pitch deck penjelasan node ESP8266 di selasar gedung Tautan: Video di YouTube dan slide presentasi di Canva.\nCatatan Observer: Observer mencatat bahwa pertanyaan reflektif saya — “Bagian operasional mana dari alat ini yang paling berpotensi menambah beban harian Bapak/Ibu?” — berhasil membongkar hidden concern terkait keandalan hardware tanpa membuat target merasa tertekan.\nPenggunaan AI secara Terbatas & Etis: AI (LLM) digunakan hanya 1 kali secara terbatas untuk membantu merapikan tata bahasa tabel perbandingan Problem-Mechanism-Benefit agar sesuai dengan format markah Quarto (.qmd).\nNext Practice: Menanyakan kekhawatiran operasional dan batasan workload target di awal sesi sebelum live demo dijalankan.",
     "crumbs": [
       "Beranda",
-      "Problem–Solution Interest Pitch"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
-    "crumbs": [
-      "Beranda",
-      "Problem–Solution Interest Pitch"
+      "Minggu 7 — Interest Pitch"
     ]
   },
   {
     "objectID": "portfolio/week-07.html#self-assessment",
     "href": "portfolio/week-07.html#self-assessment",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "title": "Minggu 7 — Interest Pitch",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor (1–4)\nEvidence Singkat\n\n\n\n\nPerson & Character\n4\nMengenali person target secara utuh (workload staf gedung dan kekhawatiran operasional) serta menjalankan character pengembang yang akuntabel tanpa defensive.\n\n\nObjective & State\n4\nBerhasil mengidentifikasi transisi target dari Attention (mengakui adanya masalah) menjadi Interest (meminta spesifikasi teknis dan mendiskusikan kriteria pilot test).\n\n\nRepertoire, Language & AI\n4\nPitch 90 detik yang lugas, penggunaan pertanyaan pembongkar hidden concern, serta penggunaan AI secara strictly terikat (hanya 1 kali untuk formatting sintaksis).\n\n\nResponse & Adaptation\n4\nLangsung mengadaptasi mekanisme fallback sistem ESP8266 dan memindahkan beban maintenance dari staf ke tim pengembang begitu hidden concern terungkap.\n\n\nAgreement, Action & Relationship\n4\nMenghasilkan agreement tindakan nyata: persetujuan lokasi pilot test 2 node selama 3 hari, penetapan PIC (Tristan), dan indikator keberhasilan terukur.\n\n\n\nTotal Skor: 20/20 — Sangat Kompeten (Tercapai).\n\n\nAssessment Dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Tercapai",
     "crumbs": [
       "Beranda",
-      "Problem–Solution Interest Pitch"
+      "Minggu 7 — Interest Pitch"
     ]
   },
   {
