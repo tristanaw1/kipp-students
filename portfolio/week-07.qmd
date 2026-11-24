@@ -3,7 +3,7 @@ assessor_score: "20/20"
 categories:
 - Fondasi
 - Person
-description: Pitch prototype FindMyClass berbasis bukti perhatian target, pembongkaran hidden concern integritas infrastruktur Wi-Fi/ESP, adaptasi mekanisme tanpa aplikasi berat, dan penyepakatan parameter pilot.
+description: Pitch prototype FindMyClass berbasis bukti perhatian target, pembongkaran hidden concern integritas infrastruktur Wi-Fi/ESP, adaptasi mekanisme tanpa aplikasi berat, dan penyepakat an parameter pilot.
 self_score: 20/20
 status: Siap Dinilai
 title: "Minggu 7 — Interest Pitch"
