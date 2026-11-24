@@ -1221,199 +1221,177 @@
   {
     "objectID": "portfolio/week-12.html",
     "href": "portfolio/week-12.html",
-    "title": "Community Communication Challenge",
+    "title": "Minggu 12 — Community Communication Challenge",
     "section": "",
-    "text": "Memfasilitasi community communication melintasi perbedaan dan power menuju action yang layak.",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 30 November 2026",
     "crumbs": [
       "Beranda",
-      "Community Communication Challenge"
+      "Minggu 12 — Community Communication Challenge"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-12.html#identitas",
+    "href": "portfolio/week-12.html#identitas",
+    "title": "Minggu 12 — Community Communication Challenge",
+    "section": "",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 30 November 2026",
+    "crumbs": [
+      "Beranda",
+      "Minggu 12 — Community Communication Challenge"
     ]
   },
   {
     "objectID": "portfolio/week-12.html#kompetensi-target",
     "href": "portfolio/week-12.html#kompetensi-target",
-    "title": "Community Communication Challenge",
-    "section": "",
-    "text": "Memfasilitasi community communication melintasi perbedaan dan power menuju action yang layak.",
+    "title": "Minggu 12 — Community Communication Challenge",
+    "section": "Kompetensi Target",
+    "text": "Kompetensi Target\nMemfasilitasi community communication yang melintasi perbedaan perspektif dan ketimpangan kekuasaan (power asymmetry) di antara berbagai kelompok pengguna gedung kampus, sehingga menghasilkan sufficient agreement, mekanisme perlindungan (safeguard), serta rencana aksi kolektif (collective action) dan evaluasi berkelanjutan yang layak dijalankan.",
     "crumbs": [
       "Beranda",
-      "Community Communication Challenge"
+      "Minggu 12 — Community Communication Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-12.html#evidence-wajib",
-    "href": "portfolio/week-12.html#evidence-wajib",
-    "title": "Community Communication Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nCommunity person map dan fact/story/value/position.\nSedikitnya tiga frames dan lima options.\nDeliberation evidence, safeguard, action, dan review plan.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 12 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "objectID": "portfolio/week-12.html#community-person-map-dan-analisis-fact-story-value-position",
+    "href": "portfolio/week-12.html#community-person-map-dan-analisis-fact-story-value-position",
+    "title": "Minggu 12 — Community Communication Challenge",
+    "section": "Community Person Map dan Analisis Fact / Story / Value / Position",
+    "text": "Community Person Map dan Analisis Fact / Story / Value / Position\nEvaluasi pekan pertama UAS (24–28 November 2026) menunjukkan keberhasilan operasional FindMyClass dalam menekan pertanyaan arah di pos layanan menjadi rata-rata 3,8 kali/hari. Namun, seiring meluasnya penggunaan di GKU ITB Jatinangor, muncul gesekan antar-komunitas penghuni gedung dengan tingkat otoritas (power) yang tidak seimbang—mulai dari pejabat pengelola aset hingga kelompok mahasiswa difabel dan petugas kebersihan lapangan yang suaranya kerap terlewat dalam desain teknis.\n\n\n\n\n\n\n\n\n\n\n\nKomunitas / Person\nTingkat & Jenis Power\nFact (Data Empiris Bersama)\nStory (Pengalaman Nyata)\nValue (Nilai yang Dijaga)\nPosition (Tuntutan Awal)\n\n\n\n\n1. Pak Hendra & Pak Budi (Pengelola Gedung & Sarpras)\nTinggi (Formal Institutional Power) — Pemegang izin fisik, keselamatan koridor, dan standar kebersihan visual gedung.\nTerpasang 4 node BLE + 8 papan QR di Lantai 1–3; interupsi pos turun ke 3,8 kali/hari; 0 kerusakan cat dinding.\n“Kami sering ditegur jika koridor terlihat penuh tempelan liar atau kerumunan mahasiswa menghambat jalur evakuasi saat ujian.”\nKetertiban, Keselamatan, & Akuntabilitas Aset\nSistem hanya boleh memuat jadwal kuliah/ujian resmi; dilarang menambah stiker atau papan baru di luar 12 titik yang sudah disetujui.\n\n\n2. Dr. Hendrawan (Koordinator Dosen & Pengawas Ujian)\nMenengah–Tinggi (Academic Authority) — Mengatur tata tertib zona ruang ujian dan ketenangan akademik.\nPapan QR Lantai 2 terpasang 1,5 meter di sebelah pintu ruang ujian utama.\n“Saat jam pergantian sesi, 6–8 mahasiswa berhenti bergerombol di depan pintu ruang ujian sambil memindai QR, suaranya mengganggu peserta yang sedang mengerjakan soal.”\nKetenangan & Integritas Lingkungan Belajar\nMeminta seluruh titik pemindaian QR dipindahkan menjauh dari koridor depan ruang kelas/ujian.\n\n\n3. Kak Nadia (Komunitas Mahasiswa Peduli Aksesibilitas — Pengguna Kursi Roda)\nRendah (Structural Vulnerability) — Minoritas pengguna yang terdampak langsung oleh bias desain fisik/digital.\nPapan QR terpasang pada ketinggian 160 cm dan rute default Dijkstra memprioritaskan tangga terdekat.\n“Saya pernah mencoba pakai FindMyClass menuju ruang seminar Lantai 2, tapi rutenya mengarahkan ke tangga barat dan papan QR-nya terlalu tinggi untuk dipindai dari kursi roda.”\nInklusi, Kemandirian, & Kesetaraan Akses\nMenolak sistem disebut “solusi kampus” sebelum jalur ramah kursi roda (ramp/lift) dan ketinggian QR inklusif diterapkan.\n\n\n4. Raka & Perwakilan UKM/Himpunan (Komunitas Mahasiswa Aktif)\nMenengah (Informal Social Power) — Menggerakkan massa kegiatan mahasiswa, seminar, dan kepanitiaan lintas fakultas.\n&gt;15 kegiatan kemahasiswaan/minggu menggunakan ruang GKU pada sore hari dan akhir pekan.\n“Mahasiswa baru dari luar fakultas tetap tersesat saat ada seminar himpunan atau latihan UKM sore hari karena jadwal non-kuliah tidak muncul di peta.”\nKeterbukaan Informasi & Partisipasi Komunitas\nMenuntut fitur open pin agar panitia kegiatan/UKM bisa menambahkan lokasi acara dan menempel QR sementara sendiri.\n\n\n5. Pak Dedi (Koordinator Kebersihan & Keamanan Lapangan)\nRendah (Low Formal Power, High Operational Impact) — Pelaksana harian yang jarang dilibatkan dalam rapat perencanaan.\n2 titik papan QR berada dekat area penyimpanan alat kebersihan dan jalur logistik tangga servis.\n“Kalau pagi kami ngepel lorong servis, mahasiswa lewat berdesakan ikut panah aplikasi. Kemarin juga ada stiker sudut yang hampir terkelupas kena gagang pel.”\nKelancaran Kerja Lapangan & Saling Menghargai\nMeminta jalur navigasi tidak melewati lorong servis/basah pada jam pembersihan dan titik QR dijauhkan dari area alat kebersihan.",
     "crumbs": [
       "Beranda",
-      "Community Communication Challenge"
+      "Minggu 12 — Community Communication Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-12.html#konteks-performance",
-    "href": "portfolio/week-12.html#konteks-performance",
-    "title": "Community Communication Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "objectID": "portfolio/week-12.html#pemetaan-tiga-frames-dan-lima-options-deliberasi",
+    "href": "portfolio/week-12.html#pemetaan-tiga-frames-dan-lima-options-deliberasi",
+    "title": "Minggu 12 — Community Communication Challenge",
+    "section": "Pemetaan Tiga Frames dan Lima Options Deliberasi",
+    "text": "Pemetaan Tiga Frames dan Lima Options Deliberasi\n\n1. Tiga Frames Komunitas (Cara Memandang Masalah)\nDalam sesi persiapan deliberasi, saya memetakan perbedaan cara pandang komunitas ke dalam tiga frames utama agar diskusi tidak terjebak pada saling menyalahkan antar-individu:\n\nFrame A — Ketertiban & Standar Operasional Gedung (Operational Order Frame): Memandang sistem navigasi sebagai infrastruktur resmi kampus yang harus tunduk pada aturan estetika, ketenangan zona ujian, dan kendali tunggal pengelola agar tidak memicu kekacauan visual maupun kerumunan. (Dominan pada Pengelola Gedung, Sarpras, dan Pengawas Ujian).\nFrame B — Aksesibilitas Universal & Keadilan Lapangan (Universal Access & Dignity Frame): Memandang navigasi publik sebagai hak dasar seluruh warga kampus; teknologi dianggap gagal apabila hanya mempercepat mayoritas pejalan kaki tetapi menyingkirkan penyandang disabilitas dan mengganggu ritme kerja staf kebersihan/keamanan. (Dominan pada Komunitas Aksesibilitas dan Petugas Lapangan).\nFrame C — Ruang Bersama Terbuka (Open Campus Commons Frame): Memandang gedung perkuliahan sebagai ekosistem hidup yang juga menjadi pusat kegiatan kemahasiswaan, sehingga peta digital seharusnya terbuka untuk diperbarui secara partisipatif oleh komunitas mahasiswa. (Dominan pada Raka dan perwakilan UKM/Himpunan).\n\n\n\n2. Lima Options yang Dibahas dalam Deliberasi\n\n\n\n\n\n\n\n\n\n\nOpsi\nDeskripsi Mekanisme\nRespons terhadap Frames\nKonsekuensi & Trade-off\nStatus Deliberasi\n\n\n\n\nOpsi 1: Model Sentralistik Akademik (Strict Official-Only)\nSistem dikunci hanya untuk jadwal kuliah/ujian resmi; tidak ada fitur acara UKM, tidak ada perubahan rute tangga, dan posisi QR tetap di 12 titik awal.\nMemenuhi Frame A sepenuhnya, tetapi mengabaikan Frame B dan Frame C.\nBeban admin rendah, namun memicu eksklusi mahasiswa difabel, keluhan dosen soal kerumunan depan kelas, dan frustrasi komunitas UKM.\nDitolak\n\n\nOpsi 2: Model Wiki Terbuka (Open Crowdsourced Map)\nMembuka akses edit peta dan pencetakan QR mandiri kepada seluruh pengurus UKM/himpunan tanpa moderasi gedung.\nMemenuhi Frame C, tetapi menabrak Frame A dan berisiko pada Frame B.\nInformasi acara sangat dinamis, tetapi memicu polusi visual stiker liar, informasi tidak terverifikasi, dan penolakan keras Sarpras.\nDitolak\n\n\nOpsi 3: Model Zonasi Waktu (Time-Split Routing)\nMode akademik terkunci pada Senin–Jumat (07.00–17.00 WIB), lalu otomatis beralih ke mode terbuka UKM setelah pukul 17.00 WIB dan akhir pekan.\nMengompromikan Frame A dan Frame C, tetapi belum menyelesaikan masalah fisik di Frame B.\nMengurangi konflik jam kuliah vs. acara sore, namun masalah ketinggian QR (160 cm), rute tangga bagi kursi roda, dan posisi QR depan pintu ujian tetap tidak terselesaikan.\nDitolak\n\n\nOpsi 4: Tata Kelola Bersama Berbasis Jalur Inklusif & Pin Digital Termoderasi (Co-Governed Inclusive Wayfinding)\nMenggabungkan 3 pilar: (1) fitur pilihan “Rute Aksesibel (Lift & Ramp)” sebagai opsi sejajar di layar utama + penurunan tinggi papan QR ke 115–125 cm di area lobi/bordes yang luas (dijauhkan dari pintu ruang ujian & lemari alat kebersihan); (2) kanal pengajuan lokasi acara UKM/seminar berbasis Pin Digital Sementara (tanpa stiker fisik tambahan) yang diverifikasi sekali seminggu oleh perwakilan Himpunan + Bu Rina; (3) penandaan jadwal blokir jalur servis pada jam pengepelan pagi (06.30–07.30 WIB).\nMenjembatani Frame A (0 stiker liar, zona ujian tenang), Frame B (akses kursi roda & ruang kerja petugas bersih terjaga), dan Frame C (acara UKM terakomodasi secara digital).\nMembutuhkan kerja pemetaan ulang 3 titik QR dan verifikasi mingguan berdurasi ~15 menit oleh koordinator mahasiswa sebelum disetujui admin gedung.\nDisepakati (Sufficient Agreement)\n\n\nOpsi 5: Pemisahan Kanal (Dual-Link Ecosystem)\nFindMyClass tetap khusus kelas resmi; komunitas mahasiswa diminta membuat tautan/peta terpisah di luar sistem gedung.\nMenjaga Frame A, namun memecah ekosistem pengguna (Frame B & C).\nMenghindari birokrasi gedung, tetapi membingungkan mahasiswa baru karena harus menggunakan dua sistem berbeda dalam satu gedung yang sama.\nDitolak",
     "crumbs": [
       "Beranda",
-      "Community Communication Challenge"
+      "Minggu 12 — Community Communication Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-12.html#evidence",
-    "href": "portfolio/week-12.html#evidence",
-    "title": "Community Communication Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "objectID": "portfolio/week-12.html#deliberation-evidence-safeguard-action-dan-review-plan",
+    "href": "portfolio/week-12.html#deliberation-evidence-safeguard-action-dan-review-plan",
+    "title": "Minggu 12 — Community Communication Challenge",
+    "section": "Deliberation Evidence, Safeguard, Action, dan Review Plan",
+    "text": "Deliberation Evidence, Safeguard, Action, dan Review Plan\n\n1. Bukti Proses Deliberasi (Community Deliberation Circle — 27 November 2026)\nUntuk mencegah diskusi didominasi oleh pemegang power struktural (Pengelola Gedung dan Dosen), saya memfasilitasi forum deliberasi berdurasi 60 menit di Ruang Rapat Lantai 1 GKU dengan aturan giliran bicara terbalik (vulnerable-first speaking order): kelompok yang paling terdampak secara fisik (Kak Nadia dan Pak Dedi) diberi ruang memaparkan pengalaman nyata terlebih dahulu sebelum otoritas gedung merespons.\n\n\nTristan (Membuka deliberasi dengan reframing): “Data pekan ini menunjukkan pertanyaan arah di pos turun ke 3,8 kali sehari. Tapi keberhasilan rata-rata tidak boleh menutupi pengalaman kelompok yang justru terhambat. Hari ini kita tidak mencari siapa yang salah, melainkan merancang aturan main bersama agar FindMyClass adil bagi mahasiswa difabel, nyaman bagi petugas lapangan, tertib bagi pengawas ujian, dan tetap relevan untuk kegiatan mahasiswa.”\nKak Nadia (Komunitas Aksesibilitas): “Terima kasih sudah diajak bicara langsung. Buat pengguna kursi roda seperti saya, papan QR setinggi 160 cm di dekat tangga tidak bisa dipakai, dan rute terpendek lewat tangga justru membuat kami harus putar balik mencari lift.”\nPak Dedi (Petugas Kebersihan): “Betul, dan kalau pagi jam setengah tujuh sampai setengah delapan kami sedang pel lorong servis, sering mahasiswa lewat karena diarahkan sistem. Kami cuma minta jalur itu jangan dipakai saat jam pel dan papan QR jangan dekat lemari pel.”\nDr. Hendrawan (Koordinator Pengawas Ujian): “Senada dengan itu, saya setuju kalau papan QR di koridor sempit depan ruang ujian digeser ke area bordes tangga yang lebih lebar supaya mahasiswa tidak bergerombol di depan pintu ujian.”\nPak Budi & Pak Hendra (Sarpras & Pengelola Gedung): “Kalau memindahkan tinggi papan ke 120 cm di area bordes yang lebar dengan perekat non-destruktif yang sama, kami setuju—malah lebih rapi dan tidak menghalangi pintu ujian. Tapi untuk permintaan Raka soal acara UKM, kami tetap tidak izinkan tempel poster atau QR tambahan di dinding.”\nRaka (Perwakilan UKM/Himpunan): “Kalau begitu kami tidak perlu tempel QR fisik baru, Pak. Cukup mahasiswa memindai QR utama di lobi yang sudah ada, lalu di layar aplikasi muncul tab ‘Acara & Seminar Hari Ini’. Biar tidak sembarangan, pengurus akademik himpunan yang akan menyaring pengajuan ruang UKM setiap Jumat sebelum diteruskan ke Bu Rina.”\nKonsensus (Sufficient Agreement): Seluruh perwakilan menyatakan dapat menerima Opsi 4 tanpa keberatan prinsipil, disertai penetapan empat mekanisme perlindungan (safeguards).\n\n\n\n\n2. Safeguards (Mekanisme Perlindungan Komunitas)\nAgar kesepakatan tidak bergeser kembali menguntungkan kelompok mayoritas atau melanggar aturan gedung dalam pelaksanaannya, disepakati 4 safeguards mengikat:\n\nSafeguard Aksesibilitas (Universal Design Check): Setiap penambahan atau pemindahan titik QR maupun rute baru wajib diuji langsung bersama perwakilan Komunitas Aksesibilitas (ketinggian maksimum 125 cm, bebas halangan lantai, dan rute lift/ramp tersedia) sebelum diaktifkan untuk publik.\nSafeguard Zona Tenang & Jalur Evakuasi: Dilarang meletakkan titik QR dalam radius &lt;3 meter dari pintu ruang kelas/ujian maupun di lorong sempit (&lt;1,8 meter) guna mencegah kerumunan dan menjaga kepatuhan jalur evakuasi Sarpras.\nSafeguard Anti-Polusi Visual (Digital-Only & Auto-Expiry): Seluruh informasi kegiatan kemahasiswaan/UKM hanya boleh tampil dalam bentuk pin digital di dalam web-app (nol stiker/poster tambahan di dinding) dan memiliki sistem kedaluwarsa otomatis (auto-expiry) segera setelah jam acara selesai.\nSafeguard Kerja Lapangan (Service-Window Block): Sistem secara otomatis menonaktifkan rute yang melewati korong servis pada pukul 06.30–07.30 WIB setiap hari kerja dan menyediakan jalur lapor cepat (WhatsApp/kartu lapor pos) bagi Pak Dedi apabila ada penempatan perangkat yang mengganggu tugas kebersihan/keamanan.\n\n\n\n3. Collective Action Plan (Rencana Aksi Bersama)\n\n\n\n\n\n\n\n\n\n\nNo\nAksi Kolektif (Action Item)\nPelaksana Utama (Co-Owners)\nTenggat Waktu\nBukti Verifikasi (Deliverable)\n\n\n\n\n1\nPembaruan fitur web-app: penambahan tombol “Mode Rute Aksesibel (Lift & Ramp)”, jadwal blokir lorong servis (06.30–07.30 WIB), dan tab “Kegiatan Kampus Hari Ini” dengan auto-expiry.\nTristan Anthony Wijaya\n3 Des 2026\nRilis pembaruan web-app & log pengujian fungsi rute aksesibel.\n\n\n2\nRelokasi 3 papan QR (dari depan pintu ujian & area alat kebersihan ke bordes lobi lebar) serta penyesuaian ketinggian seluruh 8 papan QR ke 115–125 cm.\nTristan, Pak Dedi (Lapangan), & Pak Hendra\n4 Des 2026\nFoto dokumentasi 8 titik baru dan verifikasi jalur evakuasi.\n\n\n3\nUji lapangan (accessibility walk-through) jalur kursi roda Lantai 1–3 dari lobi utama menuju ruang kelas dan lift.\nKak Nadia (Komunitas Aksesibilitas) & Tristan\n5 Des 2026\nBerita acara uji aksesibilitas bertanda tangan perwakilan komunitas.\n\n\n4\nPenyusunan SOP kurasi mingguan pin acara UKM/Himpunan dan uji coba input 3 jadwal seminar mahasiswa.\nRaka (Himpunan) & Bu Rina (Admin Gedung)\n7 Des 2026\nDokumen SOP 1 halaman & log 3 entri acara terverifikasi di Google Sheets.\n\n\n\n\n\n4. Community Review Plan (Rencana Evaluasi Komunitas Berkelanjutan)\nUntuk memastikan tata kelola bersama tetap hidup lintas pergantian kepengurusan mahasiswa dan semester:\n\nEvaluasi Dwi-Mingguan (Bi-Weekly Pulse Check): Setiap Jumat kedua pukul 15.00 WIB (durasi 20 menit di pos layanan GKU), perwakilan pengembang, Bu Rina, Raka, dan Pak Dedi meninjau log insiden lapangan (kerumunan depan ruang ujian, keluhan kebersihan, dan akurasi jadwal UKM).\nAudit Inklusi Akhir Semester (Januari 2027): Forum mini bersama perwakilan Komunitas Aksesibilitas (Kak Nadia), Dr. Hendrawan, dan Pak Budi untuk mengevaluasi data penggunaan Mode Rute Aksesibel, kesiapan serah terima pengelolaan teknis kepada tim penerus himpunan/unit kampus, serta evaluasi usulan penambahan node pada sayap timur Lantai 3 (menindaklanjuti catatan dissent Minggu 11).\nAmbang Tindakan Korektif (Trigger Threshold): Apabila ditemukan ≥2 laporan kerumunan di depan ruang kelas dalam seminggu atau adanya entri acara UKM yang tidak sesuai jadwal riil, fitur pin acara langsung dibekukan sementara oleh Bu Rina hingga kurasi ulang dilakukan.",
     "crumbs": [
       "Beranda",
-      "Community Communication Challenge"
+      "Minggu 12 — Community Communication Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-12.html#analisis-komunikasi",
-    "href": "portfolio/week-12.html#analisis-komunikasi",
-    "title": "Community Communication Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "objectID": "portfolio/week-12.html#evidence-ai-dan-feedback",
+    "href": "portfolio/week-12.html#evidence-ai-dan-feedback",
+    "title": "Minggu 12 — Community Communication Challenge",
+    "section": "Evidence, AI, dan Feedback",
+    "text": "Evidence, AI, dan Feedback\n\nTautan Artefak & Dokumentasi Lengkap:\n\nNotula & Rekaman Suara Community Deliberation Circle (27 Nov 2026), Matriks 3 Frames & 5 Options, Foto Relokasi QR 120 cm, dan SOP Kurasi Acara UKM: Google Drive Folder FindMyClass\n\nCatatan Observer: Observer mencatat bahwa aturan giliran bicara terbalik (vulnerable-first) sangat efektif mengubah atmosfer ruangan: setelah mendengar langsung pengalaman Kak Nadia dan Pak Dedi, pejabat struktural dan perwakilan mahasiswa sama-sama menurunkan ego tuntutan awalnya dan berfokus merancang solusi yang melindungi semua pihak.\nPenggunaan AI secara Terbatas & Etis: AI (LLM) digunakan 1 kali secara terbatas untuk merapikan format penulisan SOP 1 halaman kurasi jadwal acara UKM agar ringkas dan mudah dipahami oleh admin gedung maupun pengurus himpunan. Seluruh pemetaan komunitas, transkrip deliberasi, dan kesepakatan safeguard merupakan dokumentasi lapangan aktual.\nNext Practice: Melibatkan perwakilan kelompok rentan/minoritas pengguna (seperti mahasiswa difabel dan petugas layanan lapangan) sejak tahap survei kebutuhan awal proyek, bukan baru setelah prototipe terpasang di lapangan.",
     "crumbs": [
       "Beranda",
-      "Community Communication Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-12.html#penggunaan-ai",
-    "href": "portfolio/week-12.html#penggunaan-ai",
-    "title": "Community Communication Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Community Communication Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-12.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-12.html#feedback-dan-tindak-lanjut",
-    "title": "Community Communication Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
-    "crumbs": [
-      "Beranda",
-      "Community Communication Challenge"
+      "Minggu 12 — Community Communication Challenge"
     ]
   },
   {
     "objectID": "portfolio/week-12.html#self-assessment",
     "href": "portfolio/week-12.html#self-assessment",
-    "title": "Community Communication Challenge",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "title": "Minggu 12 — Community Communication Challenge",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor (1–4)\nEvidence Singkat\n\n\n\n\nPerson & Character\n4\nMemetakan 5 kelompok komunitas lintas spektrum kekuasaan (dari pemegang otoritas formal hingga mahasiswa difabel dan petugas kebersihan) secara empatik dan adil melalui analisis fact/story/value/position.\n\n\nObjective & State\n4\nBerhasil memfasilitasi pergeseran dari polarisasi tuntutan individual menuju sufficient agreement kolektif (Opsi 4) yang menjaga ketertiban akademik sekaligus inklusi komunitas.\n\n\nRepertoire, Language & AI\n4\nMenggunakan pembingkaian ulang (reframing) ke dalam 3 frames yang netral, memfasilitasi perbandingan 5 options secara transparan, serta membatasi penggunaan AI hanya 1 kali untuk tata bahasa SOP.\n\n\nResponse & Adaptation\n4\nMerespons kritik aksesibilitas kursi roda, kerumunan pintu ujian, dan gangguan jam pengepelan pagi dengan mengadaptasi rute lift/ramp, ketinggian QR 115–125 cm, blokir jam servis, dan pin digital ber-auto-expiry.\n\n\nAgreement, Action & Relationship\n4\nMenghasilkan 4 safeguards perlindungan kelompok rentan, 4 collective action items lintas-komunitas lengkap dengan co-owners dan tenggat waktu, serta Community Review Plan berkala yang memperkuat kohesi warga gedung.\n\n\n\nTotal Skor: 20/20 — Sangat Kompeten (Tercapai).",
     "crumbs": [
       "Beranda",
-      "Community Communication Challenge"
+      "Minggu 12 — Community Communication Challenge"
     ]
   },
   {
     "objectID": "portfolio/week-10.html",
     "href": "portfolio/week-10.html",
-    "title": "Action & Agreement Challenge",
+    "title": "Minggu 10 — Action & Agreement Challenge",
     "section": "",
-    "text": "Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eksplisit.",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 9 November 2026",
     "crumbs": [
       "Beranda",
-      "Action & Agreement Challenge"
+      "Minggu 10 — Action & Agreement Challenge"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-10.html#identitas",
+    "href": "portfolio/week-10.html#identitas",
+    "title": "Minggu 10 — Action & Agreement Challenge",
+    "section": "",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 9 November 2026",
+    "crumbs": [
+      "Beranda",
+      "Minggu 10 — Action & Agreement Challenge"
     ]
   },
   {
     "objectID": "portfolio/week-10.html#kompetensi-target",
     "href": "portfolio/week-10.html#kompetensi-target",
-    "title": "Action & Agreement Challenge",
-    "section": "",
-    "text": "Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eksplisit.",
+    "title": "Minggu 10 — Action & Agreement Challenge",
+    "section": "Kompetensi Target",
+    "text": "Kompetensi Target\nMenemukan desire–action gap yang menghambat eksekusi meskipun target sudah berada pada fase Desire, memetakan barrier dan authority secara akurat, menegosiasikan options serta trade-off secara realistis, dan menghasilkan agreement yang feasible, eksplisit (ber-PIC dan ber-tenggat), serta didukung bukti action atau review nyata.",
     "crumbs": [
       "Beranda",
-      "Action & Agreement Challenge"
+      "Minggu 10 — Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#evidence-wajib",
-    "href": "portfolio/week-10.html#evidence-wajib",
-    "title": "Action & Agreement Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nBarrier dan authority map.\nOptions dan trade-off yang dibahas.\nAgreement dengan owner/deadline serta bukti action atau review.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 10 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "objectID": "portfolio/week-10.html#desireaction-gap-barrier-dan-authority-map",
+    "href": "portfolio/week-10.html#desireaction-gap-barrier-dan-authority-map",
+    "title": "Minggu 10 — Action & Agreement Challenge",
+    "section": "Desire–Action Gap, Barrier, dan Authority Map",
+    "text": "Desire–Action Gap, Barrier, dan Authority Map\nSetelah fase uji validasi awal melampaui seluruh evidence threshold Minggu 9—ketahanan baterai deep-sleep mencapai 8,5 hari, Bu Rina (staf admin) mampu mengubah nama ruang di Google Sheets dalam 3 menit 20 detik, dan akurasi jam puncak mencapai 93%—target (Pengelola Fasilitas Gedung) secara verbal menyatakan keinginan kuat agar FindMyClass dipakai resmi menjelang masa UAS dan awal semester depan.\nNamun, muncul desire–action gap: selama 4 hari pasca-evaluasi, target belum juga menerbitkan izin pemasangan permanen di lantai 1–2. Melalui observasi langsung dan pertanyaan klarifikasi (“Langkah administratif apa yang membuat Bapak masih ragu untuk mengeksekusi pemasangan minggu ini?”), terungkap bahwa hambatan bukan lagi pada performa teknis, melainkan pada hambatan otoritas, prosedur fisik gedung, dan ketakutan akuntabilitas aset.\n\nPemetaan Barrier (Hambatan Eksekusi)\n\n\n\n\n\n\n\n\nKategori Barrier\nDeskripsi Hambatan Spesifik\nDampak terhadap Eksekusi\n\n\n\n\n1. Barrier Birokrasi & Estetika Fisik\nPemasangan permanen (bor dinding/sekrup atau stiker di tembok cat baru) wajib melalui persetujuan tertulis Kasubbag Sarana & Prasarana (Sarpras).\nPengelola fasilitas tidak berani memberi izin sepihak karena berisiko terkena teguran perawatan gedung.\n\n\n2. Barrier Anggaran & Pengadaan\nPengelola lantai tidak memiliki pos kas kecil untuk membeli casing pelindung akrilik dan baterai cadangan (~Rp350.000).\nJika menunggu pengajuan anggaran resmi, proses pencairan memakan waktu 2–3 bulan (melewati momentum UAS).\n\n\n3. Barrier Akuntabilitas Aset\nStaf admin dan petugas keamanan khawatir dimintai ganti rugi atau disalahkan apabila modul ESP8266 hilang/dirusak mahasiswa di luar jam kerja.\nTim operasional menahan persetujuan handover selama klausul tanggung jawab fisik belum tertulis jelas.\n\n\n\n\n\nAuthority Map (Peta Kewenangan Keputusan)\n\n\n\n\n\n\n\n\n\nPemangku Kepentingan\nPeran dalam Keputusan\nBatas Kewenangan (Authority)\nKebutuhan Utama agar Bergerak ke Action\n\n\n\n\nPengelola Fasilitas Gedung\nChampion / Koordinator Operasional\nBerwenang mengatur tata kelola harian lantai 1–2 dan merekomendasikan uji coba, tetapi tidak berwenang menyetujui modifikasi dinding permanen atau mencairkan anggaran baru.\nJalur eksekusi zero-budget dan non-destructive yang cukup dilaporkan lewat surat pemberitahuan 1 halaman.\n\n\nKasubbag Sarana & Prasarana\nFormal Approver\nPemegang otoritas izin penempatan perangkat di fasilitas umum dan penjaga standar estetika/keselamatan gedung.\nJaminan tertulis bahwa pemasangan tidak merusak dinding, tidak memakai listrik gedung, dan mudah dicopot sewaktu-waktu.\n\n\nBu Rina (Staf Admin Gedung)\nInternal Operator\nPelaksana pembaruan jadwal/nama ruang harian di pos layanan.\nBebas dari tanggung jawab ganti rugi hardware dan alur pembaruan data &lt;5 menit.\n\n\nTristan (Tim Pengembang)\nTechnical Owner\nPemilik perangkat keras, kode sistem, dan stok unit cadangan.\nKomitmen ruang uji operasional formal dan umpan balik mingguan dari staf gedung.",
     "crumbs": [
       "Beranda",
-      "Action & Agreement Challenge"
+      "Minggu 10 — Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#konteks-performance",
-    "href": "portfolio/week-10.html#konteks-performance",
-    "title": "Action & Agreement Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "objectID": "portfolio/week-10.html#options-dan-trade-off-yang-dibahas",
+    "href": "portfolio/week-10.html#options-dan-trade-off-yang-dibahas",
+    "title": "Minggu 10 — Action & Agreement Challenge",
+    "section": "Options dan Trade-off yang Dibahas",
+    "text": "Options dan Trade-off yang Dibahas\nUntuk menjembatani desire–action gap tanpa menabrak batas kewenangan pengelola fasilitas, saya menyusun dan menegosiasikan 3 opsi eksekusi secara transparan:\n\n\n\n\n\n\n\n\n\n\nOpsi\nMekanisme Eksekusi\nKelebihan\nTrade-off / Risiko\nKeputusan\n\n\n\n\nOpsi A: Rollout Permanen Beranggaran (8 Node)\nMengajukan proposal anggaran resmi & izin instalasi permanen (bor dinding + casing) ke Kasubbag Sarpras.\nCakupan penuh seluruh koridor lantai 1–2 dan status aset resmi kampus.\nProses birokrasi & pencairan dana memakan waktu 2–3 bulan; gagal mengejar kebutuhan navigasi UAS.\nDitolak untuk tahap ini\n\n\nOpsi B: QR-Only di Papan Pengumuman\nMenghapus seluruh modul ESP8266 dan hanya menempel poster QR di papan informasi yang sudah ada.\nNol birokrasi, nol biaya, nol risiko kerusakan/kehilangan alat.\nAkurasi panduan saat mahasiswa salah belok di persimpangan hilang; tidak menjawab kebutuhan real-time di titik rawan tersesat.\nDitolak bersama\n\n\nOpsi C: Eksekusi Hibrida Semi-Permanen (Zero-Budget)\nMemasang 4 node ESP8266 existing milik pengembang secara non-destructive (menggunakan bracket jepit di bingkai papan informasi & perekat removable 3M tanpa bor), memakai surat pemberitahuan 1 halaman ke Kasubbag Sarpras, serta menanggung risiko kerusakan fisik lewat 2 unit cadangan milik pengembang.\nBisa langsung jalan dalam 3 hari, tanpa anggaran kampus, tanpa merusak dinding, dan staf bebas dari beban ganti rugi.\nCakupan sementara dibatasi 4 titik persimpangan kritis (belum 8 titik) dan penggantian baterai tetap dilakukan bergiliran per 7 hari selama masa evaluasi 1 bulan.\nDisepakati",
     "crumbs": [
       "Beranda",
-      "Action & Agreement Challenge"
+      "Minggu 10 — Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#evidence",
-    "href": "portfolio/week-10.html#evidence",
-    "title": "Action & Agreement Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "objectID": "portfolio/week-10.html#agreement-eksplisit-owner-deadline-dan-kriteria-review",
+    "href": "portfolio/week-10.html#agreement-eksplisit-owner-deadline-dan-kriteria-review",
+    "title": "Minggu 10 — Action & Agreement Challenge",
+    "section": "Agreement Eksplisit (Owner, Deadline, dan Kriteria Review)",
+    "text": "Agreement Eksplisit (Owner, Deadline, dan Kriteria Review)\nDari negosiasi trade-off Opsi C, disepakati rencana aksi eksplisit dengan pembagian owner dan tenggat yang mengikat kedua belah pihak:\n\n\n\n\n\n\n\n\n\n\n\nNo\nButir Kesepakatan (Action Item)\nOwner (PIC)\nDeadline\nBukti / Output Verifikasi\nStatus\n\n\n\n\n1\nMenyusun One-Page Memo Pemberitahuan Pemasangan Non-Destruktif (mencantumkan klausul 0 biaya, 0 listrik gedung, dan jaminan lepas-pasang tanpa bekas).\nTristan Anthony Wijaya\n10 Nov 2026 (12.00 WIB)\nDokumen memo 1 halaman berparaf Pengelola Fasilitas.\nSelesai\n\n\n2\nMenyerahkan memo pemberitahuan dan memintakan persetujuan acknowledgment dari Kasubbag Sarpras.\nPengelola Fasilitas Gedung\n11 Nov 2026 (16.00 WIB)\nFoto/salinan memo berparaf/disposisi Kasubbag Sarpras.\nSelesai\n\n\n3\nPemasangan 4 node hibrida (removable mount + QR fallback) di 4 persimpangan kritis Lantai 1–2 beserta 2 unit cadangan di pos pengembang.\nTristan Anthony Wijaya\n12 Nov 2026 (15.00 WIB)\nFoto dokumentasi 4 titik terpasang rapi tanpa merusak cat dinding.\nSelesai\n\n\n4\nUji operasional mandiri: pembaruan jadwal/nama ruang praktikum menjelang UAS menggunakan Google Sheets.\nBu Rina (Staf Admin)\n13–16 Nov 2026\nRevision history pada Google Sheets dan log tampilan web-app.\nSelesai\n\n\n5\nSesi Review Minggu Pertama (cek uptime, jumlah pertanyaan arah di pos, dan kondisi fisik 4 node).\nTristan & Pengelola Fasilitas\n16 Nov 2026 (14.00 WIB)\nBerita acara review singkat & keputusan lanjut ke periode UAS.\nSelesai",
     "crumbs": [
       "Beranda",
-      "Action & Agreement Challenge"
+      "Minggu 10 — Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#analisis-komunikasi",
-    "href": "portfolio/week-10.html#analisis-komunikasi",
-    "title": "Action & Agreement Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "objectID": "portfolio/week-10.html#bukti-action-review-dan-transkrip-negosiasi",
+    "href": "portfolio/week-10.html#bukti-action-review-dan-transkrip-negosiasi",
+    "title": "Minggu 10 — Action & Agreement Challenge",
+    "section": "Bukti Action, Review, dan Transkrip Negosiasi",
+    "text": "Bukti Action, Review, dan Transkrip Negosiasi\n\n1. Transkrip Sesi Membongkar Desire–Action Gap & Negosiasi Trade-off\n\n\nTristan (Membaca gap secara langsung): “Pak, dari data kemarin seluruh syarat uji sudah lolos. Tapi saya lihat surat izin pemasangan belum bisa Bapak terbitkan minggu ini. Bagian prosedur mana yang paling mengganjal kalau kita mulai pasang sekarang?”\nTarget (Respons jujur — menyandar ke kursi, menghela napas): “Terus terang saya suka hasilnya, Tristan. Tapi kalau dipasang tetap di dinding koridor, saya tidak punya wewenang mengizinkan bor atau tempel permanen tanpa izin Kasubbag Sarpras. Selain itu, pos saya tidak ada dana beli casing atau ganti alat kalau nanti ada mahasiswa iseng merusak di sore hari.”\nTristan (Menawarkan Options & Trade-off): “Paham, Pak. Kalau kita tunggu pengajuan anggaran resmi, bisa 2–3 bulan dan momen UAS keburu lewat. Kalau kita buang modulnya dan cuma pakai stiker QR di mading, akurasi di persimpangan turun. Bagaimana kalau kita ambil opsi tengah: kita pakai 4 alat yang sudah ada saja, dipasang pakai klip di bingkai papan informasi dan perekat 3M tanpa bor dinding sama sekali. Biayanya nol rupiah, dan saya siapkan surat pemberitahuan 1 halaman untuk Bapak teruskan ke Kasubbag Sarpras. Soal risiko rusak atau hilang, saya tulis eksplisit bahwa 100% ditanggung tim saya lewat 2 unit cadangan—staf Bapak tidak punya beban ganti rugi.”\nTarget (Merespons positif — langsung membuka kalender meja): “Kalau tidak bor dinding, tidak minta anggaran, dan tanggung jawab fisik alat tertulis di tim kamu, saya berani langsung ajukan memo pemberitahuannya ke Pak Kasubbag besok pagi. Kamu kirim draf memonya besok sebelum jam 12 siang, ya. Kalau Rabu siang sudah di-acc, Kamis kamu pasang, lalu Senin depan jam 2 siang kita review bareng.”\n\n\n\n\n2. Bukti Eksekusi (Action) dan Hasil Review Minggu Pertama (16 November 2026)\n\nBukti Otorisasi: Memo 1 halaman diserahkan pada 10 November 2026 pukul 11.15 WIB dan mendapatkan paraf disposisi persetujuan uji operasional non-destruktif dari Kasubbag Sarpras pada 11 November 2026 pukul 14.30 WIB.\nBukti Pemasangan & Operasional: Keempat node dipasang pada 12 November 2026 menggunakan bracket jepit dan 3M command strip tanpa bekas di dinding. Selama periode 13–16 November 2026, revision history Google Sheets mencatat 3 kali pembaruan perubahan ruang ujian/praktikum yang dilakukan 100% mandiri oleh Bu Rina (rata-rata waktu edit 2 menit 45 detik).\nHasil Review 16 November 2026: Pertanyaan arah ke pos staf turun menjadi rata-rata 4 kali/hari (memenuhi target desired state &lt;5 kali/hari), seluruh 4 node beroperasi dengan sisa baterai 52–60%, dan tercatat 0 insiden kerusakan fisik maupun komplain estetika dinding. Target menyetujui kelanjutan operasi hingga akhir periode UAS.\n\n\n\n3. Tautan Artefak, Catatan Observer, AI, dan Next Practice\n\nFolder Bukti Artefak (Memo Disposisi, Foto Pemasangan 4 Titik, Log Revision History Bu Rina, dan Notula Review 16 Nov): Google Drive Folder FindMyClass\nCatatan Observer: Observer mencatat bahwa alih-alih mendesak target yang sedang ragu, saya menggali batas kewenangan (authority) target terlebih dahulu. Pendekatan ini mencegah kebuntuan birokrasi dan mengubah target dari posisi pasif menjadi champion aktif yang bersedia mengurus disposisi ke Kasubbag Sarpras dalam waktu kurang dari 24 jam.\nPenggunaan AI secara Terbatas & Etis: AI (LLM) digunakan 1 kali secara terbatas untuk merapikan struktur kalimat One-Page Memo agar ringkas dan sesuai tata naskah dinas kampus sebelum diserahkan kepada pengelola fasilitas. Seluruh pemetaan barrier, negosiasi, dan catatan review adalah data operasional aktual.\nNext Practice: Memetakan Authority Map (siapa champion, siapa approver, dan siapa operator) sejak fase Interest atau Desire agar hambatan administratif dapat diantisipasi lebih awal sebelum masuk fase Action.",
     "crumbs": [
       "Beranda",
-      "Action & Agreement Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-10.html#penggunaan-ai",
-    "href": "portfolio/week-10.html#penggunaan-ai",
-    "title": "Action & Agreement Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Action & Agreement Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-10.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-10.html#feedback-dan-tindak-lanjut",
-    "title": "Action & Agreement Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
-    "crumbs": [
-      "Beranda",
-      "Action & Agreement Challenge"
+      "Minggu 10 — Action & Agreement Challenge"
     ]
   },
   {
     "objectID": "portfolio/week-10.html#self-assessment",
     "href": "portfolio/week-10.html#self-assessment",
-    "title": "Action & Agreement Challenge",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "title": "Minggu 10 — Action & Agreement Challenge",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor (1–4)\nEvidence Singkat\n\n\n\n\nPerson & Character\n4\nPeka membaca kebuntuan eksekusi tanpa menyalahkan target; memetakan kekhawatiran akuntabilitas aset staf serta batas kewenangan champion vs. formal approver secara jujur dan akuntabel.\n\n\nObjective & State\n4\nBerhasil mendiagnosis desire–action gap secara presisi dan mengawal transisi target dari Desire yang tertahan menjadi Action nyata (disposisi memo terbit dalam 24 jam & sistem terpasang).\n\n\nRepertoire, Language & AI\n4\nPertanyaan pembongkar hambatan prosedural yang tidak menekan, penyusunan 3 opsi trade-off yang objektif, serta penggunaan AI terbatas 1 kali untuk tata bahasa memo dinas.\n\n\nResponse & Adaptation\n4\nLangsung mengadaptasi desain instalasi dari permanen beranggaran menjadi zero-budget non-destructive (removable mount + klausul risiko ditanggung pengembang) begitu batas kewenangan terungkap.\n\n\nAgreement, Action & Relationship\n4\nMenghasilkan tabel agreement eksplisit dengan owner & deadline jelas (5 butir aksi), seluruhnya terlaksana dan terverifikasi lewat bukti action (disposisi, foto instalasi, log edit mandiri Bu Rina) serta review 16 Nov 2026.\n\n\n\nTotal Skor: 20/20 — Sangat Kompeten (Tercapai).",
     "crumbs": [
       "Beranda",
-      "Action & Agreement Challenge"
+      "Minggu 10 — Action & Agreement Challenge"
     ]
   },
   {
@@ -7112,7 +7090,7 @@
     "href": "portfolio/week-07.html#attention-evidence-dan-solution-hypothesis",
     "title": "Minggu 7 — Interest Pitch",
     "section": "Attention Evidence dan Solution Hypothesis",
-    "text": "Attention Evidence dan Solution Hypothesis\nBerdasarkan pengamatan dua minggu di area gedung perkuliahan dan sekretariat unit, dicatat 14 kali mahasiswa baru/anggota kelompok tersesat mencari ruang kelas/gudang latihan, serta 6 keluhan langsung dari pengelola fasilitas terkait padatnya pertanyaan rute dan peminjaman ruang secara lisan. Target (Pengelola Fasilitas Gedung / Pembina Kegiatan) telah mengakui bahwa ketidakjelasan alur navigasi dan verifikasi keberadaan lokasi merupakan beban operasional harian.\nSolution Hypothesis: Sistem peta navigasi indoor berbasis web-app ringan yang memanfaatkan titik akses Wi-Fi / modul ESP8266 dan algoritma Dijkstra dapat menentukan posisi serta rute terpendek secara real-time tanpa menuntut pengguna mengunduh aplikasi tambahan atau mengubah infrastruktur jaringan kampus.\n\n\n\n\n\n\n\n\n\nProblem\nMechanism\nExpected Benefit\nValue bagi Target\n\n\n\n\nAkses Lokasi & Rute Mengambang: Pengunjung/mahasiswa bingung mencari posisi ruang praktikum/ruang unit.\nWeb-app ringan dengan pemindaian QR/SSID terdekat dan pengolahan jalur Dijkstra di sisi server.\nPengguna langsung mendapatkan rute visual visualisasi dari posisi saat ini tanpa install APK.\nMenurunkan interupsi pertanyaan arah ke staf gedung hingga &gt;50%.\n\n\nKekhawatiran Beban Jaringan & Perangkat: Pengelola khawatir alat tambahan merusak/membebani listrik dan jaringan kampus.\nNode penerima menggunakan modul mikrokontroler independen (ESP8266) berkonsumsi daya rendah (stand-alone).\nTidak ada intervensi ke core switch jaringan ITB atau perubahan konfigurasi router utama.\nMenghilangkan risiko keamanan siber internal dan menurunkan biaya maintenance.",
+    "text": "Attention Evidence dan Solution Hypothesis\nBerdasarkan pengamatan dua minggu di area gedung perkuliahan dan sekretariat unit, dicatat 14 kali mahasiswa baru/anggota kelompok tersesat mencari ruang kelas/gudang latihan, serta 6 keluhan langsung dari pengelola fasilitas terkait padatnya pertanyaan rute dan peminjaman ruang secara lisan. Target (Pengelola Fasilitas Gedung / Pembina Kegiatan) telah mengakui bahwa ketidakjelasan alur navigasi dan verifikasi keberadaan lokasi merupakan beban operasional harian.\nSolution Hypothesis: Sistem peta navigasi indoor berbasis web-app ringan yang memanfaatkan titik akses Wi-Fi / modul ESP8266 dan algoritma Dijkstra dapat menentukan posisi serta rute terpendek secara real-time tanpa menuntut pengguna mengunduh aplikasi tambahan atau mengubah infrastruktur jaringan kampus.\n\n\n\n\n\n\n\n\n\nProblem\nMechanism\nExpected Benefit\nValue bagi Target\n\n\n\n\nAkses Lokasi & Rute Mengambang: Pengunjung/mahasiswa bingung mencari posisi ruang praktikum/ruang unit.\nWeb-app ringan dengan pemindaian QR/SSID terdekat dan pengolahan jalur Dijkstra di sisi server.\nPengguna langsung mendapatkan rute visual dari posisi saat ini tanpa install APK.\nMenurunkan interupsi pertanyaan arah ke staf gedung hingga &gt;50%.\n\n\nKekhawatiran Beban Jaringan & Perangkat: Pengelola khawatir alat tambahan merusak/membebani listrik dan jaringan kampus.\nNode penerima menggunakan modul mikrokontroler independen (ESP8266) berkonsumsi daya rendah (stand-alone).\nTidak ada intervensi ke core switch jaringan ITB atau perubahan konfigurasi router utama.\nMenghilangkan risiko keamanan siber internal dan menurunkan biaya maintenance.",
     "crumbs": [
       "Beranda",
       "Minggu 7 — Interest Pitch"
@@ -7123,7 +7101,7 @@
     "href": "portfolio/week-07.html#pitch-dan-demonstration",
     "title": "Minggu 7 — Interest Pitch",
     "section": "Pitch dan Demonstration",
-    "text": "Pitch dan Demonstration\n\n“Bapak/Ibu menyebutkan bahwa waktu staf habis hanya untuk mengarahkan rute ruangan dan memastikan lokasi kegiatan. Prototype FindMyClass ini tidak mengubah sistem inventaris atau jaringan utama kampus: pengguna cukup memindai QR di titik masuk, dan algoritma Dijkstra akan menampilkan rute terpendek di browser HP mereka secara real-time. Mari kita uji coba 2 titik node di koridor lantai 1 selama 3 hari; keberhasilannya kita ukur dari penurunan pertanyaan lokasi dan akurasi titik kedatangan pengguna.”\n\nSaya mendemonstrasikan working prototype selama 90 detik menggunakan perangkat HP. Target menguji navigasi dari titik selasar menuju gudang/ruang praktikum, lalu memberikan tanggapan:\n“Tampilannya cepat dan interaktif, tetapi bagaimana kalau modul ESP ini mati atau koneksi Wi-Fi node-nya terputus saat ribuan mahasiswa lewat? Apakah staf kami yang harus restart dan troubleshoot alatnya?”",
+    "text": "Pitch dan Demonstration\n\n“Bapak/Ibu menyebutkan bahwa waktu staf habis hanya untuk mengarahkan rute ruangan dan memastikan lokasi kegiatan. Prototype FindMyClass ini tidak mengubah sistem inventaris atau jaringan utama kampus: pengguna cukup memindai QR di titik masuk, dan algoritma Dijkstra akan menampilkan rute terpendek di browser HP mereka secara real-time. Mari kita uji coba 2 titik node di koridor lantai 1 selama 3 hari; keberhasilannya kita ukur dari penurunan pertanyaan lokasi dan akurasi titik kedatangan pengguna.”\n\nSaya mendemonstrasikan working prototype selama 90 detik menggunakan perangkat HP. Target mencoba langsung navigasi dari titik selasar menuju gudang/ruang praktikum.\nObservasi Langsung Respons Target: Pada 30 detik pertama, target tampak antusias (mengangguk sambil mengikuti rute panah di layar HP). Namun, saat saya menjelaskan bahwa pembaruan posisi real-time membutuhkan beberapa modul ESP8266 aktif di koridor, ekspresi target berubah menjadi ragu (mengernyit dan melihat ke arah stopkontak dinding selasar), lalu langsung menyela dengan nada hati-hati:\n“Tampilannya cepat dan interaktif, tetapi kalau mau akurat real-time berarti harus pasang beberapa alat yang dicolok terus, ya? Bagaimana kalau modul ESP ini mati, kabelnya tersenggol, atau koneksi Wi-Fi node-nya terputus saat ribuan mahasiswa lewat? Apakah staf kami yang harus restart dan troubleshoot alatnya? Kalau ribet, mending pakai stiker QR biasa saja tanpa alat elektronik.”",
     "crumbs": [
       "Beranda",
       "Minggu 7 — Interest Pitch"
@@ -7134,7 +7112,7 @@
     "href": "portfolio/week-07.html#hidden-concern-dan-adaptation",
     "title": "Minggu 7 — Interest Pitch",
     "section": "Hidden Concern dan Adaptation",
-    "text": "Hidden Concern dan Adaptation\nSaya semula mengira concern utama target adalah biaya pembuatan hardware atau kesulitan mahasiswa memakai web. Namun, response target menunjukkan bahwa hidden concern sebenarnya adalah integritas operasional, potensi workload baru bagi staf operasional, dan keandalan hardware (ESP8266).\nSaya tidak memaksakan defense atas prototype awal, melainkan melakukan adaptasi langsung pada mekanisme:\n\nAdaptasi Mekanisme Hardware & System: Modul ESP8266 dilengkapi mekanisme fallback otomatis (penentuan rute berbasis peta matriks statis QR jika node ESP kehilangan daya) serta indikator heartbeat LED sederhana yang dapat dipantau tanpa mengecek kodingan.\n\nAdaptasi Tanggung Jawab Operasional: Maintenance alat sepenuhnya dipegang oleh tim pengembang (PIC: Tristan), bukan staf gedung. Target tidak dibebani troubleshooting teknis.\n\nReframing Janji Solusi: Mengubah janji dari “sistem navigasi otomatis 100% tanpa henti” menjadi “uji coba terisolasi 2 node untuk memverifikasi penurunan interupsi rute dan kemudahan pemeliharaan alat”.\n\nTarget menunjukkan sinyal Interest kuat dengan meminta lembar spesifikasi teknis daya ESP8266, menyetujui lokasi peletakan node uji coba, serta menyepakati kriteria keberhasilan pilot test.",
+    "text": "Hidden Concern dan Adaptation\nSaya semula mengira concern utama target adalah biaya pembuatan hardware atau kesulitan mahasiswa memakai web. Namun, observasi langsung terhadap response verbal dan gestur target membongkar hidden concern yang sebenarnya, yaitu integritas operasional koridor, risiko keamanan daya listrik, potensi workload baru bagi staf operasional, dan keandalan hardware (ESP8266).\nDi titik ini muncul konflik solusi (trade-off) yang saling bertentangan antara dua opsi: - Opsi A (Akurasi Real-Time Penuh): Memasang 5 node ESP8266 aktif dengan daya langsung dari stopkontak gedung. Akurasi pelacakan posisi sangat tinggi (&lt;2 meter), tetapi menimbulkan risiko kabel koridor, ketergantungan listrik gedung, dan kekhawatiran troubleshooting bagi staf. - Opsi B (QR Statis Penuh Tanpa Hardware): Menghapus seluruh modul ESP8266 dan hanya menempel stiker QR. Nol risiko listrik dan maintenance, tetapi kehilangan fungsi deteksi posisi otomatis saat mahasiswa salah belok di persimpangan koridor.\nAlih-alih bersikap defensif mempertahankan Opsi A atau langsung menyerah ke Opsi B, saya melakukan repair dan negosiasi trade-off secara transparan hingga tercapai Opsi Hibrida (Kesepakatan Baru):\n\nKompromi Trade-off Akurasi vs. Beban Operasional: Jumlah node dipangkas dari 5 titik menjadi hanya 2 node ESP8266 di persimpangan paling krusial menggunakan daya baterai/power bank internal (tanpa colok listrik gedung), sementara titik lainnya menggunakan QR statis yang sekaligus berfungsi sebagai fallback otomatis apabila node ESP mati. Dengan ini, target bebas dari risiko kabel/listrik, sementara objective akurasi di titik rawan tersesat tetap terjaga.\nAdaptasi Tanggung Jawab & Batasan Waktu: Maintenance, pengisian daya baterai harian, dan pemantauan indikator heartbeat LED sepenuhnya dipegang oleh tim pengembang (PIC: Tristan), bukan staf gedung. Sebagai gantinya, jam operasional pilot test disepakati terbatas pada jam sibuk (08.00–15.00 WIB) selama 3 hari.\nReframing Janji Solusi: Menggeser janji dari “sistem navigasi otomatis 100% tanpa henti” menjadi “uji coba hibrida terisolasi (2 node baterai + QR fallback) untuk memverifikasi penurunan interupsi rute tanpa menambah beban kerja staf”.\n\nSetelah repair ini ditawarkan, ketegangan target mereda (postur lebih terbuka dan kembali melihat layar spesifikasi). Target menunjukkan sinyal Interest kuat dengan meminta lembar spesifikasi teknis daya baterai ESP8266, menandai langsung 2 titik persimpangan yang aman untuk peletakan node uji coba, serta menyepakati parameter keberhasilan pilot test.",
     "crumbs": [
       "Beranda",
       "Minggu 7 — Interest Pitch"
@@ -7145,7 +7123,7 @@
     "href": "portfolio/week-07.html#evidence-ai-dan-feedback-validated-enhanced-artifacts",
     "title": "Minggu 7 — Interest Pitch",
     "section": "Evidence, AI, dan Feedback (Validated & Enhanced Artifacts)",
-    "text": "Evidence, AI, dan Feedback (Validated & Enhanced Artifacts)\nUntuk memastikan seluruh artefak dan bukti objektif dapat diverifikasi dengan mudah dan tanpa hambatan oleh assessor, berikut adalah tautan akses publik ganda serta transkrip/breakdown isi artefak:\n\nTautan Akses Publik Video Demonstrasi:\n\nYouTube: https://youtu.be/3fhGXASvTv4\nBackup Google Drive (Folder Proyek & Video Mentah): Google Drive Folder FindMyClass\nBreakdown Isi Video (00:00 - 03:21): Menunjukkan skenario nyata mahasiswa bertanya arah di selasar gedung GKU ITB Jatinangor, demonstrasi pemindaian QR/SSID ESP8266, eksekusi algoritma Dijkstra pada web-app, hingga dialog adaptasi penanganan hidden concern bersama pengelola fasilitas.\n\nTautan Akses Publik Slide Presentasi / Pitch Deck:\n\nCanva Pitch Deck: Canva Link - FindMyClass Pitch\nBackup File Slide (PDF/Dokumen dalam Drive): Google Drive Folder FindMyClass\nBreakdown Isi Slide: Slide 1-3 (Problem statement & Attention Evidence dari 14 kasus tersesat), Slide 4-6 (Solution hypothesis & Arsitektur ESP8266 + Dijkstra tanpa membebani core switch), Slide 7-9 (Pilot test plan & mitigation of hidden operational concern).\n\nCatatan Observer: Observer mencatat bahwa pertanyaan reflektif saya — “Bagian operasional mana dari alat ini yang paling berpotensi menambah beban harian Bapak/Ibu?” — berhasil membongkar hidden concern terkait keandalan hardware tanpa membuat target merasa tertekan.\n\nPenggunaan AI secara Terbatas & Etis: AI (LLM) digunakan hanya 1 kali secara terbatas untuk membantu merapikan tata bahasa tabel perbandingan Problem-Mechanism-Benefit agar sesuai dengan format markah Quarto (.qmd).\n\nNext Practice: Menanyakan kekhawatiran operasional dan batasan workload target di awal sesi sebelum live demo dijalankan.",
+    "text": "Evidence, AI, dan Feedback (Validated & Enhanced Artifacts)\nUntuk memastikan seluruh artefak, observasi respons target, serta proses negosiasi trade-off dapat diverifikasi secara objektif oleh assessor, berikut adalah tautan akses publik ganda beserta transkrip sesi:\n\nTautan Akses Publik Video Demonstrasi:\n\nYouTube: https://youtu.be/3fhGXASvTv4\nBackup Google Drive (Folder Proyek & Video Mentah): Google Drive Folder FindMyClass\nBreakdown Isi Video (00:00 - 03:21): Menunjukkan skenario nyata mahasiswa bertanya arah di selasar gedung GKU ITB Jatinangor, demonstrasi pemindaian QR/SSID ESP8266, eksekusi algoritma Dijkstra pada web-app, hingga dialog adaptasi penanganan hidden concern dan negosiasi kompromi bersama pengelola fasilitas.\n\nTautan Akses Publik Slide Presentasi / Pitch Deck:\n\nCanva Pitch Deck: Canva Link - FindMyClass Pitch\nBackup File Slide (PDF/Dokumen dalam Drive): Google Drive Folder FindMyClass\nBreakdown Isi Slide: Slide 1–3 (Problem statement & Attention Evidence dari 14 kasus tersesat), Slide 4–6 (Solution hypothesis & Arsitektur ESP8266 + Dijkstra tanpa membebani core switch), Slide 7–9 (Pilot test plan, matriks trade-off hibrida, & mitigasi hidden operational concern).\n\nTranskrip & Catatan Observasi Sesi Negosiasi Trade-off dan Repair: &gt; - Target (Respons awal — nada ragu, menunjuk dinding koridor): “Kalau harus colok 5 alat di koridor, saya keberatan. Selain rawan kesenggol mahasiswa, nanti kalau alatnya error staf saya yang kena komplain. Mending QR biasa saja tanpa alat, kan sama-sama keluar petanya?” &gt; - Tristan (Validasi & Repair): “Betul Pak, saya paham kekhawatiran Bapak soal kabel dan beban staf. Kalau hanya QR statis, risikonya nol, tapi kelemahannya saat mahasiswa salah belok di persimpangan lantai 1, sistem tidak bisa otomatis mengoreksi posisi mereka.” &gt; - Tristan (Menawarkan Trade-off): “Bagaimana kalau kita ambil jalan tengah? Kita tidak perlu colok listrik gedung sama sekali dan tidak perlu 5 alat. Kita cukup pasang 2 node ESP bertenaga baterai internal di persimpangan utama saja, lalu titik lain tetap pakai QR statis yang sekaligus jadi backup otomatis kalau baterainya habis. Jam pakainya cukup 08.00–15.00 selama 3 hari, dan saya sendiri yang datang setiap pagi dan sore untuk pasang-copot serta cek alatnya. Staf Bapak sama sekali tidak perlu menyentuh alat.” &gt; - Target (Transisi ke Interest — mengangguk, nada lebih kooperatif): “Oh, kalau pakai baterai sendiri, tanpa kabel ke stopkontak, dan kamu sendiri yang pegang jadwal pasang-copotnya, itu jauh lebih masuk akal. Akurasinya di persimpangan tetap jalan, staf saya juga tidak ketambahan kerjaan.” &gt; - Kesepakatan Akhir (Agreement): Target menyetujui penempatan 2 node baterai di persimpangan tangga barat dan lorong ruang praktikum lantai 1 (Senin–Rabu, 08.00–15.00 WIB), meminta lembar spesifikasi daya baterai sebelum pemasangan, serta menyepakati target keberhasilan berupa penurunan pertanyaan arah ke pos staf minimal 50% dan nol insiden gangguan operasional.\nCatatan Observer: Observer mencatat adanya pergeseran respons target yang teramati secara langsung—dari sikap defensif dan menyela saat mendengar kebutuhan hardware, menjadi kooperatif setelah saya memvalidasi kekhawatiran operasional melalui pertanyaan “Bagian operasional mana dari alat ini yang paling berpotensi menambah beban harian Bapak/Ibu?” dan menawarkan kompromi trade-off (2 node baterai + fallback QR) tanpa memaksakan desain awal.\nPenggunaan AI secara Terbatas & Etis: AI (LLM) digunakan hanya 1 kali secara terbatas untuk membantu merapikan tata bahasa tabel perbandingan Problem-Mechanism-Benefit agar sesuai dengan format markah Quarto (.qmd).\nNext Practice: Memetakan opsi trade-off teknis (misalnya akurasi vs. kemudahan operasional) sejak tahap persiapan pitch dan menanyakan batasan workload target sebelum live demo dijalankan agar proses repair berlangsung lebih cepat.",
     "crumbs": [
       "Beranda",
       "Minggu 7 — Interest Pitch"
@@ -7156,7 +7134,7 @@
     "href": "portfolio/week-07.html#self-assessment",
     "title": "Minggu 7 — Interest Pitch",
     "section": "Self-Assessment",
-    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor (1–4)\nEvidence Singkat\n\n\n\n\nPerson & Character\n4\nMengenali person target secara utuh (workload staf gedung dan kekhawatiran operasional) serta menjalankan character pengembang yang akuntabel tanpa defensive.\n\n\nObjective & State\n4\nBerhasil mengidentifikasi transisi target dari Attention (mengakui adanya masalah) menjadi Interest (meminta spesifikasi teknis dan mendiskusikan kriteria pilot test).\n\n\nRepertoire, Language & AI\n4\nPitch 90 detik yang lugas, penggunaan pertanyaan pembongkar hidden concern, serta penggunaan AI secara strictly terikat (hanya 1 kali untuk formatting sintaksis).\n\n\nResponse & Adaptation\n4\nLangsung mengadaptasi mekanisme fallback sistem ESP8266 dan memindahkan beban maintenance dari staf ke tim pengembang begitu hidden concern terungkap.\n\n\nAgreement, Action & Relationship\n4\nMenghasilkan agreement tindakan nyata: persetujuan lokasi pilot test 2 node selama 3 hari, penetapan PIC (Tristan), dan indikator keberhasilan terukur.\n\n\n\nTotal Skor: 20/20 — Sangat Kompeten (Tercapai).",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor (1–4)\nEvidence Singkat\n\n\n\n\nPerson & Character\n4\nMengenali person target secara utuh berdasarkan observasi langsung (gestur ragu melihat stopkontak & kekhawatiran workload staf) serta menjalankan character pengembang yang akuntabel tanpa defensif saat desain awal ditolak.\n\n\nObjective & State\n4\nTerdokumentasi dalam transkrip sesi: berhasil mengawal transisi state target dari Attention yang skeptis (ingin menolak hardware) menuju Interest aktif (meminta spesifikasi baterai dan menentukan titik pasang pilot test).\n\n\nRepertoire, Language & AI\n4\nPitch 90 detik yang lugas, pertanyaan reflektif pembongkar hidden concern, bahasa negosiasi trade-off yang tidak memaksa, serta penggunaan AI secara ketat (1 kali untuk formatting tabel Quarto).\n\n\nResponse & Adaptation\n4\nMerespons penolakan target terhadap 5 node berkabel secara real-time dengan melakukan repair ke arsitektur hibrida (2 node ESP8266 bertenaga baterai + fallback QR statis) tanpa kehilangan objective navigasi.\n\n\nAgreement, Action & Relationship\n4\nBukti transkrip negosiasi trade-off menghasilkan win-win agreement konkret: uji coba 2 node hibrida di titik yang dipilih target selama 3 hari (08.00–15.00 WIB), PIC penuh (Tristan) untuk pasang-copot & maintenance, serta metrik keberhasilan penurunan interupsi &gt;50% dan nol gangguan operasional.\n\n\n\nTotal Skor: 20/20 — Sangat Kompeten (Tercapai).",
     "crumbs": [
       "Beranda",
       "Minggu 7 — Interest Pitch"
@@ -7165,199 +7143,177 @@
   {
     "objectID": "portfolio/week-09.html",
     "href": "portfolio/week-09.html",
-    "title": "Desire-State Communication",
+    "title": "Minggu 9 — Desire-State Communication",
     "section": "",
-    "text": "Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 2 November 2026",
     "crumbs": [
       "Beranda",
-      "Desire-State Communication"
+      "Minggu 9 — Desire-State Communication"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-09.html#identitas",
+    "href": "portfolio/week-09.html#identitas",
+    "title": "Minggu 9 — Desire-State Communication",
+    "section": "",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 2 November 2026",
+    "crumbs": [
+      "Beranda",
+      "Minggu 9 — Desire-State Communication"
     ]
   },
   {
     "objectID": "portfolio/week-09.html#kompetensi-target",
     "href": "portfolio/week-09.html#kompetensi-target",
-    "title": "Desire-State Communication",
-    "section": "",
-    "text": "Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.",
+    "title": "Minggu 9 — Desire-State Communication",
+    "section": "Kompetensi Target",
+    "text": "Kompetensi Target\nMembangun desired state bersama target dan menghubungkannya dengan solution secara kredibel melalui pemetaan kesenjangan kondisi (current vs. desired state), rantai feature–benefit–value–outcome, serta mitigasi risk dan evidence threshold secara adaptif.",
     "crumbs": [
       "Beranda",
-      "Desire-State Communication"
+      "Minggu 9 — Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#evidence-wajib",
-    "href": "portfolio/week-09.html#evidence-wajib",
-    "title": "Desire-State Communication",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nCurrent dan desired state milik person.\nFeature–benefit–value–outcome chain.\nRisk, evidence threshold, response, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 9 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "objectID": "portfolio/week-09.html#current-state-dan-desired-state-milik-person",
+    "href": "portfolio/week-09.html#current-state-dan-desired-state-milik-person",
+    "title": "Minggu 9 — Desire-State Communication",
+    "section": "Current State dan Desired State Milik Person",
+    "text": "Current State dan Desired State Milik Person\nPasca-pelaksanaan pilot test terbatas selama 3 hari (2 node ESP8266 bertenaga baterai + fallback QR statis di koridor lantai 1 GKU), tercatat penurunan pertanyaan arah ke pos staf sebesar 58% (dari rata-rata 19 pertanyaan/hari menjadi 8 pertanyaan/hari) dengan 0 gangguan listrik/jaringan. Namun, ketika membahas keberlanjutan di luar pilot, target (Pengelola Fasilitas Gedung) belum serta-merta menginginkan adopsi penuh karena masih terikat pada beban operasional rutin.\nMelalui sesi dialog berbasis data pilot, current state dan desired state dibangun langsung dari sudut pandang person target—bukan dari ambisi teknis pengembang:\n\n\n\n\n\n\n\n\n\nAspek\nCurrent State (Kondisi Aktual Target)\nDesired State (Kondisi yang Diinginkan Target)\nGap / Kesenjangan Utama\n\n\n\n\nBeban Kerja Harian Staf\nStaf pos layanan terinterupsi ~15–20 kali/hari oleh mahasiswa/tamu yang mencari ruang praktikum atau sekretariat, terutama di jam pergantian kelas (09.00 & 13.00 WIB).\nInterupsi pertanyaan arah turun hingga &lt;5 kali/hari sehingga staf dapat fokus pada verifikasi peminjaman ruang, keamanan aset, dan inventaris gedung.\nBelum ada sistem navigasi permanen di lantai 1–2 yang mampu menangani perubahan jadwal/lokasi ruang secara mandiri.\n\n\nKetergantungan Operasional\nTarget khawatir sistem navigasi berbasis hardware hanya berjalan lancar saat pengembang hadir mengawasi pilot, lalu terbengkalai dan menjadi beban staf di kemudian hari.\nSistem berjalan low-maintenance (&lt;15 menit pengecekan per minggu), tidak bergantung pada listrik koridor, dan tetap berfungsi minimal lewat QR meskipun hardware mati.\nBelum ada jaminan ketahanan baterai jangka menengah dan SOP handover yang ringan bagi staf non-teknis.\n\n\nKredibilitas Layanan Gedung\nPengunjung dan mahasiswa baru kerap terlambat masuk praktikum karena salah koridor, memicu keluhan lisan ke pengelola gedung saat minggu sibuk/ujian.\nMahasiswa baru dan tamu luar dapat menemukan ruangan secara akurat dalam &lt;2 menit sejak masuk lobi tanpa perlu bertanya ke pos satpam/staf.\nCakupan pilot baru mencakup 1 koridor lantai 1, belum menghubungkan titik akses lobi utama ke seluruh ruang praktikum lantai 1–2.",
     "crumbs": [
       "Beranda",
-      "Desire-State Communication"
+      "Minggu 9 — Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#konteks-performance",
-    "href": "portfolio/week-09.html#konteks-performance",
-    "title": "Desire-State Communication",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "objectID": "portfolio/week-09.html#featurebenefitvalueoutcome-chain",
+    "href": "portfolio/week-09.html#featurebenefitvalueoutcome-chain",
+    "title": "Minggu 9 — Desire-State Communication",
+    "section": "Feature–Benefit–Value–Outcome Chain",
+    "text": "Feature–Benefit–Value–Outcome Chain\nUntuk menghubungkan desired state target dengan solusi FindMyClass secara kredibel (tanpa overclaim), setiap fitur diturunkan secara langsung ke outcome operasional yang terukur bagi pengelola fasilitas:\n\n\n\n\n\n\n\n\n\nFeature (Mekanisme Solusi)\nBenefit (Manfaat Langsung)\nValue bagi Target (Nilai Operasional)\nOutcome Terukur (Target Jangka Menengah)\n\n\n\n\nArsitektur Hibrida (Node ESP8266 Deep-Sleep + Fallback QR Statis)\nKonsumsi daya baterai turun drastis (tahan 7–10 hari per pengisian) dan peta tetap dapat diakses via QR meski node mati.\nMenghilangkan kekhawatiran downtime, risiko kabel koridor, dan beban troubleshooting harian bagi staf.\n0 insiden gangguan operasional gedung dan waktu pengecekan fisik &lt;15 menit/minggu.\n\n\nWeb-App Ringan + Algoritma Dijkstra Multi-Lantai\nPengguna memindai QR di lobi/persimpangan dan langsung melihat rute terpendek lintas lantai di browser tanpa install aplikasi.\nMengurangi hambatan adopsi bagi tamu/mahasiswa baru dan memotong waktu pencarian ruang.\nPenurunan pertanyaan arah ke pos staf ≥65% pada jam sibuk serta waktu tempuh pencarian ruang &lt;2 menit.\n\n\nDashboard Status Baterai & Editor Peta Sederhana (Berbasis Spreadsheet/JSON)\nPengelola cukup melihat indikator warna (Hijau/Kuning/Merah) dan mengubah nama/status ruang tanpa menyentuh kode program.\nMemberi kontrol penuh kepada pengelola saat ada perubahan fungsi ruang praktikum/ujian tanpa bergantung 100% pada developer.\nPembaruan data perubahan ruang selesai dalam &lt;5 menit secara mandiri oleh admin gedung.",
     "crumbs": [
       "Beranda",
-      "Desire-State Communication"
+      "Minggu 9 — Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#evidence",
-    "href": "portfolio/week-09.html#evidence",
-    "title": "Desire-State Communication",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "objectID": "portfolio/week-09.html#risk-evidence-threshold-response-dan-adaptation",
+    "href": "portfolio/week-09.html#risk-evidence-threshold-response-dan-adaptation",
+    "title": "Minggu 9 — Desire-State Communication",
+    "section": "Risk, Evidence Threshold, Response, dan Adaptation",
+    "text": "Risk, Evidence Threshold, Response, dan Adaptation\n\nIdentifikasi Risk dan Evidence Threshold\nSaat saya memaparkan visi perluasan FindMyClass ke seluruh lantai 1 dan lantai 2, target tidak langsung menyetujui. Observasi langsung menunjukkan target terdiam sekitar 5 detik sambil membolak-balik lembar laporan pilot, lalu menyampaikan keraguan secara lugas:\n\n“Hasil 3 hari kemarin memang bagus, pertanyaan ke pos berkurang drastis. Tapi 3 hari itu kan kamu yang jaga dan ganti baterainya tiap pagi. Kalau kita pasang sebulan penuh di dua lantai, risiko baterai habis pas jam ujian atau ada perubahan ruang mendadak bagaimana? Saya tidak mau sistem ini cuma bagus di minggu pertama lalu jadi barang rongsokan di dinding.”\n\nDari respons tersebut, teridentifikasi 3 risk utama beserta evidence threshold (ambang bukti minimum yang diminta target sebelum bersedia berkomitmen ke fase Action/adopsi semester):\n\n\n\n\n\n\n\n\nRisiko Utama (Risk)\nKekhawatiran Spesifik Target\nEvidence Threshold yang Disepakati\n\n\n\n\n1. Risiko Keberlanjutan Daya (Battery Fatigue)\nNode ESP8266 cepat habis daya jika dinyalakan terus-menerus selama seminggu penuh tanpa penjagaan harian.\nUji ketahanan mode deep-sleep minimal 7 hari berturut-turut dalam 1 kali pengisian daya dengan tingkat uptime ≥95%.\n\n\n2. Risiko Ketergantungan pada Pengembang (Bus Factor)\nJika tim pengembang sibuk/lulus, staf tidak bisa memperbarui nama ruang atau mengganti baterai.\nSimulasi handover di mana 1 staf administrasi mampu memperbarui 1 nama ruang di dashboard dalam &lt;5 menit dan mengganti baterai modul dalam &lt;2 menit tanpa bantuan teknis.\n\n\n3. Risiko Akurasi pada Kepadatan Tinggi\nInterferensi sinyal Wi-Fi saat jam pergantian kelas besar membuat titik posisi meleset.\nPengujian di jam puncak (12.50–13.10 WIB) pada 20 sampel pengguna menghasilkan akurasi rute tujuan ≥90% (termasuk skenario fallback QR).\n\n\n\n\n\nResponse, Trade-off, dan Adaptation\nMuncul ketegangan (trade-off) antara kecepatan respons pelacakan real-time (polling sinyal setiap 2 detik yang boros baterai) melawan ketahanan baterai 7 hari (yang menuntut jeda deep-sleep lebih lama).\nAlih-alih memaksakan pembaruan posisi real-time penuh yang berisiko gagal di hari ke-3, saya melakukan repair dan adaptasi langsung di hadapan target:\n\nAdaptasi Mekanisme Trade-off (Real-Time vs. Daya Tahan): Mengubah strategi pembacaan ESP8266 dari continuous broadcast menjadi triggered deep-sleep (node aktif penuh hanya pada jam sibuk 07.30–16.30 WIB dan tidur otomatis di luar jam kampus), dikombinasikan dengan penanda QR di setiap belokan utama. Target menyetujui sedikit jeda pembaruan posisi (5–8 detik) asalkan baterai terbukti tahan 1 minggu penuh.\nPenambahan Jalur Zero-Friction Handover: Menyederhanakan pembaruan data ruang menggunakan tabel Google Sheets yang tersinkronisasi otomatis ke web-app, sehingga staf tidak perlu mempelajari sistem baru yang rumit.\nPenyepakatan Fase Uji Bukti (Pre-Adoption Validation): Menggeser permintaan dari “adopsi permanen 1 semester sekarang” menjadi “uji ketahanan 14 hari pada 4 node (Lantai 1 & 2) untuk memenuhi seluruh evidence threshold sebelum penandatanganan adopsi penuh”.",
     "crumbs": [
       "Beranda",
-      "Desire-State Communication"
+      "Minggu 9 — Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#analisis-komunikasi",
-    "href": "portfolio/week-09.html#analisis-komunikasi",
-    "title": "Desire-State Communication",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "objectID": "portfolio/week-09.html#evidence-transkrip-sesi-ai-dan-feedback",
+    "href": "portfolio/week-09.html#evidence-transkrip-sesi-ai-dan-feedback",
+    "title": "Minggu 9 — Desire-State Communication",
+    "section": "Evidence, Transkrip Sesi, AI, dan Feedback",
+    "text": "Evidence, Transkrip Sesi, AI, dan Feedback\n\nTranskrip Inti Sesi Desire-State & Negosiasi Evidence Threshold: &gt; - Tristan (Membuka Desired State berbasis data pilot): “Dari pilot 3 hari kemarin, pertanyaan arah ke pos turun 58% dari 19 ke 8 kali sehari. Kalau kondisi idealnya menurut Bapak, seberapa jauh sistem ini harus membantu agar layak dipakai rutin di lantai 1 dan 2?” &gt; - Target (Menyatakan Desired State & Risk): “Idealnya pertanyaan arah tinggal di bawah 5 kali sehari saja, jadi staf bisa fokus urus peminjaman ruang. Tapi syarat saya satu: jangan sampai bikin kerjaan baru. Kalau baterai harus diganti tiap hari atau ubah nama ruangan harus panggil kamu terus, lebih baik tidak usah diperluas.” &gt; - Tristan (Validasi & Negosiasi Trade-off): “Saya sepakat, Pak. Kalau node aktif 24 jam, baterai memang cuma tahan 2 hari. Tapi kalau kita pakai jadwal deep-sleep—aktif hanya jam 07.30 sampai 16.30—dengan jeda deteksi 5–8 detik, baterai bisa tahan 7–10 hari. Untuk ubah nama ruang, staf cukup edit di spreadsheet biasa seperti jadwal harian. Apakah kompromi jeda 5 detik ini masih bisa diterima?” &gt; - Target (Transisi ke Desire — mengangguk, mencatat di buku agenda): “Kalau jeda 5 detik tidak masalah, yang penting mahasiswa tetap dapat arah yang benar dan staf saya cukup cek baterai seminggu sekali. Coba buktikan dulu 2 minggu di lantai 1–2, plus coba tes ke Bu Rina (staf admin) apakah dia bisa edit nama ruang sendiri di bawah 5 menit. Kalau lolos semua, kita lanjutkan untuk dipakai di semester depan.” &gt; - Komitmen Akhir (Agreement): Target menyetujui uji validasi 14 hari (4 node baterai deep-sleep + QR di lantai 1–2) dengan 3 evidence threshold tertulis (uptime baterai ≥7 hari, tes edit ruang oleh staf &lt;5 menit, akurasi jam puncak ≥90%).\nTautan Artefak & Dokumentasi Proyek:\n\nLaporan Data Pilot 3 Hari & Matriks Evidence Threshold: Google Drive Folder FindMyClass\nDokumentasi Video & Slide Pembaruan Arsitektur (Deep-Sleep & Spreadsheet Sync): Google Drive Folder FindMyClass\n\nCatatan Observer: Observer mencatat bahwa alih-alih menjual fitur teknis sejak awal, saya membiarkan target merumuskan sendiri target idealnya (&lt;5 pertanyaan/hari dan pengecekan &lt;15 menit/minggu). Ketika target menyuarakan skeptisisme soal battery fatigue dan bus factor, saya tidak defensif dan langsung menawarkan evidence threshold terukur yang dapat diverifikasi oleh staf admin target sendiri.\nPenggunaan AI secara Terbatas & Etis: AI (LLM) digunakan 1 kali secara terbatas untuk mengecek konsistensi alur logika pada tabel Feature–Benefit–Value–Outcome agar tidak mencampuradukkan benefit teknis dengan outcome operasional target. Seluruh angka pilot, dialog, dan risk berasal dari sesi aktual.\nNext Practice: Membawa simulasi handover langsung (misalnya meminta staf mencoba mengubah 1 entri ruang di tempat) saat sesi Desire agar tingkat kepercayaan terhadap kemudahan operasional terbentuk lebih cepat sebelum menyusun jadwal uji 14 hari.",
     "crumbs": [
       "Beranda",
-      "Desire-State Communication"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-09.html#penggunaan-ai",
-    "href": "portfolio/week-09.html#penggunaan-ai",
-    "title": "Desire-State Communication",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Desire-State Communication"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-09.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-09.html#feedback-dan-tindak-lanjut",
-    "title": "Desire-State Communication",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
-    "crumbs": [
-      "Beranda",
-      "Desire-State Communication"
+      "Minggu 9 — Desire-State Communication"
     ]
   },
   {
     "objectID": "portfolio/week-09.html#self-assessment",
     "href": "portfolio/week-09.html#self-assessment",
-    "title": "Desire-State Communication",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "title": "Minggu 9 — Desire-State Communication",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor (1–4)\nEvidence Singkat\n\n\n\n\nPerson & Character\n4\nMembangun desired state murni dari prioritas operasional person target (fokus staf pada peminjaman & inventaris), bukan dari ambisi fitur pengembang; bersikap jujur mengakui batas baterai 24 jam tanpa overclaim.\n\n\nObjective & State\n4\nBerhasil memfasilitasi pergeseran state target dari Interest terbatas (hasil pilot 3 hari) menjadi Desire aktif (target sendiri yang menetapkan syarat adopsi semester depan dan menunjuk staf admin untuk tes handover).\n\n\nRepertoire, Language & AI\n4\nMenggunakan pertanyaan pemandu berbasis bukti pilot, memetakan rantai feature–benefit–value–outcome secara presisi, serta membatasi penggunaan AI hanya 1 kali untuk verifikasi konsistensi tabel.\n\n\nResponse & Adaptation\n4\nMerespons keraguan target soal battery fatigue dan ketergantungan pengembang secara langsung lewat adaptasi trade-off (triggered deep-sleep 07.30–16.30 WIB + integrasi Google Sheets).\n\n\nAgreement, Action & Relationship\n4\nMenghasilkan kesepakatan evidence threshold yang terukur bersama target (uji 14 hari 4 node, uptime baterai ≥7 hari, tes handover staf &lt;5 menit, akurasi jam puncak ≥90%) sebagai jembatan kredibel menuju fase Action.\n\n\n\nTotal Skor: 20/20 — Sangat Kompeten (Tercapai).",
     "crumbs": [
       "Beranda",
-      "Desire-State Communication"
+      "Minggu 9 — Desire-State Communication"
     ]
   },
   {
     "objectID": "portfolio/week-11.html",
     "href": "portfolio/week-11.html",
-    "title": "Multi-Person Negotiation Challenge",
+    "title": "Minggu 11 — Multi-Person Negotiation Challenge",
     "section": "",
-    "text": "Memfasilitasi beberapa person dengan objective, constraint, authority, dan state berbeda.",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 23 November 2026",
     "crumbs": [
       "Beranda",
-      "Multi-Person Negotiation Challenge"
+      "Minggu 11 — Multi-Person Negotiation Challenge"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-11.html#identitas",
+    "href": "portfolio/week-11.html#identitas",
+    "title": "Minggu 11 — Multi-Person Negotiation Challenge",
+    "section": "",
+    "text": "Nama: Tristan Anthony Wijaya\nNIM: 18225045\nTanggal Pengerjaan: 23 November 2026",
+    "crumbs": [
+      "Beranda",
+      "Minggu 11 — Multi-Person Negotiation Challenge"
     ]
   },
   {
     "objectID": "portfolio/week-11.html#kompetensi-target",
     "href": "portfolio/week-11.html#kompetensi-target",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "",
-    "text": "Memfasilitasi beberapa person dengan objective, constraint, authority, dan state berbeda.",
+    "title": "Minggu 11 — Multi-Person Negotiation Challenge",
+    "section": "Kompetensi Target",
+    "text": "Kompetensi Target\nMemfasilitasi negosiasi multi-pihak (multi-person negotiation) yang melibatkan beberapa person dengan objective, constraint, authority, dan fase TAIDA state yang berbeda secara simultan, sehingga menghasilkan common ground, kesepakatan (agreement) yang eksplisit, pengelolaan dissent secara konstruktif, serta relasi jangka panjang yang terjaga.",
     "crumbs": [
       "Beranda",
-      "Multi-Person Negotiation Challenge"
+      "Minggu 11 — Multi-Person Negotiation Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-11.html#evidence-wajib",
-    "href": "portfolio/week-11.html#evidence-wajib",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nStakeholder person map dan multi-state TAIDA.\nPosition–interest analysis, common ground, dan options.\nNegotiation evidence, agreement/dissent, dan relationship review.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 11 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "objectID": "portfolio/week-11.html#stakeholder-person-map-dan-multi-state-taida",
+    "href": "portfolio/week-11.html#stakeholder-person-map-dan-multi-state-taida",
+    "title": "Minggu 11 — Multi-Person Negotiation Challenge",
+    "section": "Stakeholder Person Map dan Multi-State TAIDA",
+    "text": "Stakeholder Person Map dan Multi-State TAIDA\nMenjelang pekan Ujian Akhir Semester (UAS) Ganjil 2026/2027, rencana perluasan FindMyClass dari 4 titik uji coba Lantai 1–2 menjadi jaringan navigasi penuh Lantai 1–3 GKU ITB Jatinangor memicu tarik-menarik kepentingan antar-empat pemangku kepentingan utama dengan tingkat kesiapan (TAIDA state) yang berbeda:\n\n\n\n\n\n\n\n\n\n\nStakeholder (Person)\nPeran & Otoritas (Authority)\nObjective Utama\nConstraint Utama\nTAIDA State Awal\n\n\n\n\n1. Pak Hendra (Pengelola Fasilitas Gedung)\nOperational Champion — Berwenang mengatur tata kelola ruang harian lantai 1–3, tetapi tidak berwenang atas kebijakan jaringan IT maupun renovasi fisik permanen.\nMenurunkan interupsi pertanyaan rute saat pekan UAS (&lt;5 kali/hari) dan memastikan perubahan ruang ujian terkomunikasikan otomatis tanpa menambah beban staf pos.\nTidak memiliki staf teknis lapangan; menolak tugas penggantian baterai jika jumlah perangkat membengkak.\nAction (Sudah melihat hasil uji coba 16 Nov dan mendorong ekspansi segera)\n\n\n2. Bu Sari (Perwakilan DTI / Admin Jaringan Gedung)\nTechnical Veto Authority — Pemegang otoritas keamanan frekuensi dan infrastruktur jaringan kampus; berhak mencabut perangkat pemancar tak terdaftar.\nMenjaga stabilitas kanal Wi-Fi 2.4 GHz untuk ujian berbasis komputer (CBT) dan mencegah munculnya rogue SSID / potensi celah keamanan jaringan.\nAturan keamanan IT kampus melarang titik akses Wi-Fi tambahan yang memancarkan beacon aktif di koridor ruang ujian.\nAttention (Baru mengetahui rencana ekspansi node ESP8266 dan bersikap skeptis/defensif)\n\n\n3. Pak Budi (Kasubbag Sarana & Prasarana)\nFormal Asset & Facility Approver — Pemegang izin penempatan fisik di area publik gedung dan standar estetika/keselamatan koridor.\nMenjaga kerapian visual koridor gedung, bebas hambatan jalur evakuasi, dan kejelasan status hukum aset tanpa membebani anggaran pemeliharaan.\nMelarang pemasangan permanen (bor dinding) dan menolak papan sirkuit terbuka (prototype kasar) menempel di dinding fasilitas umum.\nInterest (Mendukung konsep non-destruktif, namun menahan izin ekspansi sebelum standar casing & status aset jelas)\n\n\n4. Raka (Koordinator Akademik Himpunan / Panitia UAS)\nEnd-User Influencer — Menggerakkan adopsi mahasiswa baru lintas fakultas dan koordinasi relawan ruang ujian.\nMemastikan peserta ujian dari fakultas lain menemukan ruang ujian di lantai 1–3 dalam &lt;2 menit tanpa terlambat akibat salah naik tangga.\nMahasiswa enggan memindai QR berulang kali jika sinyal seluler di dalam koridor lemah; menginginkan deteksi posisi otomatis di semua lorong.\nDesire (Antusias meminta cakupan 10 node penuh di seluruh koridor lantai 1–3 sebelum pekan UAS)",
     "crumbs": [
       "Beranda",
-      "Multi-Person Negotiation Challenge"
+      "Minggu 11 — Multi-Person Negotiation Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-11.html#konteks-performance",
-    "href": "portfolio/week-11.html#konteks-performance",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "objectID": "portfolio/week-11.html#positioninterest-analysis-common-ground-dan-options",
+    "href": "portfolio/week-11.html#positioninterest-analysis-common-ground-dan-options",
+    "title": "Minggu 11 — Multi-Person Negotiation Challenge",
+    "section": "Position–Interest Analysis, Common Ground, dan Options",
+    "text": "Position–Interest Analysis, Common Ground, dan Options\n\n1. Analisis Position vs. Underlying Interest\nDalam forum diskusi bersama pada 20 November 2026, masing-masing pihak awalnya bertahan pada position yang saling bertabrakan:\n\n\n\n\n\n\n\n\nStakeholder\nPosition (Tuntutan Permukaan)\nUnderlying Interest (Kepentingan Mendasar)\n\n\n\n\nRaka (Mahasiswa)\n“Harus pasang 10 node pemancar aktif di seluruh koridor lantai 1–3 agar tracking real-time jalan di semua lorong.”\nPeserta ujian tidak terlambat dan tidak panik saat ada pemindahan ruang mendadak di lantai atas.\n\n\nBu Sari (DTI)\n“Tidak boleh ada modul Wi-Fi ESP8266 baru di koridor ujian; pakai poster cetak saja.”\nNol interferensi sinyal Wi-Fi saat sesi ujian CBT berlangsung dan kepatuhan penuh terhadap regulasi keamanan jaringan ITB.\n\n\nPak Budi (Sarpras)\n“Kalau mau pasang di 3 lantai, harus ajukan proses hibah aset resmi dulu dan casing-nya tidak boleh terlihat seperti alat rakitan.”\nKoridor gedung tetap rapi, aman, dan tidak ada aset liar yang memicu temuan audit inventaris kampus.\n\n\nPak Hendra (Fasilitas)\n“Sistem harus sudah jalan minggu depan sebelum UAS, tapi staf saya tidak boleh dibebani urus alat.”\nOperasional gedung saat pekan UAS berjalan tertib tanpa antrean pertanyaan mahasiswa di pos layanan.\n\n\n\n\n\n2. Identifikasi Common Ground\nDengan menggeser percakapan dari perdebatan jumlah alat ke kepentingan bersama (underlying interests), teridentifikasi 3 titik temu (common ground): 1. Ketertiban Pekan UAS: Semua pihak sepakat bahwa kerumunan mahasiswa yang tersesat di tangga dan lorong Lantai 1–3 saat jam pergantian sesi ujian mengganggu ketenangan peserta CBT, membebani staf pos, dan merusak citra layanan gedung. 2. Keamanan & Kepatuhan Kampus: Tidak ada pihak yang ingin proyek mahasiswa ini melanggar regulasi IT maupun merusak aset fisik gedung. 3. Keberlanjutan Tanpa Biaya Kampus: Seluruh pihak mengapresiasi solusi yang siap pakai sebelum pekan UAS tanpa membebani anggaran maupun jam lembur staf operasional.\n\n\n3. Evaluasi dan Negosiasi Options (Trade-off Multi-Pihak)\n\n\n\n\n\n\n\n\n\n\nOpsi Solusi\nDeskripsi Mekanisme\nDampak ke Stakeholder\nTrade-off\nStatus\n\n\n\n\nOpsi 1: Full Wi-Fi Mesh (10 Node ESP8266)\nMemasang 10 node pemancar Wi-Fi di seluruh lorong lantai 1–3 sesuai permintaan Raka.\nMemenuhi tuntutan Raka, tetapi memicu veto langsung dari Bu Sari (interferensi kanal 2.4 GHz) dan penolakan Pak Budi (aset & estetika).\nMengorbankan kepatuhan jaringan dan stabilitas ujian CBT demi akurasi penuh.\nDitolak\n\n\nOpsi 2: Pure Static QR (Tanpa Elektronik)\nMencabut seluruh modul elektronik dan hanya menempel poster QR di setiap pintu ruang.\nMemuaskan Bu Sari (0 interferensi) dan Pak Budi (0 aset elektronik), tetapi ditolak Raka & Pak Hendra karena kehilangan koreksi otomatis saat mahasiswa salah lantai.\nMengorbankan kecepatan navigasi saat pengguna salah arah demi kepatuhan nol-perangkat.\nDitolak\n\n\nOpsi 3: Arsitektur Hibrida Zero-WiFi-Interference (4 Node BLE Pasif + 8 Papan QR Terstandar)\nMengubah mode modul dari Wi-Fi SoftAP menjadi BLE (Bluetooth Low Energy) advertising-only berdaya rendah (-12 dBm) di 4 titik persimpangan tangga utama saja, dipadukan 8 papan QR akrilik terstandar di sayap lorong. Seluruh node dikemas dalam casing 3D-printed putih seragam dan dicatat melalui Berita Acara Pinjam-Pakai Aset Sementara (1 semester), dengan jadwal pengecekan baterai 21 hari sekali oleh tim pengembang + 2 relawan himpunan.\nBu Sari: Bebas interferensi Wi-Fi CBT (BLE berdaya rendah terisolasi di area tangga).Pak Budi: Tampilan seragam menyerupai sakelar dinding & status pinjam-pakai jelas.Pak Hendra: Beban staf tetap 0 menit/hari.Raka: Deteksi otomatis tetap jalan di seluruh titik persimpangan lantai 1–3.\nCakupan deteksi otomatis difokuskan pada 4 persimpangan tangga utama (tidak sampai ujung sayap lorong Lantai 3 yang mengandalkan QR statis), namun seluruh syarat otoritas terpenuhi tepat waktu sebelum UAS.\nDisepakati",
     "crumbs": [
       "Beranda",
-      "Multi-Person Negotiation Challenge"
+      "Minggu 11 — Multi-Person Negotiation Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-11.html#evidence",
-    "href": "portfolio/week-11.html#evidence",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "objectID": "portfolio/week-11.html#negotiation-evidence-agreementdissent-dan-relationship-review",
+    "href": "portfolio/week-11.html#negotiation-evidence-agreementdissent-dan-relationship-review",
+    "title": "Minggu 11 — Multi-Person Negotiation Challenge",
+    "section": "Negotiation Evidence, Agreement/Dissent, dan Relationship Review",
+    "text": "Negotiation Evidence, Agreement/Dissent, dan Relationship Review\n\n1. Transkrip Bukti Negosiasi Multi-Pihak (20 November 2026)\n\n\nBu Sari (DTI — membuka keberatan teknis): “Kalau rencana ekspansinya pasang 10 modul pemancar Wi-Fi di koridor lantai 1 sampai 3, dari DTI belum bisa menyetujui. Minggu depan ada sesi ujian berbasis komputer, kanal 2.4 GHz harus bersih dari SSID liar.”\nRaka (Mahasiswa — merespons dengan khawatir): “Tapi Bu, kalau cuma QR biasa tanpa sensor titik, mahasiswa dari fakultas lain yang salah naik ke lantai 3 sering bingung karena sinyal seluler di pojok koridor juga agak lambat.”\nPak Budi (Sarpras — menambahkan syarat fisik): “Selain soal sinyal, saya juga tidak bisa izinkan 10 kotak PCB terbuka ditempel di dinding koridor. Kalau mau diperluas, bentuknya harus rapi dan status kepemilikannya tertulis jelas.”\nTristan (Fasilitasi & Reframing Common Ground): “Terima kasih Bu Sari, Pak Budi, dan Raka. Sebenarnya tujuan kita sama: pekan UAS berjalan tertib tanpa mahasiswa tersesat dan tanpa mengganggu ujian CBT. Saya tawarkan penyesuaian teknis langsung: pertama, kita matikan total modul Wi-Fi di node dan beralih ke mode BLE advertising berdaya rendah (-12 dBm) yang hanya diletakkan di 4 persimpangan tangga utama—jauh dari ruang CBT dan nol interferensi kanal Wi-Fi. Kedua, 8 titik lorong lainnya cukup memakai papan QR akrilik seragam, dan 4 node BLE akan kami bungkus casing 3D putih seukuran sakelar dinding dengan surat pinjam-pakai sementara 1 semester.”\nPak Hendra (Pengelola Fasilitas — memastikan operasional): “Kalau 4 node BLE itu, baterainya tahan berapa lama? Jangan sampai staf saya keliling ganti baterai tiap minggu.”\nTristan & Raka (Menutup celah operasional): “Mode BLE pasif tanpa Wi-Fi membuat baterai tahan hingga 21 hari, Pak. Dan Raka sudah sepakat menugaskan 2 relawan panitia UAS untuk mendampingi tim saya mengecek kondisi 4 node setiap Jumat sore.”\nBu Sari (Transisi ke Agreement): “Kalau Wi-Fi broadcast-nya dimatikan total dan hanya 4 BLE berdaya rendah di area tangga, dari DTI bisa menyetujui setelah saya cek sampel konfigurasinya besok pagi.”\n\n\n\n\n2. Dokumentasi Agreement Eksplisit dan Dissent\n\nA. Matriks Agreement (Disepakati Bersama)\n\n\n\n\n\n\n\n\n\n\n\nNo\nButir Kesepakatan (Action Item)\nOwner (PIC)\nDeadline\nVerifikasi / Output\nStatus\n\n\n\n\n1\nAudit konfigurasi firmware BLE advertising-only (-12 dBm, Wi-Fi disabled) pada 1 unit sampel sebelum pemasangan.\nTristan & Bu Sari (DTI)\n21 Nov 2026 (11.00 WIB)\nLembar log uji spektrum/konfigurasi berparaf perwakilan DTI.\nSelesai\n\n\n2\nPencetakan 4 casing 3D putih seragam & penandatanganan Berita Acara Pinjam-Pakai Aset Sementara (berlaku hingga akhir Semester Ganjil).\nTristan & Pak Budi (Sarpras)\n22 Nov 2026 (15.00 WIB)\nDokumen Pinjam-Pakai bertanda tangan & foto unit ter-casing rapi.\nSelesai\n\n\n3\nInstalasi non-destructive 4 node BLE di persimpangan tangga Lantai 1–3 serta 8 papan QR akrilik terstandar.\nTristan & 2 Relawan Panitia UAS (Raka)\n23 Nov 2026 (16.00 WIB)\nFoto dokumentasi seluruh 12 titik terpasang di Lantai 1–3.\nSelesai\n\n\n4\nOperasional pembaruan jadwal ruang UAS via Google Sheets dan monitoring log insiden harian.\nPak Hendra & Bu Rina (Admin)\n24–30 Nov 2026\nLaporan review pekan pertama UAS (interupsi pos &lt;5/hari & 0 gangguan CBT).\nBerjalan\n\n\n\n\n\nB. Dokumentasi Dissent (Ketidaksepakatan Tersisa) dan Mekanisme Pengelolaannya\n\nIsu Dissent: Raka (perwakilan mahasiswa) menyampaikan dissent terukur terkait cakupan sayap timur Lantai 3 yang hanya dipasangi QR statis tanpa node BLE aktif, karena berpotensi masih menyisakan waktu pencarian lebih lama bagi peserta ujian ruang ujung.\nResolusi Dissent (Klausul Conditional Review): Ketidaksepakatan ini tidak memblokir kesepakatan utama. Seluruh pihak menyepakati mekanisme pencatatan bukti berbasis ambang batas: tim relawan Raka dan pos Pak Hendra akan mencatat frekuensi kasus mahasiswa tersesat khusus di sayap timur Lantai 3 selama pekan UAS. Apabila tercatat &gt;10 kasus/hari, usulan penambahan 1 node BLE di titik tersebut akan menjadi agenda prioritas evaluasi awal Semester Genap (Januari 2027) dengan audit kanal oleh Bu Sari.\n\n\n\n\n3. Relationship Review (Evaluasi Relasi Multi-Pihak)\n\nPergeseran Dinamika Relasi: Negosiasi ini berhasil mengubah posisi Bu Sari (DTI) dari pihak yang semula berpotensi memveto proyek menjadi technical reviewer yang kolaboratif, karena kekhawatiran keamanan jaringannya diakomodasi secara teknis (migrasi dari Wi-Fi ke BLE pasif) alih-alih didebat secara defensif.\nPenguatan Kepercayaan Institusional: Dengan melibatkan Pak Budi (Sarpras) melalui mekanisme pinjam-pakai sementara dan standar casing yang rapi, proyek mahasiswa tidak lagi dipandang sebagai “eksperimen liar”, melainkan inisiatif tertib yang menghormati tata kelola kampus.\nSinergi Lintas Generasi/Peran: Kolaborasi antara Pak Hendra (pengelola fasilitas) dan Raka (relawan mahasiswa) menciptakan pembagian beban kerja yang sehat—staf gedung terbantu dalam layanan informasi, sementara mahasiswa memiliki rasa kepemilikan aktif dalam menjaga fasilitas bersama.",
     "crumbs": [
       "Beranda",
-      "Multi-Person Negotiation Challenge"
+      "Minggu 11 — Multi-Person Negotiation Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-11.html#analisis-komunikasi",
-    "href": "portfolio/week-11.html#analisis-komunikasi",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "objectID": "portfolio/week-11.html#evidence-ai-dan-feedback",
+    "href": "portfolio/week-11.html#evidence-ai-dan-feedback",
+    "title": "Minggu 11 — Multi-Person Negotiation Challenge",
+    "section": "Evidence, AI, dan Feedback",
+    "text": "Evidence, AI, dan Feedback\n\nTautan Artefak & Dokumentasi Lengkap:\n\nNotula Negosiasi Multi-Pihak (20 Nov 2026), Log Audit BLE DTI, Berita Acara Pinjam-Pakai Sarpras, dan Foto Instalasi 12 Titik Lantai 1–3: Google Drive Folder FindMyClass\n\nCatatan Observer: Observer mencatat bahwa kunci keberhasilan fasilitasi berada pada momen saya memetakan ulang underlying interest di tengah rapat—tidak mempertentangkan tuntutan Raka melawan veto Bu Sari, melainkan mengganti protokol komunikasi perangkat (Wi-Fi ke BLE pasif) sehingga seluruh kepentingan terjawab dalam satu arsitektur hibrida.\nPenggunaan AI secara Terbatas & Etis: AI (LLM) digunakan 1 kali secara terbatas untuk merapikan draf Berita Acara Pinjam-Pakai Aset Sementara agar menggunakan terminologi administrasi aset kampus yang baku. Seluruh transkrip negosiasi, pemetaan otoritas, dan dokumentasi dissent merupakan catatan aktual sesi.\nNext Practice: Mengundang seluruh pemangku kepentingan yang memiliki veto authority (termasuk tim IT/jaringan) sejak tahap perancangan arsitektur teknis awal agar perubahan protokol perangkat keras tidak perlu dilakukan mendadak menjelang tenggat operasional.",
     "crumbs": [
       "Beranda",
-      "Multi-Person Negotiation Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-11.html#penggunaan-ai",
-    "href": "portfolio/week-11.html#penggunaan-ai",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Multi-Person Negotiation Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-11.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-11.html#feedback-dan-tindak-lanjut",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
-    "crumbs": [
-      "Beranda",
-      "Multi-Person Negotiation Challenge"
+      "Minggu 11 — Multi-Person Negotiation Challenge"
     ]
   },
   {
     "objectID": "portfolio/week-11.html#self-assessment",
     "href": "portfolio/week-11.html#self-assessment",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "title": "Minggu 11 — Multi-Person Negotiation Challenge",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor (1–4)\nEvidence Singkat\n\n\n\n\nPerson & Character\n4\nMemetakan secara utuh profil, batasan, dan otoritas 4 pemangku kepentingan berbeda (Fasilitas, DTI, Sarpras, Mahasiswa) serta bersikap netral-fasilitatif tanpa memihak satu kubu.\n\n\nObjective & State\n4\nBerhasil menyelaraskan 4 TAIDA state yang kontras (Attention skeptis pada DTI, Interest hati-hati pada Sarpras, Desire tinggi pada Mahasiswa, Action pada Fasilitas) menuju satu Action kolektif yang terkoordinasi.\n\n\nRepertoire, Language & AI\n4\nMenggunakan teknik reframing berbasis common ground, memisahkan position dari underlying interest, mencatat dissent secara adil, serta membatasi penggunaan AI hanya 1 kali untuk tata bahasa berita acara.\n\n\nResponse & Adaptation\n4\nMerespons veto teknis DTI dan syarat estetika Sarpras secara langsung dengan mengadaptasi arsitektur dari 10 node Wi-Fi menjadi 4 node BLE pasif ber-casing 3D + 8 papan QR terstandar.\n\n\nAgreement, Action & Relationship\n4\nMenghasilkan agreement eksplisit (4 action items ber-PIC & ber-deadline), mengelola dissent sayap timur Lantai 3 lewat klausul conditional review, serta memperkuat relasi kolaboratif lintas unit kampus.\n\n\n\nTotal Skor: 20/20 — Sangat Kompeten (Tercapai).",
     "crumbs": [
       "Beranda",
-      "Multi-Person Negotiation Challenge"
+      "Minggu 11 — Multi-Person Negotiation Challenge"
     ]
   },
   {
