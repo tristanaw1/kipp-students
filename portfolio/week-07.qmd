@@ -9,7 +9,7 @@ status: Siap Dinilai
 title: "Minggu 7 — Interest Pitch"
 week: 7
 ---
-
+                      
 ## Identitas
 
 - **Nama:** Tristan Anthony Wijaya
