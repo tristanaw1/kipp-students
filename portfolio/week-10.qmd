@@ -5,7 +5,7 @@ status: "Siap Dinilai"
 self_score: "20/20"
 assessor_score: "—"
 description: "Identifikasi desire–action gap pasca-validasi FindMyClass, pemetaan barrier dan authority map, negosiasi options dan trade-off adopsi tanpa anggaran baru, serta penyepakatan agreement eksplisit lengkap dengan owner, deadline, dan bukti action/review."
-categories: [TAIDA, Action]
+categories: [TAIDA, Action] 
 ---
 
 ## Identitas
