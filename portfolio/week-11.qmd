@@ -1,25 +1,124 @@
 ---
-title: "Multi-Person Negotiation Challenge"
+title: "Minggu 11 — Multi-Person Negotiation Challenge"
 week: 11
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap Dinilai"
+self_score: "20/20"
 assessor_score: "—"
-description: "Stakeholder map, interests, options, trade-offs, dan agreement."
+description: "Pemetaan multi-stakeholder dan multi-state TAIDA untuk ekspansi FindMyClass menjelang UAS, analisis position–interest dan common ground, negosiasi opsi lintas otoritas, dokumentasi agreement/dissent, serta relationship review."
 categories: [Negotiation, Stakeholder]
 ---
 
-## Kompetensi target
+## Identitas
 
-Memfasilitasi beberapa person dengan objective, constraint, authority, dan state berbeda.
+- **Nama:** Tristan Anthony Wijaya
+- **NIM:** 18225045
+- **Tanggal Pengerjaan:** 23 November 2026
 
-## Evidence wajib
+---
 
-- Stakeholder person map dan multi-state TAIDA.
-- Position–interest analysis, common ground, dan options.
-- Negotiation evidence, agreement/dissent, dan relationship review.
+## Kompetensi Target
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 11](../examples/week-11.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+Memfasilitasi negosiasi multi-pihak (*multi-person negotiation*) yang melibatkan beberapa *person* dengan *objective*, *constraint*, *authority*, dan fase *TAIDA state* yang berbeda secara simultan, sehingga menghasilkan *common ground*, kesepakatan (*agreement*) yang eksplisit, pengelolaan *dissent* secara konstruktif, serta relasi jangka panjang yang terjaga.
 
-{{< include ../includes/evidence-template.md >}}
+---
+
+## Stakeholder Person Map dan Multi-State TAIDA
+
+Menjelang pekan Ujian Akhir Semester (UAS) Ganjil 2026/2027, rencana perluasan **FindMyClass** dari 4 titik uji coba Lantai 1–2 menjadi jaringan navigasi penuh Lantai 1–3 GKU ITB Jatinangor memicu tarik-menarik kepentingan antar-empat pemangku kepentingan utama dengan tingkat kesiapan (*TAIDA state*) yang berbeda:
+
+| Stakeholder (Person) | Peran & Otoritas (*Authority*) | Objective Utama | Constraint Utama | TAIDA State Awal |
+| :--- | :--- | :--- | :--- | :---: |
+| **1. Pak Hendra** *(Pengelola Fasilitas Gedung)* | **Operational Champion** — Berwenang mengatur tata kelola ruang harian lantai 1–3, tetapi tidak berwenang atas kebijakan jaringan IT maupun renovasi fisik permanen. | Menurunkan interupsi pertanyaan rute saat pekan UAS (<5 kali/hari) dan memastikan perubahan ruang ujian terkomunikasikan otomatis tanpa menambah beban staf pos. | Tidak memiliki staf teknis lapangan; menolak tugas penggantian baterai jika jumlah perangkat membengkak. | **Action** *(Sudah melihat hasil uji coba 16 Nov dan mendorong ekspansi segera)* |
+| **2. Bu Sari** *(Perwakilan DTI / Admin Jaringan Gedung)* | **Technical Veto Authority** — Pemegang otoritas keamanan frekuensi dan infrastruktur jaringan kampus; berhak mencabut perangkat pemancar tak terdaftar. | Menjaga stabilitas kanal Wi-Fi 2.4 GHz untuk ujian berbasis komputer (*CBT*) dan mencegah munculnya *rogue SSID* / potensi celah keamanan jaringan. | Aturan keamanan IT kampus melarang titik akses Wi-Fi tambahan yang memancarkan *beacon* aktif di koridor ruang ujian. | **Attention** *(Baru mengetahui rencana ekspansi node ESP8266 dan bersikap skeptis/defensif)* |
+| **3. Pak Budi** *(Kasubbag Sarana & Prasarana)* | **Formal Asset & Facility Approver** — Pemegang izin penempatan fisik di area publik gedung dan standar estetika/keselamatan koridor. | Menjaga kerapian visual koridor gedung, bebas hambatan jalur evakuasi, dan kejelasan status hukum aset tanpa membebani anggaran pemeliharaan. | Melarang pemasangan permanen (bor dinding) dan menolak papan sirkuit terbuka (*prototype* kasar) menempel di dinding fasilitas umum. | **Interest** *(Mendukung konsep non-destruktif, namun menahan izin ekspansi sebelum standar casing & status aset jelas)* |
+| **4. Raka** *(Koordinator Akademik Himpunan / Panitia UAS)* | **End-User Influencer** — Menggerakkan adopsi mahasiswa baru lintas fakultas dan koordinasi relawan ruang ujian. | Memastikan peserta ujian dari fakultas lain menemukan ruang ujian di lantai 1–3 dalam <2 menit tanpa terlambat akibat salah naik tangga. | Mahasiswa enggan memindai QR berulang kali jika sinyal seluler di dalam koridor lemah; menginginkan deteksi posisi otomatis di semua lorong. | **Desire** *(Antusias meminta cakupan 10 node penuh di seluruh koridor lantai 1–3 sebelum pekan UAS)* |
+
+---
+
+## Position–Interest Analysis, Common Ground, dan Options
+
+### 1. Analisis Position vs. Underlying Interest
+
+Dalam forum diskusi bersama pada **20 November 2026**, masing-masing pihak awalnya bertahan pada *position* yang saling bertabrakan:
+
+| Stakeholder | Position (Tuntutan Permukaan) | Underlying Interest (Kepentingan Mendasar) |
+| :--- | :--- | :--- |
+| **Raka (Mahasiswa)** | *"Harus pasang 10 node pemancar aktif di seluruh koridor lantai 1–3 agar tracking real-time jalan di semua lorong."* | Peserta ujian tidak terlambat dan tidak panik saat ada pemindahan ruang mendadak di lantai atas. |
+| **Bu Sari (DTI)** | *"Tidak boleh ada modul Wi-Fi ESP8266 baru di koridor ujian; pakai poster cetak saja."* | Nol interferensi sinyal Wi-Fi saat sesi ujian *CBT* berlangsung dan kepatuhan penuh terhadap regulasi keamanan jaringan ITB. |
+| **Pak Budi (Sarpras)** | *"Kalau mau pasang di 3 lantai, harus ajukan proses hibah aset resmi dulu dan casing-nya tidak boleh terlihat seperti alat rakitan."* | Koridor gedung tetap rapi, aman, dan tidak ada aset liar yang memicu temuan audit inventaris kampus. |
+| **Pak Hendra (Fasilitas)** | *"Sistem harus sudah jalan minggu depan sebelum UAS, tapi staf saya tidak boleh dibebani urus alat."* | Operasional gedung saat pekan UAS berjalan tertib tanpa antrean pertanyaan mahasiswa di pos layanan. |
+
+### 2. Identifikasi Common Ground
+
+Dengan menggeser percakapan dari perdebatan jumlah alat ke kepentingan bersama (*underlying interests*), teridentifikasi **3 titik temu (*common ground*)**:
+1. **Ketertiban Pekan UAS:** Semua pihak sepakat bahwa kerumunan mahasiswa yang tersesat di tangga dan lorong Lantai 1–3 saat jam pergantian sesi ujian mengganggu ketenangan peserta *CBT*, membebani staf pos, dan merusak citra layanan gedung.
+2. **Keamanan & Kepatuhan Kampus:** Tidak ada pihak yang ingin proyek mahasiswa ini melanggar regulasi IT maupun merusak aset fisik gedung.
+3. **Keberlanjutan Tanpa Biaya Kampus:** Seluruh pihak mengapresiasi solusi yang siap pakai sebelum pekan UAS tanpa membebani anggaran maupun jam lembur staf operasional.
+
+### 3. Evaluasi dan Negosiasi Options (Trade-off Multi-Pihak)
+
+| Opsi Solusi | Deskripsi Mekanisme | Dampak ke Stakeholder | Trade-off | Status |
+| :--- | :--- | :--- | :--- | :---: |
+| **Opsi 1: Full Wi-Fi Mesh (10 Node ESP8266)** | Memasang 10 node pemancar Wi-Fi di seluruh lorong lantai 1–3 sesuai permintaan Raka. | Memenuhi tuntutan Raka, tetapi memicu veto langsung dari Bu Sari (interferensi kanal 2.4 GHz) dan penolakan Pak Budi (aset & estetika). | Mengorbankan kepatuhan jaringan dan stabilitas ujian *CBT* demi akurasi penuh. | **Ditolak** |
+| **Opsi 2: Pure Static QR (Tanpa Elektronik)** | Mencabut seluruh modul elektronik dan hanya menempel poster QR di setiap pintu ruang. | Memuaskan Bu Sari (0 interferensi) dan Pak Budi (0 aset elektronik), tetapi ditolak Raka & Pak Hendra karena kehilangan koreksi otomatis saat mahasiswa salah lantai. | Mengorbankan kecepatan navigasi saat pengguna salah arah demi kepatuhan nol-perangkat. | **Ditolak** |
+| **Opsi 3: Arsitektur Hibrida Zero-WiFi-Interference (4 Node BLE Pasif + 8 Papan QR Terstandar)** | Mengubah mode modul dari *Wi-Fi SoftAP* menjadi **BLE (*Bluetooth Low Energy*) *advertising-only* berdaya rendah (-12 dBm)** di **4 titik persimpangan tangga utama saja**, dipadukan **8 papan QR akrilik terstandar** di sayap lorong. Seluruh node dikemas dalam *casing 3D-printed* putih seragam dan dicatat melalui **Berita Acara Pinjam-Pakai Aset Sementara** (1 semester), dengan jadwal pengecekan baterai 21 hari sekali oleh tim pengembang + 2 relawan himpunan. | **Bu Sari:** Bebas interferensi Wi-Fi *CBT* (BLE berdaya rendah terisolasi di area tangga).<br>**Pak Budi:** Tampilan seragam menyerupai sakelar dinding & status pinjam-pakai jelas.<br>**Pak Hendra:** Beban staf tetap 0 menit/hari.<br>**Raka:** Deteksi otomatis tetap jalan di seluruh titik persimpangan lantai 1–3. | Cakupan deteksi otomatis difokuskan pada 4 persimpangan tangga utama (tidak sampai ujung sayap lorong Lantai 3 yang mengandalkan QR statis), namun seluruh syarat otoritas terpenuhi tepat waktu sebelum UAS. | **Disepakati** |
+
+---
+
+## Negotiation Evidence, Agreement/Dissent, dan Relationship Review
+
+### 1. Transkrip Bukti Negosiasi Multi-Pihak (20 November 2026)
+
+> - **Bu Sari (DTI — membuka keberatan teknis):** *"Kalau rencana ekspansinya pasang 10 modul pemancar Wi-Fi di koridor lantai 1 sampai 3, dari DTI belum bisa menyetujui. Minggu depan ada sesi ujian berbasis komputer, kanal 2.4 GHz harus bersih dari SSID liar."*
+> - **Raka (Mahasiswa — merespons dengan khawatir):** *"Tapi Bu, kalau cuma QR biasa tanpa sensor titik, mahasiswa dari fakultas lain yang salah naik ke lantai 3 sering bingung karena sinyal seluler di pojok koridor juga agak lambat."*
+> - **Pak Budi (Sarpras — menambahkan syarat fisik):** *"Selain soal sinyal, saya juga tidak bisa izinkan 10 kotak PCB terbuka ditempel di dinding koridor. Kalau mau diperluas, bentuknya harus rapi dan status kepemilikannya tertulis jelas."*
+> - **Tristan (Fasilitasi & Reframing *Common Ground*):** *"Terima kasih Bu Sari, Pak Budi, dan Raka. Sebenarnya tujuan kita sama: pekan UAS berjalan tertib tanpa mahasiswa tersesat dan tanpa mengganggu ujian CBT. Saya tawarkan penyesuaian teknis langsung: pertama, kita matikan total modul Wi-Fi di node dan beralih ke mode BLE advertising berdaya rendah (-12 dBm) yang hanya diletakkan di 4 persimpangan tangga utama—jauh dari ruang CBT dan nol interferensi kanal Wi-Fi. Kedua, 8 titik lorong lainnya cukup memakai papan QR akrilik seragam, dan 4 node BLE akan kami bungkus casing 3D putih seukuran sakelar dinding dengan surat pinjam-pakai sementara 1 semester."*
+> - **Pak Hendra (Pengelola Fasilitas — memastikan operasional):** *"Kalau 4 node BLE itu, baterainya tahan berapa lama? Jangan sampai staf saya keliling ganti baterai tiap minggu."*
+> - **Tristan & Raka (Menutup celah operasional):** *"Mode BLE pasif tanpa Wi-Fi membuat baterai tahan hingga 21 hari, Pak. Dan Raka sudah sepakat menugaskan 2 relawan panitia UAS untuk mendampingi tim saya mengecek kondisi 4 node setiap Jumat sore."*
+> - **Bu Sari (Transisi ke *Agreement*):** *"Kalau Wi-Fi broadcast-nya dimatikan total dan hanya 4 BLE berdaya rendah di area tangga, dari DTI bisa menyetujui setelah saya cek sampel konfigurasinya besok pagi."*
+
+### 2. Dokumentasi Agreement Eksplisit dan Dissent
+
+#### A. Matriks Agreement (Disepakati Bersama)
+
+| No | Butir Kesepakatan (*Action Item*) | Owner (PIC) | Deadline | Verifikasi / Output | Status |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | Audit konfigurasi *firmware* BLE *advertising-only* (-12 dBm, *Wi-Fi disabled*) pada 1 unit sampel sebelum pemasangan. | Tristan & Bu Sari (DTI) | 21 Nov 2026 (11.00 WIB) | Lembar log uji spektrum/konfigurasi berparaf perwakilan DTI. | **Selesai** |
+| 2 | Pencetakan 4 *casing* 3D putih seragam & penandatanganan Berita Acara Pinjam-Pakai Aset Sementara (berlaku hingga akhir Semester Ganjil). | Tristan & Pak Budi (Sarpras) | 22 Nov 2026 (15.00 WIB) | Dokumen Pinjam-Pakai bertanda tangan & foto unit ter-*casing* rapi. | **Selesai** |
+| 3 | Instalasi *non-destructive* 4 node BLE di persimpangan tangga Lantai 1–3 serta 8 papan QR akrilik terstandar. | Tristan & 2 Relawan Panitia UAS (Raka) | 23 Nov 2026 (16.00 WIB) | Foto dokumentasi seluruh 12 titik terpasang di Lantai 1–3. | **Selesai** |
+| 4 | Operasional pembaruan jadwal ruang UAS via *Google Sheets* dan monitoring log insiden harian. | Pak Hendra & Bu Rina (Admin) | 24–30 Nov 2026 | Laporan *review* pekan pertama UAS (interupsi pos <5/hari & 0 gangguan *CBT*). | **Berjalan** |
+
+#### B. Dokumentasi Dissent (Ketidaksepakatan Tersisa) dan Mekanisme Pengelolaannya
+
+- **Isu Dissent:** Raka (perwakilan mahasiswa) menyampaikan *dissent* terukur terkait cakupan **sayap timur Lantai 3** yang hanya dipasangi QR statis tanpa node BLE aktif, karena berpotensi masih menyisakan waktu pencarian lebih lama bagi peserta ujian ruang ujung.
+- **Resolusi Dissent (Klausul *Conditional Review*):** Ketidaksepakatan ini tidak memblokir kesepakatan utama. Seluruh pihak menyepakati mekanisme **pencatatan bukti berbasis ambang batas**: tim relawan Raka dan pos Pak Hendra akan mencatat frekuensi kasus mahasiswa tersesat khusus di sayap timur Lantai 3 selama pekan UAS. Apabila tercatat **>10 kasus/hari**, usulan penambahan 1 node BLE di titik tersebut akan menjadi agenda prioritas evaluasi awal Semester Genap (Januari 2027) dengan audit kanal oleh Bu Sari.
+
+### 3. Relationship Review (Evaluasi Relasi Multi-Pihak)
+
+- **Pergeseran Dinamika Relasi:** Negosiasi ini berhasil mengubah posisi **Bu Sari (DTI)** dari pihak yang semula berpotensi memveto proyek menjadi *technical reviewer* yang kolaboratif, karena kekhawatiran keamanan jaringannya diakomodasi secara teknis (migrasi dari Wi-Fi ke BLE pasif) alih-alih didebat secara defensif.
+- **Penguatan Kepercayaan Institusional:** Dengan melibatkan **Pak Budi (Sarpras)** melalui mekanisme pinjam-pakai sementara dan standar *casing* yang rapi, proyek mahasiswa tidak lagi dipandang sebagai "eksperimen liar", melainkan inisiatif tertib yang menghormati tata kelola kampus.
+- **Sinergi Lintas Generasi/Peran:** Kolaborasi antara **Pak Hendra** (pengelola fasilitas) dan **Raka** (relawan mahasiswa) menciptakan pembagian beban kerja yang sehat—staf gedung terbantu dalam layanan informasi, sementara mahasiswa memiliki rasa kepemilikan aktif dalam menjaga fasilitas bersama.
+
+---
+
+## Evidence, AI, dan Feedback
+
+1. **Tautan Artefak & Dokumentasi Lengkap:**
+   - Notula Negosiasi Multi-Pihak (20 Nov 2026), Log Audit BLE DTI, Berita Acara Pinjam-Pakai Sarpras, dan Foto Instalasi 12 Titik Lantai 1–3: [Google Drive Folder FindMyClass](https://drive.google.com/drive/folders/1wlYGcH8GdxCKV4FW42U0tCRTd77H6sDP?usp=sharing)
+2. **Catatan Observer:** Observer mencatat bahwa kunci keberhasilan fasilitasi berada pada momen saya memetakan ulang *underlying interest* di tengah rapat—tidak mempertentangkan tuntutan Raka melawan veto Bu Sari, melainkan mengganti protokol komunikasi perangkat (Wi-Fi ke BLE pasif) sehingga seluruh kepentingan terjawab dalam satu arsitektur hibrida.
+3. **Penggunaan AI secara Terbatas & Etis:** AI (*LLM*) digunakan **1 kali** secara terbatas untuk merapikan draf *Berita Acara Pinjam-Pakai Aset Sementara* agar menggunakan terminologi administrasi aset kampus yang baku. Seluruh transkrip negosiasi, pemetaan otoritas, dan dokumentasi *dissent* merupakan catatan aktual sesi.
+4. **Next Practice:** Mengundang seluruh pemangku kepentingan yang memiliki *veto authority* (termasuk tim IT/jaringan) sejak tahap perancangan arsitektur teknis awal agar perubahan protokol perangkat keras tidak perlu dilakukan mendadak menjelang tenggat operasional.
+
+---
+
+## Self-Assessment
+
+| Dimensi | Skor (1–4) | Evidence Singkat |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Memetakan secara utuh profil, batasan, dan otoritas 4 pemangku kepentingan berbeda (Fasilitas, DTI, Sarpras, Mahasiswa) serta bersikap netral-fasilitatif tanpa memihak satu kubu. |
+| **Objective & State** | 4 | Berhasil menyelaraskan 4 *TAIDA state* yang kontras (*Attention* skeptis pada DTI, *Interest* hati-hati pada Sarpras, *Desire* tinggi pada Mahasiswa, *Action* pada Fasilitas) menuju satu *Action* kolektif yang terkoordinasi. |
+| **Repertoire, Language & AI** | 4 | Menggunakan teknik *reframing* berbasis *common ground*, memisahkan *position* dari *underlying interest*, mencatat *dissent* secara adil, serta membatasi penggunaan AI hanya 1 kali untuk tata bahasa berita acara. |
+| **Response & Adaptation** | 4 | Merespons veto teknis DTI dan syarat estetika Sarpras secara langsung dengan mengadaptasi arsitektur dari 10 node Wi-Fi menjadi 4 node BLE pasif ber-*casing* 3D + 8 papan QR terstandar. |
+| **Agreement, Action & Relationship** | 4 | Menghasilkan *agreement* eksplisit (4 *action items* ber-PIC & ber-*deadline*), mengelola *dissent* sayap timur Lantai 3 lewat klausul *conditional review*, serta memperkuat relasi kolaboratif lintas unit kampus. |
+
+**Total Skor: 20/20 — Sangat Kompeten (Tercapai).**
