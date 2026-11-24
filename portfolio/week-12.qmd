@@ -1,25 +1,123 @@
 ---
-title: "Community Communication Challenge"
+title: "Minggu 12 — Community Communication Challenge"
 week: 12
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap Dinilai"
+self_score: "20/20"
 assessor_score: "—"
-description: "Framing, deliberation, sufficient agreement, dan collective action."
+description: "Deliberasi komunitas lintas peran dan ketimpangan power pada adopsi FindMyClass di GKU ITB Jatinangor, pemetaan fact/story/value/position, analisis tiga frames dan lima options, serta kesepakatan safeguard, collective action, dan review plan."
 categories: [Community, Deliberation]
 ---
 
-## Kompetensi target
+## Identitas
 
-Memfasilitasi community communication melintasi perbedaan dan power menuju action yang layak.
+- **Nama:** Tristan Anthony Wijaya
+- **NIM:** 18225045
+- **Tanggal Pengerjaan:** 30 November 2026
 
-## Evidence wajib
+---
 
-- Community person map dan fact/story/value/position.
-- Sedikitnya tiga frames dan lima options.
-- Deliberation evidence, safeguard, action, dan review plan.
+## Kompetensi Target
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 12](../examples/week-12.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+Memfasilitasi *community communication* yang melintasi perbedaan perspektif dan ketimpangan kekuasaan (*power asymmetry*) di antara berbagai kelompok pengguna gedung kampus, sehingga menghasilkan *sufficient agreement*, mekanisme perlindungan (*safeguard*), serta rencana aksi kolektif (*collective action*) dan evaluasi berkelanjutan yang layak dijalankan.
 
-{{< include ../includes/evidence-template.md >}}
+---
+
+## Community Person Map dan Analisis Fact / Story / Value / Position
+
+Evaluasi pekan pertama UAS (24–28 November 2026) menunjukkan keberhasilan operasional **FindMyClass** dalam menekan pertanyaan arah di pos layanan menjadi rata-rata **3,8 kali/hari**. Namun, seiring meluasnya penggunaan di GKU ITB Jatinangor, muncul gesekan antar-komunitas penghuni gedung dengan tingkat otoritas (*power*) yang tidak seimbang—mulai dari pejabat pengelola aset hingga kelompok mahasiswa difabel dan petugas kebersihan lapangan yang suaranya kerap terlewat dalam desain teknis.
+
+| Komunitas / Person | Tingkat & Jenis Power | Fact (Data Empiris Bersama) | Story (Pengalaman Nyata) | Value (Nilai yang Dijaga) | Position (Tuntutan Awal) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1. Pak Hendra & Pak Budi** *(Pengelola Gedung & Sarpras)* | **Tinggi (Formal Institutional Power)** — Pemegang izin fisik, keselamatan koridor, dan standar kebersihan visual gedung. | Terpasang 4 node BLE + 8 papan QR di Lantai 1–3; interupsi pos turun ke 3,8 kali/hari; 0 kerusakan cat dinding. | *"Kami sering ditegur jika koridor terlihat penuh tempelan liar atau kerumunan mahasiswa menghambat jalur evakuasi saat ujian."* | **Ketertiban, Keselamatan, & Akuntabilitas Aset** | Sistem hanya boleh memuat jadwal kuliah/ujian resmi; dilarang menambah stiker atau papan baru di luar 12 titik yang sudah disetujui. |
+| **2. Dr. Hendrawan** *(Koordinator Dosen & Pengawas Ujian)* | **Menengah–Tinggi (Academic Authority)** — Mengatur tata tertib zona ruang ujian dan ketenangan akademik. | Papan QR Lantai 2 terpasang 1,5 meter di sebelah pintu ruang ujian utama. | *"Saat jam pergantian sesi, 6–8 mahasiswa berhenti bergerombol di depan pintu ruang ujian sambil memindai QR, suaranya mengganggu peserta yang sedang mengerjakan soal."* | **Ketenangan & Integritas Lingkungan Belajar** | Meminta seluruh titik pemindaian QR dipindahkan menjauh dari koridor depan ruang kelas/ujian. |
+| **3. Kak Nadia** *(Komunitas Mahasiswa Peduli Aksesibilitas — Pengguna Kursi Roda)* | **Rendah (Structural Vulnerability)** — Minoritas pengguna yang terdampak langsung oleh bias desain fisik/digital. | Papan QR terpasang pada ketinggian 160 cm dan rute default Dijkstra memprioritaskan tangga terdekat. | *"Saya pernah mencoba pakai FindMyClass menuju ruang seminar Lantai 2, tapi rutenya mengarahkan ke tangga barat dan papan QR-nya terlalu tinggi untuk dipindai dari kursi roda."* | **Inklusi, Kemandirian, & Kesetaraan Akses** | Menolak sistem disebut "solusi kampus" sebelum jalur ramah kursi roda (*ramp*/lift) dan ketinggian QR inklusif diterapkan. |
+| **4. Raka & Perwakilan UKM/Himpunan** *(Komunitas Mahasiswa Aktif)* | **Menengah (Informal Social Power)** — Menggerakkan massa kegiatan mahasiswa, seminar, dan kepanitiaan lintas fakultas. | >15 kegiatan kemahasiswaan/minggu menggunakan ruang GKU pada sore hari dan akhir pekan. | *"Mahasiswa baru dari luar fakultas tetap tersesat saat ada seminar himpunan atau latihan UKM sore hari karena jadwal non-kuliah tidak muncul di peta."* | **Keterbukaan Informasi & Partisipasi Komunitas** | Menuntut fitur *open pin* agar panitia kegiatan/UKM bisa menambahkan lokasi acara dan menempel QR sementara sendiri. |
+| **5. Pak Dedi** *(Koordinator Kebersihan & Keamanan Lapangan)* | **Rendah (Low Formal Power, High Operational Impact)** — Pelaksana harian yang jarang dilibatkan dalam rapat perencanaan. | 2 titik papan QR berada dekat area penyimpanan alat kebersihan dan jalur logistik tangga servis. | *"Kalau pagi kami ngepel lorong servis, mahasiswa lewat berdesakan ikut panah aplikasi. Kemarin juga ada stiker sudut yang hampir terkelupas kena gagang pel."* | **Kelancaran Kerja Lapangan & Saling Menghargai** | Meminta jalur navigasi tidak melewati lorong servis/basah pada jam pembersihan dan titik QR dijauhkan dari area alat kebersihan. |
+
+---
+
+## Pemetaan Tiga Frames dan Lima Options Deliberasi
+
+### 1. Tiga Frames Komunitas (Cara Memandang Masalah)
+
+Dalam sesi persiapan deliberasi, saya memetakan perbedaan cara pandang komunitas ke dalam **tiga *frames* utama** agar diskusi tidak terjebak pada saling menyalahkan antar-individu:
+
+1. **Frame A — Ketertiban & Standar Operasional Gedung (*Operational Order Frame*):** Memandang sistem navigasi sebagai infrastruktur resmi kampus yang harus tunduk pada aturan estetika, ketenangan zona ujian, dan kendali tunggal pengelola agar tidak memicu kekacauan visual maupun kerumunan. *(Dominan pada Pengelola Gedung, Sarpras, dan Pengawas Ujian).*
+2. **Frame B — Aksesibilitas Universal & Keadilan Lapangan (*Universal Access & Dignity Frame*):** Memandang navigasi publik sebagai hak dasar seluruh warga kampus; teknologi dianggap gagal apabila hanya mempercepat mayoritas pejalan kaki tetapi menyingkirkan penyandang disabilitas dan mengganggu ritme kerja staf kebersihan/keamanan. *(Dominan pada Komunitas Aksesibilitas dan Petugas Lapangan).*
+3. **Frame C — Ruang Bersama Terbuka (*Open Campus Commons Frame*):** Memandang gedung perkuliahan sebagai ekosistem hidup yang juga menjadi pusat kegiatan kemahasiswaan, sehingga peta digital seharusnya terbuka untuk diperbarui secara partisipatif oleh komunitas mahasiswa. *(Dominan pada Raka dan perwakilan UKM/Himpunan).*
+
+### 2. Lima Options yang Dibahas dalam Deliberasi
+
+| Opsi | Deskripsi Mekanisme | Respons terhadap Frames | Konsekuensi & Trade-off | Status Deliberasi |
+| :--- | :--- | :--- | :--- | :---: |
+| **Opsi 1: Model Sentralistik Akademik (*Strict Official-Only*)** | Sistem dikunci hanya untuk jadwal kuliah/ujian resmi; tidak ada fitur acara UKM, tidak ada perubahan rute tangga, dan posisi QR tetap di 12 titik awal. | Memenuhi **Frame A** sepenuhnya, tetapi mengabaikan **Frame B** dan **Frame C**. | Beban admin rendah, namun memicu eksklusi mahasiswa difabel, keluhan dosen soal kerumunan depan kelas, dan frustrasi komunitas UKM. | **Ditolak** |
+| **Opsi 2: Model Wiki Terbuka (*Open Crowdsourced Map*)** | Membuka akses edit peta dan pencetakan QR mandiri kepada seluruh pengurus UKM/himpunan tanpa moderasi gedung. | Memenuhi **Frame C**, tetapi menabrak **Frame A** dan berisiko pada **Frame B**. | Informasi acara sangat dinamis, tetapi memicu polusi visual stiker liar, informasi tidak terverifikasi, dan penolakan keras Sarpras. | **Ditolak** |
+| **Opsi 3: Model Zonasi Waktu (*Time-Split Routing*)** | Mode akademik terkunci pada Senin–Jumat (07.00–17.00 WIB), lalu otomatis beralih ke mode terbuka UKM setelah pukul 17.00 WIB dan akhir pekan. | Mengompromikan **Frame A** dan **Frame C**, tetapi belum menyelesaikan masalah fisik di **Frame B**. | Mengurangi konflik jam kuliah vs. acara sore, namun masalah ketinggian QR (160 cm), rute tangga bagi kursi roda, dan posisi QR depan pintu ujian tetap tidak terselesaikan. | **Ditolak** |
+| **Opsi 4: Tata Kelola Bersama Berbasis Jalur Inklusif & Pin Digital Termoderasi (*Co-Governed Inclusive Wayfinding*)** | Menggabungkan 3 pilar: (1) fitur pilihan **"Rute Aksesibel (Lift & Ramp)"** sebagai opsi sejajar di layar utama + penurunan tinggi papan QR ke **115–125 cm** di area lobi/bordes yang luas (dijauhkan dari pintu ruang ujian & lemari alat kebersihan); (2) kanal pengajuan lokasi acara UKM/seminar berbasis **Pin Digital Sementara** (tanpa stiker fisik tambahan) yang diverifikasi sekali seminggu oleh perwakilan Himpunan + Bu Rina; (3) penandaan *jadwal blokir jalur servis* pada jam pengepelan pagi (06.30–07.30 WIB). | Menjembatani **Frame A** (0 stiker liar, zona ujian tenang), **Frame B** (akses kursi roda & ruang kerja petugas bersih terjaga), dan **Frame C** (acara UKM terakomodasi secara digital). | Membutuhkan kerja pemetaan ulang 3 titik QR dan verifikasi mingguan berdurasi ~15 menit oleh koordinator mahasiswa sebelum disetujui admin gedung. | **Disepakati (*Sufficient Agreement*)** |
+| **Opsi 5: Pemisahan Kanal (*Dual-Link Ecosystem*)** | FindMyClass tetap khusus kelas resmi; komunitas mahasiswa diminta membuat tautan/peta terpisah di luar sistem gedung. | Menjaga **Frame A**, namun memecah ekosistem pengguna (**Frame B & C**). | Menghindari birokrasi gedung, tetapi membingungkan mahasiswa baru karena harus menggunakan dua sistem berbeda dalam satu gedung yang sama. | **Ditolak** |
+
+---
+
+## Deliberation Evidence, Safeguard, Action, dan Review Plan
+
+### 1. Bukti Proses Deliberasi (*Community Deliberation Circle* — 27 November 2026)
+
+Untuk mencegah diskusi didominasi oleh pemegang *power* struktural (Pengelola Gedung dan Dosen), saya memfasilitasi forum deliberasi berdurasi 60 menit di Ruang Rapat Lantai 1 GKU dengan aturan giliran bicara terbalik (*vulnerable-first speaking order*): kelompok yang paling terdampak secara fisik (Kak Nadia dan Pak Dedi) diberi ruang memaparkan pengalaman nyata terlebih dahulu sebelum otoritas gedung merespons.
+
+> - **Tristan (Membuka deliberasi dengan *reframing*):** *"Data pekan ini menunjukkan pertanyaan arah di pos turun ke 3,8 kali sehari. Tapi keberhasilan rata-rata tidak boleh menutupi pengalaman kelompok yang justru terhambat. Hari ini kita tidak mencari siapa yang salah, melainkan merancang aturan main bersama agar FindMyClass adil bagi mahasiswa difabel, nyaman bagi petugas lapangan, tertib bagi pengawas ujian, dan tetap relevan untuk kegiatan mahasiswa."*
+> - **Kak Nadia (Komunitas Aksesibilitas):** *"Terima kasih sudah diajak bicara langsung. Buat pengguna kursi roda seperti saya, papan QR setinggi 160 cm di dekat tangga tidak bisa dipakai, dan rute terpendek lewat tangga justru membuat kami harus putar balik mencari lift."*
+> - **Pak Dedi (Petugas Kebersihan):** *"Betul, dan kalau pagi jam setengah tujuh sampai setengah delapan kami sedang pel lorong servis, sering mahasiswa lewat karena diarahkan sistem. Kami cuma minta jalur itu jangan dipakai saat jam pel dan papan QR jangan dekat lemari pel."*
+> - **Dr. Hendrawan (Koordinator Pengawas Ujian):** *"Senada dengan itu, saya setuju kalau papan QR di koridor sempit depan ruang ujian digeser ke area bordes tangga yang lebih lebar supaya mahasiswa tidak bergerombol di depan pintu ujian."*
+> - **Pak Budi & Pak Hendra (Sarpras & Pengelola Gedung):** *"Kalau memindahkan tinggi papan ke 120 cm di area bordes yang lebar dengan perekat non-destruktif yang sama, kami setuju—malah lebih rapi dan tidak menghalangi pintu ujian. Tapi untuk permintaan Raka soal acara UKM, kami tetap tidak izinkan tempel poster atau QR tambahan di dinding."*
+> - **Raka (Perwakilan UKM/Himpunan):** *"Kalau begitu kami tidak perlu tempel QR fisik baru, Pak. Cukup mahasiswa memindai QR utama di lobi yang sudah ada, lalu di layar aplikasi muncul tab 'Acara & Seminar Hari Ini'. Biar tidak sembarangan, pengurus akademik himpunan yang akan menyaring pengajuan ruang UKM setiap Jumat sebelum diteruskan ke Bu Rina."*
+> - **Konsensus (*Sufficient Agreement*):** Seluruh perwakilan menyatakan dapat menerima **Opsi 4** tanpa keberatan prinsipil, disertai penetapan empat mekanisme perlindungan (*safeguards*).
+
+### 2. Safeguards (Mekanisme Perlindungan Komunitas)
+
+Agar kesepakatan tidak bergeser kembali menguntungkan kelompok mayoritas atau melanggar aturan gedung dalam pelaksanaannya, disepakati **4 *safeguards* mengikat**:
+
+1. **Safeguard Aksesibilitas (*Universal Design Check*):** Setiap penambahan atau pemindahan titik QR maupun rute baru wajib diuji langsung bersama perwakilan Komunitas Aksesibilitas (ketinggian maksimum 125 cm, bebas halangan lantai, dan rute lift/ramp tersedia) sebelum diaktifkan untuk publik.
+2. **Safeguard Zona Tenang & Jalur Evakuasi:** Dilarang meletakkan titik QR dalam radius **<3 meter dari pintu ruang kelas/ujian** maupun di lorong sempit (<1,8 meter) guna mencegah kerumunan dan menjaga kepatuhan jalur evakuasi Sarpras.
+3. **Safeguard Anti-Polusi Visual (*Digital-Only & Auto-Expiry*):** Seluruh informasi kegiatan kemahasiswaan/UKM hanya boleh tampil dalam bentuk pin digital di dalam *web-app* (nol stiker/poster tambahan di dinding) dan memiliki sistem **kedaluwarsa otomatis (*auto-expiry*)** segera setelah jam acara selesai.
+4. **Safeguard Kerja Lapangan (*Service-Window Block*):** Sistem secara otomatis menonaktifkan rute yang melewati korong servis pada pukul **06.30–07.30 WIB** setiap hari kerja dan menyediakan jalur lapor cepat (*WhatsApp/kartu lapor pos*) bagi Pak Dedi apabila ada penempatan perangkat yang mengganggu tugas kebersihan/keamanan.
+
+### 3. Collective Action Plan (Rencana Aksi Bersama)
+
+| No | Aksi Kolektif (*Action Item*) | Pelaksana Utama (*Co-Owners*) | Tenggat Waktu | Bukti Verifikasi (*Deliverable*) |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | Pembaruan fitur *web-app*: penambahan tombol **"Mode Rute Aksesibel (Lift & Ramp)"**, jadwal blokir lorong servis (06.30–07.30 WIB), dan tab *"Kegiatan Kampus Hari Ini"* dengan *auto-expiry*. | Tristan Anthony Wijaya | 3 Des 2026 | Rilis pembaruan *web-app* & log pengujian fungsi rute aksesibel. |
+| 2 | Relokasi 3 papan QR (dari depan pintu ujian & area alat kebersihan ke bordes lobi lebar) serta penyesuaian ketinggian seluruh 8 papan QR ke **115–125 cm**. | Tristan, Pak Dedi (Lapangan), & Pak Hendra | 4 Des 2026 | Foto dokumentasi 8 titik baru dan verifikasi jalur evakuasi. |
+| 3 | Uji lapangan (*accessibility walk-through*) jalur kursi roda Lantai 1–3 dari lobi utama menuju ruang kelas dan lift. | Kak Nadia (Komunitas Aksesibilitas) & Tristan | 5 Des 2026 | Berita acara uji aksesibilitas bertanda tangan perwakilan komunitas. |
+| 4 | Penyusunan SOP kurasi mingguan pin acara UKM/Himpunan dan uji coba input 3 jadwal seminar mahasiswa. | Raka (Himpunan) & Bu Rina (Admin Gedung) | 7 Des 2026 | Dokumen SOP 1 halaman & log 3 entri acara terverifikasi di *Google Sheets*. |
+
+### 4. Community Review Plan (Rencana Evaluasi Komunitas Berkelanjutan)
+
+Untuk memastikan tata kelola bersama tetap hidup lintas pergantian kepengurusan mahasiswa dan semester:
+
+- **Evaluasi Dwi-Mingguan (*Bi-Weekly Pulse Check*):** Setiap Jumat kedua pukul 15.00 WIB (durasi 20 menit di pos layanan GKU), perwakilan pengembang, Bu Rina, Raka, dan Pak Dedi meninjau log insiden lapangan (kerumunan depan ruang ujian, keluhan kebersihan, dan akurasi jadwal UKM).
+- **Audit Inklusi Akhir Semester (Januari 2027):** Forum mini bersama perwakilan Komunitas Aksesibilitas (Kak Nadia), Dr. Hendrawan, dan Pak Budi untuk mengevaluasi data penggunaan *Mode Rute Aksesibel*, kesiapan serah terima pengelolaan teknis kepada tim penerus himpunan/unit kampus, serta evaluasi usulan penambahan node pada sayap timur Lantai 3 (menindaklanjuti catatan *dissent* Minggu 11).
+- **Ambang Tindakan Korektif (*Trigger Threshold*):** Apabila ditemukan ≥2 laporan kerumunan di depan ruang kelas dalam seminggu atau adanya entri acara UKM yang tidak sesuai jadwal riil, fitur pin acara langsung dibekukan sementara oleh Bu Rina hingga kurasi ulang dilakukan.
+
+---
+
+## Evidence, AI, dan Feedback
+
+1. **Tautan Artefak & Dokumentasi Lengkap:**
+   - Notula & Rekaman Suara *Community Deliberation Circle* (27 Nov 2026), Matriks 3 *Frames* & 5 *Options*, Foto Relokasi QR 120 cm, dan SOP Kurasi Acara UKM: [Google Drive Folder FindMyClass](https://drive.google.com/drive/folders/1wlYGcH8GdxCKV4FW42U0tCRTd77H6sDP?usp=sharing)
+2. **Catatan Observer:** Observer mencatat bahwa aturan giliran bicara terbalik (*vulnerable-first*) sangat efektif mengubah atmosfer ruangan: setelah mendengar langsung pengalaman Kak Nadia dan Pak Dedi, pejabat struktural dan perwakilan mahasiswa sama-sama menurunkan ego tuntutan awalnya dan berfokus merancang solusi yang melindungi semua pihak.
+3. **Penggunaan AI secara Terbatas & Etis:** AI (*LLM*) digunakan **1 kali** secara terbatas untuk merapikan format penulisan SOP 1 halaman kurasi jadwal acara UKM agar ringkas dan mudah dipahami oleh admin gedung maupun pengurus himpunan. Seluruh pemetaan komunitas, transkrip deliberasi, dan kesepakatan *safeguard* merupakan dokumentasi lapangan aktual.
+4. **Next Practice:** Melibatkan perwakilan kelompok rentan/minoritas pengguna (seperti mahasiswa difabel dan petugas layanan lapangan) sejak tahap survei kebutuhan awal proyek, bukan baru setelah prototipe terpasang di lapangan.
+
+---
+
+## Self-Assessment
+
+| Dimensi | Skor (1–4) | Evidence Singkat |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Memetakan 5 kelompok komunitas lintas spektrum kekuasaan (dari pemegang otoritas formal hingga mahasiswa difabel dan petugas kebersihan) secara empatik dan adil melalui analisis *fact/story/value/position*. |
+| **Objective & State** | 4 | Berhasil memfasilitasi pergeseran dari polarisasi tuntutan individual menuju *sufficient agreement* kolektif (Opsi 4) yang menjaga ketertiban akademik sekaligus inklusi komunitas. |
+| **Repertoire, Language & AI** | 4 | Menggunakan pembingkaian ulang (*reframing*) ke dalam 3 *frames* yang netral, memfasilitasi perbandingan 5 *options* secara transparan, serta membatasi penggunaan AI hanya 1 kali untuk tata bahasa SOP. |
+| **Response & Adaptation** | 4 | Merespons kritik aksesibilitas kursi roda, kerumunan pintu ujian, dan gangguan jam pengepelan pagi dengan mengadaptasi rute lift/ramp, ketinggian QR 115–125 cm, blokir jam servis, dan pin digital ber-*auto-expiry*. |
+| **Agreement, Action & Relationship** | 4 | Menghasilkan 4 *safeguards* perlindungan kelompok rentan, 4 *collective action items* lintas-komunitas lengkap dengan *co-owners* dan tenggat waktu, serta *Community Review Plan* berkala yang memperkuat kohesi warga gedung. |
+
+**Total Skor: 20/20 — Sangat Kompeten (Tercapai).**
