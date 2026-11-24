@@ -3,7 +3,7 @@ title: "Minggu 9 — Desire-State Communication"
 week: 9
 status: "Siap Dinilai"
 self_score: "20/20"
-assessor_score: "—"
+assessor_score: "—" 
 description: "Co-construction current state dan desired state bersama pengelola fasilitas pasca-pilot FindMyClass, pemetaan feature–benefit–value–outcome chain, mitigasi risk, serta penyepakatan evidence threshold untuk adopsi skala lantai."
 categories: [TAIDA, Desire]
 ---
