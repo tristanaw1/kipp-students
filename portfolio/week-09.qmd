@@ -1,25 +1,110 @@
 ---
-title: "Desire-State Communication"
+title: "Minggu 9 — Desire-State Communication"
 week: 9
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap Dinilai"
+self_score: "20/20"
 assessor_score: "—"
-description: "Current state, desired state, value, evidence, dan risk."
+description: "Co-construction current state dan desired state bersama pengelola fasilitas pasca-pilot FindMyClass, pemetaan feature–benefit–value–outcome chain, mitigasi risk, serta penyepakatan evidence threshold untuk adopsi skala lantai."
 categories: [TAIDA, Desire]
 ---
 
-## Kompetensi target
+## Identitas
 
-Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.
+- **Nama:** Tristan Anthony Wijaya
+- **NIM:** 18225045
+- **Tanggal Pengerjaan:** 2 November 2026
 
-## Evidence wajib
+---
 
-- Current dan desired state milik person.
-- Feature–benefit–value–outcome chain.
-- Risk, evidence threshold, response, dan adaptation.
+## Kompetensi Target
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 9](../examples/week-09.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+Membangun *desired state* bersama target dan menghubungkannya dengan *solution* secara kredibel melalui pemetaan kesenjangan kondisi (*current* vs. *desired state*), rantai *feature–benefit–value–outcome*, serta mitigasi *risk* dan *evidence threshold* secara adaptif.
 
-{{< include ../includes/evidence-template.md >}}
+---
+
+## Current State dan Desired State Milik Person
+
+Pasca-pelaksanaan *pilot test* terbatas selama 3 hari (2 node ESP8266 bertenaga baterai + *fallback* QR statis di koridor lantai 1 GKU), tercatat penurunan pertanyaan arah ke pos staf sebesar **58%** (dari rata-rata 19 pertanyaan/hari menjadi 8 pertanyaan/hari) dengan **0 gangguan listrik/jaringan**. Namun, ketika membahas keberlanjutan di luar *pilot*, target (Pengelola Fasilitas Gedung) belum serta-merta menginginkan adopsi penuh karena masih terikat pada beban operasional rutin.
+
+Melalui sesi dialog berbasis data *pilot*, *current state* dan *desired state* dibangun langsung dari sudut pandang *person* target—bukan dari ambisi teknis pengembang:
+
+| Aspek | Current State (Kondisi Aktual Target) | Desired State (Kondisi yang Diinginkan Target) | Gap / Kesenjangan Utama |
+| :--- | :--- | :--- | :--- |
+| **Beban Kerja Harian Staf** | Staf pos layanan terinterupsi ~15–20 kali/hari oleh mahasiswa/tamu yang mencari ruang praktikum atau sekretariat, terutama di jam pergantian kelas (09.00 & 13.00 WIB). | Interupsi pertanyaan arah turun hingga <5 kali/hari sehingga staf dapat fokus pada verifikasi peminjaman ruang, keamanan aset, dan inventaris gedung. | Belum ada sistem navigasi permanen di lantai 1–2 yang mampu menangani perubahan jadwal/lokasi ruang secara mandiri. |
+| **Ketergantungan Operasional** | Target khawatir sistem navigasi berbasis *hardware* hanya berjalan lancar saat pengembang hadir mengawasi *pilot*, lalu terbengkalai dan menjadi beban staf di kemudian hari. | Sistem berjalan *low-maintenance* (<15 menit pengecekan per minggu), tidak bergantung pada listrik koridor, dan tetap berfungsi minimal lewat QR meskipun *hardware* mati. | Belum ada jaminan ketahanan baterai jangka menengah dan SOP *handover* yang ringan bagi staf non-teknis. |
+| **Kredibilitas Layanan Gedung** | Pengunjung dan mahasiswa baru kerap terlambat masuk praktikum karena salah koridor, memicu keluhan lisan ke pengelola gedung saat minggu sibuk/ujian. | Mahasiswa baru dan tamu luar dapat menemukan ruangan secara akurat dalam <2 menit sejak masuk lobi tanpa perlu bertanya ke pos satpam/staf. | Cakupan *pilot* baru mencakup 1 koridor lantai 1, belum menghubungkan titik akses lobi utama ke seluruh ruang praktikum lantai 1–2. |
+
+---
+
+## Feature–Benefit–Value–Outcome Chain
+
+Untuk menghubungkan *desired state* target dengan solusi **FindMyClass** secara kredibel (tanpa *overclaim*), setiap fitur diturunkan secara langsung ke *outcome* operasional yang terukur bagi pengelola fasilitas:
+
+| Feature (Mekanisme Solusi) | Benefit (Manfaat Langsung) | Value bagi Target (Nilai Operasional) | Outcome Terukur (Target Jangka Menengah) |
+| :--- | :--- | :--- | :--- |
+| **Arsitektur Hibrida (Node ESP8266 *Deep-Sleep* + *Fallback* QR Statis)** | Konsumsi daya baterai turun drastis (tahan 7–10 hari per pengisian) dan peta tetap dapat diakses via QR meski node mati. | Menghilangkan kekhawatiran *downtime*, risiko kabel koridor, dan beban *troubleshooting* harian bagi staf. | **0 insiden** gangguan operasional gedung dan waktu pengecekan fisik <15 menit/minggu. |
+| **Web-App Ringan + Algoritma Dijkstra Multi-Lantai** | Pengguna memindai QR di lobi/persimpangan dan langsung melihat rute terpendek lintas lantai di *browser* tanpa *install* aplikasi. | Mengurangi hambatan adopsi bagi tamu/mahasiswa baru dan memotong waktu pencarian ruang. | Penurunan pertanyaan arah ke pos staf **≥65%** pada jam sibuk serta waktu tempuh pencarian ruang **<2 menit**. |
+| **Dashboard Status Baterai & Editor Peta Sederhana (Berbasis Spreadsheet/JSON)** | Pengelola cukup melihat indikator warna (Hijau/Kuning/Merah) dan mengubah nama/status ruang tanpa menyentuh kode program. | Memberi kontrol penuh kepada pengelola saat ada perubahan fungsi ruang praktikum/ujian tanpa bergantung 100% pada *developer*. | Pembaruan data perubahan ruang selesai dalam **<5 menit** secara mandiri oleh admin gedung. |
+
+---
+
+## Risk, Evidence Threshold, Response, dan Adaptation
+
+### Identifikasi Risk dan Evidence Threshold
+
+Saat saya memaparkan visi perluasan *FindMyClass* ke seluruh lantai 1 dan lantai 2, target tidak langsung menyetujui. Observasi langsung menunjukkan target terdiam sekitar 5 detik sambil membolak-balik lembar laporan *pilot*, lalu menyampaikan keraguan secara lugas:
+
+> *"Hasil 3 hari kemarin memang bagus, pertanyaan ke pos berkurang drastis. Tapi 3 hari itu kan kamu yang jaga dan ganti baterainya tiap pagi. Kalau kita pasang sebulan penuh di dua lantai, risiko baterai habis pas jam ujian atau ada perubahan ruang mendadak bagaimana? Saya tidak mau sistem ini cuma bagus di minggu pertama lalu jadi barang rongsokan di dinding."*
+
+Dari respons tersebut, teridentifikasi **3 *risk* utama** beserta ***evidence threshold*** (ambang bukti minimum yang diminta target sebelum bersedia berkomitmen ke fase *Action*/adopsi semester):
+
+| Risiko Utama (Risk) | Kekhawatiran Spesifik Target | Evidence Threshold yang Disepakati |
+| :--- | :--- | :--- |
+| **1. Risiko Keberlanjutan Daya (*Battery Fatigue*)** | Node ESP8266 cepat habis daya jika dinyalakan terus-menerus selama seminggu penuh tanpa penjagaan harian. | Uji ketahanan mode *deep-sleep* minimal **7 hari berturut-turut** dalam 1 kali pengisian daya dengan tingkat *uptime* ≥95%. |
+| **2. Risiko Ketergantungan pada Pengembang (*Bus Factor*)** | Jika tim pengembang sibuk/lulus, staf tidak bisa memperbarui nama ruang atau mengganti baterai. | Simulasi *handover* di mana 1 staf administrasi mampu memperbarui 1 nama ruang di *dashboard* dalam **<5 menit** dan mengganti baterai modul dalam **<2 menit** tanpa bantuan teknis. |
+| **3. Risiko Akurasi pada Kepadatan Tinggi** | Interferensi sinyal Wi-Fi saat jam pergantian kelas besar membuat titik posisi meleset. | Pengujian di jam puncak (12.50–13.10 WIB) pada 20 sampel pengguna menghasilkan akurasi rute tujuan **≥90%** (termasuk skenario *fallback* QR). |
+
+### Response, Trade-off, dan Adaptation
+
+Muncul **ketegangan (*trade-off*)** antara **kecepatan respons pelacakan *real-time*** (polling sinyal setiap 2 detik yang boros baterai) melawan **ketahanan baterai 7 hari** (yang menuntut jeda *deep-sleep* lebih lama).
+
+Alih-alih memaksakan pembaruan posisi *real-time* penuh yang berisiko gagal di hari ke-3, saya melakukan ***repair* dan adaptasi langsung** di hadapan target:
+
+1. **Adaptasi Mekanisme *Trade-off* (*Real-Time* vs. Daya Tahan):** Mengubah strategi pembacaan ESP8266 dari *continuous broadcast* menjadi ***triggered deep-sleep*** (node aktif penuh hanya pada jam sibuk 07.30–16.30 WIB dan tidur otomatis di luar jam kampus), dikombinasikan dengan penanda QR di setiap belokan utama. Target menyetujui sedikit jeda pembaruan posisi (5–8 detik) asalkan baterai terbukti tahan 1 minggu penuh.
+2. **Penambahan Jalur *Zero-Friction Handover*:** Menyederhanakan pembaruan data ruang menggunakan tabel *Google Sheets* yang tersinkronisasi otomatis ke *web-app*, sehingga staf tidak perlu mempelajari sistem baru yang rumit.
+3. **Penyepakatan Fase Uji Bukti (*Pre-Adoption Validation*):** Menggeser permintaan dari *"adopsi permanen 1 semester sekarang"* menjadi *"uji ketahanan 14 hari pada 4 node (Lantai 1 & 2) untuk memenuhi seluruh evidence threshold sebelum penandatanganan adopsi penuh"*.
+
+---
+
+## Evidence, Transkrip Sesi, AI, dan Feedback
+
+1. **Transkrip Inti Sesi *Desire-State* & Negosiasi *Evidence Threshold*:**
+   > - **Tristan (Membuka *Desired State* berbasis data *pilot*):** *"Dari pilot 3 hari kemarin, pertanyaan arah ke pos turun 58% dari 19 ke 8 kali sehari. Kalau kondisi idealnya menurut Bapak, seberapa jauh sistem ini harus membantu agar layak dipakai rutin di lantai 1 dan 2?"*
+   > - **Target (Menyatakan *Desired State* & *Risk*):** *"Idealnya pertanyaan arah tinggal di bawah 5 kali sehari saja, jadi staf bisa fokus urus peminjaman ruang. Tapi syarat saya satu: jangan sampai bikin kerjaan baru. Kalau baterai harus diganti tiap hari atau ubah nama ruangan harus panggil kamu terus, lebih baik tidak usah diperluas."*
+   > - **Tristan (Validasi & Negosiasi *Trade-off*):** *"Saya sepakat, Pak. Kalau node aktif 24 jam, baterai memang cuma tahan 2 hari. Tapi kalau kita pakai jadwal deep-sleep—aktif hanya jam 07.30 sampai 16.30—dengan jeda deteksi 5–8 detik, baterai bisa tahan 7–10 hari. Untuk ubah nama ruang, staf cukup edit di spreadsheet biasa seperti jadwal harian. Apakah kompromi jeda 5 detik ini masih bisa diterima?"*
+   > - **Target (Transisi ke *Desire* — mengangguk, mencatat di buku agenda):** *"Kalau jeda 5 detik tidak masalah, yang penting mahasiswa tetap dapat arah yang benar dan staf saya cukup cek baterai seminggu sekali. Coba buktikan dulu 2 minggu di lantai 1–2, plus coba tes ke Bu Rina (staf admin) apakah dia bisa edit nama ruang sendiri di bawah 5 menit. Kalau lolos semua, kita lanjutkan untuk dipakai di semester depan."*
+   > - **Komitmen Akhir (*Agreement*):** Target menyetujui uji validasi 14 hari (4 node baterai *deep-sleep* + QR di lantai 1–2) dengan 3 *evidence threshold* tertulis (*uptime* baterai ≥7 hari, tes edit ruang oleh staf <5 menit, akurasi jam puncak ≥90%).
+
+2. **Tautan Artefak & Dokumentasi Proyek:**
+   - Laporan Data Pilot 3 Hari & Matriks *Evidence Threshold*: [Google Drive Folder FindMyClass](https://drive.google.com/drive/folders/1wlYGcH8GdxCKV4FW42U0tCRTd77H6sDP?usp=sharing)
+   - Dokumentasi Video & Slide Pembaruan Arsitektur (*Deep-Sleep* & *Spreadsheet Sync*): [Google Drive Folder FindMyClass](https://drive.google.com/drive/folders/1wlYGcH8GdxCKV4FW42U0tCRTd77H6sDP?usp=sharing)
+
+3. **Catatan Observer:** Observer mencatat bahwa alih-alih menjual fitur teknis sejak awal, saya membiarkan target merumuskan sendiri target idealnya (<5 pertanyaan/hari dan pengecekan <15 menit/minggu). Ketika target menyuarakan skeptisisme soal *battery fatigue* dan *bus factor*, saya tidak defensif dan langsung menawarkan *evidence threshold* terukur yang dapat diverifikasi oleh staf admin target sendiri.
+
+4. **Penggunaan AI secara Terbatas & Etis:** AI (*LLM*) digunakan **1 kali** secara terbatas untuk mengecek konsistensi alur logika pada tabel *Feature–Benefit–Value–Outcome* agar tidak mencampuradukkan *benefit* teknis dengan *outcome* operasional target. Seluruh angka *pilot*, dialog, dan *risk* berasal dari sesi aktual.
+
+5. **Next Practice:** Membawa simulasi *handover* langsung (misalnya meminta staf mencoba mengubah 1 entri ruang di tempat) saat sesi *Desire* agar tingkat kepercayaan terhadap kemudahan operasional terbentuk lebih cepat sebelum menyusun jadwal uji 14 hari.
+
+---
+
+## Self-Assessment
+
+| Dimensi | Skor (1–4) | Evidence Singkat |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Membangun *desired state* murni dari prioritas operasional *person* target (fokus staf pada peminjaman & inventaris), bukan dari ambisi fitur pengembang; bersikap jujur mengakui batas baterai 24 jam tanpa *overclaim*. |
+| **Objective & State** | 4 | Berhasil memfasilitasi pergeseran *state* target dari *Interest* terbatas (hasil *pilot* 3 hari) menjadi *Desire* aktif (target sendiri yang menetapkan syarat adopsi semester depan dan menunjuk staf admin untuk tes *handover*). |
+| **Repertoire, Language & AI** | 4 | Menggunakan pertanyaan pemandu berbasis bukti *pilot*, memetakan rantai *feature–benefit–value–outcome* secara presisi, serta membatasi penggunaan AI hanya 1 kali untuk verifikasi konsistensi tabel. |
+| **Response & Adaptation** | 4 | Merespons keraguan target soal *battery fatigue* dan ketergantungan pengembang secara langsung lewat adaptasi *trade-off* (*triggered deep-sleep* 07.30–16.30 WIB + integrasi *Google Sheets*). |
+| **Agreement, Action & Relationship** | 4 | Menghasilkan kesepakatan *evidence threshold* yang terukur bersama target (uji 14 hari 4 node, *uptime* baterai ≥7 hari, tes *handover* staf <5 menit, akurasi jam puncak ≥90%) sebagai jembatan kredibel menuju fase *Action*. |
+
+**Total Skor: 20/20 — Sangat Kompeten (Tercapai).**
