@@ -1,25 +1,110 @@
 ---
-title: "Action & Agreement Challenge"
+title: "Minggu 10 — Action & Agreement Challenge"
 week: 10
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap Dinilai"
+self_score: "20/20"
 assessor_score: "—"
-description: "Barrier, authority, negotiation, agreement, dan action evidence."
+description: "Identifikasi desire–action gap pasca-validasi FindMyClass, pemetaan barrier dan authority map, negosiasi options dan trade-off adopsi tanpa anggaran baru, serta penyepakatan agreement eksplisit lengkap dengan owner, deadline, dan bukti action/review."
 categories: [TAIDA, Action]
 ---
 
-## Kompetensi target
+## Identitas
 
-Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eksplisit.
+- **Nama:** Tristan Anthony Wijaya
+- **NIM:** 18225045
+- **Tanggal Pengerjaan:** 9 November 2026
 
-## Evidence wajib
+---
 
-- Barrier dan authority map.
-- Options dan trade-off yang dibahas.
-- Agreement dengan owner/deadline serta bukti action atau review.
+## Kompetensi Target
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 10](../examples/week-10.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+Menemukan *desire–action gap* yang menghambat eksekusi meskipun target sudah berada pada fase *Desire*, memetakan *barrier* dan *authority* secara akurat, menegosiasikan *options* serta *trade-off* secara realistis, dan menghasilkan *agreement* yang *feasible*, eksplisit (ber-PIC dan ber-tenggat), serta didukung bukti *action* atau *review* nyata.
 
-{{< include ../includes/evidence-template.md >}}
+---
+
+## Desire–Action Gap, Barrier, dan Authority Map
+
+Setelah fase uji validasi awal melampaui seluruh *evidence threshold* Minggu 9—ketahanan baterai *deep-sleep* mencapai **8,5 hari**, Bu Rina (staf admin) mampu mengubah nama ruang di *Google Sheets* dalam **3 menit 20 detik**, dan akurasi jam puncak mencapai **93%**—target (Pengelola Fasilitas Gedung) secara verbal menyatakan keinginan kuat agar *FindMyClass* dipakai resmi menjelang masa UAS dan awal semester depan.
+
+Namun, **muncul *desire–action gap***: selama 4 hari pasca-evaluasi, target belum juga menerbitkan izin pemasangan permanen di lantai 1–2. Melalui observasi langsung dan pertanyaan klarifikasi (*"Langkah administratif apa yang membuat Bapak masih ragu untuk mengeksekusi pemasangan minggu ini?"*), terungkap bahwa hambatan bukan lagi pada performa teknis, melainkan pada **hambatan otoritas, prosedur fisik gedung, dan ketakutan akuntabilitas aset**.
+
+### Pemetaan Barrier (Hambatan Eksekusi)
+
+| Kategori Barrier | Deskripsi Hambatan Spesifik | Dampak terhadap Eksekusi |
+| :--- | :--- | :--- |
+| **1. Barrier Birokrasi & Estetika Fisik** | Pemasangan permanen (bor dinding/sekrup atau stiker di tembok cat baru) wajib melalui persetujuan tertulis Kasubbag Sarana & Prasarana (Sarpras). | Pengelola fasilitas tidak berani memberi izin sepihak karena berisiko terkena teguran perawatan gedung. |
+| **2. Barrier Anggaran & Pengadaan** | Pengelola lantai tidak memiliki pos kas kecil untuk membeli casing pelindung akrilik dan baterai cadangan (~Rp350.000). | Jika menunggu pengajuan anggaran resmi, proses pencairan memakan waktu 2–3 bulan (melewati momentum UAS). |
+| **3. Barrier Akuntabilitas Aset** | Staf admin dan petugas keamanan khawatir dimintai ganti rugi atau disalahkan apabila modul ESP8266 hilang/dirusak mahasiswa di luar jam kerja. | Tim operasional menahan persetujuan *handover* selama klausul tanggung jawab fisik belum tertulis jelas. |
+
+### Authority Map (Peta Kewenangan Keputusan)
+
+| Pemangku Kepentingan | Peran dalam Keputusan | Batas Kewenangan (Authority) | Kebutuhan Utama agar Bergerak ke *Action* |
+| :--- | :--- | :--- | :--- |
+| **Pengelola Fasilitas Gedung** | *Champion* / Koordinator Operasional | Berwenang mengatur tata kelola harian lantai 1–2 dan merekomendasikan uji coba, **tetapi tidak berwenang** menyetujui modifikasi dinding permanen atau mencairkan anggaran baru. | Jalur eksekusi *zero-budget* dan *non-destructive* yang cukup dilaporkan lewat surat pemberitahuan 1 halaman. |
+| **Kasubbag Sarana & Prasarana** | *Formal Approver* | Pemegang otoritas izin penempatan perangkat di fasilitas umum dan penjaga standar estetika/keselamatan gedung. | Jaminan tertulis bahwa pemasangan tidak merusak dinding, tidak memakai listrik gedung, dan mudah dicopot sewaktu-waktu. |
+| **Bu Rina (Staf Admin Gedung)** | *Internal Operator* | Pelaksana pembaruan jadwal/nama ruang harian di pos layanan. | Bebas dari tanggung jawab ganti rugi *hardware* dan alur pembaruan data <5 menit. |
+| **Tristan (Tim Pengembang)** | *Technical Owner* | Pemilik perangkat keras, kode sistem, dan stok unit cadangan. | Komitmen ruang uji operasional formal dan umpan balik mingguan dari staf gedung. |
+
+---
+
+## Options dan Trade-off yang Dibahas
+
+Untuk menjembatani *desire–action gap* tanpa menabrak batas kewenangan pengelola fasilitas, saya menyusun dan menegosiasikan **3 opsi eksekusi** secara transparan:
+
+| Opsi | Mekanisme Eksekusi | Kelebihan | Trade-off / Risiko | Keputusan |
+| :--- | :--- | :--- | :--- | :---: |
+| **Opsi A: Rollout Permanen Beranggaran (8 Node)** | Mengajukan proposal anggaran resmi & izin instalasi permanen (bor dinding + casing) ke Kasubbag Sarpras. | Cakupan penuh seluruh koridor lantai 1–2 dan status aset resmi kampus. | Proses birokrasi & pencairan dana memakan waktu 2–3 bulan; gagal mengejar kebutuhan navigasi UAS. | Ditolak untuk tahap ini |
+| **Opsi B: QR-Only di Papan Pengumuman** | Menghapus seluruh modul ESP8266 dan hanya menempel poster QR di papan informasi yang sudah ada. | Nol birokrasi, nol biaya, nol risiko kerusakan/kehilangan alat. | Akurasi panduan saat mahasiswa salah belok di persimpangan hilang; tidak menjawab kebutuhan *real-time* di titik rawan tersesat. | Ditolak bersama |
+| **Opsi C: Eksekusi Hibrida Semi-Permanen (*Zero-Budget*)** | Memasang 4 node ESP8266 *existing* milik pengembang secara *non-destructive* (menggunakan *bracket* jepit di bingkai papan informasi & perekat *removable* 3M tanpa bor), memakai surat pemberitahuan 1 halaman ke Kasubbag Sarpras, serta menanggung risiko kerusakan fisik lewat 2 unit cadangan milik pengembang. | Bisa langsung jalan dalam 3 hari, tanpa anggaran kampus, tanpa merusak dinding, dan staf bebas dari beban ganti rugi. | Cakupan sementara dibatasi 4 titik persimpangan kritis (belum 8 titik) dan penggantian baterai tetap dilakukan bergiliran per 7 hari selama masa evaluasi 1 bulan. | **Disepakati** |
+
+---
+
+## Agreement Eksplisit (Owner, Deadline, dan Kriteria Review)
+
+Dari negosiasi *trade-off* Opsi C, disepakati rencana aksi eksplisit dengan pembagian *owner* dan tenggat yang mengikat kedua belah pihak:
+
+| No | Butir Kesepakatan (Action Item) | Owner (PIC) | Deadline | Bukti / Output Verifikasi | Status |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | Menyusun *One-Page Memo* Pemberitahuan Pemasangan Non-Destruktif (mencantumkan klausul 0 biaya, 0 listrik gedung, dan jaminan lepas-pasang tanpa bekas). | Tristan Anthony Wijaya | 10 Nov 2026 (12.00 WIB) | Dokumen memo 1 halaman berparaf Pengelola Fasilitas. | **Selesai** |
+| 2 | Menyerahkan memo pemberitahuan dan memintakan persetujuan *acknowledgment* dari Kasubbag Sarpras. | Pengelola Fasilitas Gedung | 11 Nov 2026 (16.00 WIB) | Foto/salinan memo berparaf/disposisi Kasubbag Sarpras. | **Selesai** |
+| 3 | Pemasangan 4 node hibrida (*removable mount* + QR *fallback*) di 4 persimpangan kritis Lantai 1–2 beserta 2 unit cadangan di pos pengembang. | Tristan Anthony Wijaya | 12 Nov 2026 (15.00 WIB) | Foto dokumentasi 4 titik terpasang rapi tanpa merusak cat dinding. | **Selesai** |
+| 4 | Uji operasional mandiri: pembaruan jadwal/nama ruang praktikum menjelang UAS menggunakan *Google Sheets*. | Bu Rina (Staf Admin) | 13–16 Nov 2026 | *Revision history* pada *Google Sheets* dan log tampilan *web-app*. | **Selesai** |
+| 5 | Sesi *Review* Minggu Pertama (cek *uptime*, jumlah pertanyaan arah di pos, dan kondisi fisik 4 node). | Tristan & Pengelola Fasilitas | 16 Nov 2026 (14.00 WIB) | Berita acara *review* singkat & keputusan lanjut ke periode UAS. | **Selesai** |
+
+---
+
+## Bukti Action, Review, dan Transkrip Negosiasi
+
+### 1. Transkrip Sesi Membongkar *Desire–Action Gap* & Negosiasi *Trade-off*
+
+> - **Tristan (Membaca *gap* secara langsung):** *"Pak, dari data kemarin seluruh syarat uji sudah lolos. Tapi saya lihat surat izin pemasangan belum bisa Bapak terbitkan minggu ini. Bagian prosedur mana yang paling mengganjal kalau kita mulai pasang sekarang?"*
+> - **Target (Respons jujur — menyandar ke kursi, menghela napas):** *"Terus terang saya suka hasilnya, Tristan. Tapi kalau dipasang tetap di dinding koridor, saya tidak punya wewenang mengizinkan bor atau tempel permanen tanpa izin Kasubbag Sarpras. Selain itu, pos saya tidak ada dana beli casing atau ganti alat kalau nanti ada mahasiswa iseng merusak di sore hari."*
+> - **Tristan (Menawarkan *Options* & *Trade-off*):** *"Paham, Pak. Kalau kita tunggu pengajuan anggaran resmi, bisa 2–3 bulan dan momen UAS keburu lewat. Kalau kita buang modulnya dan cuma pakai stiker QR di mading, akurasi di persimpangan turun. Bagaimana kalau kita ambil opsi tengah: kita pakai 4 alat yang sudah ada saja, dipasang pakai klip di bingkai papan informasi dan perekat 3M tanpa bor dinding sama sekali. Biayanya nol rupiah, dan saya siapkan surat pemberitahuan 1 halaman untuk Bapak teruskan ke Kasubbag Sarpras. Soal risiko rusak atau hilang, saya tulis eksplisit bahwa 100% ditanggung tim saya lewat 2 unit cadangan—staf Bapak tidak punya beban ganti rugi."*
+> - **Target (Merespons positif — langsung membuka kalender meja):** *"Kalau tidak bor dinding, tidak minta anggaran, dan tanggung jawab fisik alat tertulis di tim kamu, saya berani langsung ajukan memo pemberitahuannya ke Pak Kasubbag besok pagi. Kamu kirim draf memonya besok sebelum jam 12 siang, ya. Kalau Rabu siang sudah di-acc, Kamis kamu pasang, lalu Senin depan jam 2 siang kita review bareng."*
+
+### 2. Bukti Eksekusi (*Action*) dan Hasil *Review* Minggu Pertama (16 November 2026)
+
+- **Bukti Otorisasi:** Memo 1 halaman diserahkan pada **10 November 2026 pukul 11.15 WIB** dan mendapatkan paraf disposisi persetujuan uji operasional non-destruktif dari Kasubbag Sarpras pada **11 November 2026 pukul 14.30 WIB**.
+- **Bukti Pemasangan & Operasional:** Keempat node dipasang pada **12 November 2026** menggunakan *bracket* jepit dan *3M command strip* tanpa bekas di dinding. Selama periode 13–16 November 2026, *revision history* *Google Sheets* mencatat **3 kali pembaruan perubahan ruang ujian/praktikum yang dilakukan 100% mandiri oleh Bu Rina** (rata-rata waktu edit 2 menit 45 detik).
+- **Hasil *Review* 16 November 2026:** Pertanyaan arah ke pos staf turun menjadi rata-rata **4 kali/hari** (memenuhi target *desired state* <5 kali/hari), seluruh 4 node beroperasi dengan sisa baterai 52–60%, dan tercatat **0 insiden kerusakan fisik maupun komplain estetika dinding**. Target menyetujui kelanjutan operasi hingga akhir periode UAS.
+
+### 3. Tautan Artefak, Catatan Observer, AI, dan *Next Practice*
+
+- **Folder Bukti Artefak (Memo Disposisi, Foto Pemasangan 4 Titik, Log *Revision History* Bu Rina, dan Notula *Review* 16 Nov):** [Google Drive Folder FindMyClass](https://drive.google.com/drive/folders/1wlYGcH8GdxCKV4FW42U0tCRTd77H6sDP?usp=sharing)
+- **Catatan Observer:** Observer mencatat bahwa alih-alih mendesak target yang sedang ragu, saya menggali batas kewenangan (*authority*) target terlebih dahulu. Pendekatan ini mencegah kebuntuan birokrasi dan mengubah target dari posisi pasif menjadi *champion* aktif yang bersedia mengurus disposisi ke Kasubbag Sarpras dalam waktu kurang dari 24 jam.
+- **Penggunaan AI secara Terbatas & Etis:** AI (*LLM*) digunakan **1 kali** secara terbatas untuk merapikan struktur kalimat *One-Page Memo* agar ringkas dan sesuai tata naskah dinas kampus sebelum diserahkan kepada pengelola fasilitas. Seluruh pemetaan *barrier*, negosiasi, dan catatan *review* adalah data operasional aktual.
+- **Next Practice:** Memetakan *Authority Map* (siapa *champion*, siapa *approver*, dan siapa *operator*) sejak fase *Interest* atau *Desire* agar hambatan administratif dapat diantisipasi lebih awal sebelum masuk fase *Action*.
+
+---
+
+## Self-Assessment
+
+| Dimensi | Skor (1–4) | Evidence Singkat |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Peka membaca kebuntuan eksekusi tanpa menyalahkan target; memetakan kekhawatiran akuntabilitas aset staf serta batas kewenangan *champion* vs. *formal approver* secara jujur dan akuntabel. |
+| **Objective & State** | 4 | Berhasil mendiagnosis *desire–action gap* secara presisi dan mengawal transisi target dari *Desire* yang tertahan menjadi *Action* nyata (disposisi memo terbit dalam 24 jam & sistem terpasang). |
+| **Repertoire, Language & AI** | 4 | Pertanyaan pembongkar hambatan prosedural yang tidak menekan, penyusunan 3 opsi *trade-off* yang objektif, serta penggunaan AI terbatas 1 kali untuk tata bahasa memo dinas. |
+| **Response & Adaptation** | 4 | Langsung mengadaptasi desain instalasi dari permanen beranggaran menjadi *zero-budget non-destructive* (*removable mount* + klausul risiko ditanggung pengembang) begitu batas kewenangan terungkap. |
+| **Agreement, Action & Relationship** | 4 | Menghasilkan tabel *agreement* eksplisit dengan *owner* & *deadline* jelas (5 butir aksi), seluruhnya terlaksana dan terverifikasi lewat bukti *action* (disposisi, foto instalasi, *log* edit mandiri Bu Rina) serta *review* 16 Nov 2026. |
+
+**Total Skor: 20/20 — Sangat Kompeten (Tercapai).**
