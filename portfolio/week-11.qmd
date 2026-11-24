@@ -2,7 +2,7 @@
 title: "Minggu 11 — Multi-Person Negotiation Challenge"
 week: 11
 status: "Siap Dinilai"
-self_score: "20/20"
+self_score: "20/20" 
 assessor_score: "—"
 description: "Pemetaan multi-stakeholder dan multi-state TAIDA untuk ekspansi FindMyClass menjelang UAS, analisis position–interest dan common ground, negosiasi opsi lintas otoritas, dokumentasi agreement/dissent, serta relationship review."
 categories: [Negotiation, Stakeholder]
